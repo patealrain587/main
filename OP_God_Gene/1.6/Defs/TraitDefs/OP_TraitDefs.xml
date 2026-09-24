@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraitDef>
+    <defName>OP_TranscendentTrait</defName>
+    <commonality>0</commonality> <!-- 무작위 생성 시 절대 안 나오고, 인종형/특성 편집기로만 부여 가능 -->
+    <degreeDatas>
+      <li>
+        <label>초월자(특성)</label>
+        <description>인간의 한계를 아득히 초월한 정신력과 신체 능력을 지닌 자. 어떤 역경 앞에서도 흔들리지 않는다.</description>
+        <degree>0</degree>
+        <statOffsets>
+          <MoveSpeed>20</MoveSpeed>
+          <WorkSpeedGlobal>20</WorkSpeedGlobal>
+          <GlobalLearningFactor>10</GlobalLearningFactor>
+          <ShootingAccuracyPawn>20</ShootingAccuracyPawn>
+          <MeleeHitChance>50</MeleeHitChance>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <SocialImpact>10</SocialImpact>
+          <NegotiationAbility>10</NegotiationAbility>
+          <PawnBeauty>50</PawnBeauty>
+          <RestRateMultiplier>5</RestRateMultiplier>
+          <ImmunityGainSpeed>10</ImmunityGainSpeed>
+          <InjuryHealingFactor>10</InjuryHealingFactor>
+          <TameAnimalChance>5</TameAnimalChance>
+          <TrainAnimalChance>5</TrainAnimalChance>
+          <PainShockThreshold>0.9</PainShockThreshold>
+          <MentalBreakThreshold>-1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>

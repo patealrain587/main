@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ===================== 초월자 1/2단계 (하위/중간 티어) =====================
+       기존 OP_Ascendant(3단계, 완전체)보다 낮은 단계.
+       1단계: 지금까지 분석한 다른 모드(밀리라, Chaoura 등)들과 비슷하거나 살짝 위 수준
+       2단계: 1단계와 3단계(완전체) 사이 중간 다리. 대사 지배/만능 조화자/전능 조종자는
+       이미 다른 것들에 비해 과하지 않은 수준이라 모든 단계에서 공용으로 그대로 사용. -->
+
+  <GeneDef>
+    <defName>OP_Ascendant_T1</defName>
+    <label>각성자 (1단계)</label>
+    <description>초월자로 가는 첫 각성 단계. 다른 모드의 최상급 종족/유전자와 비슷하거나 살짝 웃도는 수준의 신체 능력을 부여한다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>1</displayOrderInCategory>
+
+    <!-- 균일화된 1단계 배율표 (x5). 완전체(x50)와 같은 방식: WorkSpeedGlobal 하나로만
+         작업속도 계열을 통일하고, 나머지 배율도 전부 x5로 맞췄다. -->
+    <statFactors>
+      <MoveSpeed>1.3</MoveSpeed>
+      <WorkSpeedGlobal>5</WorkSpeedGlobal>
+      <ShootingAccuracyFactor_Long>5</ShootingAccuracyFactor_Long>
+      <ShootingAccuracyFactor_Medium>5</ShootingAccuracyFactor_Medium>
+      <ShootingAccuracyFactor_Short>5</ShootingAccuracyFactor_Short>
+      <MeleeDamageFactor>5</MeleeDamageFactor>
+      <MeleeHitChance>5</MeleeHitChance>
+      <MeleeDodgeChance>5</MeleeDodgeChance>
+      <ImmunityGainSpeed>5</ImmunityGainSpeed>
+      <InjuryHealingFactor>5</InjuryHealingFactor>
+      <IncomingDamageFactor>0.5</IncomingDamageFactor>
+      <Flammability>0.5</Flammability>
+      <LifespanFactor>5</LifespanFactor>
+      <Fertility>1.5</Fertility>
+      <TameAnimalChance>3</TameAnimalChance>
+      <TrainAnimalChance>3</TrainAnimalChance>
+      <StaggerDurationFactor>0.5</StaggerDurationFactor>
+      <PawnTrapSpringChance>0.5</PawnTrapSpringChance>
+      <AimingDelayFactor>0.7</AimingDelayFactor>
+    </statFactors>
+
+    <statOffsets>
+      <CarryingCapacity>30</CarryingCapacity>
+      <WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+      <GlobalLearningFactor>0.5</GlobalLearningFactor>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <PainShockThreshold>0.15</PainShockThreshold>
+      <PawnBeauty>10</PawnBeauty>
+      <SocialImpact>1</SocialImpact>
+      <NegotiationAbility>1</NegotiationAbility>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>15</ComfyTemperatureMax>
+      <ToxicResistance>0.2</ToxicResistance>
+      <ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
+      <RestRateMultiplier>1</RestRateMultiplier>
+      <ArmorRating_Sharp>1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1</ArmorRating_Blunt>
+      <ArmorRating_Heat>1</ArmorRating_Heat>
+      <MeleeDodgeChance>0.05</MeleeDodgeChance>
+    </statOffsets>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_Ascendant_T2</defName>
+    <label>초월자 진화체 (2단계)</label>
+    <description>각성자와 완전체(초월자) 사이의 중간 진화 단계. 1단계보다 훨씬 강하지만 아직 완전체에는 미치지 못한다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>1</displayOrderInCategory>
+
+    <!-- 균일화된 2단계 배율표 (x20). 1단계(x5)와 3단계(x50) 사이 중간 다리. -->
+    <statFactors>
+      <MoveSpeed>2</MoveSpeed>
+      <WorkSpeedGlobal>20</WorkSpeedGlobal>
+      <ShootingAccuracyFactor_Long>20</ShootingAccuracyFactor_Long>
+      <ShootingAccuracyFactor_Medium>20</ShootingAccuracyFactor_Medium>
+      <ShootingAccuracyFactor_Short>20</ShootingAccuracyFactor_Short>
+      <MeleeDamageFactor>20</MeleeDamageFactor>
+      <MeleeHitChance>20</MeleeHitChance>
+      <MeleeDodgeChance>20</MeleeDodgeChance>
+      <ImmunityGainSpeed>20</ImmunityGainSpeed>
+      <InjuryHealingFactor>20</InjuryHealingFactor>
+      <IncomingDamageFactor>0.1</IncomingDamageFactor>
+      <Flammability>0.1</Flammability>
+      <LifespanFactor>20</LifespanFactor>
+      <Fertility>2</Fertility>
+      <TameAnimalChance>5</TameAnimalChance>
+      <TrainAnimalChance>5</TrainAnimalChance>
+      <StaggerDurationFactor>0.1</StaggerDurationFactor>
+      <PawnTrapSpringChance>0.1</PawnTrapSpringChance>
+      <AimingDelayFactor>0.3</AimingDelayFactor>
+    </statFactors>
+
+    <statOffsets>
+      <CarryingCapacity>200</CarryingCapacity>
+      <WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+      <GlobalLearningFactor>2</GlobalLearningFactor>
+      <MentalBreakThreshold>-0.4</MentalBreakThreshold>
+      <PainShockThreshold>0.5</PainShockThreshold>
+      <PawnBeauty>30</PawnBeauty>
+      <SocialImpact>2.5</SocialImpact>
+      <NegotiationAbility>3</NegotiationAbility>
+      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <ToxicResistance>0.6</ToxicResistance>
+      <ToxicEnvironmentResistance>0.6</ToxicEnvironmentResistance>
+      <RestRateMultiplier>3</RestRateMultiplier>
+      <ArmorRating_Sharp>10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>10</ArmorRating_Blunt>
+      <ArmorRating_Heat>10</ArmorRating_Heat>
+      <MeleeDodgeChance>0.2</MeleeDodgeChance>
+    </statOffsets>
+  </GeneDef>
+
+  <!-- ===================== 단계별 이종유전자 ===================== -->
+
+  <XenotypeDef>
+    <defName>OP_AscendantXenotype_T1</defName>
+    <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+    <label>각성자 (1단계)</label>
+    <inheritable>false</inheritable>
+    <genes>
+      <li>OP_Ascendant_T1</li>
+      <li>OP_MetabolicMastery</li>
+      <li>OP_Harmonizer</li>
+      <li>OP_Overmind</li>
+      <li>OP_MoodPump</li>
+      <li>OP_CharmPump</li>
+      <li>Ageless</li>
+      <li>PerfectImmunity</li>
+      <li>TotalHealing</li>
+      <li>ArchiteMetabolism</li>
+      <li>XenogermReimplanter</li>
+    </genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>OP_AscendantXenotype_T2</defName>
+    <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+    <label>초월자 진화체 (2단계)</label>
+    <inheritable>false</inheritable>
+    <genes>
+      <li>OP_Ascendant_T2</li>
+      <li>OP_MetabolicMastery</li>
+      <li>OP_Harmonizer</li>
+      <li>OP_Overmind</li>
+      <li>OP_MoodPump</li>
+      <li>OP_CharmPump</li>
+      <li>Ageless</li>
+      <li>PerfectImmunity</li>
+      <li>TotalHealing</li>
+      <li>ArchiteMetabolism</li>
+      <li>XenogermReimplanter</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

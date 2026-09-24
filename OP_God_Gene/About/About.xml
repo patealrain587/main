@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>cjdaud1318.opgene</packageId>
+  <name>초월자 유전자 (OP God Gene)</name>
+  <author>cjdaud1318</author>
+  <modVersion IgnoreIfNoMatchingField="True">r002</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1826140</steamWorkshopUrl>
+      <downloadUrl>https://store.steampowered.com/app/1826140</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+  <description>모든 것을 압도하는 OP 유전자 2종을 추가합니다.
+
+[※ 단계(티어) 시스템 안내]
+지금까지 분석했던 다른 모드들(밀리라, Chaoura 인공종족, Archotech Expanded 등)보다 이 모드의 기본(3단계/완전체) 수치가 몇 배는 위였기 때문에, 그 사이를 메우는 1/2단계를 추가했습니다.
+- 1단계(각성자류): 분석했던 다른 모드들의 최상급 수치와 비슷하거나 살짝 위
+- 2단계(진화체류): 1단계와 3단계(완전체, 기존 수치) 사이의 중간 다리
+- 3단계(완전체): 기존에 만들어둔 극한 수치, 변경 없음
+유전자(초월자), 소총, 임플란트 세트 모두 1/2/3단계로 나뉘어 있으며, 대사 지배/만능 조화자/전능 조종자 보조 유전자는 이미 다른 것들에 비해 과하지 않아 모든 단계에서 공용으로 그대로 씁니다.
+- 1단계 이종유전자: OP_AscendantXenotype_T1 / 2단계: OP_AscendantXenotype_T2 / 3단계(완전체): OP_AscendantXenotype
+- 1단계 소총: OP_TranscendentRifle_TierA / 2단계: OP_TranscendentRifle_TierB / 3단계: OP_TranscendentRifle
+- 임플란트는 각 부위 defName 뒤에 _T1 / _T2 가 붙은 게 하위 단계, 안 붙은 기존 것이 3단계(완전체)
+
+[초월자 (OP_Ascendant)]
+- 스탯 대폭 강화: 이동속도, 작업속도, 명중률, 근접 대미지, 사회 능력 등 전면 상승
+- 자가 재생/불사: 부상 회복속도 35배, 노화 사실상 정지, 뇌 파괴 외에는 사망하지 않음(불사 유전자 클래스)
+- 면역/저항: 질병 면역 획득속도 대폭 상승, 화상/독성/환경 저항 최대치, 받는 피해량 대폭 감소, 방어도 +300%
+- 다른 유전자/특성 모드 없이 이 유전자 하나만으로 밀리라급 적대 슈퍼팩션 습격을 홀로 상대 가능한 수준
+
+[대사 지배 (OP_MetabolicMastery)]
+- "초월자"와 함께 조합해 쓰기 위한 보조 유전자
+- 유전자 복잡도(biostatCpx) -4, 대사효율(biostatMet) +5로 초월자의 대사 부담을 상쇄
+- 섭취 영양 요구량 80% 감소로 배고픔 페널티 최소화
+- 별도의 대사효율 모드 없이 인종형 편집기에서 바로 조합 가능
+
+[만능 조화자 (OP_Harmonizer)]
+- 초능력(정신감응력 +20, 명상 집중력 +20, 초능력 신경열 회복속도 ×50), 진공/독성 완전 저항, 추가 기동력/회피 부여
+- exclusionTags 및 아키테 유전자 슬롯 제한 없음 (biostatArc=0) - 다른 어떤 유전자/모드와도 충돌 없이 조합 가능
+
+[사용법]
+1. 캐릭터 생성 화면 또는 인종형/유전자 조합 편집기에서 "초월자" + "대사 지배" + "만능 조화자" 세 유전자를 함께 장착
+2. 또는 동봉된 "초월자" 이종유전자(Xenotype)를 새 정착민에게 바로 적용 (세 유전자 모두 포함됨)
+
+[호환성 참고]
+- 세 유전자 모두 exclusionTags가 없고 biostatArc=0(비-아키테)으로 설정되어 있어, 바닐라 유전자나 다른 모드의 유전자와 동시에 장착해도 "중복이라 선택 불가" 같은 충돌이 발생하지 않습니다.
+- 다만 "초월입자 나노머신", "레인보우드래곤본" 등 특정 모드 고유의 자원/시스템(자체 프레임워크)은 그 모드 소스 없이는 완전히 동일하게 복제할 수 없어, 대신 동등한 효과를 내는 바닐라 스탯으로 근사치를 구현했습니다.
+
+[전능 조종자 (OP_Overmind)]
+- 밀리라 종족 실제 stat 반영: 메카노이드 지배력, 학습/연구/협상력, 청소/합성 작업속도, 초능력 회복력 대폭 강화
+- 실제 바닐라 "Mechlink" 히디프를 유전자로 직접 부여(hediffDef) — 연구나 수술 없이도 진짜 메카니터가 됨. 밀리라 종족이 자체 C#으로 구현한 "메카링크 없이 대역폭 사용" 우회 기믹보다 더 확실한 방식(진짜 메카니터가 되는 것)으로 처리
+- 메카노이드 대역폭(MechBandwidth) +50, 메카 수리속도 +20, 메카 형성(배양)속도(MechFormingSpeed) +20, 메카 작업속도(WorkSpeedGlobalOffsetMech) +10
+- 정신감응력(PsychicSensitivity) +10, 명상 집중력(MeditationFocusGain) +10, 초능력 신경열 회복속도(PsychicEntropyRecoveryRate) +20
+
+[초월 보호막 벨트 (OP_ShieldBelt) - 아이템]
+- 바닐라 "실드벨트"와 동일한 CompProperties_Shield 컴포넌트를 그대로 사용 (별도 코드 불필요)
+- 에너지 최대치 99999, 대미지당 소모량 0.0001, 재충전속도 500, 재충전 대기시간 1틱으로 설정해 사실상 무한 지속되는 완전방어막
+- 개발자 모드(콘솔 ~ → Spawn thing → OP_ShieldBelt 검색) 또는 교역/제작으로 획득 후 착용
+
+[사용법]
+1. 캐릭터 생성 화면 또는 인종형/유전자 조합 편집기에서 "초월자" + "대사 지배" + "만능 조화자" + "전능 조종자" 유전자를 함께 장착
+2. 또는 동봉된 "초월자" 이종유전자(Xenotype)를 새 정착민에게 바로 적용 (유전자 4종 모두 포함됨)
+3. 시각적 보호막까지 원하면 "초월 보호막 벨트"를 개발자 모드로 스폰해서 착용
+
+[호환성 참고]
+- 모든 유전자에 exclusionTags가 없고 biostatArc=0(비-아키테)으로 설정되어 있어, 바닐라 유전자나 다른 모드의 유전자와 동시에 장착해도 "중복이라 선택 불가" 같은 충돌이 발생하지 않습니다.
+- 다만 "초월입자 나노머신", "레인보우드래곤본", 밀리안 메카노이드 모듈 시스템 등 특정 모드 고유의 자원/시스템(자체 C# 프레임워크)은 그 모드 소스 없이는 완전히 동일하게 복제할 수 없어, 대신 동등한 효과를 내는 바닐라 stat으로 근사치를 구현했습니다.
+
+[초월 소총 (OP_TranscendentRifle) - 아이템]
+- 명중률(Accuracy) 전 거리 1000%, 사거리 150, 재사용시간 0.05초(사실상 연속발사)
+- 전용탄 "초월탄"이 발당 대미지 9999, 방어관통 999999
+- 전용탄의 피해 타입을 "폭발(Bomb, isExplosive)"로 설정해, 폭발성 피해를 흡수하지 못하는 실드(CompProperties_Shield 계열)를 무력화함. 단, 발사체 자체는 explosionRadius가 없어 범위 폭발이 아닌 단일 대상 타격이라 아군/건물에는 피해가 가지 않음
+- 개머리판 근접 강타(파워 9999, 방어관통 999999)가 추가되어 근접전에서도 최상급 성능
+- 재료 시스템(stuffCategories) 없이 고정 스탯으로 제작되어, 어떤 재료 모드와도 무관하게 항상 동일하게 강력함
+- 개발자 모드로 스폰해서 장착
+
+[초월 방어핵 (OP_ArmorCore) - 아이템]
+- 실드처럼 별도 에너지를 쓰지 않는 순수 방어형 아이템. 방어도 Sharp/Blunt +50000%, Heat +75000%, 내구도 2,500,000, 단열 2500
+- 보호막 벨트(OP_ShieldBelt)와는 완전히 다른 전용 레이어(OP_ArmorLayer)를 사용하므로 두 아이템을 동시에 착용해도 서로 충돌하지 않으며, 다른 갑옷/의상(Shell, Middle, OnSkin 등 기존 레이어)과도 겹쳐 입을 수 있음
+- 수치에는 인공종족(Chaoura) 계열 모드 최상위 소재 "아츠일토헤벨"의 방어도/내구도/단열 배율이 이미 곱해져 반영되어 있음 (실제 재료 시스템 없이 고정수치로 영구 적용, 재료를 잘못 골라 손해볼 걱정 없음)
+
+[초월 소총 - 근접(개머리판 강타) 강화]
+- 파워 70000, 쿨타임 0.01초, 방어관통 6,000,000 — 역시 "아츠일토헤벨"의 근접 대미지/쿨타임/관통 배율을 고정수치로 영구 반영
+
+[착용 부위(레이어) 설계]
+- 보호막 벨트는 전용 레이어 "OP_ShieldLayer", 방어핵은 전용 레이어 "OP_ArmorLayer"를 새로 정의해 사용
+- 두 아이템 모두 바닐라나 다른 모드가 쓰는 어떤 레이어(Shell/Middle/OnSkin/Belt 등)와도 겹치지 않아, 다른 벨트형 아이템이나 갑옷/코트/셔츠 등 커스터마이징용 장비와 절대 충돌하지 않음
+- 즉 "초월 보호막 벨트" + "초월 방어핵"만 필수로 착용하고, 나머지 모든 부위(Shell/Middle/OnSkin/Headgear 등)는 자유롭게 꾸미기용으로 사용 가능
+
+[초월자 (특성, OP_TranscendentTrait)]
+- 유전자와 완전히 별개 시스템인 특성(Trait)에도 통합 특성을 추가했습니다. conflictingTraits가 없어 다른 어떤 특성과도 동시에 부여 가능
+- 이동속도/작업속도/학습력/명중률/근접 명중·회피/사회 능력/휴식/면역/치유/조련 등을 전반적으로 큰 폭으로 보정하는 statOffsets 부여, 정신붕괴 역치 -1(사실상 정신 붕괴 없음)
+- commonality 0이라 무작위 정착민/습격자에게 자연 생성되지 않고, 인종형/특성 편집기로 수동으로만 부여됨
+- "초월자"(OP_Ascendant) 유전자의 forcedTraits로 등록되어 있어, 이 유전자를 가진 폰은 특성을 별도로 안 골라도 자동으로 "초월자(특성)"을 함께 얻게 됨
+
+[초월공학 임플란트 세트 - 수술 이식형 장기/의수족]
+- 바닐라 등급 체계(단순 의체 → 생체공학 → 초월공학)와 "Archotech Expanded" 등 그 상위호환 모드보다도 더 위 등급의 자체 임플란트 11종: 심장/신장/간/폐/위/척추/골반/의족/의수/뇌/전신 방어막
+- 전부 바닐라 그대로의 수술 시스템(AddedBodyPartBase + SurgeryInstallBodyPartProstheticBase)을 사용하는 진짜 "수술로 장착하는" 임플란트라 유전자와는 완전히 별개로 추가 스택됨
+- partEfficiency 전부 100 (참고: Archotech Expanded의 최상급 의족은 4)
+- 의수는 자체 근접 공격(파워 50000, 방어관통 500만)까지 내장
+- 전신 방어막은 방어도 Sharp/Blunt/Heat +5000%
+- 정착민 건강 탭(Health)에서 이식 수술을 예약하면 됨. 재료 아이템(OP_TranscendentHeart 등)은 개발자 모드로 스폰
+
+[초월 합금 (OP_TranscendentAlloy) - 재료]
+- 인공종족(Chaoura) 계열 최상위 소재 "아츠일토헤벨"보다 상위인 커스텀 재료. Metallic/Leathery/Fabric 3개 카테고리를 모두 가지고 있어 금속·가죽·천 중 어떤 재료로 분류되는 장비든(이 모드의 아이템은 물론 바닐라/다른 모드의 것까지) 재료 선택 목록에 나타나 그대로 사용 가능
+- 방어도/내구도/단열/근접 대미지·관통·쿨타임 배율 전부 9999배(제작 난이도는 오히려 0.01배로 낮춤), 가구 제작 시 편안함(Comfort) 배율도 9999배
+- Beauty(미관) 자체 스탯 500 + 제작 시 배율 9999배로 최상급 미관, 반면 시세(MarketValue)는 강철과 동일한 수준으로 낮게 설정, 정상적으로 거래도 가능
+- 자연적으로 생성/채광되지 않으므로 개발자 모드(Spawn thing → OP_TranscendentAlloy 검색)로 필요한 만큼 스폰해서 사용
+
+밸런스를 조절하고 싶다면 1.6/Defs/GeneDefs/OP_GeneDefs.xml, 1.6/Defs/ThingDefs/OP_ShieldBelt.xml, 1.6/Defs/ThingDefs/OP_ArmorCore.xml, 1.6/Defs/ThingDefs/OP_Weapon.xml 파일을 메모장으로 열어 수치를 직접 수정하세요.</description>
+  <url>https://github.com/</url>
+</ModMetaData>

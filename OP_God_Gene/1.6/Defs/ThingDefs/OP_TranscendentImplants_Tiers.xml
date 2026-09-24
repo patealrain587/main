@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ===================== 초월공학 임플란트 1/2단계 (하위/중간 티어) =====================
+       3단계(기존 OP_TranscendentImplants.xml)보다 낮은 단계. 1단계는 분석했던 다른 모드들과
+       비슷하거나 살짝 위, 2단계는 1단계와 3단계 사이의 중간 다리 역할. -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Heart</defName>
+    <label>초월공학 심장 (1단계)</label>
+    <labelNoun>초월공학 심장 (1단계)</labelNoun>
+    <description>초월공학 심장 (1단계). 이식용 초월공학 심장의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Heart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <totalBleedFactor>0.5</totalBleedFactor>
+        <statOffsets>
+          <MoveSpeed>1.2</MoveSpeed>
+          <RestRateMultiplier>1</RestRateMultiplier>
+          <ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Heart</defName>
+    <label>초월공학 심장 (2단계)</label>
+    <labelNoun>초월공학 심장 (2단계)</labelNoun>
+    <description>초월공학 심장 (2단계). 이식용 초월공학 심장의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Heart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <totalBleedFactor>0.15</totalBleedFactor>
+        <statOffsets>
+          <MoveSpeed>4.8</MoveSpeed>
+          <RestRateMultiplier>4</RestRateMultiplier>
+          <ToxicEnvironmentResistance>0.7</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Kidney</defName>
+    <label>초월공학 신장 (1단계)</label>
+    <labelNoun>초월공학 신장 (1단계)</labelNoun>
+    <description>초월공학 신장 (1단계). 이식용 초월공학 신장의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Kidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>1</ImmunityGainSpeed>
+          <ToxicResistance>0.3</ToxicResistance>
+          <ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Kidney</defName>
+    <label>초월공학 신장 (2단계)</label>
+    <labelNoun>초월공학 신장 (2단계)</labelNoun>
+    <description>초월공학 신장 (2단계). 이식용 초월공학 신장의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Kidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>4</ImmunityGainSpeed>
+          <ToxicResistance>0.7</ToxicResistance>
+          <ToxicEnvironmentResistance>0.7</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Liver</defName>
+    <label>초월공학 간 (1단계)</label>
+    <labelNoun>초월공학 간 (1단계)</labelNoun>
+    <description>초월공학 간 (1단계). 이식용 초월공학 간의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Liver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statFactors>
+          <RawNutritionFactor>0.6</RawNutritionFactor>
+        </statFactors>
+        <statOffsets>
+          <ToxicResistance>0.3</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Liver</defName>
+    <label>초월공학 간 (2단계)</label>
+    <labelNoun>초월공학 간 (2단계)</labelNoun>
+    <description>초월공학 간 (2단계). 이식용 초월공학 간의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Liver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statFactors>
+          <RawNutritionFactor>0.3</RawNutritionFactor>
+        </statFactors>
+        <statOffsets>
+          <ToxicResistance>0.7</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Lung</defName>
+    <label>초월공학 폐 (1단계)</label>
+    <labelNoun>초월공학 폐 (1단계)</labelNoun>
+    <description>초월공학 폐 (1단계). 이식용 초월공학 폐의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Lung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>1</MoveSpeed>
+          <ToxicEnvironmentResistance>0.3</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Lung</defName>
+    <label>초월공학 폐 (2단계)</label>
+    <labelNoun>초월공학 폐 (2단계)</labelNoun>
+    <description>초월공학 폐 (2단계). 이식용 초월공학 폐의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Lung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>3</MoveSpeed>
+          <ToxicEnvironmentResistance>0.7</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Stomach</defName>
+    <label>초월공학 위 (1단계)</label>
+    <labelNoun>초월공학 위 (1단계)</labelNoun>
+    <description>초월공학 위 (1단계). 이식용 초월공학 위의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Stomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statFactors>
+          <RawNutritionFactor>0.5</RawNutritionFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Stomach</defName>
+    <label>초월공학 위 (2단계)</label>
+    <labelNoun>초월공학 위 (2단계)</labelNoun>
+    <description>초월공학 위 (2단계). 이식용 초월공학 위의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Stomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statFactors>
+          <RawNutritionFactor>0.2</RawNutritionFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Spine</defName>
+    <label>초월공학 척추 (1단계)</label>
+    <labelNoun>초월공학 척추 (1단계)</labelNoun>
+    <description>초월공학 척추 (1단계). 이식용 초월공학 척추의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Spine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PainShockThreshold>0.2</PainShockThreshold>
+          <MoveSpeed>1</MoveSpeed>
+          <MeleeDodgeChance>0.5</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Spine</defName>
+    <label>초월공학 척추 (2단계)</label>
+    <labelNoun>초월공학 척추 (2단계)</labelNoun>
+    <description>초월공학 척추 (2단계). 이식용 초월공학 척추의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Spine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PainShockThreshold>0.6</PainShockThreshold>
+          <MoveSpeed>3</MoveSpeed>
+          <MeleeDodgeChance>1.2</MeleeDodgeChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Pelvis</defName>
+    <label>초월공학 골반 (1단계)</label>
+    <labelNoun>초월공학 골반 (1단계)</labelNoun>
+    <description>초월공학 골반 (1단계). 이식용 초월공학 골반의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Pelvis</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>2</MoveSpeed>
+          <CarryingCapacity>50</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Pelvis</defName>
+    <label>초월공학 골반 (2단계)</label>
+    <labelNoun>초월공학 골반 (2단계)</labelNoun>
+    <description>초월공학 골반 (2단계). 이식용 초월공학 골반의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Pelvis</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>7</MoveSpeed>
+          <CarryingCapacity>230</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Leg</defName>
+    <label>초월공학 의족 (1단계)</label>
+    <labelNoun>초월공학 의족 (1단계)</labelNoun>
+    <description>초월공학 의족 (1단계). 이식용 초월공학 의족의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Leg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>2</MoveSpeed>
+          <PawnTrapSpringChance>-0.3</PawnTrapSpringChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Leg</defName>
+    <label>초월공학 의족 (2단계)</label>
+    <labelNoun>초월공학 의족 (2단계)</labelNoun>
+    <description>초월공학 의족 (2단계). 이식용 초월공학 의족의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Leg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>6</MoveSpeed>
+          <PawnTrapSpringChance>-0.7</PawnTrapSpringChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Brain</defName>
+    <label>초월공학 뇌 임플란트 (1단계)</label>
+    <labelNoun>초월공학 뇌 임플란트 (1단계)</labelNoun>
+    <description>초월공학 뇌 임플란트 (1단계). 이식용 초월공학 뇌 임플란트의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Brain</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>1</GlobalLearningFactor>
+          <PsychicSensitivity>-0.1</PsychicSensitivity>
+          <MeditationFocusGain>1</MeditationFocusGain>
+          <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
+          <NegotiationAbility>1</NegotiationAbility>
+          <SocialImpact>1</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Brain</defName>
+    <label>초월공학 뇌 임플란트 (2단계)</label>
+    <labelNoun>초월공학 뇌 임플란트 (2단계)</labelNoun>
+    <description>초월공학 뇌 임플란트 (2단계). 이식용 초월공학 뇌 임플란트의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Brain</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>4</GlobalLearningFactor>
+          <PsychicSensitivity>-0.3</PsychicSensitivity>
+          <MeditationFocusGain>4</MeditationFocusGain>
+          <PsychicEntropyRecoveryRate>4</PsychicEntropyRecoveryRate>
+          <NegotiationAbility>4</NegotiationAbility>
+          <SocialImpact>4</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Arm</defName>
+    <label>초월공학 의수 (1단계)</label>
+    <labelNoun>초월공학 의수 (1단계)</labelNoun>
+    <description>초월공학 의수 (1단계). 이식용 초월공학 의수의 하위 등급판.</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>초월공학 주먹 (1단계)</label>
+            <capacities><li>Blunt</li></capacities>
+            <power>50</power>
+            <cooldownTime>0.1</cooldownTime>
+            <armorPenetration>15</armorPenetration>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Arm</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>10</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Arm</defName>
+    <label>초월공학 의수 (2단계)</label>
+    <labelNoun>초월공학 의수 (2단계)</labelNoun>
+    <description>초월공학 의수 (2단계). 이식용 초월공학 의수의 하위 등급판.</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>초월공학 주먹 (2단계)</label>
+            <capacities><li>Blunt</li></capacities>
+            <power>2000</power>
+            <cooldownTime>0.1</cooldownTime>
+            <armorPenetration>50000</armorPenetration>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Arm</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>30</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Membrane</defName>
+    <label>초월공학 방어막 막 (1단계)</label>
+    <labelNoun>초월공학 방어막 막 (1단계)</labelNoun>
+    <description>초월공학 방어막 막 (1단계). 이식용 초월공학 방어막 막의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Membrane</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>10</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>3</ArmorRating_Sharp>
+          <ArmorRating_Blunt>3</ArmorRating_Blunt>
+          <ArmorRating_Heat>3</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Membrane</defName>
+    <label>초월공학 방어막 막 (2단계)</label>
+    <labelNoun>초월공학 방어막 막 (2단계)</labelNoun>
+    <description>초월공학 방어막 막 (2단계). 이식용 초월공학 방어막 막의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Membrane</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>30</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>15</ArmorRating_Sharp>
+          <ArmorRating_Blunt>15</ArmorRating_Blunt>
+          <ArmorRating_Heat>15</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ===================== 이식용 아이템(ThingDef) ===================== -->
+
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Heart</defName>
+    <label>초월공학 심장 (1단계) 이식물</label>
+    <description>이식용 초월공학 심장 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Heart</defName>
+    <label>초월공학 심장 (2단계) 이식물</label>
+    <description>이식용 초월공학 심장 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Kidney</defName>
+    <label>초월공학 신장 (1단계) 이식물</label>
+    <description>이식용 초월공학 신장 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Kidney</defName>
+    <label>초월공학 신장 (2단계) 이식물</label>
+    <description>이식용 초월공학 신장 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Liver</defName>
+    <label>초월공학 간 (1단계) 이식물</label>
+    <description>이식용 초월공학 간 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Liver</defName>
+    <label>초월공학 간 (2단계) 이식물</label>
+    <description>이식용 초월공학 간 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Lung</defName>
+    <label>초월공학 폐 (1단계) 이식물</label>
+    <description>이식용 초월공학 폐 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Lung</defName>
+    <label>초월공학 폐 (2단계) 이식물</label>
+    <description>이식용 초월공학 폐 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Stomach</defName>
+    <label>초월공학 위 (1단계) 이식물</label>
+    <description>이식용 초월공학 위 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Stomach</defName>
+    <label>초월공학 위 (2단계) 이식물</label>
+    <description>이식용 초월공학 위 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Spine</defName>
+    <label>초월공학 척추 (1단계) 이식물</label>
+    <description>이식용 초월공학 척추 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Spine</defName>
+    <label>초월공학 척추 (2단계) 이식물</label>
+    <description>이식용 초월공학 척추 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Pelvis</defName>
+    <label>초월공학 골반 (1단계) 이식물</label>
+    <description>이식용 초월공학 골반 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Pelvis</defName>
+    <label>초월공학 골반 (2단계) 이식물</label>
+    <description>이식용 초월공학 골반 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Leg</defName>
+    <label>초월공학 의족 (1단계) 이식물</label>
+    <description>이식용 초월공학 의족 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Leg</defName>
+    <label>초월공학 의족 (2단계) 이식물</label>
+    <description>이식용 초월공학 의족 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Brain</defName>
+    <label>초월공학 뇌 임플란트 (1단계) 이식물</label>
+    <description>이식용 초월공학 뇌 임플란트 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Brain</defName>
+    <label>초월공학 뇌 임플란트 (2단계) 이식물</label>
+    <description>이식용 초월공학 뇌 임플란트 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Arm</defName>
+    <label>초월공학 의수 (1단계) 이식물</label>
+    <description>이식용 초월공학 의수 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Arm</defName>
+    <label>초월공학 의수 (2단계) 이식물</label>
+    <description>이식용 초월공학 의수 (2단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Membrane</defName>
+    <label>초월공학 방어막 막 (1단계) 이식물</label>
+    <description>이식용 초월공학 방어막 막 (1단계) 이식물.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Membrane</defName>
+    <label>초월공학 방어막 막 (2단계) 이식물</label>
+    <description>이식용 초월공학 방어막 막 (2단계) 이식물.</description>
+  </ThingDef>
+
+  <!-- ===================== 수술 레시피(RecipeDef) ===================== -->
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Heart</defName>
+    <label>초월공학 심장 (1단계) 이식물 이식</label>
+    <description>초월공학 심장 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 심장 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Heart</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Heart</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Heart</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Heart</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Heart</defName>
+    <label>초월공학 심장 (2단계) 이식물 이식</label>
+    <description>초월공학 심장 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 심장 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Heart</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Heart</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Heart</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Heart</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Kidney</defName>
+    <label>초월공학 신장 (1단계) 이식물 이식</label>
+    <description>초월공학 신장 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 신장 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Kidney</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Kidney</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Kidney</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Kidney</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Kidney</defName>
+    <label>초월공학 신장 (2단계) 이식물 이식</label>
+    <description>초월공학 신장 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 신장 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Kidney</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Kidney</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Kidney</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Kidney</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Liver</defName>
+    <label>초월공학 간 (1단계) 이식물 이식</label>
+    <description>초월공학 간 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 간 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Liver</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Liver</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Liver</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Liver</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Liver</defName>
+    <label>초월공학 간 (2단계) 이식물 이식</label>
+    <description>초월공학 간 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 간 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Liver</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Liver</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Liver</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Liver</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Lung</defName>
+    <label>초월공학 폐 (1단계) 이식물 이식</label>
+    <description>초월공학 폐 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 폐 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Lung</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Lung</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Lung</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Lung</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Lung</defName>
+    <label>초월공학 폐 (2단계) 이식물 이식</label>
+    <description>초월공학 폐 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 폐 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Lung</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Lung</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Lung</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Lung</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Stomach</defName>
+    <label>초월공학 위 (1단계) 이식물 이식</label>
+    <description>초월공학 위 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 위 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Stomach</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Stomach</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Stomach</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Stomach</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Stomach</defName>
+    <label>초월공학 위 (2단계) 이식물 이식</label>
+    <description>초월공학 위 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 위 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Stomach</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Stomach</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Stomach</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Stomach</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Spine</defName>
+    <label>초월공학 척추 (1단계) 이식물 이식</label>
+    <description>초월공학 척추 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 척추 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Spine</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Spine</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Spine</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Spine</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Spine</defName>
+    <label>초월공학 척추 (2단계) 이식물 이식</label>
+    <description>초월공학 척추 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 척추 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Spine</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Spine</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Spine</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Spine</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Pelvis</defName>
+    <label>초월공학 골반 (1단계) 이식물 이식</label>
+    <description>초월공학 골반 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 골반 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Pelvis</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Pelvis</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Pelvis</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Pelvis</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Pelvis</defName>
+    <label>초월공학 골반 (2단계) 이식물 이식</label>
+    <description>초월공학 골반 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 골반 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Pelvis</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Pelvis</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Pelvis</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Pelvis</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Leg</defName>
+    <label>초월공학 의족 (1단계) 이식물 이식</label>
+    <description>초월공학 의족 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 의족 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Leg</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Leg</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Leg</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Leg</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Leg</defName>
+    <label>초월공학 의족 (2단계) 이식물 이식</label>
+    <description>초월공학 의족 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 의족 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Leg</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Leg</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Leg</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Leg</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Brain</defName>
+    <label>초월공학 뇌 임플란트 (1단계) 이식물 이식</label>
+    <description>초월공학 뇌 임플란트 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 뇌 임플란트 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Brain</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Brain</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Brain</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Brain</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Brain</defName>
+    <label>초월공학 뇌 임플란트 (2단계) 이식물 이식</label>
+    <description>초월공학 뇌 임플란트 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 뇌 임플란트 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Brain</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Brain</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Brain</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Brain</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Arm</defName>
+    <label>초월공학 의수 (1단계) 이식물 이식</label>
+    <description>초월공학 의수 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 의수 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Arm</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Arm</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Shoulder</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Arm</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Arm</defName>
+    <label>초월공학 의수 (2단계) 이식물 이식</label>
+    <description>초월공학 의수 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 의수 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Arm</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Arm</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Shoulder</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Arm</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Membrane</defName>
+    <label>초월공학 방어막 막 (1단계) 이식물 이식</label>
+    <description>초월공학 방어막 막 (1단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 방어막 막 (1단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Membrane</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Membrane</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Torso</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Membrane</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Membrane</defName>
+    <label>초월공학 방어막 막 (2단계) 이식물 이식</label>
+    <description>초월공학 방어막 막 (2단계) 이식물을(를) 이식한다.</description>
+    <jobString>초월공학 방어막 막 (2단계) 이식물 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Membrane</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Membrane</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Torso</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Membrane</addsHediff>
+  </RecipeDef>
+
+
+  <!-- ===================== 신규 부위(눈/귀/턱) 1/2단계 ===================== -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Eye</defName>
+    <label>초월공학 의안 (1단계)</label>
+    <labelNoun>초월공학 의안 (1단계)</labelNoun>
+    <description>초월공학 의안 (1단계). 이식용 초월공학 의안의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Eye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Eye</defName>
+    <label>초월공학 의안 (2단계)</label>
+    <labelNoun>초월공학 의안 (2단계)</labelNoun>
+    <description>초월공학 의안 (2단계). 이식용 초월공학 의안의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Eye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Ear</defName>
+    <label>초월공학 의이 (1단계)</label>
+    <labelNoun>초월공학 의이 (1단계)</labelNoun>
+    <description>초월공학 의이 (1단계). 이식용 초월공학 의이의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Ear</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>1</SocialImpact>
+          <NegotiationAbility>1</NegotiationAbility>
+          <PsychicSensitivity>-0.05</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Ear</defName>
+    <label>초월공학 의이 (2단계)</label>
+    <labelNoun>초월공학 의이 (2단계)</labelNoun>
+    <description>초월공학 의이 (2단계). 이식용 초월공학 의이의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Ear</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>4</SocialImpact>
+          <NegotiationAbility>4</NegotiationAbility>
+          <PsychicSensitivity>-0.15</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T1_Jaw</defName>
+    <label>초월공학 턱 (1단계)</label>
+    <labelNoun>초월공학 턱 (1단계)</labelNoun>
+    <description>초월공학 턱 (1단계). 이식용 초월공학 턱의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T1_Jaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <RawNutritionFactor>0.2</RawNutritionFactor>
+          <SocialImpact>1</SocialImpact>
+          <NegotiationAbility>0.5</NegotiationAbility>
+          <ToxicResistance>0.3</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentImplants_T2_Jaw</defName>
+    <label>초월공학 턱 (2단계)</label>
+    <labelNoun>초월공학 턱 (2단계)</labelNoun>
+    <description>초월공학 턱 (2단계). 이식용 초월공학 턱의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_TranscendentImplants_T2_Jaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <RawNutritionFactor>0.8</RawNutritionFactor>
+          <SocialImpact>4</SocialImpact>
+          <NegotiationAbility>2</NegotiationAbility>
+          <ToxicResistance>0.7</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Eye</defName>
+    <label>초월공학 의안 (1단계)</label>
+    <description>이식용 초월공학 의안 (1단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Eye</defName>
+    <label>초월공학 의안 (2단계)</label>
+    <description>이식용 초월공학 의안 (2단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Ear</defName>
+    <label>초월공학 의이 (1단계)</label>
+    <description>이식용 초월공학 의이 (1단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Ear</defName>
+    <label>초월공학 의이 (2단계)</label>
+    <description>이식용 초월공학 의이 (2단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T1_Jaw</defName>
+    <label>초월공학 턱 (1단계)</label>
+    <description>이식용 초월공학 턱 (1단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentImplants_T2_Jaw</defName>
+    <label>초월공학 턱 (2단계)</label>
+    <description>이식용 초월공학 턱 (2단계).</description>
+  </ThingDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Eye</defName>
+    <label>초월공학 의안 (1단계) 이식</label>
+    <description>초월공학 의안 (1단계)을(를) 이식한다.</description>
+    <jobString>초월공학 의안 (1단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Eye</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Eye</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Eye</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Eye</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Eye</defName>
+    <label>초월공학 의안 (2단계) 이식</label>
+    <description>초월공학 의안 (2단계)을(를) 이식한다.</description>
+    <jobString>초월공학 의안 (2단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Eye</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Eye</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Eye</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Eye</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Ear</defName>
+    <label>초월공학 의이 (1단계) 이식</label>
+    <description>초월공학 의이 (1단계)을(를) 이식한다.</description>
+    <jobString>초월공학 의이 (1단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Ear</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Ear</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Ear</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Ear</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Ear</defName>
+    <label>초월공학 의이 (2단계) 이식</label>
+    <description>초월공학 의이 (2단계)을(를) 이식한다.</description>
+    <jobString>초월공학 의이 (2단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Ear</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Ear</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Ear</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Ear</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T1_Jaw</defName>
+    <label>초월공학 턱 (1단계) 이식</label>
+    <description>초월공학 턱 (1단계)을(를) 이식한다.</description>
+    <jobString>초월공학 턱 (1단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T1_Jaw</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T1_Jaw</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Jaw</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T1_Jaw</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_TranscendentImplants_T2_Jaw</defName>
+    <label>초월공학 턱 (2단계) 이식</label>
+    <description>초월공학 턱 (2단계)을(를) 이식한다.</description>
+    <jobString>초월공학 턱 (2단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentImplants_T2_Jaw</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentImplants_T2_Jaw</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Jaw</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentImplants_T2_Jaw</addsHediff>
+  </RecipeDef>
+  <!-- ===================== 뇌 보조 칩 3종 1/2단계 ===================== -->
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorCombat_TierA</defName>
+    <label>전투 연산 칩 (1단계)</label>
+    <labelNoun>전투 연산 칩 (1단계)</labelNoun>
+    <description>전투 연산 칩 (1단계). 전투 연산 칩의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_CoprocessorCombat_TierA</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+        </statOffsets>
+        <statFactors>
+          <AimingDelayFactor>0.7</AimingDelayFactor>
+          <MeleeHitChance>1.2</MeleeHitChance>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorCombat_TierB</defName>
+    <label>전투 연산 칩 (2단계)</label>
+    <labelNoun>전투 연산 칩 (2단계)</labelNoun>
+    <description>전투 연산 칩 (2단계). 전투 연산 칩의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_CoprocessorCombat_TierB</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+        </statOffsets>
+        <statFactors>
+          <AimingDelayFactor>0.6</AimingDelayFactor>
+          <MeleeHitChance>1.5</MeleeHitChance>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorMech_TierA</defName>
+    <label>메카 연산 칩 (1단계)</label>
+    <labelNoun>메카 연산 칩 (1단계)</labelNoun>
+    <description>메카 연산 칩 (1단계). 메카 연산 칩의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_CoprocessorMech_TierA</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth>2</MechBandwidth>
+          <MechRepairSpeed>2</MechRepairSpeed>
+          <MechFormingSpeed>2</MechFormingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorMech_TierB</defName>
+    <label>메카 연산 칩 (2단계)</label>
+    <labelNoun>메카 연산 칩 (2단계)</labelNoun>
+    <description>메카 연산 칩 (2단계). 메카 연산 칩의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_CoprocessorMech_TierB</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth>8</MechBandwidth>
+          <MechRepairSpeed>8</MechRepairSpeed>
+          <MechFormingSpeed>8</MechFormingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorPsychic_TierA</defName>
+    <label>심령 연산 칩 (1단계)</label>
+    <labelNoun>심령 연산 칩 (1단계)</labelNoun>
+    <description>심령 연산 칩 (1단계). 심령 연산 칩의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_CoprocessorPsychic_TierA</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>5</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PsychicSensitivity>-0.1</PsychicSensitivity>
+          <PsychicEntropyRecoveryRate>1</PsychicEntropyRecoveryRate>
+          <MeditationFocusGain>1</MeditationFocusGain>
+          <SocialImpact>1</SocialImpact>
+          <NegotiationAbility>1</NegotiationAbility>
+        </statOffsets>
+        <statFactors>
+          <PsychicEntropyMax>1.2</PsychicEntropyMax>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorPsychic_TierB</defName>
+    <label>심령 연산 칩 (2단계)</label>
+    <labelNoun>심령 연산 칩 (2단계)</labelNoun>
+    <description>심령 연산 칩 (2단계). 심령 연산 칩의 하위 등급판.</description>
+    <spawnThingOnRemoved>OP_CoprocessorPsychic_TierB</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PsychicSensitivity>-0.3</PsychicSensitivity>
+          <PsychicEntropyRecoveryRate>4</PsychicEntropyRecoveryRate>
+          <MeditationFocusGain>4</MeditationFocusGain>
+          <SocialImpact>4</SocialImpact>
+          <NegotiationAbility>4</NegotiationAbility>
+        </statOffsets>
+        <statFactors>
+          <PsychicEntropyMax>1.5</PsychicEntropyMax>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorCombat_TierA</defName>
+    <label>전투 연산 칩 (1단계)</label>
+    <description>이식용 전투 연산 칩 (1단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorCombat_TierB</defName>
+    <label>전투 연산 칩 (2단계)</label>
+    <description>이식용 전투 연산 칩 (2단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorMech_TierA</defName>
+    <label>메카 연산 칩 (1단계)</label>
+    <description>이식용 메카 연산 칩 (1단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorMech_TierB</defName>
+    <label>메카 연산 칩 (2단계)</label>
+    <description>이식용 메카 연산 칩 (2단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorPsychic_TierA</defName>
+    <label>심령 연산 칩 (1단계)</label>
+    <description>이식용 심령 연산 칩 (1단계).</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorPsychic_TierB</defName>
+    <label>심령 연산 칩 (2단계)</label>
+    <description>이식용 심령 연산 칩 (2단계).</description>
+  </ThingDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_CoprocessorCombat_T1</defName>
+    <label>전투 연산 칩 (1단계) 이식</label>
+    <description>전투 연산 칩 (1단계)을(를) 이식한다.</description>
+    <jobString>전투 연산 칩 (1단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorCombat_TierA</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorCombat_TierA</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Neck</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorCombat_TierA</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_CoprocessorCombat_T2</defName>
+    <label>전투 연산 칩 (2단계) 이식</label>
+    <description>전투 연산 칩 (2단계)을(를) 이식한다.</description>
+    <jobString>전투 연산 칩 (2단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorCombat_TierB</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorCombat_TierB</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Neck</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorCombat_TierB</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_CoprocessorMech_T1</defName>
+    <label>메카 연산 칩 (1단계) 이식</label>
+    <description>메카 연산 칩 (1단계)을(를) 이식한다.</description>
+    <jobString>메카 연산 칩 (1단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorMech_TierA</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorMech_TierA</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Sternum</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorMech_TierA</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_CoprocessorMech_T2</defName>
+    <label>메카 연산 칩 (2단계) 이식</label>
+    <description>메카 연산 칩 (2단계)을(를) 이식한다.</description>
+    <jobString>메카 연산 칩 (2단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorMech_TierB</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorMech_TierB</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Sternum</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorMech_TierB</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_CoprocessorPsychic_T1</defName>
+    <label>심령 연산 칩 (1단계) 이식</label>
+    <description>심령 연산 칩 (1단계)을(를) 이식한다.</description>
+    <jobString>심령 연산 칩 (1단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorPsychic_TierA</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorPsychic_TierA</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Skull</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorPsychic_TierA</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_Install_OP_CoprocessorPsychic_T2</defName>
+    <label>심령 연산 칩 (2단계) 이식</label>
+    <description>심령 연산 칩 (2단계)을(를) 이식한다.</description>
+    <jobString>심령 연산 칩 (2단계) 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorPsychic_TierB</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorPsychic_TierB</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Skull</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorPsychic_TierB</addsHediff>
+  </RecipeDef>
+</Defs>

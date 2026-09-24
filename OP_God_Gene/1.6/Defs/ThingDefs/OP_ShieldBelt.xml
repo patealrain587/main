@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef>
+    <defName>OP_ShieldBelt</defName>
+    <label>초월 보호막 벨트</label>
+    <description>거의 무한한 에너지를 저장하는 초월자 전용 보호막 발생 벨트. 착용자를 감싸는 에너지 배리어가 거의 모든 물리/폭발 공격을 완전히 흡수하며, 깨지더라도 순식간에 재생성된다.</description>
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <techLevel>Archotech</techLevel>
+    <tradeability>None</tradeability>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <pathCost>15</pathCost>
+    <rotatable>false</rotatable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ShieldBelt/ShieldBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>1</WorkToMake>
+      <Mass>0.1</Mass>
+      <MaxHitPoints>99999</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <EquipDelay>0</EquipDelay>
+      <Insulation_Cold>50</Insulation_Cold>
+      <Insulation_Heat>50</Insulation_Heat>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OP_ShieldLayer</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Shield">
+        <energyMax>99999</energyMax>
+        <energyLossPerDamage>0.0001</energyLossPerDamage>
+        <energyRechargeRate>500</energyRechargeRate>
+        <rechargeDelay>1</rechargeDelay>
+        <minDrawSize>1.2</minDrawSize>
+        <maxDrawSize>1.55</maxDrawSize>
+        <hitPointsColorPct>0.5</hitPointsColorPct>
+      </li>
+    </comps>
+    <costList>
+      <OP_TranscendentAlloy>50</OP_TranscendentAlloy>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>OP_TranscendentTech</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workAmount>6000</workAmount>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

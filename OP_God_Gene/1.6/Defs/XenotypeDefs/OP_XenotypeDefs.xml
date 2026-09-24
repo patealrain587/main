@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>OP_AscendantXenotype</defName>
+    <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+    <label>초월자</label>
+    <description>모든 능력이 극한까지 강화된, 사실상 불사에 가까운 존재.</description>
+    <inheritable>false</inheritable>
+    <genes>
+      <li>OP_Ascendant</li>
+      <li>OP_MetabolicMastery</li>
+      <li>OP_Harmonizer</li>
+      <li>OP_Overmind</li>
+      <li>OP_MoodPump</li>
+      <li>OP_CharmPump</li>
+      <!-- 아래 4개는 바이오텍 정식 초월유전자를 그대로 포함시킨 것(스탯 흉내가 아니라
+           실제 그 유전자 자체). 이종유전자에 고정으로 들어가는 유전자는 초월입자 캡슐
+           비용이 들지 않는다. -->
+      <li>Ageless</li>
+      <li>PerfectImmunity</li>
+      <li>TotalHealing</li>
+      <li>ArchiteMetabolism</li>
+      <li>XenogermReimplanter</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

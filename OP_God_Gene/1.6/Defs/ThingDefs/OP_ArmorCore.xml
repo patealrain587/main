@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef>
+    <defName>OP_ArmorCore</defName>
+    <label>초월 방어핵</label>
+    <description>순수 방어에만 특화된 초월자 전용 코어. 실드처럼 별도 에너지를 소모하지 않고, 신체 자체의 방어도와 내구성을 극한까지 끌어올린다. 보호막 벨트와 완전히 다른 부위/레이어를 사용하므로 둘을 동시에 착용해도 서로 충돌하지 않고, 다른 갑옷이나 의상과도 겹쳐 입을 수 있다. (인공종족 계열 모드의 최상위 소재 "아츠일토헤벨"의 방어도/내구도/단열 배율이 이미 수치에 반영되어 있음)</description>
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <techLevel>Archotech</techLevel>
+    <tradeability>None</tradeability>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <pathCost>15</pathCost>
+    <rotatable>false</rotatable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <statBases>
+      <WorkToMake>1</WorkToMake>
+      <Mass>0.1</Mass>
+      <MaxHitPoints>2500000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <EquipDelay>0</EquipDelay>
+      <Insulation_Cold>2500</Insulation_Cold>
+      <Insulation_Heat>2500</Insulation_Heat>
+      <ArmorRating_Sharp>500</ArmorRating_Sharp>
+      <ArmorRating_Blunt>500</ArmorRating_Blunt>
+      <ArmorRating_Heat>750</ArmorRating_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <PainShockThreshold>0.02</PainShockThreshold>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OP_ArmorLayer</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+    </apparel>
+    <costList>
+      <OP_TranscendentAlloy>50</OP_TranscendentAlloy>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>OP_TranscendentTech</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workAmount>6000</workAmount>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

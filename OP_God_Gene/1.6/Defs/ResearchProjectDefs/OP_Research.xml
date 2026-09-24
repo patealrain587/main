@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 초월합금/임플란트/방어구/무기를 전부 실제 게임플레이(연구+제작)로 만들 수 있게 해주는
+       전용 연구. Fabrication(바닐라 확인된 연구)을 선행 조건으로 걸어서 자연스러운
+       테크트리 위치에 놓았다. 비용은 상징적인 수준으로만 걸어서 사실상 바로 뚫린다. -->
+  <ResearchProjectDef>
+    <defName>OP_TranscendentTech</defName>
+    <label>초월공학</label>
+    <description>초월 합금과 그것으로 만드는 모든 초월공학 장비(임플란트, 방어구, 무기)의 제작법을 확립한다.</description>
+    <baseCost>100</baseCost>
+    <techLevel>Archotech</techLevel>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <researchViewX>10</researchViewX>
+    <researchViewY>10</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

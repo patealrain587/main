@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef>
+    <defName>OP_Bullet</defName>
+    <label>초월탄</label>
+    <thingClass>Bullet</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <neverMultiSelect>true</neverMultiSelect>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>0.6</drawSize>
+      <color>(255,80,80)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>9999</damageAmountBase>
+      <armorPenetrationBase>999999</armorPenetrationBase>
+      <stoppingPower>20</stoppingPower>
+      <speed>250</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>OP_TranscendentRifle</defName>
+    <label>초월 소총</label>
+    <description>초월자를 위한 절대병기. 명중률 100%, 사실상 무한 사거리, 총알 한 발로 대부분의 대상을 즉사시킨다. 재장전이 필요 없다.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <techLevel>Archotech</techLevel>
+    <tradeability>None</tradeability>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <equipmentType>Primary</equipmentType>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <pathCost>15</pathCost>
+    <rotatable>false</rotatable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <thingCategories>
+      <li>Weapons</li>
+    </thingCategories>
+    <weaponTags>
+      <li>OP_Weapon</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>1</WorkToMake>
+      <Mass>1</Mass>
+      <MaxHitPoints>99999</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <AccuracyTouch>10.0</AccuracyTouch>
+      <AccuracyShort>10.0</AccuracyShort>
+      <AccuracyMedium>10.0</AccuracyMedium>
+      <AccuracyLong>10.0</AccuracyLong>
+      <RangedWeapon_Cooldown>0.05</RangedWeapon_Cooldown>
+      <ShootingAccuracyPawn>10.0</ShootingAccuracyPawn>
+    </statBases>
+    <tools>
+      <!-- 인공종족 계열 모드 최상위 소재 "아츠일토헤벨"의 근접 배율(대미지x7, 쿨타임x0.1, 관통x6)을 이미 반영한 수치 -->
+      <li>
+        <label>총열 강타</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>70000</power>
+        <cooldownTime>0.01</cooldownTime>
+        <armorPenetration>6000000</armorPenetration>
+      </li>
+    </tools>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>OP_Bullet</defaultProjectile>
+        <warmupTime>0.05</warmupTime>
+        <range>150</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+    <costList>
+      <OP_TranscendentAlloy>80</OP_TranscendentAlloy>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>OP_TranscendentTech</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workAmount>8000</workAmount>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

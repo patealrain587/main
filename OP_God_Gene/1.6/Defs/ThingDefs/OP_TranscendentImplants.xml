@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ===================== 초월공학 임플란트 세트 =====================
+       인공종족/아치테크 확장 계열 임플란트보다 상위인 자체 이식형 장기/의수족.
+       바닐라 수술 시스템(AddedBodyPartBase + SurgeryInstallBodyPartProstheticBase)을
+       그대로 사용하는 진짜 "수술로 장착하는" 임플란트로, 유전자와는 완전히 별개로
+       추가 스택되며 서로 충돌하지 않는다. 각 부위별로 하나씩 존재. -->
+
+  <!-- ============ 심장 ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentHeart</defName>
+    <label>초월공학 심장</label>
+    <labelNoun>초월공학 심장</labelNoun>
+    <description>인간의 순환계를 완전히 초월한 인공 심장. 출혈이라는 개념 자체를 무의미하게 만든다.</description>
+    <spawnThingOnRemoved>OP_TranscendentHeart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <totalBleedFactor>0</totalBleedFactor>
+        <statOffsets>
+          <MoveSpeed>12</MoveSpeed>
+          <RestRateMultiplier>10</RestRateMultiplier>
+          <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 신장 ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentKidney</defName>
+    <label>초월공학 신장</label>
+    <labelNoun>초월공학 신장</labelNoun>
+    <description>모든 독소와 병원체를 즉시 걸러내는 인공 신장.</description>
+    <spawnThingOnRemoved>OP_TranscendentKidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeed>10</ImmunityGainSpeed>
+          <ToxicResistance>1</ToxicResistance>
+          <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 간 ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentLiver</defName>
+    <label>초월공학 간</label>
+    <labelNoun>초월공학 간</labelNoun>
+    <description>인체 대사를 완전히 재설계한 인공 간. 어떤 독성 물질도 무의미하게 만든다.</description>
+    <spawnThingOnRemoved>OP_TranscendentLiver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>1</ToxicResistance>
+          <RawNutritionFactor>5</RawNutritionFactor>
+        </statOffsets>
+        <statFactors>
+          <RawNutritionFactor>0.1</RawNutritionFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 폐 ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentLung</defName>
+    <label>초월공학 폐</label>
+    <labelNoun>초월공학 폐</labelNoun>
+    <description>진공에서도 호흡이 무의미한 인공 폐.</description>
+    <spawnThingOnRemoved>OP_TranscendentLung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>5</MoveSpeed>
+          <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+          <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 위 ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentStomach</defName>
+    <label>초월공학 위</label>
+    <labelNoun>초월공학 위</labelNoun>
+    <description>영양분을 완벽하게 합성해내는 인공 위. 굶주림이라는 개념을 지운다.</description>
+    <spawnThingOnRemoved>OP_TranscendentStomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statFactors>
+          <RawNutritionFactor>0.05</RawNutritionFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 척추 ============ -->
+  <!-- "Mechanoids: Total Warfare"의 커스텀 척추 임플란트(부위능률 500%, 이동속도+1.5,
+       근접회피+25, 전역작업+50%, 신경열/정신감응 x1.5~x2, 근접피해 x2, 받는피해 x0.5,
+       디버프 면역+순간이동 능력)를 실제 확인 가능한 스탯만 골라 그대로 웃도는 값으로 반영.
+       DebuffImmunity/워프 능력 자체는 그쪽 자체 C# 클래스라 그대로 못 가져오지만,
+       바닐라에 실존하는 순간이동 계열 초능력(Skip)을 대신 부여해서 같은 역할을 하게 했다. -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentSpine</defName>
+    <label>초월공학 척추</label>
+    <labelNoun>초월공학 척추</labelNoun>
+    <description>통증 신호 자체를 재해석하는 인공 척추. 순간이동 신경 회로가 내장되어 있다.</description>
+    <spawnThingOnRemoved>OP_TranscendentSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <comps>
+      <li Class="HediffCompProperties_GiveAbility" MayRequire="Ludeon.RimWorld.Royalty">
+        <abilityDef>Skip</abilityDef>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PainShockThreshold>0.9</PainShockThreshold>
+          <MoveSpeed>5</MoveSpeed>
+          <MeleeDodgeChance>25</MeleeDodgeChance>
+          <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+        </statOffsets>
+        <statFactors>
+          <!-- 정신감응력은 적의 정신 공격도 그대로 증폭시키므로 배율을 올리지 않고
+               오히려 낮춰서 정신 공격 저항력을 확보한다 (아래 수정 사유 참고). -->
+          <PsychicSensitivity>0.05</PsychicSensitivity>
+          <PsychicEntropyRecoveryRate>2</PsychicEntropyRecoveryRate>
+          <PsychicEntropyMax>2</PsychicEntropyMax>
+          <MeleeDamageFactor>2</MeleeDamageFactor>
+          <IncomingDamageFactor>0.5</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 골반 ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentPelvis</defName>
+    <label>초월공학 골반</label>
+    <labelNoun>초월공학 골반</labelNoun>
+    <description>하중 분산과 추진력을 초월적 수준으로 끌어올린 인공 골반.</description>
+    <spawnThingOnRemoved>OP_TranscendentPelvis</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>15</MoveSpeed>
+          <CarryingCapacity>700</CarryingCapacity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 다리 ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentLeg</defName>
+    <label>초월공학 의족</label>
+    <labelNoun>초월공학 의족</labelNoun>
+    <description>기존 아치테크 계열 의족을 아득히 상회하는 초고속 인공 다리.</description>
+    <spawnThingOnRemoved>OP_TranscendentLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MoveSpeed>10</MoveSpeed>
+          <PawnTrapSpringChance>-1</PawnTrapSpringChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 팔 (근접 공격 포함) ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentArm</defName>
+    <label>초월공학 의수</label>
+    <labelNoun>초월공학 의수</labelNoun>
+    <description>기존 아치테크 오블리터레이터를 아득히 상회하는 인공 의수. 주먹질 한 번에 초월탄급 위력이 실린다.</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>초월공학 주먹</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>50000</power>
+            <cooldownTime>0.01</cooldownTime>
+            <armorPenetration>5000000</armorPenetration>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>OP_TranscendentArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 뇌 ============ -->
+  <!-- "Mechanoids: Total Warfare"의 커스텀 뇌 임플란트(의식x1.5, 정신감응+150%,
+       메카대역폭+60, 연구속도+80%, 해킹속도+200%, 해킹은밀도+250, 메카배양속도+400%)
+       대비 확인 가능한 항목은 전부 웃도는 값으로 반영. 해킹 계열은 Anomaly DLC 스탯이라
+       MayRequire로 안전하게 처리. -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentBrain</defName>
+    <label>초월공학 뇌 임플란트</label>
+    <labelNoun>초월공학 뇌 임플란트</labelNoun>
+    <description>사고 속도와 초능력 잠재력을 무한대로 확장하는 뇌 임플란트.</description>
+    <spawnThingOnRemoved>OP_TranscendentBrain</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>10</GlobalLearningFactor>
+          <PsychicSensitivity>-0.5</PsychicSensitivity>
+          <MeditationFocusGain>10</MeditationFocusGain>
+          <PsychicEntropyRecoveryRate>10</PsychicEntropyRecoveryRate>
+          <NegotiationAbility>10</NegotiationAbility>
+          <SocialImpact>10</SocialImpact>
+          <MechBandwidth>10</MechBandwidth>
+          <MechFormingSpeed>10</MechFormingSpeed>
+          <HackingStealth MayRequire="Ludeon.RimWorld.Anomaly">10</HackingStealth>
+        </statOffsets>
+        <statFactors>
+          <HackingSpeed MayRequire="Ludeon.RimWorld.Anomaly">3</HackingSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 흉부 방어막(피부/토르소) ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentMembrane</defName>
+    <label>초월공학 방어막 막</label>
+    <labelNoun>초월공학 방어막 막</labelNoun>
+    <description>피부 아래 전신에 이식되는 초물질 방어막. 신체 자체를 갑옷으로 바꾼다.</description>
+    <spawnThingOnRemoved>OP_TranscendentMembrane</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>50</ArmorRating_Sharp>
+          <ArmorRating_Blunt>50</ArmorRating_Blunt>
+          <ArmorRating_Heat>50</ArmorRating_Heat>
+          <Flammability>-1</Flammability>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 뇌 보조 칩 3종 (뇌 자체와는 별개 부위에 이식, 중복 장착 가능) ============
+       뇌 임플란트는 뇌 자체를 교체하는 장기라 한 번만 심을 수 있지만, 이 3개는 뇌와
+       무선으로 연동되는 "보조 연산 칩"이라는 컨셉으로 목/흉골/두개골처럼 아직 다른
+       임플란트가 안 쓰는 부위에 심는 방식. 서로 다른 부위라 뇌 임플란트와도, 서로와도
+       절대 충돌하지 않고 전부 동시에 장착 가능하다. -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorCombat</defName>
+    <label>전투 연산 칩</label>
+    <labelNoun>전투 연산 칩</labelNoun>
+    <description>목 뒤에 이식되어 뇌와 무선으로 연동되는 전투 전용 보조 연산 장치. 조준과 반응 속도를 계산해 실시간으로 보정한다.</description>
+    <spawnThingOnRemoved>OP_CoprocessorCombat</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+        </statOffsets>
+        <statFactors>
+          <AimingDelayFactor>0.5</AimingDelayFactor>
+          <MeleeHitChance>2</MeleeHitChance>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorMech</defName>
+    <label>메카 연산 칩</label>
+    <labelNoun>메카 연산 칩</labelNoun>
+    <description>흉골에 이식되어 뇌와 무선으로 연동되는 메카노이드 지휘 전용 보조 연산 장치.</description>
+    <spawnThingOnRemoved>OP_CoprocessorMech</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MechBandwidth>20</MechBandwidth>
+          <MechRepairSpeed>20</MechRepairSpeed>
+          <MechFormingSpeed>20</MechFormingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_CoprocessorPsychic</defName>
+    <label>심령 연산 칩</label>
+    <labelNoun>심령 연산 칩</labelNoun>
+    <description>두개골 내측에 이식되어 뇌와 무선으로 연동되는 심령/사교 전용 보조 연산 장치.</description>
+    <spawnThingOnRemoved>OP_CoprocessorPsychic</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PsychicSensitivity>-0.5</PsychicSensitivity>
+          <PsychicEntropyRecoveryRate>10</PsychicEntropyRecoveryRate>
+          <MeditationFocusGain>10</MeditationFocusGain>
+          <SocialImpact>10</SocialImpact>
+          <NegotiationAbility>10</NegotiationAbility>
+        </statOffsets>
+        <statFactors>
+          <PsychicEntropyMax>2</PsychicEntropyMax>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 눈 (좌/우 각각 수술) ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentEye</defName>
+    <label>초월공학 의안</label>
+    <labelNoun>초월공학 의안</labelNoun>
+    <description>시각 정보를 완벽하게 처리하는 인공 눈. 조준 실패라는 개념을 지운다.</description>
+    <spawnThingOnRemoved>OP_TranscendentEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+        </statOffsets>
+        <statFactors>
+          <AimingDelayFactor>0.5</AimingDelayFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 귀 (좌/우 각각 수술) ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentEar</defName>
+    <label>초월공학 의이</label>
+    <labelNoun>초월공학 의이</labelNoun>
+    <description>모든 소리와 미세한 파동까지 잡아내는 인공 귀.</description>
+    <spawnThingOnRemoved>OP_TranscendentEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>10</SocialImpact>
+          <NegotiationAbility>10</NegotiationAbility>
+          <PsychicSensitivity>-0.3</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ============ 턱 ============ -->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>OP_TranscendentJaw</defName>
+    <label>초월공학 턱</label>
+    <labelNoun>초월공학 턱</labelNoun>
+    <description>씹는 힘과 발성을 초월적으로 재구성한 인공 턱.</description>
+    <spawnThingOnRemoved>OP_TranscendentJaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>100</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <RawNutritionFactor>2</RawNutritionFactor>
+          <SocialImpact>10</SocialImpact>
+          <NegotiationAbility>5</NegotiationAbility>
+          <ToxicResistance>1</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ===================== 이식용 아이템(ThingDef) ===================== -->
+
+  <ThingDef Name="OP_ImplantBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <techLevel>Archotech</techLevel>
+    <tradeability>None</tradeability>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <pathCost>15</pathCost>
+    <rotatable>false</rotatable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(255, 215, 0)</color>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <thingCategories>
+      <li>BodyPartsNatural</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>99999</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <!-- 초월합금으로 제작 가능. 이 추상 부모에만 한 번 걸어두면 모든 임플란트
+         (1/2/3단계 + 뇌 보조 칩 3종 전부)에 자동으로 상속된다. -->
+    <costList>
+      <OP_TranscendentAlloy>30</OP_TranscendentAlloy>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>OP_TranscendentTech</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workAmount>4000</workAmount>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentHeart</defName>
+    <label>초월공학 심장</label>
+    <description>이식용 초월공학 심장.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentKidney</defName>
+    <label>초월공학 신장</label>
+    <description>이식용 초월공학 신장.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentLiver</defName>
+    <label>초월공학 간</label>
+    <description>이식용 초월공학 간.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentLung</defName>
+    <label>초월공학 폐</label>
+    <description>이식용 초월공학 폐.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentStomach</defName>
+    <label>초월공학 위</label>
+    <description>이식용 초월공학 위.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentSpine</defName>
+    <label>초월공학 척추</label>
+    <description>이식용 초월공학 척추.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentPelvis</defName>
+    <label>초월공학 골반</label>
+    <description>이식용 초월공학 골반.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentLeg</defName>
+    <label>초월공학 의족</label>
+    <description>이식용 초월공학 의족.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentArm</defName>
+    <label>초월공학 의수</label>
+    <description>이식용 초월공학 의수.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentBrain</defName>
+    <label>초월공학 뇌 임플란트</label>
+    <description>이식용 초월공학 뇌 임플란트.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorCombat</defName>
+    <label>전투 연산 칩</label>
+    <description>이식용 전투 연산 칩.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorMech</defName>
+    <label>메카 연산 칩</label>
+    <description>이식용 메카 연산 칩.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_CoprocessorPsychic</defName>
+    <label>심령 연산 칩</label>
+    <description>이식용 심령 연산 칩.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentEye</defName>
+    <label>초월공학 의안</label>
+    <description>이식용 초월공학 의안.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentEar</defName>
+    <label>초월공학 의이</label>
+    <description>이식용 초월공학 의이.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentJaw</defName>
+    <label>초월공학 턱</label>
+    <description>이식용 초월공학 턱.</description>
+  </ThingDef>
+  <ThingDef ParentName="OP_ImplantBase">
+    <defName>OP_TranscendentMembrane</defName>
+    <label>초월공학 방어막 막</label>
+    <description>이식용 초월공학 방어막 막.</description>
+  </ThingDef>
+
+  <!-- ===================== 수술 레시피(RecipeDef) ===================== -->
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentHeart</defName>
+    <label>초월공학 심장 이식</label>
+    <description>초월공학 심장을 이식한다.</description>
+    <jobString>초월공학 심장 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentHeart</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentHeart</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Heart</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentHeart</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentKidney</defName>
+    <label>초월공학 신장 이식</label>
+    <description>초월공학 신장을 이식한다.</description>
+    <jobString>초월공학 신장 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentKidney</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentKidney</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Kidney</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentKidney</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentLiver</defName>
+    <label>초월공학 간 이식</label>
+    <description>초월공학 간을 이식한다.</description>
+    <jobString>초월공학 간 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentLiver</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentLiver</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Liver</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentLiver</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentLung</defName>
+    <label>초월공학 폐 이식</label>
+    <description>초월공학 폐를 이식한다.</description>
+    <jobString>초월공학 폐 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentLung</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentLung</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Lung</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentLung</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentStomach</defName>
+    <label>초월공학 위 이식</label>
+    <description>초월공학 위를 이식한다.</description>
+    <jobString>초월공학 위 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentStomach</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentStomach</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Stomach</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentStomach</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentSpine</defName>
+    <label>초월공학 척추 이식</label>
+    <description>초월공학 척추를 이식한다.</description>
+    <jobString>초월공학 척추 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentSpine</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentSpine</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Spine</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentSpine</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentPelvis</defName>
+    <label>초월공학 골반 이식</label>
+    <description>초월공학 골반을 이식한다.</description>
+    <jobString>초월공학 골반 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentPelvis</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentPelvis</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Pelvis</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentPelvis</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentLeg</defName>
+    <label>초월공학 의족 이식</label>
+    <description>초월공학 의족을 이식한다.</description>
+    <jobString>초월공학 의족 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentLeg</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentLeg</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Leg</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentLeg</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentArm</defName>
+    <label>초월공학 의수 이식</label>
+    <description>초월공학 의수를 이식한다.</description>
+    <jobString>초월공학 의수 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentArm</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentArm</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Shoulder</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentArm</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallCoprocessorCombat</defName>
+    <label>전투 연산 칩 이식</label>
+    <description>전투 연산 칩을 이식한다.</description>
+    <jobString>전투 연산 칩 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorCombat</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorCombat</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Neck</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorCombat</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallCoprocessorMech</defName>
+    <label>메카 연산 칩 이식</label>
+    <description>메카 연산 칩을 이식한다.</description>
+    <jobString>메카 연산 칩 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorMech</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorMech</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Sternum</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorMech</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallCoprocessorPsychic</defName>
+    <label>심령 연산 칩 이식</label>
+    <description>심령 연산 칩을 이식한다.</description>
+    <jobString>심령 연산 칩 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_CoprocessorPsychic</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_CoprocessorPsychic</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Skull</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_CoprocessorPsychic</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentEye</defName>
+    <label>초월공학 의안 이식</label>
+    <description>초월공학 의안을 이식한다.</description>
+    <jobString>초월공학 의안 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentEye</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentEye</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Eye</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentEye</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentEar</defName>
+    <label>초월공학 의이 이식</label>
+    <description>초월공학 의이를 이식한다.</description>
+    <jobString>초월공학 의이 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentEar</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentEar</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Ear</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentEar</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentJaw</defName>
+    <label>초월공학 턱 이식</label>
+    <description>초월공학 턱을 이식한다.</description>
+    <jobString>초월공학 턱 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentJaw</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentJaw</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Jaw</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentJaw</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentBrain</defName>
+    <label>초월공학 뇌 임플란트 이식</label>
+    <description>초월공학 뇌 임플란트를 이식한다.</description>
+    <jobString>초월공학 뇌 임플란트 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentBrain</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentBrain</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Brain</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentBrain</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>OP_InstallTranscendentMembrane</defName>
+    <label>초월공학 방어막 막 이식</label>
+    <description>초월공학 방어막 막을 이식한다.</description>
+    <jobString>초월공학 방어막 막 이식 중.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>OP_TranscendentMembrane</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>OP_TranscendentMembrane</li></thingDefs></fixedIngredientFilter>
+    <appliedOnFixedBodyParts><li>Torso</li></appliedOnFixedBodyParts>
+    <addsHediff>OP_TranscendentMembrane</addsHediff>
+  </RecipeDef>
+
+</Defs>

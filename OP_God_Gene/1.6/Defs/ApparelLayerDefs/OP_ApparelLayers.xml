@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 초월 보호막 벨트 전용 레이어. 바닐라/다른 모드의 Belt, Middle, Shell 등 어떤 레이어와도 겹치지 않으므로,
+       다른 모드의 벨트형 아이템(유틸리티 벨트, 임플란트 벨트 등)과 절대 충돌하지 않는다. -->
+  <ApparelLayerDef>
+    <defName>OP_ShieldLayer</defName>
+    <label>초월 보호막 레이어</label>
+    <drawOrder>100</drawOrder>
+  </ApparelLayerDef>
+
+  <!-- 초월 방어핵 전용 레이어. 마찬가지로 완전히 독립된 레이어라 갑옷/코트/셔츠 등
+       Torso 부위의 어떤 다른 장비와도 겹쳐 입을 수 있다. -->
+  <ApparelLayerDef>
+    <defName>OP_ArmorLayer</defName>
+    <label>초월 방어핵 레이어</label>
+    <drawOrder>101</drawOrder>
+  </ApparelLayerDef>
+
+</Defs>

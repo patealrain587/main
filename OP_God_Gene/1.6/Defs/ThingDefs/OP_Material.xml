@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 초월 합금: 인공종족(Chaoura) 계열 최상위 소재 "아츠일토헤벨"보다 상위의 커스텀 재료.
+       Metallic 카테고리라 무기/방어구를 만드는 거의 모든 바닐라/모드 ThingDef의 재료 선택 목록에
+       바로 나타나서, 이 모드가 만든 아이템뿐 아니라 다른 어떤 금속 재료 기반 장비를 만들 때도 쓸 수 있다.
+       자연 생성/채광되지는 않지만(generateCommonality 0), "초월공학" 연구 완료 후
+       제작대(FabricationBench)에서 강철/플라스틸/우라늄으로 직접 제작 가능. -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>OP_TranscendentAlloy</defName>
+    <label>초월 합금</label>
+    <description>모든 물리 법칙을 초월한 궁극의 재료. 인공종족 계열 모드의 최상위 소재조차 감히 견줄 수 없는 강도, 경도, 아름다움을 지녔다. 금속, 가죽, 천 무엇으로 분류되는 장비를 만들든 재료로 쓸 수 있으며, 만졌을 때의 편안함과 미관 또한 극상이다. 그럼에도 시세는 강철과 다를 바 없어 흔한 자원처럼 취급된다. 이 재료로 만든 것은 무엇이든 상상을 초월하는 성능을 낸다.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Steel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(255, 215, 0)</color>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <tradeability>All</tradeability> <!-- 강철처럼 정상적으로 거래/판매 가능 -->
+    <techLevel>Archotech</techLevel>
+    <stackLimit>9999</stackLimit>
+    <statBases>
+      <MaxHitPoints>999999</MaxHitPoints>
+      <MarketValue>2</MarketValue> <!-- 강철(Steel)과 동일한 시세 수준 -->
+      <Mass>0.01</Mass>
+      <Beauty>500</Beauty>
+      <StuffPower_Armor_Sharp>999</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>999</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>999</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>9999</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>9999</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>999</SharpDamageMultiplier>
+      <BluntDamageMultiplier>999</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0</deepCommonality>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0</generateAllowChance>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+        <li>Leathery</li>
+        <li>Fabric</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(255, 215, 0)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>9999</MaxHitPoints>
+        <Beauty>9999</Beauty>
+        <Flammability>0</Flammability>
+        <WorkToMake>0.01</WorkToMake>
+        <WorkToBuild>0.01</WorkToBuild>
+        <ArmorRating_Blunt>9999</ArmorRating_Blunt>
+        <ArmorRating_Sharp>9999</ArmorRating_Sharp>
+        <ArmorRating_Heat>9999</ArmorRating_Heat>
+        <Insulation_Cold>9999</Insulation_Cold>
+        <Insulation_Heat>9999</Insulation_Heat>
+        <Comfort>9999</Comfort>
+        <MeleeWeapon_DamageMultiplier>9999</MeleeWeapon_DamageMultiplier>
+        <SharpDamageMultiplier>9999</SharpDamageMultiplier>
+        <BluntDamageMultiplier>9999</BluntDamageMultiplier>
+        <MeleeWeapon_CooldownMultiplier>0.001</MeleeWeapon_CooldownMultiplier>
+        <MeleeWeapon_AverageDPS>9999</MeleeWeapon_AverageDPS>
+        <MeleeWeapon_AverageArmorPenetration>9999</MeleeWeapon_AverageArmorPenetration>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
+    <!-- 강철/플라스틸/우라늄으로 정상 제작 가능. 개발자 모드 없이도 획득 가능하게 함. -->
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>25</Plasteel>
+      <Uranium>10</Uranium>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>OP_TranscendentTech</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workAmount>2000</workAmount>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <productCount>10</productCount>
+      <displayPriority>500</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>

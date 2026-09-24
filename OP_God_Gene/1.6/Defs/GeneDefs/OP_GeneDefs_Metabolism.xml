@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ===================== 유전자 복잡도/대사 조절용 순수 유틸리티 유전자 =====================
+       "Biotech Capacitor Genes - OP"의 나노머신 티어 시리즈를 참고했지만, 그쪽은
+       "복잡도 여유(대사)"를 사려면 그 대가로 복잡도 자체도 같이 늘어나는 방식(+25/+25)이라
+       요청대로 여기서는 두 개를 완전히 분리했다:
+       - "복잡도 감소" 라인: 순수하게 biostatCpx만 깎아준다 (다른 유전자들의 복잡도 비용을 상쇄)
+       - "대사 효율" 라인: 순수하게 biostatMet만 올려준다 (복잡도 한도 자체를 넓혀준다)
+       둘 다 능력치 효과가 전혀 없는 "여유 슬롯" 전용 유전자라 다른 유전자와 절대 충돌하지
+       않고, 필요한 만큼만 골라서 원하는 조합의 초월 유전자 세트를 완성할 수 있다. -->
+
+  <!-- == 복잡도 감소 라인 == -->
+  <GeneDef>
+    <defName>OP_ComplexityReducer_T1</defName>
+    <label>복잡도 경감 (1단계)</label>
+    <description>유전자 복잡도 부담만 순수하게 낮춰주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>-2</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>20</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_ComplexityReducer_T2</defName>
+    <label>복잡도 경감 (2단계)</label>
+    <description>유전자 복잡도 부담만 순수하게 낮춰주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>-4</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>21</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_ComplexityReducer_T3</defName>
+    <label>복잡도 경감 (3단계)</label>
+    <description>유전자 복잡도 부담만 순수하게 낮춰주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>-8</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>22</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_ComplexityReducer_T4</defName>
+    <label>복잡도 경감 (4단계)</label>
+    <description>유전자 복잡도 부담만 순수하게 낮춰주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>-15</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>23</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_ComplexityReducer_T5</defName>
+    <label>복잡도 경감 (5단계)</label>
+    <description>유전자 복잡도 부담을 한계까지 낮춰주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>-25</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>24</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- == 대사 효율 증가 라인 == -->
+  <GeneDef>
+    <defName>OP_MetabolicBooster_T1</defName>
+    <label>대사 효율 증폭 (1단계)</label>
+    <description>대사 능력만 순수하게 끌어올려 복잡도 한도를 넓혀주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>5</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>30</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_MetabolicBooster_T2</defName>
+    <label>대사 효율 증폭 (2단계)</label>
+    <description>대사 능력만 순수하게 끌어올려 복잡도 한도를 넓혀주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>10</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>31</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_MetabolicBooster_T3</defName>
+    <label>대사 효율 증폭 (3단계)</label>
+    <description>대사 능력만 순수하게 끌어올려 복잡도 한도를 넓혀주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>15</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>32</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_MetabolicBooster_T4</defName>
+    <label>대사 효율 증폭 (4단계)</label>
+    <description>대사 능력만 순수하게 끌어올려 복잡도 한도를 넓혀주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>20</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>33</displayOrderInCategory>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_MetabolicBooster_T5</defName>
+    <label>대사 효율 증폭 (5단계)</label>
+    <description>대사 능력을 한계까지 끌어올려 복잡도 한도를 크게 넓혀주는 나노머신. 능력치 효과는 없다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>0</biostatCpx>
+    <biostatMet>25</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>34</displayOrderInCategory>
+  </GeneDef>
+
+</Defs>

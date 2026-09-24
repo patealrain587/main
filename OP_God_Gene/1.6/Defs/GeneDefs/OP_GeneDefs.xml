@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef>
+    <defName>OP_Ascendant</defName>
+    <label>초월자</label>
+    <description>모든 인간의 한계를 초월한 존재로 만드는 유전자. 다른 유전자나 특성 모드 없이 이 하나만으로 적대 슈퍼팩션 습격을 홀로 상대할 수 있는 수준의 신체 능력, 재생력, 면역력, 방어력을 부여한다. 뇌가 파괴되지 않는 한 죽지 않는다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <geneClass>Gene_Deathless</geneClass>
+    <biostatCpx>8</biostatCpx>
+    <biostatMet>-3</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>1</displayOrderInCategory>
+
+    <forcedTraits>
+      <li>
+        <def>OP_TranscendentTrait</def>
+        <degree>0</degree>
+      </li>
+    </forcedTraits>
+
+    <!-- ===== 균일화된 3단계 배율표 (x50) =====
+         이전에는 WorkSpeedGlobal과 개별 작업속도(MiningSpeed/ConstructionSpeed/
+         PlantWorkSpeed/GeneralLaborSpeed/ResearchSpeedFactor)에 각각 따로 배율을
+         걸어놔서, 바닐라에서 개별 작업속도가 WorkSpeedGlobal에 다시 한번 곱해지는
+         구조와 맞물려 이중삼중으로 폭주(float 상한 999,999,872%)했었다.
+         이제 WorkSpeedGlobal 하나로만 통일하고, 나머지 "이 유전자가 얼마나 강한가"
+         계열 배율도 전부 동일한 x50 하나로 맞춰서 스탯마다 들쭉날쭉하던 걸 정리했다.
+         (ResearchSpeedFactor는 실존하지 않는 스탯명이라 제거, RawNutritionFactor는
+         대사 지배 유전자가 전담하도록 이관) -->
+    <statFactors>
+      <MoveSpeed>10</MoveSpeed>
+      <WorkSpeedGlobal>50</WorkSpeedGlobal>
+      <ShootingAccuracyFactor_Long>50</ShootingAccuracyFactor_Long>
+      <ShootingAccuracyFactor_Medium>50</ShootingAccuracyFactor_Medium>
+      <ShootingAccuracyFactor_Short>50</ShootingAccuracyFactor_Short>
+      <MeleeDamageFactor>50</MeleeDamageFactor>
+      <MeleeHitChance>50</MeleeHitChance>
+      <MeleeDodgeChance>50</MeleeDodgeChance>
+      <ImmunityGainSpeed>50</ImmunityGainSpeed>
+      <InjuryHealingFactor>50</InjuryHealingFactor>
+      <IncomingDamageFactor>0.02</IncomingDamageFactor>
+      <Flammability>0.02</Flammability>
+      <LifespanFactor>50</LifespanFactor>
+      <Fertility>3</Fertility>
+      <TameAnimalChance>10</TameAnimalChance>
+      <TrainAnimalChance>10</TrainAnimalChance>
+      <StaggerDurationFactor>0.02</StaggerDurationFactor>
+      <PawnTrapSpringChance>0.02</PawnTrapSpringChance>
+      <AimingDelayFactor>0.1</AimingDelayFactor>
+    </statFactors>
+
+    <statOffsets>
+      <CarryingCapacity>1000</CarryingCapacity>
+      <WorkSpeedGlobal>4</WorkSpeedGlobal>
+      <GlobalLearningFactor>6</GlobalLearningFactor>
+      <MentalBreakThreshold>-1</MentalBreakThreshold>
+      <PainShockThreshold>0.97</PainShockThreshold>
+      <PawnBeauty>80</PawnBeauty>
+      <SocialImpact>5</SocialImpact>
+      <NegotiationAbility>8</NegotiationAbility>
+      <ComfyTemperatureMin>-120</ComfyTemperatureMin>
+      <ComfyTemperatureMax>120</ComfyTemperatureMax>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+      <RestRateMultiplier>8</RestRateMultiplier>
+      <ArmorRating_Sharp>50</ArmorRating_Sharp>
+      <ArmorRating_Blunt>50</ArmorRating_Blunt>
+      <ArmorRating_Heat>50</ArmorRating_Heat>
+      <MeleeDodgeChance>0.5</MeleeDodgeChance>
+    </statOffsets>
+
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_MetabolicMastery</defName>
+    <label>대사 지배</label>
+    <description>대사 과정을 완전히 장악하여 유전자 복잡도 부담과 배고픔을 대폭 낮춘다. 다른 강력한 유전자와 조합해서 쓰기 위한 보조 유전자로, 인종형/유전자 조합 편집기에서 "초월자"와 함께 저장해서 사용하면 좋다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>-4</biostatCpx>
+    <biostatMet>5</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>2</displayOrderInCategory>
+
+    <!-- 대사 효율 종류를 영양/면역/독소(2종)/체온(2종)/수면까지 확장했다.
+         전부 이미 초월자 유전자에서 실제로 확인된 스탯이라 안전하게 재사용. -->
+    <statFactors>
+      <RawNutritionFactor>0.2</RawNutritionFactor>
+    </statFactors>
+
+    <statOffsets>
+      <ImmunityGainSpeed>10</ImmunityGainSpeed>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+      <RestRateMultiplier>2</RestRateMultiplier>
+    </statOffsets>
+  </GeneDef>
+  <!-- RawNutritionFactor(음식 섭취 효율)는 이 유전자가 전담. 초월자 쪽에서 같은 스탯을
+       반대 방향으로 건드려 서로 상쇄되던 문제를 없앴다. -->
+
+  <GeneDef>
+    <defName>OP_Harmonizer</defName>
+    <label>만능 조화자</label>
+    <description>초능력, 진공/화학 내성, 기동력을 모두 극한으로 끌어올리는 보조 유전자. "초월자", "대사 지배"와 함께 3종 세트로 조합해서 쓰기 위한 것으로, 특정 유전자와도 배타 태그(exclusionTags)나 아키테 슬롯 제한 없이 자유롭게 겹쳐 쓸 수 있다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>3</displayOrderInCategory>
+
+    <statFactors>
+      <MoveSpeed>1.5</MoveSpeed>
+      <MeleeDodgeChance>2</MeleeDodgeChance>
+      <PsychicEntropyRecoveryRate>50</PsychicEntropyRecoveryRate>
+    </statFactors>
+
+    <!-- 정신감응력(PsychicSensitivity)은 내 초능력만 세지는 게 아니라 적의 정신 공격
+         (아노말리 개체, 적 초능력자의 광란/공황 유도, 메카노이드 사이오닉 계열 등)도
+         그대로 증폭시켜서 받는 양방향 스탯이다. 예전처럼 크게 올리면 오히려 정신 공격에
+         극도로 취약해지므로, 다른 모드의 "완전한 초능력자" 유전자처럼 정신감응력은
+         거의 0까지 낮추는 방향으로 바꿨다. 초능력 자체는 감응력에 의존하지 않는 방식
+         (Skip 능력 고정 부여 등)으로 이미 확보되어 있어 문제 없다. -->
+    <statOffsets>
+      <PsychicSensitivity>-0.9</PsychicSensitivity>
+      <MeditationFocusGain>20</MeditationFocusGain>
+      <ToxicResistance>1</ToxicResistance>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+      <MentalBreakThreshold>-0.5</MentalBreakThreshold>
+      <SocialImpact>2</SocialImpact>
+    </statOffsets>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>OP_Overmind</defName>
+    <label>전능 조종자</label>
+    <description>메카노이드 지배력, 학습/연구력, 협상력, 청결/합성 작업, 초능력 신경열 회복력을 모두 극한으로 끌어올리는 보조 유전자. 밀리라 종족의 "박문", "담판전가", "기리정통" 유전자와 종족 자체 스탯을 실제 확인된 stat 이름 그대로 가져와 대폭 증폭했다.</description>
+    <iconPath>UI/Icons/Genes/Gene_Deathless</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-3</biostatMet>
+    <biostatArc>0</biostatArc>
+    <selectionWeight>0</selectionWeight>
+    <displayOrderInCategory>4</displayOrderInCategory>
+
+    <hediffDef>Mechlink</hediffDef> <!-- 실제 바닐라 메카링크 히디프를 직접 부여 -> 연구/수술 없이 진짜 메카니터가 됨 -->
+
+    <!-- ResearchSpeed/SmeltingSpeed/CleaningSpeed/DrugSynthesisSpeed/ButcheryMechanoidSpeed는
+         전부 바닐라에서 WorkSpeedGlobal에 다시 곱해지는 "작업 속도" 계열이라 초월자 쪽
+         WorkSpeedGlobal(x50)과 중복 폭주하던 항목. 여기서는 제거하고, 순수 산출량(효율)
+         계열인 ButcheryMechanoidEfficiency와 전향력만 이 유전자 고유 특기로 남겼다.
+         LearningRateFactor는 실존하지 않는 스탯명이라 제거(GlobalLearningFactor가 실제 스탯). -->
+    <statFactors>
+      <GlobalLearningFactor>3</GlobalLearningFactor>
+      <NegotiationAbility>3</NegotiationAbility>
+      <ButcheryMechanoidEfficiency>2</ButcheryMechanoidEfficiency>
+      <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">2</ConversionPower>
+    </statFactors>
+
+    <statOffsets>
+      <MechBandwidth>50</MechBandwidth>
+      <WorkSpeedGlobalOffsetMech>10</WorkSpeedGlobalOffsetMech>
+      <MechRepairSpeed>20</MechRepairSpeed>
+      <MechFormingSpeed>20</MechFormingSpeed>
+      <PsychicSensitivity>-0.9</PsychicSensitivity>
+      <MeditationFocusGain>10</MeditationFocusGain>
+      <PsychicEntropyRecoveryRate>20</PsychicEntropyRecoveryRate>
+      <SocialImpact>2</SocialImpact>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
+    </statOffsets>
+  </GeneDef>
+
+</Defs>
