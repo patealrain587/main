@@ -54,6 +54,8 @@
         <minDrawSize>1.2</minDrawSize>
         <maxDrawSize>1.55</maxDrawSize>
         <hitPointsColorPct>0.5</hitPointsColorPct>
+        <!-- 기본값 true면 착용자가 원거리 무기를 못 쏨 -->
+        <blocksRangedWeapons>false</blocksRangedWeapons>
       </li>
     </comps>
     <costList>
