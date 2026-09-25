@@ -88,7 +88,8 @@ R("생체강 가공실", "생체강", "entity", 142, 30, 5, 15); D((144, 29))
 R("확장 블록 A", "확장 A", "expand", 1, 50, 21, 25, "대형 모드 자리 (외곽)"); D((11, 49))
 R("단순작업실", "단순작업", "work", 1, 76, 21, 12); D((11, 88), (22, 81))
 R("방어실 W", "방어실", "defense", 23, 50, 10, 12, "고급 보호막 · 대공 · 상시 포탑"); D((27, 49))
-R("폐기물 처리실", "폐기물", "mech", 34, 50, 11, 12); D((39, 49), (45, 55))
+R("통로 거점 NW", "거점", "defense", 34, 50, 11, 5, "통로 교차점 경비 거점 · 총안")
+R("폐기물 처리실", "폐기물", "mech", 34, 56, 11, 6); D((45, 58))
 R("충전 격납고 A", "충전 A", "mech", 23, 63, 22, 12); D((45, 68))
 R("충전 격납고 B", "충전 B", "mech", 23, 76, 22, 12); D((45, 81), (33, 88))
 
@@ -100,7 +101,8 @@ R("북동 반응로실", "반응로", "power", 90, 50, 8, 12, "특이점 반응�
 R("간부실 A", "간부실", "bed", 50, 63, 12, 12); D((49, 68))
 engine = R("중력구동기실", "구동기실", "command", 63, 63, 21, 12, "중력 단조대 3기 포함"); D((73, 62), (84, 68), (70, 75))
 bridge = R("조종실", "조종실", "command", 85, 63, 13, 12); D((98, 68))
-R("간부실 B", "간부실", "bed", 50, 76, 12, 12); D((49, 81))
+R("간부실 B", "간부실", "bed", 50, 76, 12, 7); D((49, 81))
+R("통로 거점 SW", "거점", "defense", 50, 84, 12, 4, "통로 교차점 경비 거점 · 총안")
 R("반응로실", "반응로", "power", 63, 76, 15, 12); D((70, 88), (78, 81))
 R("기계실", "기계실", "power", 79, 76, 19, 12, "자기 보호막 발생기·냉각"); D((98, 81), (88, 88))
 
@@ -117,7 +119,8 @@ R("의류 제작실", "의류 제작", "work", 118, 77, 11, 11); D((123, 88))
 R("화학 제작실", "화학 제작", "work", 130, 77, 17, 11); D((138, 88))
 
 # SE: trade / reserve power / fuel / storage / defense
-R("상선 교역실", "교역실", "store", 103, 93, 11, 12); D((102, 98), (108, 92))
+R("통로 거점 SE", "거점", "defense", 103, 93, 11, 4, "통로 교차점 경비 거점 · 총안")
+R("상선 교역실", "교역실", "store", 103, 98, 11, 7); D((102, 101))
 R("연료실", "연료실", "power", 119, 93, 12, 12, "진입로에서 한 칸 안쪽"); D((118, 98))
 R("예비 발전실", "예비 발전", "power", 132, 93, 15, 12, "영점 반응로 2기 자리"); D((138, 92))
 R("일반 창고", "창고", "store", 103, 106, 11, 12); D((102, 110), (114, 111))
@@ -136,18 +139,30 @@ R("메카 제작실", "메카 제작", "mech", 24, 93, 21, 12); D((45, 98), (34,
 
 # outside decks
 DK("추진기 갑판", "추진기 갑판", -12, 30, 12, 80, "지붕 없음"); D((0, 47), (0, 90))
-DK("격납·착륙 갑판", "격납·착륙 갑판", 148, 30, 26, 46, "지붕 없음 · 전투기·셔틀"); D((147, 47))
-DK("방어 진입 갑판", "방어 진입 갑판", 168, 77, 34, 33, "지붕 없음 · 습격 유도 진입로")
-# east defence module: guard posts, zigzag kill corridor, side path
-R("북측 경비실", "경비실", "defense", 148, 77, 19, 7, "근거리 방어"); D((157, 76))
-R("킬존 회랑", "킬존", "killzone", 148, 85, 19, 11, "지그재그 총안 벽"); D((147, 90), (167, 90))
-R("남측 경비실", "경비실", "defense", 148, 97, 19, 7, "근거리 방어"); D((157, 104))
-R("경비 통로", "옆길", "sidepath", 148, 105, 19, 3, "정착민용 옆길"); D((147, 106), (167, 106))
-VAC_DOORS = {(147, 90), (167, 90)}
-PORT_WALLS = [(x, 84) for x in range(148, 167)] + [(x, 96) for x in range(148, 167)] + \
-             [(152, y) for y in range(85, 93)] + [(156, y) for y in range(88, 96)] + \
-             [(160, y) for y in range(85, 93)] + [(164, y) for y in range(88, 96)]
-DECK_WALLS = [(x, 76) for x in range(168, 174)] + [(x, 86) for x in range(172, 197)] + [(x, 94) for x in range(172, 197)]
+DK("북동 격납 갑판", "북동 격납 갑판", 148, 10, 26, 25, "지붕 없음 · 착륙장·셔틀·전투기"); D((147, 27))
+DK("방어 진입 갑판", "방어 진입 갑판", 168, 36, 34, 47, "지붕 없음 · 습격 유도 진입로")
+DK("남동 격납 갑판", "남동 격납 갑판", 148, 84, 26, 25, "지붕 없음 · 전투기·발사대"); D((147, 90), (147, 106))
+# east defence module on the centre line: guard posts above and below a serpentine kill corridor
+# raiders enter at the middle of the east side (167,59) and leave into the east end of corridor H1 (147,47)
+R("북측 경비실", "경비실", "defense", 148, 36, 19, 7, "근거리 방어"); D((157, 35), (167, 40))
+R("킬존 회랑", "킬존", "killzone", 148, 44, 19, 31, "세로 지그재그 총안 벽"); D((147, 47), (167, 59))
+R("남측 경비실", "경비실", "defense", 148, 76, 19, 7, "근거리 방어"); D((157, 83), (167, 78))
+VAC_DOORS = {(147, 47), (167, 59)}
+KZ_PORTS = [(x, 43) for x in range(148, 167)] + [(x, 75) for x in range(148, 167)] + \
+           [(164, y) for y in range(44, 72)] + [(160, y) for y in range(47, 75)] + \
+           [(156, y) for y in range(44, 72)] + [(152, y) for y in range(47, 75)]
+# corridor-facing walls of the interior defence rooms and strongpoints are embrasures (turrets inside cover the corridor)
+def _side(x0, x1, y0, y1, skip=()):
+    return [(x, y) for x in range(x0, x1 + 1) for y in range(y0, y1 + 1) if (x, y) not in skip]
+EMB_WALLS = _side(34, 44, 49, 49) + _side(45, 45, 50, 54, {(45, 53)}) + \
+            _side(50, 61, 88, 88) + _side(49, 49, 84, 87, {(49, 86)}) + \
+            _side(103, 113, 92, 92) + _side(102, 102, 93, 96, {(102, 95)}) + \
+            _side(87, 97, 45, 45) + _side(98, 98, 37, 44, {(98, 40)}) + \
+            _side(23, 32, 49, 49, {(27, 49)}) + _side(49, 49, 106, 117, {(49, 111)}) + \
+            _side(102, 102, 17, 24) + _side(103, 114, 25, 25, {(108, 25)}) + _side(118, 118, 106, 117, {(118, 111)})
+D((45, 53), (49, 86), (102, 95))
+PORT_WALLS = KZ_PORTS + EMB_WALLS
+DECK_WALLS = [(x, 55) for x in range(172, 197)] + [(x, 63) for x in range(172, 197)]
 R("북측 에어록 1", "에어록", "airlock", 40, -6, 9, 6, "격벽 이중문"); D((47, 0), (44, -7))
 R("북측 에어록 2", "에어록", "airlock", 99, -6, 9, 6, "격벽 이중문"); D((100, 0), (103, -7))
 R("남측 에어록 1", "에어록", "airlock", 43, 119, 9, 6, "격벽 이중문"); D((47, 118), (47, 125))
@@ -159,14 +174,13 @@ DK("북동 포대 갑판", "북동 포대", 109, -12, 38, 12, "지붕 없음 · 
 DK("남서 포대 갑판", "남서 포대", 1, 106, 44, 12, "지붕 없음 · 장거리 포탑"); D((44, 118))
 DK("남측 포대 갑판", "남측 포대", 53, 119, 42, 12, "지붕 없음 · 장거리 포탑"); D((52, 121), (95, 121))
 DK("남동 포대 갑판", "남동 포대", 106, 119, 41, 12, "지붕 없음 · 장거리 포탑"); D((105, 121))
-DK("남동 연결 갑판", "연결", 148, 109, 20, 10, "지붕 없음 · 방어 전력망 통로")
 # defence power grid: C-shaped route outside the hull, never touching the main grid
 DEF_PORTALS = [(x, -7) for x in range(39, 50)] + [(x, -7) for x in range(98, 109)] + \
               [(0, y) for y in range(-1, 30)] + [(-1, 29), (-2, 29)] + [(0, 108)] + \
               [(42, y) for y in range(118, 126)] + [(x, 125) for x in range(43, 53)] + [(x, 125) for x in range(95, 106)] + \
-              [(147, 119), (147, 118)]
+              [(147, y) for y in range(119, 108, -1)] + [(x, 109) for x in range(148, 175)] + [(174, y) for y in range(108, 82, -1)]
 DEF_DECKS = {"북서 포대 갑판", "북측 포대 갑판", "북동 포대 갑판", "남서 포대 갑판", "남측 포대 갑판", "남동 포대 갑판",
-             "추진기 갑판", "방어 진입 갑판", "남동 연결 갑판"}
+             "추진기 갑판", "방어 진입 갑판"}
 
 # ---------------------------------------------------------------- grid
 OX, OY = 40, 16
@@ -232,7 +246,7 @@ for d in decks:
         for y in range(d["y"] - 1, d["y"] + d["h"] + 1):
             if d["x"] <= x < d["x"] + d["w"] and d["y"] <= y < d["y"] + d["h"]: continue
             if d["name"] == "추진기 갑판" and x == d["x"] - 1: continue
-            if d["name"] == "방어 진입 갑판" and x == d["x"] + d["w"] and 87 <= y <= 93: continue
+            if d["name"] == "방어 진입 갑판" and x == d["x"] + d["w"] and 56 <= y <= 62: continue
             if K(x, y) == EMPTY:
                 setk(x, y, WALL); DECK_RING.append((x, y))
 door_side = {}  # door -> list of (owner, approach cell)
@@ -407,7 +421,7 @@ add_pillars(farm, [(6, 30), (17, 30), (6, 37), (17, 37)])
 add_pillars(contain, [(124, 8), (133, 8), (124, 17), (133, 17)])
 for r in rooms:
     if r["cat"] == "corridor" or r["pillars"]: continue
-    if min(r["w"], r["h"]) > 12:
+    if min(r["w"], r["h"]) > 12 and r["cat"] != "killzone":
         add_pillars(r, auto_pillars(r))
 
 for r in rooms:
@@ -469,7 +483,7 @@ autofill(RO("의식실"), [("AL_RitualSpot", 1), ("PsychicRitualSpot", 1), ("Gra
 place("GravFieldExtender", RO("실체 격리 전실"), 145, 3, 0, "extender")
 
 # --- shields
-for n in ("방어실 N", "방어실 W", "방어실 S"):
+for n in ("방어실 N", "방어실 W", "방어실 S", "북측 경비실"):
     autofill(RO(n), [("AdvShip_ShieldGenerator", 1)])
 
 # --- interior defence rooms: non-explosive anti-air and always-on turrets on the main grid
@@ -535,8 +549,9 @@ autofill(RO("북측 경비실"), [("CMC_ReinforcedBunker_Fire", 1), ("MiliraImpe
                           ("MiliraImperiumTurret_MiniGun", 2), ("Milian_Recharger", 3)])
 autofill(RO("남측 경비실"), [("CMC_ReinforcedBunker_Fire", 1), ("CMC_ReinforcedBunkerAGS_R", 1), ("CMC_ReinforcedBunker", 1),
                           ("MiliraImperiumTurret_MiniGun", 2), ("Milian_Recharger", 3)])
-autofill(RO("경비 통로"), [("Milira_DarkMatterBattery", 4)])
-for rn, row in (("북측 경비실", 83), ("남측 경비실", 97)):
+autofill(RO("북측 경비실"), [("Milira_DarkMatterBattery", 2)])
+autofill(RO("남측 경비실"), [("Milira_DarkMatterBattery", 2)])
+for rn, row in (("북측 경비실", 42), ("남측 경비실", 76)):
     for x in range(149, 166, 2):
         try_place(spec("Barricade"), RO(rn), x, row, 0)
 FIRE = {"반응로실": 1, "북서 반응로실": 1, "북동 반응로실": 1, "기계실": 1, "연료실": 2, "예비 발전실": 1, "화학 제작실": 1, "주방": 1, "중력구동기실": 1, "조종실": 1,
@@ -554,6 +569,10 @@ GUARD = {"대식당": [("MiliraImperiumTurret_PointDefense", 1), ("MiliraImperiu
 for rn, items in GUARD.items():
     autofill(RO(rn), items, tag="guard")
 
+# --- corridor strongpoints: retractable bunker + ion minigun behind embrasures
+for rn in ("통로 거점 NW", "통로 거점 SW", "통로 거점 SE"):
+    autofill(RO(rn), [("CMC_ReinforcedBunker", 1), ("MiliraImperiumTurret_MiniGun", 1)], tag="post")
+
 # --- farm pattern: 1x4 basins
 fo = RO("수경 농장")
 basins = 0
@@ -569,6 +588,16 @@ for x in (36, 40):
         if try_place(spec("FMAquariumL"), ao, x + 1, y + 1, 0, check_reach=False): aqn += 1
 aqua["note"] = f"대형 바닥 수족관 {aqn}기"
 
+# --- more small non-explosive turrets mixed into living / work rooms (after the fixed farm / aquarium patterns)
+GUARD2 = [f"개인 침실 {i}" for i in range(1, 11)] + ["간부실 A", "간부실 B", "수경 농장", "치료실", "연구실 B", "실체 연구실", "약품 가공실",
+          "단순작업실", "메카 제작실", "충전 격납고 A", "충전 격납고 B", "의류 제작실", "화학 제작실", "성장 배양실",
+          "시체·부산물 가공실", "조종실", "수족관", "냉동고"]
+guard2_miss = []
+for rn in GUARD2:
+    n0 = len(blds)
+    autofill(RO(rn), [("MiliraImperiumTurret_MiniGun", 1)], tag="guard", optional=True)
+    if len(blds) == n0: guard2_miss.append(rn)
+
 # --- decks
 so = DO("센서 갑판")
 autofill(so, [("LongRangeMineralScanner", 1), ("GroundPenetratingScanner", 1), ("OrbitalScanner", 1), ("CMC_CommTower", 1),
@@ -579,7 +608,6 @@ for cy in range(33, 108, 4):
     if cy in (46, 47, 48, 89, 90, 91): continue
     if try_place(spec("AdvShip_GravThruster"), to, -11, cy, 1, check_reach=False): thr += 1
     if thr >= 12: break
-ho = DO("격납·착륙 갑판")
 COMBAT = {r["defName"]: r for r in csv.DictReader(open(os.path.join(HERE, "data", "combat.csv"), encoding="utf-8-sig"))}
 def expl_r(dn):
     c = COMBAT.get(dn)
@@ -668,12 +696,13 @@ def blast_conflict(fc, R_, o):
 def rep_(k, n): return [k] * n
 FIGHTERS = ("Milira_DragonFighter", "Milira_WyvernFighter", "Milira_GriffinFighter", "Milira_HarrierFighter")
 # external batteries (all on the switched defence grid): front = east (raid lane side) close range, rear = west + centre long range
-place_spread(DO("방어 진입 갑판"), ["CMC_ReinforcedBunker", "CMC_ReinforcedBunker_R", "BrrtTurret", "CMC_ReinforcedBunker_R", "CMCcannon", "CMC_ReinforcedBunker_Fire"], rect=(168, 77, 34, 9), far_w=0)
-place_spread(DO("방어 진입 갑판"), ["CMC_ReinforcedBunker", "CMC_ReinforcedBunkerAGS_R", "BrrtTurret", "CMC_ReinforcedBunker_R", "PLAMilira_Field_Tower_Player", "CMC_ReinforcedBunker_Fire", "CMCcannon", "CMC_ReinforcedBunker_Fire"], rect=(168, 95, 34, 15), far_w=0)
-place_spread(ho, interleave([["Spaceports_ShuttleLandingPad", "PassengerShuttle", "PassengerShuttle", "Spaceports_Beacon"],
-                             ["Milira_DragonFighter", "Milira_WyvernFighter", "Milira_DragonFighter", "Milira_WyvernFighter", "Milira_GriffinFighter", "Milira_GriffinFighter"],
-                             ["PLAMilira_Field_Tower_Player"],
-                             ["Milira_HarrierFighter"] * 4, ["DropSpotTradeShip", "PodLauncher", "PodLauncher"]]), far_w=0, optional_keys=FIGHTERS)
+place_spread(DO("방어 진입 갑판"), ["CMC_ReinforcedBunker", "CMC_ReinforcedBunker_R", "BrrtTurret", "CMC_ReinforcedBunker_Fire", "CMCcannon", "CMC_ReinforcedBunker_R", "PLAMilira_Field_Tower_Player"], rect=(168, 36, 34, 19), far_w=0)
+place_spread(DO("방어 진입 갑판"), ["CMC_ReinforcedBunker", "CMC_ReinforcedBunkerAGS_R", "BrrtTurret", "CMC_ReinforcedBunker_Fire", "CMCcannon", "CMC_ReinforcedBunker_R", "CMC_ReinforcedBunker_Fire"], rect=(168, 64, 34, 19), far_w=0)
+# hangar decks mirror each other; powered landing gear sits on the north deck, away from the defence grid route
+place_spread(DO("북동 격납 갑판"), interleave([["Spaceports_ShuttleLandingPad", "PassengerShuttle", "PassengerShuttle", "Spaceports_Beacon"],
+                                          ["Milira_DragonFighter", "Milira_WyvernFighter", "Milira_GriffinFighter"], ["Milira_HarrierFighter"] * 2]), far_w=0, optional_keys=FIGHTERS)
+place_spread(DO("남동 격납 갑판"), interleave([["DropSpotTradeShip", "PodLauncher", "PodLauncher", "PLAMilira_Field_Tower_Player"],
+                                          ["Milira_DragonFighter", "Milira_WyvernFighter", "Milira_GriffinFighter"], ["Milira_HarrierFighter"] * 2]), far_w=0, optional_keys=FIGHTERS)
 place_spread(DO("추진기 갑판"), interleave([rep_("CMC_EMcannon", 2), rep_("Milira_SunLightDefenceTowerII", 2), ["MI_Building_ArcEmitter"]]), rect=(-9, 30, 9, 80), far_w=0)
 FRONT_DECKS = ("북동 포대 갑판", "남동 포대 갑판", "방어 진입 갑판")
 REAR_DECKS = ("추진기 갑판", "북서 포대 갑판", "남서 포대 갑판", "북측 포대 갑판", "남측 포대 갑판")
@@ -712,6 +741,7 @@ turrets = sum(1 for b in blds if b["sp"]["defName"] in COMBAT and COMBAT[b["sp"]
 # ---------------------------------------------------------------- climate: wall units, pylons, oxygen
 wallunits = []
 used_wall = set()
+used_wall.update(PORT_WALLS)
 for (px, py) in DEF_PORTALS:   # no temperature units / pumps next to walls the defence grid runs under
     for dy in (-1, 0, 1):
         for dx in (-1, 0, 1):
@@ -731,6 +761,7 @@ def outer_type(c):
     k = K(*c)
     if k in (EMPTY, None, DECK): return "ext"
     o = O(*c)
+    if k == INT and o == ("r", next(r["id"] for r in rooms if r["cat"] == "killzone")): return "ext"   # kill corridor is sealed off by vacuum barriers
     if k == INT and o and o[0] == "r" and iscorr(o[1]): return "corr"
     return None
 RELAX = False
@@ -828,9 +859,9 @@ add_bulkhead("세로 통로 1 남쪽 에어록", [vrow(46, y) for y in range(115
 add_bulkhead("세로 통로 2 북쪽 에어록", [vrow(99, y) for y in range(3, 20)])
 add_bulkhead("세로 통로 2 남쪽 에어록", [vrow(99, y) for y in range(115, 100, -1)])
 add_bulkhead("가로 통로 1 서쪽 에어록", [hcol(x, 46) for x in range(3, 20)])
-add_bulkhead("가로 통로 1 동쪽 에어록", [hcol(x, 46) for x in range(144, 125, -1)])
+add_bulkhead("가로 통로 1 동쪽 진입로 격벽", [hcol(x, 46) for x in range(144, 125, -1)])
 add_bulkhead("가로 통로 2 서쪽 에어록", [hcol(x, 89) for x in range(3, 20)])
-add_bulkhead("가로 통로 2 동쪽 진입로 격벽", [hcol(x, 89) for x in range(144, 125, -1)])
+add_bulkhead("가로 통로 2 동쪽 에어록", [hcol(x, 89) for x in range(144, 125, -1)])
 add_bulkhead("가로 통로 1 중앙 구획", [hcol(x, 46) for x in range(64, 90)])
 add_bulkhead("가로 통로 2 중앙 구획", [hcol(x, 89) for x in range(64, 90)])
 add_bulkhead("세로 통로 1 중앙 구획", [vrow(46, y) for y in range(60, 80)])
@@ -927,9 +958,9 @@ for r in rooms:
         if q in net:
             for z in run: put(z, "trunk", "main")
 for c in [(48, 46), (46, 48), (99, 46), (101, 48), (46, 89), (48, 91), (101, 89), (99, 91)]: put(c, "trunk", "main")
-feedA = [(146, 89)] + [(147, y) for y in range(89, 79, -1)] + [(x, 80) for x in range(148, 167)]
-ring = [(167, y) for y in range(80, 101)] + [(x, 100) for x in range(148, 167)] + [(148, y) for y in range(101, 107)] + [(x, 79) for x in range(160, 168)]
-feedB = [(x, 106) for x in range(148, 167)] + [(147, 106), (146, 106)]
+feedA = [(146, 46)] + [(147, y) for y in range(46, 38, -1)] + [(x, 39) for x in range(148, 167)]
+ring = [(167, y) for y in range(39, 80)]
+feedB = [(146, 89)] + [(147, y) for y in range(89, 78, -1)] + [(x, 79) for x in range(148, 167)]
 for c in feedA + ring + feedB: put(c, "mod", "main")
 PBUS = [(x, 82) for x in range(70, 87)]
 PDROP = {"반응로실": [(70, y) for y in range(83, 90)], "기계실": [(86, y) for y in range(83, 90)],
@@ -961,7 +992,7 @@ def ok_for(g):
         return lambda c: cond_ok(c) and c not in FORB["main"] and deck_name(c) not in DEF_DECKS
     if g == "def":
         allowed = set(DEF_PORTALS) | set(DECK_WALLS)
-        return lambda c: c not in FORB["def"] and (c in allowed or deck_name(c) in DEF_DECKS)
+        return lambda c: c not in FORB["def"] and (c in allowed or c in DEF_EXTRA or deck_name(c) in DEF_DECKS)
     dn = g[3:]
     return lambda c: c not in FORB[g] and deck_name(c) == dn
 def grow(g, t, tree, terminals):
@@ -1005,6 +1036,7 @@ for g in GRIDS[2:]:
 do_room = RO("방어 설비실")
 xs = next(x for x in range(130, 146) if free((x, 117), do_room) and (x, 117) not in reserved and free((x, 116), do_room))
 MASTER = (xs, 117)
+DEF_EXTRA = {(xs, 118)}   # the hull-wall cell under the switch
 for c in DEF_PORTALS + [(xs, 118)]: put(c, "def", "def")
 for c in DECK_WALLS: put(c, "under", "def")
 def_b = [b for b in blds if b["sp"]["power"] < 0 and bld_grid(b) == "def"]
@@ -1100,14 +1132,14 @@ def_load = -sum(b["sp"]["power"] for b in def_b) + 50 * len(DECK_WALLS)
 for dn, inf in aa_info.items():
     if inf["gen"] < inf["load"]: errors.append(f"anti-air island {dn} short: {inf}")
 # redundancy of the defence module (main side): either feed cut
-mod_rooms = {RO(n) for n in ("북측 경비실", "남측 경비실", "경비 통로", "킬존 회랑")}
+mod_rooms = {RO(n) for n in ("북측 경비실", "남측 경비실", "킬존 회랑")}
 gens = [b for b in blds if b["sp"]["defName"] in SRC_DEF and bld_grid(b) == "main"]
 def near_cells(pos, pool):
     return any((pos[0] + dx, pos[1] + dy) in pool for dy in range(-CONNECT_R, CONNECT_R + 1) for dx in range(-CONNECT_R, CONNECT_R + 1)
                if dx * dx + dy * dy <= CONNECT_R * CONNECT_R)
 redund = {}
 mod_items = [(b["cx"], b["cy"]) for b in blds if b["o"] in mod_rooms and b["sp"]["power"] < 0]
-for cut_name, cut in (("A", set(feedA)), ("B", {(147, 106), (146, 106)})):
+for cut_name, cut in (("A", set(feedA[:3])), ("B", set(feedB[:3]))):
     pool = {c for c in net if GRID[c] == "main" and c not in cut}
     comps2, seen = [], set()
     for c in pool:
@@ -1228,19 +1260,19 @@ for b in blds:
         errors.append(f"turret outside advanced shields: {b['sp']['name']} ({oname(b['o'])})")
     layer.append(dict(n=b["sp"]["name"], o=oname(b["o"]), k=len(inside), sh=inside))
 eo2 = DO("방어 진입 갑판")
-lane_start = [(x, y) for x in (201,) for y in range(87, 94)]
+lane_start = [(x, y) for x in (201,) for y in range(56, 63)]
 seen2 = set(c for c in lane_start if free(c, eo2)); dq2 = deque(seen2); lane_ok = False
 while dq2:
     x, y = dq2.popleft()
-    if (x, y) == (168, 90): lane_ok = True; break
+    if (x, y) == (168, 59): lane_ok = True; break
     for nb in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
         if nb not in seen2 and free(nb, eo2): seen2.add(nb); dq2.append(nb)
 if not lane_ok: errors.append("entry lane blocked")
 ko = RO("킬존 회랑")
-kz_len = None; dist_k = {(166, 90): 0}; dq3 = deque([(166, 90)])
+kz_len = None; dist_k = {(166, 59): 0}; dq3 = deque([(166, 59)])
 while dq3:
     c = dq3.popleft()
-    if c == (148, 90): kz_len = dist_k[c]; break
+    if c == (148, 47): kz_len = dist_k[c]; break
     for nb in ((c[0] + 1, c[1]), (c[0] - 1, c[1]), (c[0], c[1] + 1), (c[0], c[1] - 1)):
         if nb not in dist_k and free(nb, ko): dist_k[nb] = dist_k[c] + 1; dq3.append(nb)
 if kz_len is None: errors.append("kill corridor blocked")
@@ -1282,7 +1314,7 @@ for b in blds:
                       p=sp["power"], o=oname(b["o"]), w=sp["w"], h=sp["h"]))
 counts = {}
 for b in blds: counts[b["sp"]["name"]] = counts.get(b["sp"]["name"], 0) + 1
-summary = dict(def_load=def_load, def_leak=def_leak, aa_info=aa_info, master=MASTER, n_def_b=len(def_b), wire_cnt=wire_cnt, redund=redund, stored_wd=stored_wd, fuse_need=fuse_need, n_switch=len(switches), kz_len=kz_len, layer=layer, small_sh=small_n, blast_pairs=blast_pairs, expl=expl_checks, lane_ok=lane_ok, ring=len(DECK_RING), turrets=turrets, wcount=wcount, bulk=len(bulkheads), doors_ext=sum(1 for t in door_types if t[0]!='door'), relaxed=relaxed, tcu=len(wallunits), tcu_ext=sum(1 for u in wallunits if u['exhaust']=='ext'), total=total, cnt=cnt, corridor=corr, gen=gen, reserve=reserve, use=use, thrusters=thr, platforms=plat,
+summary = dict(guard2_miss=guard2_miss, def_load=def_load, def_leak=def_leak, aa_info=aa_info, master=MASTER, n_def_b=len(def_b), wire_cnt=wire_cnt, redund=redund, stored_wd=stored_wd, fuse_need=fuse_need, n_switch=len(switches), kz_len=kz_len, layer=layer, small_sh=small_n, blast_pairs=blast_pairs, expl=expl_checks, lane_ok=lane_ok, ring=len(DECK_RING), turrets=turrets, wcount=wcount, bulk=len(bulkheads), doors_ext=sum(1 for t in door_types if t[0]!='door'), relaxed=relaxed, tcu=len(wallunits), tcu_ext=sum(1 for u in wallunits if u['exhaust']=='ext'), total=total, cnt=cnt, corridor=corr, gen=gen, reserve=reserve, use=use, thrusters=thr, platforms=plat,
                basins=basins, aquariums=aqn, dist=dist_checks, shield_cov=round(sh_cov * 100, 1),
                shield_cov_deck=round(sh_cov_deck * 100, 1), engine=E, field=field,
                support=5000 * (1 + sum(1 for b in blds if b["sp"]["name"] in ("중력장 확장기", "특이점 반응로"))),
