@@ -2,7 +2,8 @@
 
 림월드 1.6 Odyssey 중력부양선 내부 배치 도면을 만드는 작업입니다. 새 세션은 이 문서를 먼저 읽고 이어서 작업하세요.
 
-- 공개 도면(아티팩트, 비공개): https://claude.ai/artifact/PVWrC3oCVJYmtjPoEbmbnG — 같은 주소를 이어서 고칠 때는 Artifact 도구로 먼저 `read` 한 뒤 `url` 을 넘겨 publish.
+- **이 브랜치(`claude/sharp-maxwell-sb3em5`)는 v20에서 갈라진 분기판입니다.** 도면 아티팩트도 따로 씁니다: https://claude.ai/artifact/Hn8HHJQGndvqvwXwLDjeot — 이어서 고칠 때는 Artifact 도구로 먼저 `read` 한 뒤 `url` 을 넘겨 publish.
+- 원본(분기 전) v20: 브랜치 `claude/eloquent-pasteur-4r695t`, 도면 https://claude.ai/artifact/PVWrC3oCVJYmtjPoEbmbnG — 이 분기판 작업으로는 고치지 않음.
 - 기준 모드 목록: 260924-11 경량 OP 번역 (317개, RT Fuse 제외). `data/` 의 CSV·MD 는 그 전 목록(260924-10) 기준이라, RT Fuse 말고 빠진 모드가 있으면 해당 건물을 확인해야 함.
 
 ## 파일
