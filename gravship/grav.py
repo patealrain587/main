@@ -513,14 +513,35 @@ autofill(RO("폐기물 처리실"), [("WastepackAtomizer", 2)])
 autofill(RO("약품 가공실"), [("VFE_TableDrugLabElectric", 1), ("VFE_DrugCabinet", 1), ("jdgg_MassCargoHold", 1)])
 
 # --- east defence module (non-explosive close-range turrets only) + maid/milian standby
-autofill(RO("북측 경비실"), [("CMC_ReinforcedBunker_Fire", 1), ("MiliraImperiumTurret_PointDefense", 1),
-                          ("MiliraImperiumTurret_MiniGun", 1), ("Milian_Recharger", 2)])
-autofill(RO("동측 경비실"), [("CMC_ReinforcedBunker_Fire", 2), ("CMC_ReinforcedBunker", 2), ("CMC_ReinforcedBunkerAGS_R", 1),
-                          ("MiliraImperiumTurret_MiniGun", 3), ("Milian_Recharger", 3)])
+def place_near(o, key, tx, ty, xr):
+    """put key as close to (tx, ty) as possible with its whole footprint inside columns xr"""
+    sp = spec(key); cells = room_cells(o)
+    for (cx, cy) in sorted(cells, key=lambda c: (abs(c[1] - ty) + 0.3 * abs(c[0] - tx), c[1], c[0])):
+        for rot in (0, 2, 1, 3):
+            fc, _, _ = footprint(sp, cx, cy, rot)
+            if not all(xr[0] <= c[0] <= xr[1] for c in fc): continue
+            b = try_place(sp, o, cx, cy, rot)
+            if b: return b
+    errors.append(f"no spot for {sp['name']} near {tx},{ty} in {oname(o)}")
+# north guard: turrets on the south edge, right behind the embrasure row y45 (exit end of the killzone)
+NG, EG = RO("북측 경비실"), RO("동측 경비실")
+place_near(NG, "CMC_ReinforcedBunker_Fire", 146, 42, (145, 151))
+place_near(NG, "MiliraImperiumTurret_MiniGun", 150, 42, (145, 151))
+place_near(NG, "MiliraImperiumTurret_PointDefense", 148, 34, (145, 151))
+# east guard: turrets spread over y46..88 alongside the embrasure column x152, exit (north) -> entrance (south).
+# flame bunkers (range 21) at both ends, AGS (min 7.9) near the exit so the long run is in its band.
+EG_LINE = [("CMC_ReinforcedBunker_Fire", 48), ("CMC_ReinforcedBunkerAGS_R", 54), ("MiliraImperiumTurret_MiniGun", 59),
+           ("CMC_ReinforcedBunker", 64), ("MiliraImperiumTurret_MiniGun", 69), ("CMC_ReinforcedBunker", 74),
+           ("MiliraImperiumTurret_MiniGun", 79), ("CMC_ReinforcedBunker_Fire", 85)]
+for key, ty in EG_LINE:
+    place_near(EG, key, 155, ty, (154, 156))
+autofill(NG, [("Milian_Recharger", 2)])
+for y in (32, 36, 40):
+    try_place(spec("Milian_Recharger"), EG, 155, y, 0)
 for x in range(146, 152, 2):
-    try_place(spec("Barricade"), RO("북측 경비실"), x, 43, 0)
-for y in range(32, 88, 4):
-    try_place(spec("Barricade"), RO("동측 경비실"), 154, y, 0)
+    try_place(spec("Barricade"), NG, x, 39, 0)
+for y in range(46, 89):
+    try_place(spec("Barricade"), EG, 154, y, 0) if y % 2 == 0 else None
 FIRE = {"반응로실": 1, "반응로실 2": 1, "기계실": 1, "연료실": 2, "예비 발전실": 1, "화학 제작실": 1, "주방": 1, "중력구동기실": 1, "조종실": 1,
         "금속·부품 작업실": 1, "밀리라 작업실": 1, "메카 제작실": 1, "북측 경비실": 1, "동측 경비실": 1, "방어 설비실": 1, "유전자 연구소": 1}
 for rn, n in FIRE.items():
