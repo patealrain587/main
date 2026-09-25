@@ -72,10 +72,11 @@ pn = 1
 for (x, y, w, dx) in ((76, 10, 10, 75), (87, 10, 11, 98), (76, 19, 10, 75), (87, 19, 11, 98), (50, 28, 10, 49), (61, 28, 10, 71), (76, 28, 10, 75),
                       (87, 28, 11, 98), (50, 37, 10, 49), (61, 37, 10, 71)):
     R(f"개인 침실 {pn}", "개인", "bed", x, y, w, 8); D((dx, y + 3)); pn += 1
-R("보호막실 N", "보호막", "defense", 87, 37, 11, 8); D((98, 40))
+R("방어실 N", "방어실", "defense", 87, 37, 11, 8, "고급 보호막 · 대공 · 상시 포탑"); D((98, 40))
 
 # NE: research + entity
-R("의식실", "의식실", "entity", 103, 1, 12, 24); D((108, 25))
+R("의식실", "의식실", "entity", 103, 1, 12, 15); D((102, 8))
+R("방어실 NE", "방어실", "defense", 103, 17, 12, 8, "대공 · 상시 포탑"); D((108, 25))
 contain = R("실체보관실", "실체보관실", "entity", 116, 1, 26, 24, "중력 구속대 30기")
 R("실체 격리 전실", "전실", "entity", 143, 1, 4, 24); D((142, 12), (144, 25))
 R("연구실 A", "연구", "lab", 103, 30, 12, 15); D((108, 29), (108, 45), (102, 37))
@@ -86,7 +87,7 @@ R("생체강 가공실", "생체강", "entity", 142, 30, 5, 15); D((144, 29))
 # W: expansion A / charging / simple work / waste / shield
 R("확장 블록 A", "확장 A", "expand", 1, 50, 21, 25, "대형 모드 자리 (외곽)"); D((11, 49))
 R("단순작업실", "단순작업", "work", 1, 76, 21, 12); D((11, 88), (22, 81))
-R("보호막실 W", "보호막", "defense", 23, 50, 10, 12); D((27, 49))
+R("방어실 W", "방어실", "defense", 23, 50, 10, 12, "고급 보호막 · 대공 · 상시 포탑"); D((27, 49))
 R("폐기물 처리실", "폐기물", "mech", 34, 50, 11, 12); D((39, 49), (45, 55))
 R("충전 격납고 A", "충전 A", "mech", 23, 63, 22, 12); D((45, 68))
 R("충전 격납고 B", "충전 B", "mech", 23, 76, 22, 12); D((45, 81), (33, 88))
@@ -120,12 +121,12 @@ R("상선 교역실", "교역실", "store", 103, 93, 11, 12); D((102, 98), (108,
 R("연료실", "연료실", "power", 119, 93, 12, 12, "진입로에서 한 칸 안쪽"); D((118, 98))
 R("예비 발전실", "예비 발전", "power", 132, 93, 15, 12, "영점 반응로 2기 자리"); D((138, 92))
 R("일반 창고", "창고", "store", 103, 106, 11, 12); D((102, 110), (114, 111))
-R("방어 설비실", "방어 설비", "defense", 119, 106, 28, 12, "무기 거치대·수리대·보호막 E"); D((118, 111))
+R("방어 설비실", "방어 설비", "defense", 119, 106, 28, 12, "무기 거치대·수리대·보호막 E · 대공 · 상시 포탑"); D((118, 111))
 
 # S: production
 R("금속·부품 작업실", "금속·부품", "work", 50, 93, 24, 12, "같은 재료 작업대 모음"); D((49, 98), (61, 92))
 R("밀리라 작업실", "밀리라", "work", 75, 93, 23, 12); D((98, 98), (86, 92))
-R("보호막실 S", "보호막", "defense", 50, 106, 10, 12); D((49, 111))
+R("방어실 S", "방어실", "defense", 50, 106, 10, 12, "고급 보호막 · 대공 · 상시 포탑"); D((49, 111))
 R("공실 S", "생산 확장", "spare", 61, 106, 24, 12, "두 작업실 확장용 외곽 공실"); D((67, 105), (80, 105))
 R("초월공학 작업실", "초월공학", "work", 86, 106, 12, 12); D((98, 111))
 
@@ -468,8 +469,16 @@ autofill(RO("의식실"), [("AL_RitualSpot", 1), ("PsychicRitualSpot", 1), ("Gra
 place("GravFieldExtender", RO("실체 격리 전실"), 145, 3, 0, "extender")
 
 # --- shields
-for n in ("보호막실 N", "보호막실 W", "보호막실 S"):
+for n in ("방어실 N", "방어실 W", "방어실 S"):
     autofill(RO(n), [("AdvShip_ShieldGenerator", 1)])
+
+# --- interior defence rooms: non-explosive anti-air and always-on turrets on the main grid
+INTERIOR_DEF = {"방어실 N": [("CMC_CICAESA_Radar_Small", 1), ("NCL_LaserDefenceTurret", 1), ("MiliraImperiumTurret_PointDefense", 1)],
+                "방어실 NE": [("NCL_LaserDefenceTurret", 1), ("MiliraImperiumTurret_PointDefense", 1), ("CMC_ReinforcedBunker", 1), ("MiliraImperiumTurret_MiniGun", 1)],
+                "방어실 W": [("NCL_LaserDefenceTurret", 1), ("MiliraImperiumTurret_PointDefense", 1), ("MiliraImperiumTurret_MiniGun", 1)],
+                "방어실 S": [("NCL_LaserDefenceTurret", 1), ("MiliraImperiumTurret_PointDefense", 1), ("MiliraImperiumTurret_MiniGun", 1)]}
+for rn, items in INTERIOR_DEF.items():
+    autofill(RO(rn), items, tag="idef")
 
 # --- prison hub
 autofill(RO("주방"), [("VFE_TableStoveLarge", 1), ("ElectricStove", 1), ("VCE_CondimentPrepTable", 1), ("VCE_CanningMachine", 1)])
@@ -494,6 +503,7 @@ autofill(RO("일반 창고"), [("jdgg_MassCargoHold", 2), ("Shelf", 2)])
 autofill(RO("방어 설비실"), [("MechaWeaponChanger", 1), ("Shelf_RepairRack", 2), ("Shelf_WeaponRack", 6)])
 place("GravFieldExtender", RO("방어 설비실"), 144, 115, 0, "extender")
 place("AdvShip_ShieldGenerator", RO("방어 설비실"), 144, 108, 0, "shieldE")
+autofill(RO("방어 설비실"), [("NCL_LaserDefenceTurret", 1), ("MiliraImperiumTurret_PointDefense", 1), ("CMC_ReinforcedBunker", 1)], tag="idef")
 
 # --- W
 
@@ -657,23 +667,28 @@ def blast_conflict(fc, R_, o):
     return False
 def rep_(k, n): return [k] * n
 FIGHTERS = ("Milira_DragonFighter", "Milira_WyvernFighter", "Milira_GriffinFighter", "Milira_HarrierFighter")
-place_spread(DO("방어 진입 갑판"), ["CMC_ReinforcedBunker", "MI_Building_ArcEmitter", "BrrtTurret", "CMC_Svcannon", "CMCcannon", "CMC_ReinforcedBunker_Fire"], rect=(168, 77, 34, 9), far_w=0)
-place_spread(DO("방어 진입 갑판"), ["CMC_ReinforcedBunker", "CMC_ReinforcedBunkerAGS_R", "BrrtTurret", "MI_Building_ArcEmitter", "PLAMilira_Field_Tower_Player", "CMC_Svcannon", "CMCcannon", "CMC_ReinforcedBunker_Fire"], rect=(168, 95, 34, 15), far_w=0)
+# external batteries (all on the switched defence grid): front = east (raid lane side) close range, rear = west + centre long range
+place_spread(DO("방어 진입 갑판"), ["CMC_ReinforcedBunker", "CMC_ReinforcedBunker_R", "BrrtTurret", "CMC_ReinforcedBunker_R", "CMCcannon", "CMC_ReinforcedBunker_Fire"], rect=(168, 77, 34, 9), far_w=0)
+place_spread(DO("방어 진입 갑판"), ["CMC_ReinforcedBunker", "CMC_ReinforcedBunkerAGS_R", "BrrtTurret", "CMC_ReinforcedBunker_R", "PLAMilira_Field_Tower_Player", "CMC_ReinforcedBunker_Fire", "CMCcannon", "CMC_ReinforcedBunker_Fire"], rect=(168, 95, 34, 15), far_w=0)
 place_spread(ho, interleave([["Spaceports_ShuttleLandingPad", "PassengerShuttle", "PassengerShuttle", "Spaceports_Beacon"],
                              ["Milira_DragonFighter", "Milira_WyvernFighter", "Milira_DragonFighter", "Milira_WyvernFighter", "Milira_GriffinFighter", "Milira_GriffinFighter"],
-                             ["Milira_SunLightDefenceTowerII", "NCL_LaserDefenceTurret", "PLAMilira_Field_Tower_Player", "Milira_SunLightDefenceTowerII", "NCL_LaserDefenceTurret"],
+                             ["PLAMilira_Field_Tower_Player"],
                              ["Milira_HarrierFighter"] * 4, ["DropSpotTradeShip", "PodLauncher", "PodLauncher"]]), far_w=0, optional_keys=FIGHTERS)
-place_spread(DO("추진기 갑판"), interleave([rep_("CMC_EMcannon", 2), rep_("Milira_SunLightDefenceTowerII", 2)]), rect=(-9, 30, 9, 80), far_w=0)
-BAT = {
-    "북서 포대 갑판": [["CMCML"], rep_("CMC_Svcannon", 2), ["PLAMilira_Field_Tower_Player"], ["CMCcannon_BF"], ["Milira_SunLightDefenceTowerII"]],
-    "북측 포대 갑판": [["CMC_SAML"], ["CMC_CICAESA_Radar_Small", "PLAMilira_Field_Tower_Player", "CMC_FCradar"], ["CMC_Svcannon"], ["Milira_SunLightDefenceTowerII"]],
-    "북동 포대 갑판": [["CMCML"], ["CMC_ReinforcedBunker_R", "PLAMilira_Field_Tower_Player", "CMC_ReinforcedBunker_R"], ["Milira_SunLightDefenceTowerII"]],
-    "남서 포대 갑판": [["CMCML"], ["CMC_EMcannon"], ["PLAMilira_Field_Tower_Player"], ["CMCcannon_BF"], ["Milira_SunLightDefenceTowerII"]],
-    "남측 포대 갑판": [["CMC_SAML"], ["CMC_FCradar", "PLAMilira_Field_Tower_Player"], rep_("NCL_LaserDefenceTurret", 2), ["Milira_SunLightDefenceTowerII"]],
-    "남동 포대 갑판": [["CMCcannon_BF"], ["CMC_Svcannon", "PLAMilira_Field_Tower_Player", "CMC_Svcannon"], ["Milira_SunLightDefenceTowerII"]],
+place_spread(DO("추진기 갑판"), interleave([rep_("CMC_EMcannon", 2), rep_("Milira_SunLightDefenceTowerII", 2), ["MI_Building_ArcEmitter"]]), rect=(-9, 30, 9, 80), far_w=0)
+FRONT_DECKS = ("북동 포대 갑판", "남동 포대 갑판", "방어 진입 갑판")
+REAR_DECKS = ("추진기 갑판", "북서 포대 갑판", "남서 포대 갑판", "북측 포대 갑판", "남측 포대 갑판")
+BAT = {   # rear: long range
+    "북서 포대 갑판": [["CMCML"], rep_("CMC_Svcannon", 2), ["PLAMilira_Field_Tower_Player"], ["CMC_EMcannon"], ["Milira_SunLightDefenceTowerII"]],
+    # anti-air missile (own always-on island) in the middle so the defence grid can pass along the deck
+    "북측 포대 갑판": ["CMCML", "CMC_Svcannon", "CMC_SAML", "CMC_Svcannon", "PLAMilira_Field_Tower_Player", "Milira_SunLightDefenceTowerII", "CMC_FCradar"],
+    "남서 포대 갑판": [["CMCML"], ["CMC_EMcannon"], ["PLAMilira_Field_Tower_Player"], ["CMC_Svcannon"], ["Milira_SunLightDefenceTowerII"]],
+    "남측 포대 갑판": ["CMC_EMcannon", "CMC_FCradar", "CMC_SAML", "PLAMilira_Field_Tower_Player", "Milira_SunLightDefenceTowerII", "CMC_Svcannon"],
+          # front: close range
+    "북동 포대 갑판": [["CMCcannon_BF"], ["CMC_ReinforcedBunker_R", "PLAMilira_Field_Tower_Player", "CMC_ReinforcedBunker_R"], ["CMCcannon", "CMC_FCradar"]],
+    "남동 포대 갑판": [["CMCcannon_BF"], ["CMC_ReinforcedBunker_R", "PLAMilira_Field_Tower_Player", "BrrtTurret"], ["CMC_ReinforcedBunker_Fire"]],
 }
 for dn, groups in BAT.items():
-    place_spread(DO(dn), interleave(groups), far_w=0.15)
+    place_spread(DO(dn), groups if isinstance(groups[0], str) else interleave(groups), far_w=0.15)
 SMALL_SH = ("ASG_SmallWallShieldGenerator", "ShieldPylon_GT")
 # GravTech pylons (radius 20) along the thruster deck, inner edge
 for y0 in (38, 70, 102):
@@ -913,7 +928,7 @@ for r in rooms:
             for z in run: put(z, "trunk", "main")
 for c in [(48, 46), (46, 48), (99, 46), (101, 48), (46, 89), (48, 91), (101, 89), (99, 91)]: put(c, "trunk", "main")
 feedA = [(146, 89)] + [(147, y) for y in range(89, 79, -1)] + [(x, 80) for x in range(148, 167)]
-ring = [(167, y) for y in range(80, 101)] + [(x, 100) for x in range(148, 167)] + [(148, y) for y in range(101, 107)]
+ring = [(167, y) for y in range(80, 101)] + [(x, 100) for x in range(148, 167)] + [(148, y) for y in range(101, 107)] + [(x, 79) for x in range(160, 168)]
 feedB = [(x, 106) for x in range(148, 167)] + [(147, 106), (146, 106)]
 for c in feedA + ring + feedB: put(c, "mod", "main")
 PBUS = [(x, 82) for x in range(70, 87)]
