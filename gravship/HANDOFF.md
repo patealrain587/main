@@ -2,7 +2,8 @@
 
 림월드 1.6 Odyssey 중력부양선 내부 배치 도면을 만드는 작업입니다. 새 세션은 이 문서를 먼저 읽고 이어서 작업하세요.
 
-- 공개 도면(아티팩트, 비공개): https://claude.ai/artifact/PVWrC3oCVJYmtjPoEbmbnG — 같은 주소를 이어서 고칠 때는 Artifact 도구로 먼저 `read` 한 뒤 `url` 을 넘겨 publish.
+- 이 폴더(v21, 180×180 맵판) 도면: https://claude.ai/artifact/7rvVt3FjLN5jKH2w284gPH — 이어서 고칠 때는 Artifact 도구로 먼저 `read` 한 뒤 `url` 을 넘겨 publish.
+- 원래 도면 주소 https://claude.ai/artifact/PVWrC3oCVJYmtjPoEbmbnG 에는 다른 세션이 이어 간 RW-GRAV-23(포탑 109기, 가로 216칸 — 180맵에 안 들어감)이 올라가 있음. 이 폴더와는 다른 갈래이니 덮어쓰지 말 것.
 - 기준 모드 목록: 260924-11 경량 OP 번역 (317개, RT Fuse 제외). `data/` 의 CSV·MD 는 그 전 목록(260924-10) 기준이라, RT Fuse 말고 빠진 모드가 있으면 해당 건물을 확인해야 함.
 
 ## 파일
