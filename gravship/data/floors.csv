@@ -1,0 +1,488 @@
+﻿이름,defName,출처 모드,하부구조(중력선 바닥),제공 지형 조건,건설 비용,작업량,아름다움,청결,위에 덮기 가능,연구
+중력선 하부 구조물 (경사 선체 표시),NotSubstructure,Angled Hull Expansion,예,"Light,Medium,Heavy,Walkable,Substructure","GravlitePanel 1, Steel 4",600,,,예,
+하부 구조물 격자,AWF_HullFraming,Angled Hull Expansion,예,"Light,Medium,Heavy,Walkable",Steel 1,60,,,예,
+중량 다리,HeavyBridge,Odyssey DLC,예,"Light,Medium,Heavy,Walkable",Steel 14,2500,,,예,heavy bridges
+중력부양선 하부구조,Substructure,Odyssey DLC,예,"Light,Medium,Heavy,Walkable,Substructure","GravlitePanel 1, Steel 4",600,,,예,
+다리,Bridge,코어,예,Light,WoodLog 12,1500,,,예,
+생체강 바닥,BioferritePlate,Anomaly DLC,,"Light,Medium,Heavy,Walkable,Light,Medium,Heavy",Bioferrite 4,800,-2,0.2,예,bioferrite shaping
+나노토양,NanomachineryNaturalsoil,Archotech Expanded,,"Light,Medium,Heavy,Walkable,GrowSoil",Nanomachinery 15,700,20,3,예,"smithing, tree sowing"
+아토토양,AttomachineryNaturalsoil,Archotech Expanded,,"Light,Medium,Heavy,Walkable,GrowSoil",Attomachinery 40,800,30,5,예,"smithing, tree sowing"
+피코토양,PicomachineryNaturalsoil,Archotech Expanded,,"Light,Medium,Heavy,Walkable,GrowSoil",Picomachinery 25,800,25,4,예,"smithing, tree sowing"
+가로 띠 바닥,KS_WoodStripH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 망가진 얇은 띠 바닥,KS_WoodThinplankRoughH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,40,-1,,예,
+가로 브릭 본드 바닥,KS_WoodBrickBondH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 얇은 띠 바닥,KS_WoodThinStripH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 얇은 브릭 본드 바닥,KS_WoodThinBrickBondH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 얇은 판자 바닥,KS_WoodThinPlankH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 얇은 혼합 띠 바닥,KS_WoodThinStripMixedH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 얇은 혼합 브릭 본드 바닥,KS_WoodThinBrickBondMixedH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 얇은 혼합 판자 바닥,KS_WoodThinPlankMixedH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 판자 바닥,KS_WoodPlankH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 혼합 띠 바닥,KS_WoodStripMixedH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 혼합 브릭 본드 바닥,KS_WoodBrickBondMixedH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+가로 혼합 판자 바닥,KS_WoodPlankMixedH,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+강철 격자,KS_MetalGrateSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 격자판,KS_MetalGratePlateSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 광택 판,KS_MetalPolishedSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 교차 돌기 판,KS_MetalCrossTreadSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 노비스 타일,KS_MetalNovisSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 돌기판,KS_MetalTreadSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 두루스 타일,KS_MetalDurusSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 디지털 타일,KS_MetalDigitalSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 로쿠스 타일,KS_MetalLocusSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 모듈러 타일,KS_MetalModularSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 스파티움 타일,KS_MetalSpatiumSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 아르크스 타일,KS_MetalArxSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 엑소 타일,KS_MetalExoSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 육각 격자,KS_MetalHexaGrateSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 트리곤 타일,KS_MetalTrigonSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 판,KS_MetalIndustrialSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 패드판,KS_MetalPadSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 프레임 타일,KS_MetalFramedSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 10,1100,1,0.6,예,smithing
+강철 프레임 패드판,KS_MetalFramedPadSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+강철 환기판,KS_MetalVentSteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+교차 격자 파르케,KS_WoodCrosshatch,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+금 격자,KS_MetalGrateGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 격자판,KS_MetalGratePlateGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 광택 판,KS_MetalPolishedGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 교차 돌기 판,KS_MetalCrossTreadGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 노비스 타일,KS_MetalNovisGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 돌기판,KS_MetalTreadGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 두루스 타일,KS_MetalDurusGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 디지털 타일,KS_MetalDigitalGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 로쿠스 타일,KS_MetalLocusGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 모듈러 타일,KS_MetalModularGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 스파티움 타일,KS_MetalSpatiumGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 아르크스 타일,KS_MetalArxGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 아크리 타일,KS_PreciousAkriGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 200,2800,10,0.2,예,smithing
+금 엑소 타일,KS_MetalExoGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 육각 격자,KS_MetalHexaGrateGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 트리곤 타일,KS_MetalTrigonGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 판,KS_MetalIndustrialGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 패드판,KS_MetalPadGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 프레임 타일,KS_MetalFramedGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 100,1100,12,0.6,예,smithing
+금 프레임 패드판,KS_MetalFramedPadGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+금 환기판,KS_MetalVentGold,Flooring Floors,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+대리석 가로 직조 타일,KS_HStoneBraidedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 10,1500,2,,예,stonecutting
+대리석 거친 격자 타일,KS_StoneGridRoughMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 거친 판석,KS_StoneSlabsRoughMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 격자 타일,KS_StoneGridSimpleMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 격자 혼합 타일,KS_StoneSimpleMosaicMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1800,2,,예,stonecutting
+대리석 교차 격자 거친 타일,KS_StoneCrosshatchRoughMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 교차 격자 거친 혼합 타일,KS_StoneCrosshatchRoughMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 교차 격자 타일,KS_StoneCrosshatchMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 교차 격자 혼합 타일,KS_StoneCrosshatchMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 리본 포장,KS_StoneRibbonMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 모서리 직조 타일,KS_CStoneBraidedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 10,1500,2,,예,stonecutting
+대리석 무작위 거친 타일,KS_StoneRandomRoughMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 무작위 거친 혼합 타일,KS_StoneRandomRoughMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 무작위 길이 거친 타일,KS_StoneRandomLengthsRoughMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 무작위 길이 거친 혼합 타일,KS_StoneRandomLengthsRoughMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 무작위 길이 타일,KS_StoneRandomLengthsMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 무작위 길이 혼합 타일,KS_StoneRandomLengthsMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 무작위 타일,KS_StoneRandomMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 무작위 혼합 타일,KS_StoneRandomMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 물고기 비늘 포장,KS_StoneFishScaleMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 바람개비 타일,KS_StonePinwheelMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 바스켓 위브 타일,KS_StoneBasketWeaveMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 세로 직조 타일,KS_VStoneBraidedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 10,1500,2,,예,stonecutting
+대리석 소형 격자 혼합 타일,KS_StoneTinySimpleMosaicMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1800,1,,예,stonecutting
+대리석 안쪽 모서리 직조 타일,KS_IStoneBraidedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 10,1500,2,,예,stonecutting
+대리석 엇갈린 거친 타일,KS_StoneStaggeredRoughMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 엇갈린 거친 혼합 타일,KS_StoneStaggeredRoughMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 엇갈린 타일,KS_StoneStaggeredMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 엇갈린 혼합 타일,KS_StoneStaggeredMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 원형 포장,KS_StoneCircularRoughMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 육각 거친 타일,KS_StoneHexagonRoughMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 육각 거친 혼합 타일,KS_StoneHexagonRoughMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,500,0,,예,stonecutting
+대리석 육각 타일,KS_StoneHexagonMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 육각 혼합 타일,KS_StoneHexagonMixedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 이중 마름모 타일,KS_StoneDoubleDiamondMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,2100,3,,예,stonecutting
+대리석 자갈 포장,KS_StoneGravelMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 2,400,0,,예,stonecutting
+대리석 직조 팔각 타일,KS_StoneBraidedOctagonMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 15,1500,2,,예,stonecutting
+대리석 질감 판석,KS_StoneSlabsTexturedMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,2100,3,,예,stonecutting
+대리석 창살 타일,KS_StoneWindowpaneMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,2100,3,,예,stonecutting
+대리석 체크무늬 타일,KS_StoneChequeredMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,1500,3,,예,stonecutting
+대리석 판석,KS_StoneSlabsMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 팔각 사각 타일,KS_StoneOctasquareMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 헤링본 타일,KS_StoneHerringboneMarble,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+마름모 파르케,KS_WoodDiamond,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 15,1800,3,,예,
+맞물린 마름모 파르케,KS_WoodInterlockedDiamond,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+몬티첼로 파르케,KS_WoodMonticello,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+바스켓 위브 파르케,KS_WoodBasketWeave,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+베르사유 파르케,KS_WoodVersailles,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+비취 가로 직조 타일,KS_HStoneBraidedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 20,1500,6,,예,stonecutting
+비취 거친 격자 타일,KS_StoneGridRoughJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 거친 판석,KS_StoneSlabsRoughJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 격자 타일,KS_StoneGridSimpleJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 격자 혼합 타일,KS_StoneSimpleMosaicJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1800,6,,예,stonecutting
+비취 교차 격자 거친 타일,KS_StoneCrosshatchRoughJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 교차 격자 거친 혼합 타일,KS_StoneCrosshatchRoughMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 교차 격자 타일,KS_StoneCrosshatchJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 교차 격자 혼합 타일,KS_StoneCrosshatchMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 리본 포장,KS_StoneRibbonJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 모서리 직조 타일,KS_CStoneBraidedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 20,1500,6,,예,stonecutting
+비취 무작위 거친 타일,KS_StoneRandomRoughJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 무작위 거친 혼합 타일,KS_StoneRandomRoughMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 무작위 길이 거친 타일,KS_StoneRandomLengthsRoughJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 무작위 길이 거친 혼합 타일,KS_StoneRandomLengthsRoughMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 무작위 길이 타일,KS_StoneRandomLengthsJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 무작위 길이 혼합 타일,KS_StoneRandomLengthsMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 무작위 타일,KS_StoneRandomJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 무작위 혼합 타일,KS_StoneRandomMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 물고기 비늘 포장,KS_StoneFishScaleJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 바람개비 타일,KS_StonePinwheelJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 바스켓 위브 타일,KS_StoneBasketWeaveJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 세로 직조 타일,KS_VStoneBraidedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 20,1500,6,,예,stonecutting
+비취 소형 격자 혼합 타일,KS_StoneTinySimpleMosaicJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1800,6,,예,stonecutting
+비취 아크리 타일,KS_PreciousAkriJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 100,2800,10,0.2,예,stonecutting
+비취 안쪽 모서리 직조 타일,KS_IStoneBraidedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 20,1500,6,,예,stonecutting
+비취 엇갈린 거친 타일,KS_StoneStaggeredRoughJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 엇갈린 거친 혼합 타일,KS_StoneStaggeredRoughMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 엇갈린 타일,KS_StoneStaggeredJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 엇갈린 혼합 타일,KS_StoneStaggeredMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 원형 포장,KS_StoneCircularRoughJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 육각 거친 타일,KS_StoneHexagonRoughJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 육각 거친 혼합 타일,KS_StoneHexagonRoughMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,500,3,,예,stonecutting
+비취 육각 타일,KS_StoneHexagonJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 육각 혼합 타일,KS_StoneHexagonMixedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 이중 마름모 타일,KS_StoneDoubleDiamondJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 30,2100,8,,예,stonecutting
+비취 자갈 포장,KS_StoneGravelJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 6,400,3,,예,stonecutting
+비취 직조 팔각 타일,KS_StoneBraidedOctagonJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 25,1500,6,,예,stonecutting
+비취 질감 판석,KS_StoneSlabsTexturedJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 30,2100,6,,예,stonecutting
+비취 창살 타일,KS_StoneWindowpaneJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 30,2100,6,,예,stonecutting
+비취 체크무늬 타일,KS_StoneChequeredJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 30,1500,8,,예,stonecutting
+비취 판석,KS_StoneSlabsJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 팔각 사각 타일,KS_StoneOctasquareJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+비취 헤링본 타일,KS_StoneHerringboneJade,Flooring Floors,,"Light,Medium,Heavy,Walkable",Jade 10,1100,6,,예,stonecutting
+사암 가로 직조 타일,KS_HStoneBraidedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 10,1500,2,,예,stonecutting
+사암 거친 격자 타일,KS_StoneGridRoughSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 거친 판석,KS_StoneSlabsRoughSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 격자 타일,KS_StoneGridSimpleSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 격자 혼합 타일,KS_StoneSimpleMosaicSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1800,2,,예,stonecutting
+사암 교차 격자 거친 타일,KS_StoneCrosshatchRoughSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 교차 격자 거친 혼합 타일,KS_StoneCrosshatchRoughMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 교차 격자 타일,KS_StoneCrosshatchSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 교차 격자 혼합 타일,KS_StoneCrosshatchMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 리본 포장,KS_StoneRibbonSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 모서리 직조 타일,KS_CStoneBraidedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 10,1500,2,,예,stonecutting
+사암 무작위 거친 타일,KS_StoneRandomRoughSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 무작위 거친 혼합 타일,KS_StoneRandomRoughMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 무작위 길이 거친 타일,KS_StoneRandomLengthsRoughSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 무작위 길이 거친 혼합 타일,KS_StoneRandomLengthsRoughMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 무작위 길이 타일,KS_StoneRandomLengthsSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 무작위 길이 혼합 타일,KS_StoneRandomLengthsMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 무작위 타일,KS_StoneRandomSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 무작위 혼합 타일,KS_StoneRandomMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 물고기 비늘 포장,KS_StoneFishScaleSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 바람개비 타일,KS_StonePinwheelSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 바스켓 위브 타일,KS_StoneBasketWeaveSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 세로 직조 타일,KS_VStoneBraidedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 10,1500,2,,예,stonecutting
+사암 소형 격자 혼합 타일,KS_StoneTinySimpleMosaicSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1800,1,,예,stonecutting
+사암 안쪽 모서리 직조 타일,KS_IStoneBraidedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 10,1500,2,,예,stonecutting
+사암 엇갈린 거친 타일,KS_StoneStaggeredRoughSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 엇갈린 거친 혼합 타일,KS_StoneStaggeredRoughMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 엇갈린 타일,KS_StoneStaggeredSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 엇갈린 혼합 타일,KS_StoneStaggeredMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 원형 포장,KS_StoneCircularRoughSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 육각 거친 타일,KS_StoneHexagonRoughSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 육각 거친 혼합 타일,KS_StoneHexagonRoughMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,500,0,,예,stonecutting
+사암 육각 타일,KS_StoneHexagonSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 육각 혼합 타일,KS_StoneHexagonMixedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 이중 마름모 타일,KS_StoneDoubleDiamondSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,2100,3,,예,stonecutting
+사암 자갈 포장,KS_StoneGravelSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 2,400,0,,예,stonecutting
+사암 직조 팔각 타일,KS_StoneBraidedOctagonSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 15,1500,2,,예,stonecutting
+사암 질감 판석,KS_StoneSlabsTexturedSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,2100,3,,예,stonecutting
+사암 창살 타일,KS_StoneWindowpaneSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,2100,3,,예,stonecutting
+사암 체크무늬 타일,KS_StoneChequeredSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,1500,3,,예,stonecutting
+사암 판석,KS_StoneSlabsSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 팔각 사각 타일,KS_StoneOctasquareSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 헤링본 타일,KS_StoneHerringboneSandstone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+샤토 파르케,KS_WoodChateau,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+석회암 가로 직조 타일,KS_HStoneBraidedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 10,1500,2,,예,stonecutting
+석회암 거친 격자 타일,KS_StoneGridRoughLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 거친 판석,KS_StoneSlabsRoughLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 격자 타일,KS_StoneGridSimpleLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 격자 혼합 타일,KS_StoneSimpleMosaicLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1800,2,,예,stonecutting
+석회암 교차 격자 거친 타일,KS_StoneCrosshatchRoughLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 교차 격자 거친 혼합 타일,KS_StoneCrosshatchRoughMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 교차 격자 타일,KS_StoneCrosshatchLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 교차 격자 혼합 타일,KS_StoneCrosshatchMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 리본 포장,KS_StoneRibbonLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 모서리 직조 타일,KS_CStoneBraidedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 10,1500,2,,예,stonecutting
+석회암 무작위 거친 타일,KS_StoneRandomRoughLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 무작위 거친 혼합 타일,KS_StoneRandomRoughMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 무작위 길이 거친 타일,KS_StoneRandomLengthsRoughLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 무작위 길이 거친 혼합 타일,KS_StoneRandomLengthsRoughMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 무작위 길이 타일,KS_StoneRandomLengthsLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 무작위 길이 혼합 타일,KS_StoneRandomLengthsMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 무작위 타일,KS_StoneRandomLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 무작위 혼합 타일,KS_StoneRandomMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 물고기 비늘 포장,KS_StoneFishScaleLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 바람개비 타일,KS_StonePinwheelLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 바스켓 위브 타일,KS_StoneBasketWeaveLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 세로 직조 타일,KS_VStoneBraidedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 10,1500,2,,예,stonecutting
+석회암 소형 격자 혼합 타일,KS_StoneTinySimpleMosaicLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1800,1,,예,stonecutting
+석회암 안쪽 모서리 직조 타일,KS_IStoneBraidedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 10,1500,2,,예,stonecutting
+석회암 엇갈린 거친 타일,KS_StoneStaggeredRoughLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 엇갈린 거친 혼합 타일,KS_StoneStaggeredRoughMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 엇갈린 타일,KS_StoneStaggeredLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 엇갈린 혼합 타일,KS_StoneStaggeredMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 원형 포장,KS_StoneCircularRoughLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 육각 거친 타일,KS_StoneHexagonRoughLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 육각 거친 혼합 타일,KS_StoneHexagonRoughMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,500,0,,예,stonecutting
+석회암 육각 타일,KS_StoneHexagonLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 육각 혼합 타일,KS_StoneHexagonMixedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 이중 마름모 타일,KS_StoneDoubleDiamondLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,2100,3,,예,stonecutting
+석회암 자갈 포장,KS_StoneGravelLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 2,400,0,,예,stonecutting
+석회암 직조 팔각 타일,KS_StoneBraidedOctagonLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 15,1500,2,,예,stonecutting
+석회암 질감 판석,KS_StoneSlabsTexturedLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,2100,3,,예,stonecutting
+석회암 창살 타일,KS_StoneWindowpaneLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,2100,3,,예,stonecutting
+석회암 체크무늬 타일,KS_StoneChequeredLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,1500,3,,예,stonecutting
+석회암 판석,KS_StoneSlabsLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 팔각 사각 타일,KS_StoneOctasquareLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 헤링본 타일,KS_StoneHerringboneLimestone,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+세로 띠 바닥,KS_WoodStripV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 브릭 본드 바닥,KS_WoodBrickBondV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 얇은 띠 바닥,KS_WoodThinStripV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 얇은 브릭 본드 바닥,KS_WoodThinBrickBondV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 얇은 판자 바닥,KS_WoodThinPlankV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 얇은 혼합 띠 바닥,KS_WoodThinStripMixedV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 얇은 혼합 브릭 본드 바닥,KS_WoodThinBrickBondMixedV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 얇은 혼합 판자 바닥,KS_WoodThinPlankMixedV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 판자 바닥,KS_WoodPlankV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 혼합 띠 바닥,KS_WoodStripMixedV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 혼합 브릭 본드 바닥,KS_WoodBrickBondMixedV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+세로 혼합 판자 바닥,KS_WoodPlankMixedV,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 6,400,1,,예,
+셰브런 파르케,KS_WoodChevron,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+쇼콜라 파르케,KS_WoodChocolateBar,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+에보라 파르케,KS_WoodEvora,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+은 격자,KS_MetalGrateSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 격자판,KS_MetalGratePanelSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 광택 판,KS_MetalPolishedSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 교차 돌기 판,KS_MetalCrossTreadSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 노비스 타일,KS_MetalNovisSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 돌기판,KS_MetalTreadSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 두루스 타일,KS_MetalDovaSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 디지털 타일,KS_MetalDigitalSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 로쿠스 타일,KS_MetalLocusSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 모듈러 타일,KS_MetalModularSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 스파티움 타일,KS_MetalSpatiumSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 아르크스 타일,KS_MetalArxSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 아크리 타일,KS_PreciousAkriSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 200,2800,10,0.2,예,smithing
+은 엑소 타일,KS_MetalExoSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 육각 격자,KS_MetalHexaGrateSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 트리곤 타일,KS_MetalTrigonSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 판,KS_MetalIndustrialSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 패드판,KS_MetalPadSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 프레임 타일,KS_MetalFramedSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 100,1100,5,0.6,예,smithing
+은 프레임 패드판,KS_MetalFramedPadSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+은 환기판,KS_MetalVentSilver,Flooring Floors,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.6,예,smithing
+이중 바스켓 위브 파르케,KS_WoodBasketWeaveDouble,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+이중 헤링본 파르케,KS_WoodHerringboneDouble,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+점판암 가로 직조 타일,KS_HStoneBraidedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 10,1500,2,,예,stonecutting
+점판암 거친 격자 타일,KS_StoneGridRoughSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 거친 판석,KS_StoneSlabsRoughSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 격자 타일,KS_StoneGridSimpleSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 격자 혼합 타일,KS_StoneSimpleMosaicSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1800,2,,예,stonecutting
+점판암 교차 격자 거친 타일,KS_StoneCrosshatchRoughSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 교차 격자 거친 혼합 타일,KS_StoneCrosshatchRoughMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 교차 격자 타일,KS_StoneCrosshatchSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 교차 격자 혼합 타일,KS_StoneCrosshatchMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 리본 포장,KS_StoneRibbonSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 모서리 직조 타일,KS_CStoneBraidedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 10,1500,2,,예,stonecutting
+점판암 무작위 거친 타일,KS_StoneRandomRoughSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 무작위 거친 혼합 타일,KS_StoneRandomRoughMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 무작위 길이 거친 타일,KS_StoneRandomLengthsRoughSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 무작위 길이 거친 혼합 타일,KS_StoneRandomLengthsRoughMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 무작위 길이 타일,KS_StoneRandomLengthsSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 무작위 길이 혼합 타일,KS_StoneRandomLengthsMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 무작위 타일,KS_StoneRandomSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 무작위 혼합 타일,KS_StoneRandomMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 물고기 비늘 포장,KS_StoneFishScaleSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 바람개비 타일,KS_StonePinwheelSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 바스켓 위브 타일,KS_StoneBasketWeaveSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 세로 직조 타일,KS_VStoneBraidedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 10,1500,2,,예,stonecutting
+점판암 소형 격자 혼합 타일,KS_StoneTinySimpleMosaicSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1800,1,,예,stonecutting
+점판암 안쪽 모서리 직조 타일,KS_IStoneBraidedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 10,1500,2,,예,stonecutting
+점판암 엇갈린 거친 타일,KS_StoneStaggeredRoughSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 엇갈린 거친 혼합 타일,KS_StoneStaggeredRoughMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 엇갈린 타일,KS_StoneStaggeredSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 엇갈린 혼합 타일,KS_StoneStaggeredMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 원형 포장,KS_StoneCircularRoughSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 육각 거친 타일,KS_StoneHexagonRoughSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 육각 거친 혼합 타일,KS_StoneHexagonRoughMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,500,0,,예,stonecutting
+점판암 육각 타일,KS_StoneHexagonSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 육각 혼합 타일,KS_StoneHexagonMixedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 이중 마름모 타일,KS_StoneDoubleDiamondSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,2100,3,,예,stonecutting
+점판암 자갈 포장,KS_StoneGravelSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 2,400,0,,예,stonecutting
+점판암 직조 팔각 타일,KS_StoneBraidedOctagonSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 15,1500,2,,예,stonecutting
+점판암 질감 판석,KS_StoneSlabsTexturedSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,2100,3,,예,stonecutting
+점판암 창살 타일,KS_StoneWindowpaneSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,2100,3,,예,stonecutting
+점판암 체크무늬 타일,KS_StoneChequeredSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,1500,3,,예,stonecutting
+점판암 판석,KS_StoneSlabsSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 팔각 사각 타일,KS_StoneOctasquareSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 헤링본 타일,KS_StoneHerringboneSlate,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+플라스틸 격자,KS_MetalGratePlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+플라스틸 격자판,KS_MetalGratePlatePlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+플라스틸 광택 판,KS_MetalPolishedPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.6,예,smithing
+플라스틸 교차 돌기 판,KS_MetalCrossTreadPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+플라스틸 노비스 타일,KS_MetalNovisPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 돌기판,KS_MetalTreadPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+플라스틸 두루스 타일,KS_MetalDurusPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 디지털 타일,KS_MetalDigitalPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 로쿠스 타일,KS_MetalLocusPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 모듈러 타일,KS_MetalModularPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 스파티움 타일,KS_MetalSpatiumPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 아르크스 타일,KS_MetalArxPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 엑소 타일,KS_MetalExoPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 육각 격자,KS_MetalHexaGratePlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+플라스틸 트리곤 타일,KS_MetalTrigonPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 판,KS_MetalIndustrialPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+플라스틸 패드판,KS_MetalPadPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+플라스틸 프레임 타일,KS_MetalFramedPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 10,1100,1,0.6,예,smithing
+플라스틸 프레임 패드판,KS_MetalFramedPadPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+플라스틸 환기판,KS_MetalVentPlasteel,Flooring Floors,,"Light,Medium,Heavy,Walkable",Plasteel 7,800,0,0.2,예,smithing
+헤링본 파르케,KS_WoodHerringbone,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+혼합 셰브런 파르케,KS_WoodChevronMixed,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+혼합 이중 헤링본 파르케,KS_WoodHerringboneDoubleMixed,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+혼합 헤링본 파르케,KS_WoodHerringboneMixed,Flooring Floors,,"Light,Medium,Heavy,Walkable",WoodLog 12,1100,2,,예,
+화강암 가로 직조 타일,KS_HStoneBraidedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 10,1500,2,,예,stonecutting
+화강암 거친 격자 타일,KS_StoneGridRoughGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 거친 판석,KS_StoneSlabsRoughGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 격자 타일,KS_StoneGridSimpleGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 격자 혼합 타일,KS_StoneSimpleMosaicGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1800,2,,예,stonecutting
+화강암 교차 격자 거친 타일,KS_StoneCrosshatchRoughGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 교차 격자 거친 혼합 타일,KS_StoneCrosshatchRoughMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 교차 격자 타일,KS_StoneCrosshatchGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 교차 격자 혼합 타일,KS_StoneCrosshatchMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 리본 포장,KS_StoneRibbonGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 모서리 직조 타일,KS_CStoneBraidedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 10,1500,2,,예,stonecutting
+화강암 무작위 거친 타일,KS_StoneRandomRoughGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 무작위 거친 혼합 타일,KS_StoneRandomRoughMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 무작위 길이 거친 타일,KS_StoneRandomLengthsRoughGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 무작위 길이 거친 혼합 타일,KS_StoneRandomLengthsRoughMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 무작위 길이 타일,KS_StoneRandomLengthsGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 무작위 길이 혼합 타일,KS_StoneRandomLengthsMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 무작위 타일,KS_StoneRandomGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 무작위 혼합 타일,KS_StoneRandomMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 물고기 비늘 포장,KS_StoneFishScaleGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 바람개비 타일,KS_StonePinwheelGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 바스켓 위브 타일,KS_StoneBasketWeaveGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 세로 직조 타일,KS_VStoneBraidedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 10,1500,2,,예,stonecutting
+화강암 소형 격자 혼합 타일,KS_StoneTinySimpleMosaicGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1800,1,,예,stonecutting
+화강암 안쪽 모서리 직조 타일,KS_IStoneBraidedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 10,1500,2,,예,stonecutting
+화강암 엇갈린 거친 타일,KS_StoneStaggeredRoughGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 엇갈린 거친 혼합 타일,KS_StoneStaggeredRoughMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 엇갈린 타일,KS_StoneStaggeredGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 엇갈린 혼합 타일,KS_StoneStaggeredMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 원형 포장,KS_StoneCircularRoughGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 육각 거친 타일,KS_StoneHexagonRoughGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 육각 거친 혼합 타일,KS_StoneHexagonRoughMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,500,0,,예,stonecutting
+화강암 육각 타일,KS_StoneHexagonGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 육각 혼합 타일,KS_StoneHexagonMixedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 이중 마름모 타일,KS_StoneDoubleDiamondGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,2100,3,,예,stonecutting
+화강암 자갈 포장,KS_StoneGravelGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 2,400,0,,예,stonecutting
+화강암 직조 팔각 타일,KS_StoneBraidedOctagonGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 15,1500,2,,예,stonecutting
+화강암 질감 판석,KS_StoneSlabsTexturedGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,2100,3,,예,stonecutting
+화강암 창살 타일,KS_StoneWindowpaneGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,2100,3,,예,stonecutting
+화강암 체크무늬 타일,KS_StoneChequeredGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,1500,3,,예,stonecutting
+화강암 판석,KS_StoneSlabsGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 팔각 사각 타일,KS_StoneOctasquareGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 헤링본 타일,KS_StoneHerringboneGranite,Flooring Floors,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+중력합금 타일,Tile_Gravitonium,GravTech,,"Light,Medium,Heavy,Walkable",Gravitonium 4,4200,5,0.8,예,"grav forge, sterile materials"
+균사 자갈,FungalGravel,Ideology DLC,,"Light,Medium,Heavy,Walkable",,1000,-1,-1,예,
+노란 마인드벤드 양탄자,Carpet_MindbendE,Ideology DLC,,"Light,Medium,Heavy,Walkable",Cloth 35,4000,4,,예,carpet-making
+다이아몬드 마인드벤드 양탄자,Carpet_MindbendA,Ideology DLC,,"Light,Medium,Heavy,Walkable",Cloth 35,4000,4,,예,carpet-making
+대리석 스파이크코어 바닥,Tile_SpikecoreMarble,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,5000,3,,예,stonecutting
+보라색 마인드벤드 양탄자,Carpet_MindbendB,Ideology DLC,,"Light,Medium,Heavy,Walkable",Cloth 35,4000,4,,예,carpet-making
+사암 스파이크코어 바닥,Tile_SpikecoreSandstone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,5000,3,,예,stonecutting
+석회암 스파이크코어 바닥,Tile_SpikecoreLimestone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,5000,3,,예,stonecutting
+섬뜩한 대리석 바닥,Tile_MorbidMarble,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,5000,3,,예,stonecutting
+섬뜩한 사암 바닥,Tile_MorbidSandstone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,5000,3,,예,stonecutting
+섬뜩한 석회암 바닥,Tile_MorbidLimestone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,5000,3,,예,stonecutting
+섬뜩한 점판암 바닥,Tile_MorbidSlate,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,5000,3,,예,stonecutting
+섬뜩한 진공암 바닥,Tile_MorbidVacstone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksVacstone 20,5000,3,,예,stonecutting
+섬뜩한 화강암 바닥,Tile_MorbidGranite,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,5000,3,,예,stonecutting
+스파이크코어 철판,Plates_Spikecore,Ideology DLC,,"Light,Medium,Heavy,Walkable",Steel 12,5000,3,,예,
+육각 바닥,Tile_Transhumanist,Ideology DLC,,"Light,Medium,Heavy,Walkable",Steel 12,5000,3,,예,
+점판암 스파이크코어 바닥,Tile_SpikecoreSlate,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,5000,3,,예,stonecutting
+진공암 스파이크코어 바닥,Tile_SpikecoreVacstone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksVacstone 20,5000,3,,예,stonecutting
+초록 마인드벤드 양탄자,Carpet_MindbendC,Ideology DLC,,"Light,Medium,Heavy,Walkable",Cloth 35,4000,4,,예,carpet-making
+토템 널판장,Boards_Totemic,Ideology DLC,,"Light,Medium,Heavy,Walkable",WoodLog 20,5000,3,,예,
+토템 대리석 바닥,Tile_TotemicMarble,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,5000,3,,예,stonecutting
+토템 사암 바닥,Tile_TotemicSandstone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,5000,3,,예,stonecutting
+토템 석회암 바닥,Tile_TotemicLimestone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,5000,3,,예,stonecutting
+토템 점판암 바닥,Tile_TotemicSlate,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,5000,3,,예,stonecutting
+토템 진공암 바닥,Tile_TotemicVacstone,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksVacstone 20,5000,3,,예,stonecutting
+토템 화강암 바닥,Tile_TotemicGranite,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,5000,3,,예,stonecutting
+파란 마인드벤드 양탄자,Carpet_MindbendD,Ideology DLC,,"Light,Medium,Heavy,Walkable",Cloth 35,4000,4,,예,carpet-making
+화강암 스파이크코어 바닥,Tile_SpikecoreGranite,Ideology DLC,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,5000,3,,예,stonecutting
+간단한 초월공학 바닥,FloorArchotechOwO,More Archotech Garbage (Continued),,"Light,Medium,Heavy","Plasteel 3, ArchotechScrap 1",12000,20,1.2,예,Archotech Fundamentals
+간단한 초월공학 토양,MAG_PrimitiveArchotechSoil,More Archotech Garbage (Continued),,"Walkable,Light,Medium,Heavy,GrowSoil,Diggable",ArchotechScrap 1,150,0,0,예,
+깔끔한 초월공학 다리,FloorArchotechOwO_Bridge,More Archotech Garbage (Continued),,"Light,Medium,Heavy","Plasteel 4, ArchotechScrap 1",12000,20,1.2,예,Archotech Fundamentals
+초월공학 다리,FloorArchotechUwU_Bridge,More Archotech Garbage (Continued),,"Light,Medium,Heavy","Plasteel 4, ArchotechScrap 1",12000,20,1.2,예,Archotech Fundamentals
+초월공학 바닥,FloorArchotechUwU,More Archotech Garbage (Continued),,"Light,Medium,Heavy","Plasteel 3, ArchotechScrap 1",12000,20,1.2,예,Archotech Fundamentals
+진공암 바닥,TileVacstone,Odyssey DLC,,"Light,Medium,Heavy,Walkable",BlocksVacstone 4,1100,1,,예,stonecutting
+진공암 판석,FlagstoneVacstone,Odyssey DLC,,"Light,Medium,Heavy,Walkable",BlocksVacstone 4,500,0,,예,
+금제 격자 바닥,RB_GoldGrateTile,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",Gold 40,1000,8,0.2,예,smithing
+금제 단추 바닥,RB_GoldStuddedTile,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",Gold 70,850,11,0.2,예,smithing
+나무 육각 바닥,RB_WoodPlankFloor_Transhumanist,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",WoodLog 3,85,,,예,
+멋진 나무 바닥,RB_FinePlankWood,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",WoodLog 15,385,2,,예,
+은제 격자 바닥,RB_SilverGrateTile,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",Silver 40,1000,2,0.2,예,smithing
+은제 단추 바닥,RB_SilverStuddedTile,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",Silver 70,850,4,0.2,예,smithing
+철제 격자 바닥,RB_MetalGrateTile,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",Steel 4,1000,0,0.2,예,smithing
+철제 단추 바닥,RB_MetalStuddedTile,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",Steel 7,850,0,0.2,예,smithing
+포장된 육각 타일,RB_PavedTile_Transhumanist,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable",Steel 2,300,,,예,stonecutting
+향균 격자 바닥,RB_SterileGrateTile,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable","Steel 2, Silver 8",1800,-1,0.6,예,sterile materials
+향균 단추 바닥,RB_SterileStuddedTile,ReBuild: Doors and Corners,,"Light,Medium,Heavy,Walkable","Steel 3, Silver 12",1650,-1,0.6,예,sterile materials
+멋진 대리석 바닥,FineTileMarble,Royalty DLC,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,5000,3,,예,stonecutting
+멋진 사암 바닥,FineTileSandstone,Royalty DLC,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,5000,3,,예,stonecutting
+멋진 석회암 바닥,FineTileLimestone,Royalty DLC,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,5000,3,,예,stonecutting
+멋진 점판암 바닥,FineTileSlate,Royalty DLC,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,5000,3,,예,stonecutting
+멋진 진공암 바닥,FineTileVacstone,Royalty DLC,,"Light,Medium,Heavy,Walkable",BlocksVacstone 20,5000,3,,예,stonecutting
+멋진 화강암 바닥,FineTileGranite,Royalty DLC,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,5000,3,,예,stonecutting
+빈 지형,VEF_NullTerrain,Vanilla Expanded Framework,,"Light,Medium,Heavy,Walkable",,,,,예,
+프리팹 경계 (노란색),VEF_PrefabBorderYellow,Vanilla Expanded Framework,,"Light,Medium,Heavy,Walkable",,,,,예,
+프리팹 경계 (빨간색),VEF_PrefabBorderRed,Vanilla Expanded Framework,,"Light,Medium,Heavy,Walkable",,,,,예,
+프리팹 경계 (초록색),VEF_PrefabBorderGreen,Vanilla Expanded Framework,,"Light,Medium,Heavy,Walkable",,,,,예,
+프리팹 경계 (파란색),VEF_PrefabBorderBlue,Vanilla Expanded Framework,,"Light,Medium,Heavy,Walkable",,,,,예,
+프리팹 경계 (흰색),VEF_PrefabBorderWhite,Vanilla Expanded Framework,,"Light,Medium,Heavy,Walkable",,,,,예,
+멋진 대리석 기업 타일,VME_CorporateFineTileMarble,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 대리석 신토 타일,VME_ShintaoFineTileMarble,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksMarble 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 사암 기업 타일,VME_CorporateFineTileSandstone,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 사암 신토 타일,VME_ShintaoFineTileSandstone,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksSandstone 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 석회암 기업 타일,VME_CorporateFineTileLimestone,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 석회암 신토 타일,VME_ShintaoFineTileLimestone,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksLimestone 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 암청 신토 양탄자,VME_ShintaoCarpetFineIndigo,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",Cloth 35,4000,4,,예,carpet-making
+멋진 점판암 기업 타일,VME_CorporateFineTileSlate,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 점판암 신토 타일,VME_ShintaoFineTileSlate,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksSlate 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 진홍색 신토 양탄자,VME_ShintaoCarpetFineBurgundy,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",Cloth 35,4000,4,,예,carpet-making
+멋진 하얀 신토 양탄자,VME_ShintaoCarpetFineWhite,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",Cloth 35,4000,4,,예,carpet-making
+멋진 화강암 기업 타일,VME_CorporateFineTileGranite,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,5000,3,,예,"stonecutting, stonecutting"
+멋진 화강암 신토 타일,VME_ShintaoFineTileGranite,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",BlocksGranite 20,5000,3,,예,"stonecutting, stonecutting"
+붉은 신토 양탄자,VME_ShintaoCarpetRed,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",Cloth 7,800,2,,예,carpet-making
+암회색 신토 양탄자,VME_ShintaoCarpetDark,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",Cloth 7,800,2,,예,carpet-making
+초록 신토 양탄자,VME_ShintaoCarpetGreen,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",Cloth 7,800,2,,예,carpet-making
+크림 신토 양탄자,VME_ShintaoCarpetCream,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",Cloth 7,800,2,,예,carpet-making
+파란 신토 양탄자,VME_ShintaoCarpetBlue,Vanilla Ideology Expanded - Memes and Structures,,"Light,Medium,Heavy,Walkable",Cloth 7,800,2,,예,carpet-making
+경작 토양,VCE_TilledSoil,Vanilla Plants Expanded,,"Light,Medium,Heavy,GrowSoil,Diggable",,800,-1,-1,예,
+쓰레기 바닥,VRecyclingE_TrashBrickFloor,Vanilla Recycling Expanded,,"Light,Medium,Heavy,Walkable",VRecyclingE_TrashBrick 4,400,0,,예,complex recycling
+금제 바닥,GoldTile,코어,,"Light,Medium,Heavy,Walkable",Gold 70,800,11,0.2,예,smithing
+나무 바닥,WoodPlankFloor,코어,,"Light,Medium,Heavy,Walkable",WoodLog 3,85,,,예,
+대리석 바닥,TileMarble,코어,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,1100,1,,예,stonecutting
+대리석 판석,FlagstoneMarble,코어,,"Light,Medium,Heavy,Walkable",BlocksMarble 4,500,0,,예,
+멍석,StrawMatting,코어,,"Light,Medium,Heavy,Walkable",Hay 2,120,-1,-0.1,예,
+사암 바닥,TileSandstone,코어,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,1100,1,,예,stonecutting
+사암 판석,FlagstoneSandstone,코어,,"Light,Medium,Heavy,Walkable",BlocksSandstone 4,500,0,,예,
+석회암 바닥,TileLimestone,코어,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,1100,1,,예,stonecutting
+석회암 판석,FlagstoneLimestone,코어,,"Light,Medium,Heavy,Walkable",BlocksLimestone 4,500,0,,예,
+은제 바닥,SilverTile,코어,,"Light,Medium,Heavy,Walkable",Silver 70,800,4,0.2,예,smithing
+점판암 바닥,TileSlate,코어,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,1100,1,,예,stonecutting
+점판암 판석,FlagstoneSlate,코어,,"Light,Medium,Heavy,Walkable",BlocksSlate 4,500,0,,예,
+철제 바닥,MetalTile,코어,,"Light,Medium,Heavy,Walkable",Steel 7,800,0,0.2,예,smithing
+콘크리트,Concrete,코어,,"Light,Medium,Heavy,Walkable",Steel 1,100,-1,,예,stonecutting
+포장 바닥,PavedTile,코어,,"Light,Medium,Heavy,Walkable",Steel 2,300,,,예,stonecutting
+항균 바닥,SterileTile,코어,,"Light,Medium,Heavy,Walkable","Steel 3, Silver 12",1600,-1,0.6,예,sterile materials
+화강암 바닥,TileGranite,코어,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,1100,1,,예,stonecutting
+화강암 판석,FlagstoneGranite,코어,,"Light,Medium,Heavy,Walkable",BlocksGranite 4,500,0,,예,

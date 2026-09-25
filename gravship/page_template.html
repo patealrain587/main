@@ -1,0 +1,408 @@
+<title>중력부양선 배치 도면</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#0c1c2b; --panel:#0f2438; --panel-2:#142c44; --line:#4fb3d9; --line-soft:rgba(79,179,217,.35);
+  --grid:rgba(79,179,217,.10); --ink:#eaf4fa; --ink-dim:#93b3c4; --ink-faint:#5d7b8e; --accent:#f0a63a;
+  --good:#6fdc8c; --bad:#ff7a6b; --wall:#d6ecf7;
+  color-scheme:dark;
+}
+*{box-sizing:border-box;}
+body{
+  background:var(--paper);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:28px 28px; color:var(--ink);
+  font-family:'IBM Plex Sans KR','Noto Sans KR',sans-serif; padding-inline:20px; padding-block:36px 60px;
+}
+.wrap{max-width:1180px;margin:0 auto;}
+.mono{font-family:'IBM Plex Mono','Nanum Gothic Coding',monospace;font-variant-numeric:tabular-nums;}
+header.sheet{border:1px solid var(--line-soft);background:var(--panel);border-radius:4px;padding:22px 24px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:flex-start;margin-bottom:28px;}
+h1{font-family:'Nanum Gothic Coding',monospace;font-size:clamp(22px,4vw,30px);letter-spacing:.5px;margin:0 0 6px;text-wrap:balance;}
+.subtitle{color:var(--ink-dim);font-size:14px;margin:0;max-width:64ch;line-height:1.6;}
+.stamp{text-align:right;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-faint);line-height:1.7;white-space:nowrap;}
+.stamp b{color:var(--accent);font-variant-numeric:tabular-nums;}
+section{margin-bottom:36px;}
+h2{font-family:'Nanum Gothic Coding',monospace;font-size:16px;letter-spacing:.6px;color:var(--line);border-bottom:1px solid var(--line-soft);padding-bottom:8px;margin:0 0 16px;}
+p.lead{color:var(--ink-dim);font-size:14.5px;line-height:1.7;max-width:76ch;margin:0 0 18px;}
+.plan-panel{border:1px solid var(--line-soft);background:var(--panel);border-radius:4px;}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid var(--line-soft);}
+.btns{display:flex;gap:6px;flex-wrap:wrap;}
+.btns button,.legend button{font:inherit;font-size:12.5px;color:var(--ink-dim);background:transparent;border:1px solid var(--line-soft);border-radius:3px;padding:5px 10px;cursor:pointer;}
+.btns button[aria-pressed="true"]{color:var(--paper);background:var(--line);border-color:var(--line);}
+.btns button:focus-visible,.legend button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.scale-note{font-size:12px;color:var(--ink-faint);}
+.plan-scroll{overflow:auto;max-height:82vh;padding:10px;}
+.plan-scroll svg{display:block;width:100%;height:auto;}
+.lbl{font-family:'Nanum Gothic Coding',monospace;font-weight:700;fill:#f2f8fb;pointer-events:none;}
+.dim{font-family:'IBM Plex Mono',monospace;fill:#b9d3df;pointer-events:none;}
+.blbl{font-family:'IBM Plex Sans KR',sans-serif;fill:#0c1c2b;pointer-events:none;font-weight:700;}
+.ruler{font-family:'IBM Plex Mono',monospace;fill:#6f8fa3;}
+.decklbl{font-family:'Nanum Gothic Coding',monospace;font-weight:700;fill:#cfe3ec;pointer-events:none;}
+.hide-b .bl,.hide-b .bi{display:none;}
+.hide-w .wire{display:none;}
+.hide-bl .blbl{display:none;}
+.legend{display:flex;flex-wrap:wrap;gap:8px;padding:12px 14px;border-top:1px solid var(--line-soft);}
+.legend button{display:flex;align-items:center;gap:7px;}
+.legend button[aria-pressed="true"]{color:var(--ink);border-color:var(--ink-dim);background:rgba(255,255,255,.05);}
+.legend .sw{width:12px;height:12px;border-radius:2px;flex:none;}
+.key{display:flex;flex-wrap:wrap;gap:8px 18px;padding:0 14px 12px;font-size:12px;color:var(--ink-faint);}
+.key span{display:flex;align-items:center;gap:6px;}
+.key i{display:inline-block;width:10px;height:10px;flex:none;}
+#tip{position:fixed;z-index:10;pointer-events:none;background:#081421;border:1px solid var(--line);border-radius:3px;padding:8px 10px;font-size:12.5px;line-height:1.5;color:var(--ink);max-width:280px;}
+#tip b{font-family:'Nanum Gothic Coding',monospace;}
+#tip .m{font-family:'IBM Plex Mono',monospace;color:var(--ink-dim);}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line-soft);border:1px solid var(--line-soft);border-radius:4px;overflow:hidden;}
+.stat{background:var(--panel);padding:14px 16px;}
+.stat .k{font-size:12px;color:var(--ink-faint);}
+.stat .v{font-family:'IBM Plex Mono',monospace;font-size:20px;color:var(--ink);font-variant-numeric:tabular-nums;margin-top:4px;}
+.stat .s{font-size:12px;color:var(--ink-dim);margin-top:2px;}
+.stat.hl .v{color:var(--accent);}
+.table-wrap{overflow-x:auto;border:1px solid var(--line-soft);border-radius:4px;}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:620px;}
+thead th{background:var(--panel-2);color:var(--line);font-family:'Nanum Gothic Coding',monospace;font-weight:400;text-align:left;padding:10px 14px;border-bottom:1px solid var(--line-soft);white-space:nowrap;}
+tbody td{padding:7px 14px;border-bottom:1px solid rgba(79,179,217,.14);color:var(--ink-dim);vertical-align:top;}
+tbody tr.cat td{color:var(--ink);font-weight:700;background:rgba(255,255,255,.03);font-family:'Nanum Gothic Coding',monospace;}
+tbody tr.cat .sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:8px;}
+td.num,th.num{font-family:'IBM Plex Mono',monospace;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;}
+.pill{display:inline-block;font-size:12px;padding:2px 8px;border-radius:10px;white-space:nowrap;border:1px solid;}
+.pill.ok{color:var(--good);border-color:rgba(111,220,140,.5);background:rgba(111,220,140,.08);}
+.pill.no{color:var(--bad);border-color:rgba(255,122,107,.5);background:rgba(255,122,107,.08);}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px;}
+.card{border:1px solid var(--line-soft);background:var(--panel);border-radius:4px;padding:16px 18px;}
+.card .tag{font-family:'IBM Plex Mono',monospace;color:var(--accent);font-size:12px;letter-spacing:1px;}
+.card h3{font-family:'Nanum Gothic Coding',monospace;font-size:14.5px;margin:6px 0 8px;color:var(--ink);}
+.card p{margin:0;font-size:13.5px;color:var(--ink-dim);line-height:1.65;}
+.eq{font-size:12.5px;color:var(--ink-faint);}
+</style>
+
+<div class="wrap">
+  <header class="sheet">
+    <div>
+      <h1>중력부양선 배치 도면</h1>
+      <p class="subtitle">림월드 1.6 Odyssey 중력선 설계입니다. 중력구동기를 중심에 두고, 격자 통로와 3×3 모듈 구조로 배치했습니다. 건물 크기·작업칸·전력은 facilities.csv 값이고, Bigger Gravships·GravTech 설정값을 반영했습니다. 기준 모드 목록은 260924-11(317개, RT Fuse 제외)입니다.</p>
+    </div>
+    <div class="stamp">
+      DOC&nbsp;NO&nbsp;RW-GRAV-20<br>
+      하부구조 <b id="st-total">—</b> / <b id="st-sup">—</b> 칸<br>
+      방 <b id="st-rooms">—</b>실 · 건물 <b id="st-blds">—</b>개
+    </div>
+  </header>
+
+  <section>
+    <h2>01 · 모눈종이 배치 도면</h2>
+    <p class="lead">한 칸이 게임 타일 한 칸입니다. 방 안의 밝은 블록이 건물이고, 노란 점은 작업칸입니다. 추진기 뒤 붉은 빗금은 뒤 금지구역으로, 모두 선체 밖에 있습니다. 점무늬 바닥은 천장 없는 갑판입니다. 건물이나 방 위에 커서를 올리면(모바일은 탭) 정보가 뜨고, 아래 범례를 누르면 그 용도의 방만 강조됩니다.</p>
+    <div class="plan-panel">
+      <div class="toolbar">
+        <div class="btns" role="group" aria-label="도면 확대">
+          <button type="button" data-z="fit" aria-pressed="true">전체 보기</button>
+          <button type="button" data-z="8" aria-pressed="false">1칸 8px</button>
+          <button type="button" data-z="13" aria-pressed="false">1칸 13px</button>
+          <button type="button" data-z="20" aria-pressed="false">1칸 20px</button>
+        </div>
+        <div class="btns" role="group" aria-label="표시">
+          <button type="button" id="tg-b" aria-pressed="true">건물 표시</button>
+          <button type="button" id="tg-bl" aria-pressed="false">건물 이름</button>
+          <button type="button" id="tg-w" aria-pressed="true">전선</button>
+        </div>
+        <div class="scale-note">굵은 모눈 = 10칸 · 좌표는 선체 좌상단 기준</div>
+      </div>
+      <div class="plan-scroll" id="plan"></div>
+      <div class="key">
+        <span><i style="background:#f4fbff"></i>외벽 (중력부양선 외벽)</span>
+        <span><i style="background:#a9c7d6"></i>통로 벽 (밀폐 권장)</span>
+        <span><i style="background:#6f8ea0"></i>내부 벽 (일반 벽)</span>
+        <span><i style="background:#c9a2ff"></i>중력선 진공 벽 (갑판)</span>
+        <span><i style="background:#ffd166"></i>중력선 진공 벽 총안 (킬존·경비실, 기밀·엄폐 없음)</span>
+        <span><i style="background:#f0a63a"></i>일반 문</span>
+        <span><i style="background:#ff6bd6"></i>격벽 (외부 문·통로 구획)</span>
+        <span><i style="background:#b6ff5c"></i>진공 장벽 (습격 진입구)</span>
+        <span><i style="background:#7ee0c8"></i>에어록 바깥 문 (초월공학 문, 무전력)</span>
+        <span><i style="background:#ffffff;outline:1px solid #0a1824"></i>기둥</span>
+        <span><i style="background:#ffc94d;height:3px"></i>본선 간선 (상시, 전부 매립 전선)</span>
+        <span><i style="background:#e8a33d;height:2px"></i>본선 가지선</span>
+        <span><i style="background:#ff4d6d;height:3px"></i>방어 포탑 전력망 (스위치 1개로 끔)</span>
+        <span><i style="background:#3fe0ff;height:3px"></i>대공 독립 전력망 (암흑 물질 축전지, 상시)</span>
+                        <span><i style="background:#ffffff;outline:2px solid #ff4d6d"></i>방어 포탑 주 스위치</span>
+        <span><i style="background:#dfe9ef"></i>건물</span>
+        <span><i style="background:#6fdc8c;border-radius:50%"></i>작업칸</span>
+        <span><i style="background:repeating-linear-gradient(45deg,#ff7a6b 0 2px,transparent 2px 4px)"></i>추진기 뒤 금지구역</span>
+        <span><i style="background:radial-gradient(#8fb3c6 30%,#1a3448 32%);background-size:4px 4px"></i>천장 없는 갑판</span>
+        <span><i style="background:rgba(111,139,163,.45)"></i>통로</span>
+        <span><i style="background:#39d0ff"></i>온도 조절 장치 (▲ 조절면 · 붉은 점 배기면)</span>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>02 · 검사 결과</h2>
+    <p class="lead">아래 항목을 도면 데이터로 전부 계산했습니다.</p>
+    <ul class="lead" style="margin-top:-8px;padding-left:20px">
+      <li>모든 방이 문으로 통로에 이어지는지</li>
+      <li>모든 바닥이 벽·기둥에서 6칸 이내라 지붕이 버티는지</li>
+      <li>건물끼리 겹치지 않고 작업칸이 비어 있으며, 출입문에서 모든 작업칸까지 걸어갈 수 있는지</li>
+      <li>천장 없어야 하는 건물이 갑판에만 있는지</li>
+      <li>하부구조에 못 짓는 건물이 들어가지 않았는지</li>
+    </ul>
+    <div class="stats" id="stats"></div>
+    <div class="table-wrap" style="margin-top:16px">
+      <table>
+        <thead><tr><th>중력구동기 거리 제한</th><th class="num">개수</th><th class="num">최대 거리</th><th class="num">제한</th><th>결과</th></tr></thead>
+        <tbody id="dist-rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>03 · 구역 설명</h2>
+    <div class="cards">
+      <div class="card"><div class="tag">CORE</div><h3>코어</h3><p>중력구동기가 선체 한가운데에 있습니다. 중력 단조대 3기는 구동기에서 3.9칸 이내여야 해서 구동기 위·좌·우에 붙였습니다. 특이점 반응로는 바로 아래 방과 코어 북서·북동 모서리의 반응로실까지 3기입니다. 조종실과 컴퓨터 코어는 오른쪽 방에 있습니다. 간부실 2실과 대식당도 코어 안에 넣어 어디서든 가깝게 했습니다.</p></div>
+      <div class="card"><div class="tag">QUARTERS</div><h3>거주 (북)</h3><p>개인실 10실(10×8, 큰 고급 침대)과 공용 침실 2실(21×8, 침대 6개씩)을 가운데 거주 통로 양옆 4줄에 빈방 없이 채웠고, 오른쪽 맨 아래 1실은 보호막실입니다. 인원이 늘면 북측 포대 갑판 쪽으로 한 줄을 덧붙이면 됩니다. 연구실·실체 연구실(북동)과 오락실(코어)이 통로 하나 거리입니다.</p></div>
+      <div class="card"><div class="tag">PRISON HUB</div><h3>수감·가공 (동)</h3><p>통짜 수감 홀 둘레에 냉동고, 치료실, 유전자 연구소, 가공실, 의류 제작실, 화학 제작실을 붙였습니다. 홀과 바로 문으로 이어지는 방은 냉동고·교도 통로·치료실·유전자 연구소뿐입니다. 연료실은 화학 제작실 대각선 아래, 통로 건너에 있습니다. 화학연료 탱크가 습격 진입 지점과 붙지 않도록 예비 발전실과 자리를 바꿨습니다.</p></div>
+      <div class="card"><div class="tag">ENTITY</div><h3>실체 (북동)</h3><p>실체보관실(26×24)에 중력 구속대 30기와 생체강 수확기를 넣었고, 중력 파편 억제기 4기를 벽 쪽에 두었습니다. 출입은 격리 전실 한 곳입니다. 의식실, 연구실 3곳, 생체강 가공실이 같은 모듈에 있습니다.</p></div>
+      <div class="card"><div class="tag">PRODUCTION</div><h3>생산 (남)</h3><p>금속·부품 작업대를 한 방에, 밀리라 작업대(범용·태양 용광로·재단·드론 인쇄기·입자 구축기·물질 분해/재조합·중력 직조기)를 다른 한 방에 모았습니다. 대형 적재함(1,000스택)을 각 작업실 안에 2기씩 두어 따로 창고를 두지 않았고, 두 작업실 아래 외곽에 생산 확장 공실 1실(24×12)을 두 방 모두와 문으로 이었습니다. 코어의 중력 단조대와는 통로 하나 거리입니다.</p></div>
+      <div class="card"><div class="tag">MECH</div><h3>메카·메이드 (서·남서)</h3><p>메이드용 대형 메카 배양기 3기, 밀리언 배양기 2기, 서브코어 3종이 메카 제작실에 있고, 금속·부품 작업실과 통로를 사이에 두고 마주 봅니다. 충전 격납고 2곳(22×12)에 충전기 24대와 대역폭 확장기 10기가 있고, 메카 제작실 바로 위, 서쪽 띠에 있습니다. 단순작업실은 충전 격납고 B와 문으로 붙어 있고, 채굴실(자동 공허 채굴기 8기)은 메카 제작실 옆입니다. 폐기물 처리실도 같은 띠에 있습니다.</p></div>
+      <div class="card"><div class="tag">AGRI</div><h3>농장·수족관 (북서)</h3><p>수경 농장 1실(22×22)에 수경재배기 65기(경작 260칸)를 넣었습니다. 모드 재배기로 바꾸면 이보다 적게 들고, 바로 위 외곽 공실로 확장할 수도 있습니다. 약품 가공실(전기 약물 연구대·약물 수납장·적재함 1기)이 농장에 붙어 있고, 수족관에는 대형 바닥 수족관 10기가 있습니다.</p></div>
+      <div class="card"><div class="tag">DECKS</div><h3>천장 없는 갑판</h3><p>서쪽 갑판에 고급 추진기 12기를 바깥을 보게 달아, 뒤 금지구역(3×10)이 전부 선체 밖에 생깁니다. 동쪽 갑판은 둘로 나눴습니다. 북쪽 격납·착륙 갑판에는 착륙장, 여객 왕복선 2대, 밀리라 전투기 8기가 있고, 남쪽은 방어 진입 갑판입니다. 두 갑판 사이는 중력선 진공 벽 한 줄로 막았습니다. 모든 갑판 바깥 테두리는 중력부양선 외벽으로 둘렀습니다. 추진기 갑판의 서쪽 면은 뒤 금지구역 때문에 비워 두었고, 방어 진입 갑판은 동쪽 진입로 입구 7칸만 열어 두어 습격자가 들어올 수 있는 길이 이 입구 하나뿐입니다. 북서 모서리 센서 갑판에는 탐색기·탐지기·통신탑·콘솔이 있습니다. 남북 세로 통로 끝 4곳은 지붕을 덮은 에어록실(9×6)입니다. 통로 쪽 문과 포대 갑판 쪽 문은 격벽입니다. 바깥(우주) 쪽 문은 전력을 쓰지 않는 초월공학 문(빠르게 열리고 부서지지 않음)이라, 방어 포탑 전력망이 그 문 밑으로 지나가도 어느 망에도 붙지 않습니다. 에어록 안쪽 격벽과 바깥 문이 이중문 역할을 합니다. 남동 포대와 방어 진입 갑판 사이에는 방어 전력망이 지나갈 연결 갑판(20×10)을 붙였습니다. 상선 투하 지점과 발사대는 천장이 없어야 해서 격납·착륙 갑판으로 옮겼습니다.</p></div>
+      <div class="card"><div class="tag">CLIMATE</div><h3>온도·산소</h3><p>외벽에 닿는 방은 온도 조절 장치의 배기를 선체 밖으로 내보냅니다. 통로에만 닿는 방은 배기를 통로로 보내고, 통로 끝 외벽에 단 장치가 그 열을 다시 밖으로 뺍니다. 수감 홀은 벽 너머가 전부 다른 방이라 전열·냉각 파일런을 썼고, 냉동고는 냉각 파일런 2기입니다. 통로 교차점마다 전열 파일런을 두었고, 산소 펌프는 온도 조절 장치 옆에 붙였습니다.</p></div>
+      <div class="card"><div class="tag">AIRTIGHT</div><h3>밀폐 구조</h3><p>선체 바깥과 갑판에 닿는 벽은 중력부양선 외벽으로 표시했습니다. 통로와 방 사이 벽은 밀폐형을 권하고, 방끼리의 칸막이는 일반 벽이어도 됩니다. 외부 문은 전부 격벽입니다. 통로에는 격벽 (3x1) 12기를 두었습니다. 외부 문 안쪽 8곳은 에어록 역할이고, 격자 중앙 4곳은 구획을 나눠서 한 곳이 뚫려도 그 구역만 감압됩니다.</p></div>
+      <div class="card"><div class="tag">DEFENSE</div><h3>습격 진입로 → 킬존 → 선체</h3><p>습격자가 문을 부수지 않고 들어올 수 있는 길은 동쪽 진입로 하나뿐입니다. 경로는 진입로 → 진공 장벽 → 킬존 회랑 → 진공 장벽 → 가로 통로 2입니다. 방어 진입 갑판은 동쪽으로 8칸 늘렸습니다. 진입로 양옆 진공 벽 뒤에는 초중량 기관포 포탑 2기(추정 DPS 3,586, 관통 45%)에 더해 폭발하지 않는 고관통 포탑을 섞었습니다. "템페스트" 아크 방출기 2기(관통 200%)와 스마트 저격 포탑 2기(200%)가 있고, 광역 대응용 승강식 유탄포 1기와 화염방사 벙커 2기도 있습니다. 선체와 진입 갑판 사이 방어 구획(19×31)이 완충 구역입니다. 가운데 킬존 회랑에 총안 벽 4줄을 지그재그로 세워, 직선이면 18칸인 길을 42칸 돌아가게 했습니다. 위아래 경비실 2곳에서 총안 너머로 쏩니다. 총안은 적도 똑같이 쏠 수 있고, 벽에 붙어 선 쪽이 엄폐를 받습니다. 지그재그 길은 꺾일 때마다 경비실 벽에 붙어 지나가므로, 킬존 쪽 벽은 전부 엄폐가 없는 중력선 진공 벽 총안으로 했습니다. 그래서 벽에 붙은 적도 엄폐를 받지 못합니다. 이 벽은 기밀이라 킬존이 감압돼도 경비실 공기는 새지 않습니다. 경비실 안쪽 총안 한 칸 뒤에는 엄폐물을 한 칸 걸러 한 줄 세워, 경비실에 선 아군이 엄폐를 받게 했습니다. 경비실 포탑마다 소형 보호막 발생기도 붙여, 총안 너머로 날아오는 적 탄을 막습니다(아군 탄은 통과). 진공 벽 총안은 전력이 끊기거나 고장 나면 진공 장벽이 꺼지므로, 그래서 방어 구획은 두 갈래로 먹입니다. 급전 A는 본선에서, 급전 B는 경비 통로의 암흑 물질 축전지 4기(20,000 W 자체 발전)에서 옵니다. 어느 한쪽이 끊겨도 경비실과 총안 벽 전력이 유지되는 것을 확인했습니다. 진입로 양옆 벽도 같은 이유로 엄폐 없는 진공 벽을 썼습니다. 경비실에는 화염방사 벙커, 중기관총 벙커, 유탄포, 플라즈마 근접 방어 체계, "토네이도" 이온 회전포와 밀리언 충전기 3기씩이 있습니다. 모두 폭발하지 않는 종류라 방 바로 옆에 둘 수 있습니다. 정착민은 킬존을 지나지 않고 방어 설비실 → 경비 통로(옆길) → 남측 경비실·진입 갑판으로 다닙니다. 북측 경비실은 격납 갑판 쪽 격벽으로 드나듭니다. 옆길 바깥 문은 격벽이라 적에게는 부숴야 하는 길이고, 그래서 열린 킬존 쪽을 택합니다.</p></div>
+      <div class="card"><div class="tag">INTERIOR</div><h3>내부 분산 거점</h3><p>중앙 드롭 포드는 무작위로 고른 정착민 근처에 떨어지고 건설 지붕을 뚫습니다. 그래서 정착민이 오래 머무는 방에 폭발하지 않는 소형 포탑을 흩어 두었습니다. 대식당·오락실에는 플라즈마 근접 방어 체계를 두었습니다. 대식당·공용 침실 2곳·금속/밀리라 작업실·연구실 A·주방·초월공학·유전자 연구소에는 "토네이도" 이온 회전포를 두었습니다. 메이드·밀리언이 충전 격납고에만 몰리지 않도록 대식당·오락실·두 작업실에 밀리언 충전기를 2기씩, 경비실 2곳에 3기씩 두어 대기 지점을 나눴습니다. 대형 메카 충전기는 충전 격납고에 그대로 있습니다.</p></div>
+      <div class="card"><div class="tag">BATTERY</div><h3>외곽 포대 갑판</h3><p>남북 선체 바깥, 에어록 사이 세 구간씩 6곳에 포대 갑판을 붙였습니다. 북측 갑판은 거주 구역 위쪽 빈자리까지 채워 21칸 폭이고, 남서 갑판은 채굴·메카 제작실 아래에 있습니다. 출입은 에어록실 옆벽의 격벽으로 합니다. 중량급 미사일 발사탑 3기(사거리 500), FLS-03 거점 방공 체계 2기, 전자기 근접방어 체계, 스마트 저격 포탑, 승강식 기관포, 함재 4면 위상 배열 레이더, 사격 통제 레이더를 나눠 두었습니다. 추진기 갑판 안쪽에는 HPJ-06 전자기포 2기와 태양 에너지 수집/레이저 포탑 2기가 있습니다. 파괴 시 폭발 반경이 있는 포탑과 전투기는 그 반경 안에 방은 물론 다른 포탑·전투기·셔틀·추진기도 없도록 떨어뜨려서, 하나가 터져도 연쇄 폭발이 나지 않습니다. 설비는 갑판 전체에 고르게 흩어 놓았고, 갑판마다 빈자리를 남겨 두어 장거리 포탑을 더 놓을 수 있습니다.</p></div>
+      <div class="card"><div class="tag">SHIELD</div><h3>보호막 체계</h3><p>고급 보호막 생성기(GravTech)는 아군 탄도 막기 때문에, 보호막 밖의 포탑이 보호막 안의 적을 쏘면 막힙니다. 그래서 포탑·전투기가 모두 고급 보호막 안에 들도록 방어 설비실에 4번째 고급 보호막을 더 두었습니다(모드 설정 최대 20기). 안에서 밖으로 쏘는 탄은 통과하므로 사격에는 지장이 없습니다. 포대 갑판 6곳에는 복제된 역장 발생기(반경 25)를 1기씩 두었고, 추진기 갑판에는 보호막 파일런(반경 20, 무전력) 3기로 추진기를 덮었습니다. 모든 갑판 포탑 바로 옆에는 소형 보호막 발생기(반경 5)를 1기씩 붙였습니다. 소형 보호막은 EMP에 꺼지지 않아서, 고급 보호막이 EMP로 15초 꺼져도 포탑을 지킵니다. 이 소형 보호막만은 포탑 폭발 반경 이격 대상에서 뺐습니다. 셀레테크 편향 보호막은 레이저가 관통하고 파괴 시 폭발 반경 9.9에 반경 값이 없어서 쓰지 않았습니다. Eccentric 쉴드 프로젝터는 제너레이터·커패시터·방열판 네트워크가 있어야 해서 이번에는 넣지 않았습니다. 고급 보호막 반경이 기본값 44.9로 적용되면 범위가 크게 줄어드니 게임에서 설정값을 확인해 주세요.</p></div>
+      <div class="card"><div class="tag">POWER</div><h3>전선·전력망 셋</h3><p>전선은 한 칸도 빠짐없이 매립 전선이고, 망이 셋입니다. 전선은 서로 닿으면 하나로 합쳐지므로, 세 망은 어디서도 붙지 않게 한 칸 이상 띄웠습니다. 게임은 설비를 약 6칸 안의 가장 가까운 전선 하나에 자동으로 잇고, 전선끼리는 상하좌우로 맞닿아야만 합쳐집니다. 그래서 망 사이는 한 칸 이상 띄우고, 방어망 포탑은 바로 밑에 방어망 전선을 깔았으며, 모든 설비의 가장 가까운 전선이 자기 망인지 검사했습니다. <b>본선(노랑, 상시)</b>은 배 안쪽 통로 중심선을 따라 한 줄로 깔고, 통로 교차점 4곳에만 우회 칸을 두었습니다. 특이점 반응로 3기(남쪽·북서·북동)가 모두 본선에 있어 한쪽이 끊겨도 가까운 반응로가 버팁니다. 방어 구획 경비실의 근거리 포탑, 격납·착륙 갑판, 센서 갑판도 본선입니다. <b>방어 포탑 전력망(빨강)</b>은 갑판에 있는 전력 포탑 전부와 그 옆 소형 보호막, 사격 통제 레이더, 진입로 진공 벽을 묶은 별도 망입니다. 선체 바깥을 C자로 돌아 방어 설비실 → 남동·남측·남서 포대 → 추진기 갑판 → 북서·북측·북동 포대, 그리고 남동 → 연결 갑판 → 방어 진입 갑판으로 이어집니다. 본선과는 방어 설비실의 <b>주 스위치 한 칸</b>으로만 이어지므로, 이 스위치 하나로 전부 끄고 켭니다. 끄면 약 75,600 W가 빠집니다. <b>대공 독립망(하늘색, 상시)</b>은 북측·남측 포대의 FLS-03 대공 미사일, 함재 위상 배열 레이더, 레이저 포인트 방어 포탑과 그 옆 소형 보호막을 암흑 물질 축전지(북측 5기, 남측 2기)에 따로 묶었습니다. 방어 스위치를 꺼도 요격과 레이더(중량급 미사일탑 자동 사격 해금)는 계속 켜져 있습니다. 격납 갑판의 레이저 포인트 방어 포탑은 본선이라 상시입니다. 태양 에너지 수집/레이저 포탑은 스스로 30 W를 내서 방어망에 붙습니다. 그래서 스위치를 꺼도 방어망에 약 240 W가 남아, 작은 설비 하나(사격 통제 레이더 200 W 등)는 켜져 있을 수 있습니다. 밀리라 포탑(토네이도·플라즈마 근접 방어·아크 방출기)은 전력을 쓰지 않아 스위치와 상관없이 늘 작동합니다. 흑점 폭발 대비로 기계실에 자기 보호막 발생기 1대가 반응로와 같은 본선에 있고, 냉각 파일런 2기를 곁에 두었습니다. 누전은 일반 전선만 대상이라 매립 전선뿐인 이 배에서는 나지 않고, 대형 축전지도 두지 않았습니다.</p></div>
+      <div class="card"><div class="tag">RESERVE</div><h3>확장·예비 공간</h3><p>공실을 걷어내 하부구조를 27,543칸에서 23,883칸으로 줄였다가, 동쪽 방어 구획, 진입 갑판 확장, 방어 전력망용 연결 갑판까지 더해 25,052칸이 됐습니다. 특이점 반응로를 3기로 늘리면서 지지량이 늘어, 확장기는 북동·남동 2기만 남겼습니다(구동기+확장기 2+반응로 3 = 30,000칸). 남는 공간은 전부 외곽에만 있습니다. 대형 모드용 확장 블록 2곳(A: 서쪽 21×25, B: 북서 21×21)과 공실 2곳(농장 위, 생산 작업실 아래)입니다. 더 필요하면 바깥쪽으로 덧붙이면 되고, 지지량이 약 5,000칸 남아 있습니다. 적재함은 각 작업실에 1~2기씩, 일반 창고 1실에 2기만 두었습니다. 예비 발전실에는 영점 반응로 2기 자리(+160,000 W)를 잡아 두었습니다.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>04 · 방별 설비</h2>
+    <p class="lead">크기는 벽을 뺀 내부 치수입니다. 전력은 그 방 건물들의 소비 합계이고, 발전 설비는 따로 표시했습니다.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>방</th><th>내부</th><th>설비</th><th class="num">전력</th></tr></thead>
+        <tbody id="room-rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>05 · 게임에서 확인할 것</h2>
+    <div class="cards">
+      <div class="card"><div class="tag">CHECK</div><h3>확장기 거리</h3><p>중력장 확장기의 구동기 거리 제한이 정의값은 18.9칸, Bigger Gravships 설정은 100칸입니다. 도면은 100칸 기준이라 북동·남동 두 곳에 확장기를 두었습니다(최대 97.7칸). 북서쪽은 북서 반응로실이 대신 덮습니다. 게임에서 18.9칸이 적용되면 확장기를 코어 주변으로 옮겨야 합니다.</p></div>
+      <div class="card"><div class="tag">CHECK</div><h3>작업칸 방향</h3><p>작업칸 위치는 CSV의 오프셋을 회전시켜 계산했습니다. 짝수 크기 건물(2x2, 4x3 등)은 게임에서 회전 기준칸이 한 칸 어긋날 수 있습니다. 건물을 놓을 때 게임에 표시되는 작업칸이 도면의 노란 점과 같은 쪽인지 확인해 주세요.</p></div>
+      <div class="card"><div class="tag">TODO</div><h3>아직 안 넣은 것</h3><p>조명, 식탁·의자, 오락 가구는 방 크기에 영향이 없어 도면에서 뺐습니다. 지상에 착륙해 오래 머물 때는 진입로 벽을 금고 총안(체력 1,000,000)으로 바꾸는 것도 방법입니다. 다만 금고 총안은 엄폐 75%를 적에게도 주고, 진공에서 기밀이 되는지는 게임에서 확인해야 합니다.</p></div>
+      <div class="card"><div class="tag">CHECK</div><h3>온도 조절 장치 방향</h3><p>도면의 삼각형이 조절면(방 안쪽), 붉은 점이 배기면입니다. 게임의 기본 방향과 다를 수 있으니 놓을 때 이 방향이 되게 회전해 주세요. 치료실은 벽 쪽 칸이 전부 메드포드라 조절면 앞에 메드포드가 붙습니다. 바람이 막히면 메드포드를 한 칸 옮기면 됩니다.</p></div>
+    </div>
+  </section>
+</div>
+
+<div id="tip" hidden></div>
+
+<script id="ship-data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  const D = JSON.parse(document.getElementById('ship-data').textContent);
+  const S = D.summary;
+  const CATS = [
+    ['command','코어·조종','#6fd0f5'],['bed','침실','#f0b23a'],['living','식당·주방·오락','#a68af0'],
+    ['lab','연구·예술','#6e8ff5'],['med','의료','#f27fb2'],['bio','바이오테크','#37d6b0'],['prison','수감','#d9884a'],
+    ['entity','실체','#d35ce0'],['work','제조·가공','#52c98f'],['store','창고','#b8a883'],['mech','메카·메이드','#a4e05a'],
+    ['farm','농장·수족관·채굴','#e3dc5a'],['power','전력·연료','#ff9a5c'],['defense','방어·보호막','#ef5b4b'],['airlock','에어록','#ff6bd6'],
+    ['expand','확장 블록','#c9d7e0'],['spare','공실','#8fa3b3'],['killzone','킬존','#ff3d6e'],['sidepath','옆길','#9fe3c1'],
+  ];
+  const CAT = Object.fromEntries(CATS.map(([k,l,c])=>[k,{label:l,color:c}]));
+  const fmt = n => Math.round(n).toLocaleString('ko-KR');
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const rooms = D.rooms.filter(r=>r.cat!=='corridor');
+
+  let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
+  const grow=(x,y,w,h)=>{x0=Math.min(x0,x);y0=Math.min(y0,y);x1=Math.max(x1,x+w);y1=Math.max(y1,y+h);};
+  D.rooms.forEach(r=>grow(r.x-1,r.y-1,r.w+2,r.h+2));
+  D.decks.forEach(p=>grow(p.x,p.y,p.w,p.h));
+  D.blds.forEach(b=>b.e.forEach(([x,y])=>grow(x,y,1,1)));
+  const pad=4, vx=x0-pad, vy=y0-pad, vw=(x1-x0)+pad*2, vh=(y1-y0)+pad*2;
+
+  const P=[];
+  P.push(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vx} ${vy} ${vw} ${vh}" role="img" aria-label="중력부양선 타일 단위 배치도">`);
+  P.push(`<defs><pattern id="deckp" width="1" height="1" patternUnits="userSpaceOnUse"><rect width="1" height="1" fill="#15293a"/><circle cx="0.5" cy="0.5" r="0.14" fill="#7f9fb2"/></pattern>
+    <pattern id="excl" width="1" height="1" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="1" height="1" fill="#2a1414"/><rect width="0.35" height="1" fill="#ff7a6b" fill-opacity="0.8"/></pattern></defs>`);
+  P.push(`<rect x="${vx}" y="${vy}" width="${vw}" height="${vh}" fill="#0a1824"/>`);
+  let mi='',ma='';
+  const gx0=Math.floor(vx), gx1=Math.ceil(vx+vw), gy0=Math.floor(vy), gy1=Math.ceil(vy+vh);
+  for(let x=gx0;x<=gx1;x++){ if(x%10===0) ma+=`M${x} ${gy0}V${gy1}`; else mi+=`M${x} ${gy0}V${gy1}`; }
+  for(let y=gy0;y<=gy1;y++){ if(y%10===0) ma+=`M${gx0} ${y}H${gx1}`; else mi+=`M${gx0} ${y}H${gx1}`; }
+  P.push(`<path d="${mi}" stroke="#4fb3d9" stroke-opacity="0.14" stroke-width="0.5" vector-effect="non-scaling-stroke" fill="none"/>`);
+  P.push(`<path d="${ma}" stroke="#4fb3d9" stroke-opacity="0.38" stroke-width="1" vector-effect="non-scaling-stroke" fill="none"/>`);
+  for(let x=Math.ceil(gx0/10)*10;x<=gx1;x+=10) P.push(`<text class="ruler" x="${x}" y="${vy+1.8}" font-size="1.6" text-anchor="middle">${x}</text>`);
+  for(let y=Math.ceil(gy0/10)*10;y<=gy1;y+=10) P.push(`<text class="ruler" x="${vx+0.4}" y="${y+0.55}" font-size="1.6">${y}</text>`);
+
+  D.decks.forEach(d=>P.push(`<rect x="${d.x}" y="${d.y}" width="${d.w}" height="${d.h}" fill="url(#deckp)"/>`));
+  D.rooms.filter(r=>r.cat==='corridor').forEach(r=>P.push(`<rect x="${r.x}" y="${r.y}" width="${r.w}" height="${r.h}" fill="#6f8ba3" fill-opacity="0.3"/>`));
+  rooms.forEach(r=>{
+    P.push(`<rect class="room" data-r="${r.id}" data-cat="${r.cat}" x="${r.x}" y="${r.y}" width="${r.w}" height="${r.h}" fill="${CAT[r.cat].color}" fill-opacity="0.24"/>`);
+  });
+  const WC={hull:'#f4fbff',corr:'#a9c7d6',inner:'#6f8ea0',emb:'#c9a2ff',port:'#ffd166'};
+  const wp={hull:'',corr:'',inner:'',emb:'',port:''};
+  D.walls.forEach(([x,y,w,t])=>{wp[t]+=`M${x} ${y}h${w}v1h${-w}z`;});
+  Object.entries(wp).forEach(([t,d])=>{ if(d) P.push(`<path d="${d}" fill="${WC[t]}"/>`); });
+  const DC={door:'#f0a63a',bulk:'#ff6bd6',vac:'#b6ff5c',adoor:'#7ee0c8'};
+  D.doors.forEach(([x,y],i)=>{const t=(D.door_types[i]||['door'])[0]; P.push(`<rect x="${x+0.1}" y="${y+0.1}" width="0.8" height="0.8" fill="${DC[t]}"/>`);});
+  D.pillars.forEach(([x,y])=>P.push(`<rect x="${x+0.12}" y="${y+0.12}" width="0.76" height="0.76" fill="#ffffff" stroke="#0a1824" stroke-width="0.8" vector-effect="non-scaling-stroke"/>`));
+  (D.bulkheads||[]).forEach((b,i)=>{
+    const xs=b.c.map(c=>c[0]), ys=b.c.map(c=>c[1]);
+    const bx=Math.min(...xs), by=Math.min(...ys), bw=Math.max(...xs)-bx+1, bh=Math.max(...ys)-by+1;
+    const v=bw>bh; 
+    P.push(`<rect class="bk" data-k="${i}" x="${bx+(v?0:0.3)}" y="${by+(v?0.3:0)}" width="${v?bw:0.4}" height="${v?0.4:bh}" fill="#ff6bd6"/>`);
+  });
+  // exclusion zones
+  let ex='';
+  D.blds.forEach(b=>b.e.forEach(([x,y])=>{ex+=`M${x} ${y}h1v1h-1z`;}));
+  P.push(`<path d="${ex}" fill="url(#excl)"/>`);
+  // buildings
+  D.blds.forEach((b,i)=>{
+    const xs=b.c.map(c=>c[0]), ys=b.c.map(c=>c[1]);
+    const bx=Math.min(...xs), by=Math.min(...ys), bw=Math.max(...xs)-bx+1, bh=Math.max(...ys)-by+1;
+    b._r=[bx,by,bw,bh];
+    P.push(`<rect class="bl" data-b="${i}" x="${bx+0.08}" y="${by+0.08}" width="${bw-0.16}" height="${bh-0.16}" rx="0.18" fill="#dfe9ef" fill-opacity="0.88" stroke="#0c1c2b" stroke-width="0.6" vector-effect="non-scaling-stroke"/>`);
+    if(b.i) P.push(`<circle class="bi" cx="${b.i[0]+0.5}" cy="${b.i[1]+0.5}" r="0.28" fill="#6fdc8c" stroke="#0a1824" stroke-width="0.5" vector-effect="non-scaling-stroke"/>`);
+  });
+  // labels
+  rooms.filter(r=>r.short).forEach(r=>{
+    const L=[...r.short].length;
+    const fs=Math.min((r.w-0.8)/(L*1.02), r.h*0.34, 2.4);
+    if(fs<0.7) return;
+    P.push(`<text class="lbl" x="${r.x+r.w/2}" y="${r.y+0.3+fs}" font-size="${fs.toFixed(2)}" text-anchor="middle" paint-order="stroke" stroke="#0a1824" stroke-width="0.35">${esc(r.short)}</text>`);
+  });
+  D.decks.forEach(d=>{
+    const vert=d.h>d.w*1.5, cx=d.x+d.w/2, cy=d.y+d.h/2;
+    if(vert) P.push(`<text class="decklbl" transform="translate(${d.x+d.w-0.9} ${cy}) rotate(-90)" font-size="1.4" text-anchor="middle">${esc(d.short)}</text>`);
+    else P.push(`<text class="decklbl" x="${cx}" y="${d.y+1.6}" font-size="1.3" text-anchor="middle">${esc(d.short)}</text>`);
+  });
+  D.blds.forEach(b=>{
+    const [bx,by,bw,bh]=b._r; if(bw*bh<6) return;
+    const t=b.n.replace(/\s*\(.*\)$/,''); const L=[...t].length;
+    const fs=Math.min((bw-0.3)/(L*1.0), bh*0.4, 1.1); if(fs<0.35) return;
+    P.push(`<text class="blbl" x="${bx+bw/2}" y="${by+bh/2+fs*0.35}" font-size="${fs.toFixed(2)}" text-anchor="middle">${esc(t)}</text>`);
+  });
+  const [ex0,ey0]=S.engine;
+  P.push(`<circle cx="${ex0+0.5}" cy="${ey0+0.5}" r="100" fill="none" stroke="#6fd0f5" stroke-opacity="0.45" stroke-dasharray="3 3" stroke-width="1" vector-effect="non-scaling-stroke"/>`);
+  const DV={N:[0,-1],S:[0,1],W:[-1,0],E:[1,0]};
+  (D.wallunits||[]).forEach((u,i)=>{
+    const xs=u.c.map(c=>c[0]), ys=u.c.map(c=>c[1]);
+    const bx=Math.min(...xs), by=Math.min(...ys), bw=Math.max(...xs)-bx+1, bh=Math.max(...ys)-by+1;
+    P.push(`<rect class="wu" data-u="${i}" x="${bx+0.06}" y="${by+0.06}" width="${bw-0.12}" height="${bh-0.12}" fill="#39d0ff" stroke="#0a1824" stroke-width="0.5" vector-effect="non-scaling-stroke"/>`);
+    const [dx,dy]=DV[u.dir]; const cx=bx+bw/2, cy=by+bh/2;
+    const ax=cx-dx*0.95, ay=cy-dy*0.95, px=-dy, py=dx;
+    P.push(`<path class="bi" d="M${ax-dx*0.5} ${ay-dy*0.5}L${ax+px*0.4} ${ay+py*0.4}L${ax-px*0.4} ${ay-py*0.4}Z" fill="#39d0ff"/>`);
+    P.push(`<circle class="bi" cx="${cx+dx*0.95}" cy="${cy+dy*0.95}" r="0.22" fill="#ff7a6b"/>`);
+  });
+  // wiring (reference): main / defence (one switch) / anti-air islands
+  const WS={}; (D.wires||[]).forEach(([x,y,t,g])=>{WS[x+','+y]=[t,g];});
+  const gcol=(t,g)=> g==='def'?['#ff4d6d',0.26]: (g||'').startsWith('aa')?['#3fe0ff',0.26]: g==='switch'?['#ffffff',0.3]: (t==='trunk'||t==='bus'?['#ffc94d',0.3]:['#e8a33d',0.16]);
+  const WP={};
+  (D.wires||[]).forEach(([x,y,t,g])=>{[[1,0],[0,1]].forEach(([dx,dy])=>{const o=WS[(x+dx)+','+(y+dy)]; if(!o) return; const [t2,g2]=o;
+    if(g2!==g && g2!=='switch' && g!=='switch') return;
+    const key=(g==='switch'?g2:g)+'|'+((t==='trunk'||t==='bus')&&(t2==='trunk'||t2==='bus')?'t':'b');
+    WP[key]=(WP[key]||'')+`M${x+0.5} ${y+0.5}l${dx} ${dy}`;});});
+  Object.entries(WP).forEach(([k,d])=>{const [g,tb]=k.split('|'); const [c,w]=gcol(tb==='t'?'trunk':'branch',g);
+    P.push(`<path class="wire" d="${d}" stroke="${c}" stroke-width="${w}" stroke-linecap="round" fill="none" opacity="0.95"/>`);});
+  (D.switches||[]).forEach(([x,y,l])=>P.push(`<rect class="wire" x="${x-0.3}" y="${y-0.3}" width="1.6" height="1.6" rx="0.25" fill="#ffffff" stroke="#ff4d6d" stroke-width="2.5" vector-effect="non-scaling-stroke"><title>전원 스위치 · ${esc(l)}</title></rect>`));
+  P.push(`</svg>`);
+  const plan=document.getElementById('plan'); plan.innerHTML=P.join(''); const svg=plan.querySelector('svg');
+  svg.classList.add('hide-bl');
+
+  const zb=[...document.querySelectorAll('[data-z]')];
+  function setZoom(z){ zb.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.z===z))); svg.style.width= z==='fit'?'100%':(vw*Number(z))+'px'; try{localStorage.setItem('grav-zoom',z);}catch(e){} }
+  zb.forEach(b=>b.addEventListener('click',()=>setZoom(b.dataset.z)));
+  let sv=null; try{sv=localStorage.getItem('grav-zoom');}catch(e){} if(sv&&zb.some(b=>b.dataset.z===sv)) setZoom(sv);
+  const tgb=document.getElementById('tg-b'), tgl=document.getElementById('tg-bl');
+  const tgw=document.getElementById('tg-w'); tgw.addEventListener('click',()=>{const on=tgw.getAttribute('aria-pressed')!=='true'; tgw.setAttribute('aria-pressed',String(on)); svg.classList.toggle('hide-w',!on);});
+  tgb.addEventListener('click',()=>{const on=tgb.getAttribute('aria-pressed')!=='true'; tgb.setAttribute('aria-pressed',String(on)); svg.classList.toggle('hide-b',!on);});
+  tgl.addEventListener('click',()=>{const on=tgl.getAttribute('aria-pressed')!=='true'; tgl.setAttribute('aria-pressed',String(on)); svg.classList.toggle('hide-bl',!on);});
+
+  const tip=document.getElementById('tip');
+  const byR=Object.fromEntries(D.rooms.map(r=>[r.id,r]));
+  function show(html,cx,cy){
+    tip.innerHTML=html; tip.hidden=false;
+    const tw=tip.offsetWidth, th=tip.offsetHeight;
+    let l=cx+14,t=cy+14; if(l+tw>innerWidth-8) l=cx-tw-14; if(t+th>innerHeight-8) t=cy-th-14;
+    tip.style.left=Math.max(8,l)+'px'; tip.style.top=Math.max(8,t)+'px';
+  }
+  const pw = p => p>0?`+${fmt(p)} W 발전`:(p<0?`${fmt(p)} W`:'전력 없음');
+  function handle(e){
+    const b=e.target.closest('.bl'), r=e.target.closest('.room'), u=e.target.closest('.wu'), k=e.target.closest('.bk');
+    if(k){ const d=D.bulkheads[k.dataset.k]; show(`<b>격벽 (3x1)</b><br><span class="m">-300 W · Complementary Odyssey</span><br>${esc(d.label)}<br>열려 있어도 전력이 있으면 감압을 막음`,e.clientX,e.clientY); }
+    else if(u){ const d=D.wallunits[u.dataset.u]; show(`<b>${esc(d.n)}</b><br><span class="m">벽 설치 · ${pw(d.p)}</span><br>${esc(d.room)}<br>조절면: 방 안 · 배기면: ${d.exhaust==='ext'?'선체 밖':'통로'}`,e.clientX,e.clientY); }
+    else if(b){ const d=D.blds[b.dataset.b]; show(`<b>${esc(d.n)}</b><br><span class="m">${d.w}x${d.h} · ${pw(d.p)}</span><br>${esc(d.m)}<br>${esc(d.o)}${d.i?'<br>작업칸 있음 (초록 점)':''}${d.e.length?'<br>뒤 금지구역 '+d.e.length+'칸 (선체 밖)':''}`,e.clientX,e.clientY); }
+    else if(r){ const d=byR[r.dataset.r]; show(`<b>${esc(d.name)}</b><br><span class="m">${d.w}×${d.h} · ${fmt(d.area)}칸${d.pillars.length?` · 기둥 ${d.pillars.length}`:''}</span><br>${esc(CAT[d.cat].label)}${d.note?'<br>'+esc(d.note):''}`,e.clientX,e.clientY); }
+    else tip.hidden=true;
+  }
+  svg.addEventListener('pointermove',handle); svg.addEventListener('click',handle);
+  svg.addEventListener('pointerleave',()=>tip.hidden=true); plan.addEventListener('scroll',()=>tip.hidden=true);
+
+  const area={}; rooms.forEach(r=>area[r.cat]=(area[r.cat]||0)+r.area);
+  const leg=document.getElementById('legend'); let act=null;
+  CATS.forEach(([k,l,c])=>{ if(!area[k]) return;
+    const b=document.createElement('button'); b.type='button'; b.dataset.cat=k; b.setAttribute('aria-pressed','false');
+    b.innerHTML=`<span class="sw" style="background:${c}"></span>${esc(l)} <span class="mono" style="color:var(--ink-faint)">${fmt(area[k])}</span>`;
+    b.addEventListener('click',()=>{ act=act===k?null:k; [...leg.children].forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.cat===act)));
+      svg.querySelectorAll('.room').forEach(rc=>rc.setAttribute('fill-opacity',!act?'0.24':(rc.dataset.cat===act?'0.7':'0.05'))); });
+    leg.appendChild(b); });
+
+  document.getElementById('st-total').textContent=fmt(S.total);
+  document.getElementById('st-sup').textContent=fmt(S.support);
+  document.getElementById('st-rooms').textContent=rooms.length;
+  document.getElementById('st-blds').textContent=D.blds.length;
+  const st=[
+    ['하부구조 사용',fmt(S.total)+'칸',`지지량 ${fmt(S.support)}칸 (구동기+확장기 2+반응로 3)`,true],
+    ['방 내부',fmt(S.cnt.int-S.corridor)+'칸',`통로 ${fmt(S.corridor)} · 벽 ${fmt(S.cnt.wall)}`],
+    ['천장 없는 갑판',fmt(S.cnt.deck)+'칸','추진기·격납·센서·연결'],
+    ['전력 소비',fmt(S.use)+' W',`발전 ${fmt(S.gen)} W · 사용률 ${(S.use/S.gen*100).toFixed(0)}% · 자기 보호막 작동 시 ${fmt(S.use+25000)} W`,true],
+    ['매립 전선',fmt(Object.entries(S.wire_cnt).filter(([k])=>k!=='switch').reduce((a,[,v])=>a+v,0))+'칸',`본선 ${fmt((S.wire_cnt.trunk||0)+(S.wire_cnt.branch||0)+(S.wire_cnt.bus||0)+(S.wire_cnt.mod||0)+(S.wire_cnt.under||0)-0)} · 방어망 ${fmt(S.wire_cnt.def||0)} · 대공망 ${fmt(S.wire_cnt.aa||0)} · 스위치 ${S.n_switch}개`],
+    ['방어 포탑 스위치','1개',`끄면 ${fmt(S.def_load)} W 절약 · 포탑·소형 보호막 ${S.n_def_b}기`],
+    ['예비 발전 자리','+'+fmt(S.reserve)+' W','영점 반응로 2기'],
+    ['보호막 범위',S.shield_cov+'%',`고급 보호막 기준, 선체 (갑판 ${S.shield_cov_deck}%) · 반경 80 (모드 설정값)`],
+    ['침대',S.beds+'개','개인 10 · 간부 2 · 공용 12 · 수감 8'],
+    ['구속대',S.platforms+'기','중력 구속대 2x2'],
+    ['추진기',S.thrusters+'기','고급 중력부양선 추진기'],
+    ['수경재배기',S.basins+'기',`경작 ${S.basins*4}칸 · 수족관 ${S.aquariums}기`],
+    ['온도 조절 장치',S.tcu+'대',`배기: 선체 밖 ${S.tcu_ext} · 통로 ${S.tcu-S.tcu_ext}`],
+    ['파일런',((S.counts['전열 파일런']||0)+(S.counts['냉각 파일런']||0))+'기',`전열 ${S.counts['전열 파일런']||0} · 냉각 ${S.counts['냉각 파일런']||0} (전력 없음)`],
+    ['산소 펌프',(S.counts['산소 펌프']||0)+'기','방마다 1기 + 200칸마다 1기'],
+    ['통로 격벽',S.bulk+'기','격벽 (3x1) · 에어록 8 · 구획 4'],
+    ['외부 출입문',S.doors_ext+'곳','격벽 '+(S.doors_ext-1)+' · 진공 장벽 1 (진입구)'],
+    ['외벽',fmt(S.wcount.hull)+'칸',`통로 벽 ${fmt(S.wcount.corr)} · 내부 벽 ${fmt(S.wcount.inner)}`],
+    ['포탑',S.turrets+'기','셀레테크·Brrrt·밀리라·NCL · 진공 벽 '+S.wcount.emb+'칸'],
+    ['보호막',(S.counts['고급 보호막 생성기']||0)+(S.counts['복제된 역장 발생기']||0)+(S.counts['보호막 파일런']||0)+(S.counts['소형 보호막 발생기']||0)+'기',`고급 ${S.counts['고급 보호막 생성기']||0} · 역장 ${S.counts['복제된 역장 발생기']||0} · 파일런 ${S.counts['보호막 파일런']||0} · 소형 ${S.small_sh}`],
+    ['폭발 반경 검사',S.expl.filter(e=>e.ok).length+'/'+S.expl.length,'파괴 시 폭발이 방·다른 건물에 닿지 않음'],
+  ];
+  document.getElementById('stats').innerHTML=st.map(([k,v,s,h])=>`<div class="stat${h?' hl':''}"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join('');
+  const grp={}; S.dist.forEach(d=>{const g=grp[d.name]||(grp[d.name]={n:0,max:0,limit:d.limit,ok:true}); g.n++; g.max=Math.max(g.max,d.dist); g.ok=g.ok&&d.ok;});
+  document.getElementById('dist-rows').innerHTML=Object.entries(grp).map(([n,g])=>`<tr><td>${esc(n)}</td><td class="num">${g.n}</td><td class="num">${g.max.toFixed(1)}칸</td><td class="num">${g.limit}칸</td><td><span class="pill ${g.ok?'ok':'no'}">${g.ok?'통과':'초과'}</span></td></tr>`).join('');
+
+  const inRoom={}; D.blds.forEach(b=>{(inRoom[b.o]=inRoom[b.o]||[]).push(b);});
+  (D.wallunits||[]).forEach(u=>{(inRoom[u.room]=inRoom[u.room]||[]).push(u);});
+  let rows='';
+  CATS.forEach(([k,l,c])=>{
+    const rs=rooms.filter(r=>r.cat===k); if(!rs.length) return;
+    rows+=`<tr class="cat"><td colspan="4"><span class="sw" style="background:${c}"></span>${esc(l)}</td></tr>`;
+    const seen=new Map();
+    rs.forEach(r=>{
+      const base=r.name.replace(/\s*(\d+|[A-Z]|NE|W|S|SE|N)$/,'');
+      const bl=inRoom[r.name]||[]; const cnt={}; let p=0;
+      bl.forEach(b=>{cnt[b.n]=(cnt[b.n]||0)+1; if(b.p<0) p+=b.p;});
+      const items=Object.entries(cnt).map(([n,v])=>v>1?`${n} ×${v}`:n).join(', ');
+      const key=base+'|'+r.w+'x'+r.h+'|'+items;
+      if(seen.has(key)){seen.get(key).n++; return;}
+      seen.set(key,{r,base,items,p,n:1});
+    });
+    seen.forEach(g=>{ rows+=`<tr><td>${esc(g.n>1?g.base+' ×'+g.n:g.r.name)}</td><td class="mono">${g.r.w}×${g.r.h}</td><td>${esc(g.items||'—')}</td><td class="num">${g.p?fmt(g.p*g.n)+' W':'—'}</td></tr>`; });
+  });
+  const dk={}; D.blds.filter(b=>D.decks.some(d=>d.name===b.o)).forEach(b=>{(dk[b.o]=dk[b.o]||{})[b.n]=(dk[b.o][b.n]||0)+1;});
+  rows+=`<tr class="cat"><td colspan="4"><span class="sw" style="background:#7f9fb2"></span>천장 없는 갑판</td></tr>`;
+  D.decks.forEach(d=>{ const it=Object.entries(dk[d.name]||{}).map(([n,v])=>v>1?`${n} ×${v}`:n).join(', ');
+    rows+=`<tr><td>${esc(d.name)}</td><td class="mono">${d.w}×${d.h}</td><td>${esc(it||'출입용')}</td><td class="num">—</td></tr>`; });
+  document.getElementById('room-rows').innerHTML=rows;
+})();
+</script>

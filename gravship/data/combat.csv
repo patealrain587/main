@@ -1,0 +1,99 @@
+﻿이름,모드,종류,크기,전력,체력,무기,사거리,피해,관통력,폭발 반경,연사,조준(초),재사용(초),추정 DPS,명중(근/중/원),탄속,추가 무기,보호막·특수 성능,특징,실제 적용값(모드 설정),연구,defName
+밀리라 그리핀 전투기,Milira Faction: Milira Imperium,전투기,5x5,,1680,전투기용 레이저포,49.9,18 (총상),120%,,1발,0,0.1,180.0,1/1/1,425,,,장전/연료: 태양 연료 600,,함재기 운용,Milira_GriffinFighter
+밀리라 프레데터 전투기,Milira Faction: Milira Imperium,전투기,5x5,,2400,전투기용 레이저포,59.9,18 (총상),120%,,1발,0,0.1,180.0,1/1/1,425,FOX 2 미사일 발사기(DPS 1.5),,장전/연료: 태양 연료 1200,,차세대 제공 전투기,Milira_PredatorFighter
+밀리라 해리어 전투기,Milira Race,전투기,3x3,,400,입자 미니건,33.9,18 (총상),20%,,12발 / 6틱 간격,0,4,42.4,0.65/0.54/0.42,125,,,장전/연료: 태양 연료 100 / 파괴 시 폭발 반경 3.9,,"역장 항공기, 입자 회랑 집중",Milira_HarrierFighter
+밀리라 나글파르급 행성 파괴자 - 돛,Milira:Wings of Democracy,전투기,20x11,,12500,돛 근접 방어 입자 기관총,39.9,12 (총상),24%,,12발 / 6틱 간격,0,5,23.6,1/1/1,120,"돛 근접 방어 입자 기관총(DPS 23.6), 돛 근접 방어 입자 기관총(DPS 23.6), 돛 근접 방어 입자 기관총(DPS 23.6)",,,,나글파르급 행성 파괴함,PLAMilira_Naglfar_Middle
+밀리라 나글파르급 행성 파괴자 - 고물,Milira:Wings of Democracy,전투기,8x11,,8500,고물 하이브 미사일 포탑,14.9~42.9,40 (대공 미사일),84%,4.9,4발 / 45틱 간격,0,10,13.1,0.76/0.72/0.66,25,"고물 하이브 미사일 포탑(DPS 13.1), 고물 레일건 유도 전파 탐지기(DPS -)",,,,나글파르급 행성 파괴함,PLAMilira_Naglfar_Right
+밀리라 나글파르급 행성 파괴자 - 용골,Milira:Wings of Democracy,전투기,8x11,,8500,용골 근접 방어 기관포,14.9~42.9,15 (폭발),48%,2.4,3발 / 50틱 간격,0,5,6.8,0.65/0.54/0.42,300,"용골 근접 방어 기관포(DPS 6.8), 순항 유도탄 발사기(DPS 2.5)",,,,나글파르급 행성 파괴함,PLAMilira_Naglfar_Left
+밀리라 에테르 드레이크 전투기,Milira Faction: Milira Imperium,전투기,5x5,,2400,FOX 3 미사일 발사기,74.9,22 (폭발),200%,3.9,1발,0,8,2.8,-/-/1,90,FOX 2 미사일 발사기(DPS 1.5),,장전/연료: 태양 연료 1600,,차세대 제공 전투기,Milira_DragonFighter
+밀리라 와이번 전투기,Milira Faction: Milira Imperium,전투기,5x5,,2880,FOX 3 미사일 발사기,74.9,22 (폭발),200%,3.9,1발,0,8,2.8,-/-/1,90,FOX 2 미사일 발사기(DPS 1.5),,장전/연료: 태양 연료 1200,,차세대 제공 전투기,Milira_WyvernFighter
+초중량 기관포 포탑,Brrrt,포탑,5x5,-3000 W,6000,초중량 기관포,50,30 (총상),45%,,50발 / 0.5틱 간격,0,0.01,3585.7,0.75/0.7/0.6,100,,,파괴 시 폭발 반경 3.9 / 장전/연료: 강철 1150 / 포탑 사격 정확도 0.995,,"자동 포탑, 다중 총열",BrrtTurret
+초중량 기관포 포탑 (소이),Brrrt,포탑,5x5,-3000 W,6000,초중량 기관포 (소이),50,10 (화염),0%,1,50발 / 0.5틱 간격,0,0.01,1195.2,0.75/0.7/0.6,100,,,파괴 시 폭발 반경 5 / 장전/연료: 화학연료 1150 / 포탑 사격 정확도 0.995,,"자동 포탑, 다중 총열",BrrtTurretFlam
+전자기 근접방어 체계,CeleTech Arsenal MKIII,포탑,5x5,-1050 W,1500,4연장 30mm 전자기 근접방어 체계,14.9~64.9,24 (총상),100%,,72발 / 2틱 간격,0.3,0,648.0,0.62/0.56/0.45,126,,,파괴 시 폭발 반경 5.9 / 장전/연료: 강철 1200 / 업그레이드 가능 / 포탑 사격 정확도 0.83,,"구축함급 무장, 신경 연결 조준",CMCcannon_BF
+로켓탄막 발사기,코어,포탑,2x2,-150 W,200,로켓탄막 발사관,29.9,24 (폭발),10%,2.9,12발 / 10틱 간격,0,0.1,149.0,0.72/0.66/0.5,38,,,파괴 시 폭발 반경 6.9 / 장전/연료: 화학연료 12 / 포탑 사격 정확도 0.96,,로켓탄막 발사기,Turret_RocketswarmLauncher
+중량급 미사일 발사탑,CeleTech Arsenal MKIII,포탑,3x3,-3300 W,4000,미사일 발사대,15.9~500,1190 (폭발 피해),600%,2.1,1발,4.2,10,83.8,1/1/1,50,,,업그레이드 가능 / 파괴 시 폭발 반경 9.9 / 장전/연료: 대전차 미사일 6 / 포탑 사격 정확도 0.2,,"AI 협동 유도, 고급 방어 프로토콜",CMCML
+승강식 중기관총 벙커,CeleTech Arsenal MKIII,포탑,3x3,-200 W,10000,중기관총,31.9,19 (총상),124%,,18발 / 10틱 간격,0,1.5,78.9,0.62/0.46/0.35,126,,,업그레이드 가능 / 장전/연료: 강철 2000 / 포탑 사격 정확도 0.87,,전자기 승강기,CMC_ReinforcedBunker
+속사 기관포탑,CeleTech Arsenal MKIII,포탑,3x3,-1050 W,900,전하식 근접방어포,54.9,24 (총상),100%,,6발 / 3틱 간격,0.1,1.5,77.8,0.92/0.86/0.85,126,,,파괴 시 폭발 반경 5.9 / 장전/연료: 강철 360 / 업그레이드 가능 / 포탑 사격 정확도 0.83,,"대형 포탑, 고급 방어 프로토콜",CMCcannon
+승강식 기관포,CeleTech Arsenal MKIII,포탑,3x3,-200 W,10000,2연장 30mm 기관포탑,46.9,24 (총상),100%,,4발 / 8틱 간격,0,1,68.6,0.82/0.76/0.65,126,,,업그레이드 가능 / 장전/연료: 강철 2000 / 포탑 사격 정확도 0.87,,전자기 승강기,CMC_ReinforcedBunker_R
+HPJ-1X 130mm 전자기 함포,CeleTech Arsenal MKIII,포탑,5x5,-10000 W,12000,함재 전자기포,29.9~500,1190 (폭발 피해),800%,7.56,1발,0,18,66.1,0.92/0.86/0.85,400,,,업그레이드 가능 / 파괴 시 폭발 반경 19.9 / 장전/연료: 130mm 고폭탄 12 / 포탑 사격 정확도 1,,"저격 포탑, 구축함급 무장",CMC_EMcannon_Huge
+승강식 유탄포,CeleTech Arsenal MKIII,포탑,3x3,-200 W,10000,45mm 유탄 발사기,7.9~46.9,80 (폭발 피해),10%,1.9,1발,0,1.45,55.2,0.62/0.46/0.35,62,,,업그레이드 가능 / 장전/연료: 강철 2000 / 포탑 사격 정확도 1,,전자기 승강기,CMC_ReinforcedBunkerAGS_R
+근거리 스마트 산탄 무기 스테이션,CeleTech Arsenal MKIII,포탑,1x1,-550 W,600,스마트 산탄총,18.9,24 (맞음),30%,,3발 / 15틱 간격,0,1,48.0,0.85/0.85/0.85,76,,,업그레이드 가능 / 파괴 시 폭발 반경 5 / 장전/연료: 강철 360 / 포탑 사격 정확도 0.85,,기본 방어 프로토콜,CMC_CSGTurret
+태양 에너지 수집/레이저 포탑,Milira Faction: Milira Imperium,포탑,3x3,+30 W,4800,태양광 수집 포탑,499.9,50 (맞음),140%,,1발,0.1,1,45.5,1/1/1,425,,,포탑 사격 정확도 1.00,,태양 방어탑,Milira_SunLightDefenceTowerII
+플라즈마 근접 방어 체계,Milira Faction: Milira Imperium,포탑,3x3,,1560,"""성운"" 근접 방어포",2.9~69.9,8 (총상),120%,,1발,0.1,0.1,40.0,1/1/1,425,,,포탑 사격 정확도 1.00,,예측 알고리즘,MiliraImperiumTurret_PointDefense
+"""토네이도"" 이온 회전포",Milira Faction: Milira Imperium,포탑,2x2,,560,이온 회전포,2.9~39.9,4 (총상),55%,,80발 / 4틱 간격,1.9,2.6,32.8,0.92/0.86/0.85,120,,,포탑 사격 정확도 0.94,,함포 소형화,MiliraImperiumTurret_MiniGun
+밀리라 중형 입자 캐논 포탑,Milira Race,포탑,2x2,,650,중형 입자 캐논,4.9~49.9,15 (입자 폭발),35%,1,24발 / 5틱 간격,2.4,7.5,30.5,-/-/0.28,85,,,파괴 시 폭발 반경 5.9 / 포탑 사격 정확도 1.00,,중형 이온 무기,MiliraTurret_HeavyParticle
+M51 차지 오토캐논 함포,Eccentric Tech - Defense Grid,포탑,2x2,-600 W,500,M51 차지 오토캐논,8.9~32.9,30 (총상),50%,,4발 / 10틱 간격,1,2.5,30.0,0.77/0.71/0.55,90,,,사람이 조작해야 사격 / 장전/연료: 플라스틸 120 / 포탑 사격 정확도 0.96,,네트워크 기반 포탑,Eccentric_Turret_M51AC
+스마트 저격 포탑,CeleTech Arsenal MKIII,포탑,2x2,-1050 W,400,전하식 저격포,79.9,45 (총상),200%,,1발,0.11,1.65,25.6,0.92/0.86/0.85,170,,,업그레이드 가능 / 장전/연료: 강철 360 / 포탑 사격 정확도 0.81,,"기본 방어 프로토콜, 동적 경로 계산",CMC_Svcannon
+기관총 무기 스테이션,CeleTech Arsenal MKIII,포탑,1x1,-550 W,600,기관총,32,11 (총상),50%,,12발 / 4틱 간격,0.89,4,23.5,0.85/0.85/0.85,60,,,업그레이드 가능 / 파괴 시 폭발 반경 5 / 장전/연료: 강철 180 / 포탑 사격 정확도 0.97,,기본 방어 프로토콜,CMC_CSGTurret_C
+대형 기관포,코어,포탑,2x2,-150 W,380,대형 포탑,8.9~32.9,27 (총상),40%,,3발 / 17틱 간격,0,3.5,19.9,0.72/0.66/0.5,88,,,파괴 시 폭발 반경 5.9 / 장전/연료: 강철 90 / 포탑 사격 정확도 0.96,,대형 포탑,Turret_Autocannon
+빔 리피터 포탑,GravTech,포탑,1x1,-200 W,200,빔 리피터 포탑,24.9,5 (광선),50%,,30발 / 8틱 간격,3,1.2,18.6,0.86/0.79/0.73,,,,파괴 시 폭발 반경 2.9 / 포탑 사격 정확도 0.96,,"광선 무기, 자동 포탑",Turret_BeamRepeater
+저격포,코어,포탑,2x2,-150 W,380,저격 포탑,11.9~45.9,55 (총상),82%,,1발,0,3.2,17.2,0.33/0.44/0.95,120,,,파괴 시 폭발 반경 5.9 / 장전/연료: 우라늄 30 / 포탑 사격 정확도 0.98,,저격 포탑,Turret_Sniper
+M64 레일건 함포,Eccentric Tech - Defense Grid,포탑,2x2,-800 W,500,M64 레일건,11.9~45.9,60 (총상),100%,,1발,1,2.5,17.1,0.82/0.76/0.6,150,,,사람이 조작해야 사격 / 장전/연료: 우라늄 30 / 포탑 사격 정확도 0.98,,네트워크 기반 포탑,Eccentric_Turret_M64RG
+"""템페스트"" 아크 방출기",Milira Faction: Milira Imperium,포탑,5x5,,5040,아크 방출포,5.9~499.9,32 (전기 아크),200%,,1발,0,1.9,16.8,1/1/1,9999,,,포탑 사격 정확도 1.00,,집중형 아크 방출기,MI_Building_ArcEmitter
+"""엘레우시스 밀교"" 중화력 보병 지원 플랫폼",Milira:Wings of Democracy,포탑,2x2,,800,악소의 그릇,31.9,8 (총상),26%,,10발 / 6틱 간격,3.8,1,14.0,0.95/0.9/0.85,100,"아스프의 지팡이(DPS 7.4), 4연장 로켓 발사기(DPS 1.0)",,,,항공우주 요새 방어 시설,PLAMilira_Gatling_Base
+HPJ-06 45mm 전자기포,CeleTech Arsenal MKIII,포탑,3x3,-1500 W,1200,자동 전자기포,7.9~91.9,90 (폭발 피해),190%,4.5,1발,0.25,7.56,11.5,0.92/0.86/0.85,330,,,업그레이드 가능 / 파괴 시 폭발 반경 1.9 / 장전/연료: 강철 100 / 포탑 사격 정확도 1,,"대형 포탑, 고급 방어 프로토콜",CMC_EMcannon
+"""별자리"" 위상 교란기",Milira Faction: Milira Imperium,포탑,5x5,,2880,대형 플라즈마포,5.9~499.9,22 (분해 광선),200%,2.9,1발,0,2.4,9.2,1/1/1,9999,,,포탑 사격 정확도 1.00,,위상 분열기,MiliraImperiumTurret_Disruptor
+집속 로켓 발사탑,CeleTech Arsenal MKIII,포탑,3x3,-1500 W,3200,로켓 발사대,24.9~79.9,25 (폭발 피해),10%,2.9,4발 / 16틱 간격,4.2,9.5,6.9,0.89/0.76/0.56,42,,,업그레이드 가능 / 파괴 시 폭발 반경 6.9 / 장전/연료: 로켓탄 36 / 포탑 사격 정확도 0.76,,"로켓탄막 발사기, 고급 방어 프로토콜",CMC_RocketswarmLauncher
+노바 스피어,Milira:Wings of Democracy,포탑,1x1,,250,레이저 스피어,36.9,5 (레이저),65%,,10발 / 30틱 간격,1,1.8,6.8,-/-/0.28,300,,,포탑 사격 정확도 1.00,,"항공우주 요새 방어 시설, 고급 열병기, 열 축적 이론",Milira_Nova_Sphere
+"""별빛"" 미사일 발사기",Milira Faction: Milira Imperium,포탑,3x3,,1040,미사일 발사기,5.9~499.9,12 (중성자 폭발),200%,1.9,1발,0,1.9,6.3,1/1/1,75,,,포탑 사격 정확도 1.00,,충격 추진기,MiliraImperiumTurret_MissileLauncher
+다연장 로켓 발사기,Milira Race,포탑,2x2,,650,다연장 로켓 발사기,4.9~35.9,28 (폭발),45%,2.5,8발 / 10틱 간격,2.4,36,5.7,-/-/0.66,48,,,파괴 시 폭발 반경 5.9 / 포탑 사격 정확도 1.00,,다연장 로켓 발사기,MiliraTurret_HeavyRocketLauncher
+"""혜성"" 플라즈마포",Milira Faction: Milira Imperium,포탑,3x3,,1680,중형 플라즈마포,3.9~499.9,16 (플라즈마 폭발),160%,2.9,1발,1,1.9,5.5,1/1/1,325,,,포탑 사격 정확도 1.00,,플라즈마 가속기,MiliraImperiumTurret_PlasmaCannon
+FLS-03 거점 방공 체계,CeleTech Arsenal MKIII,포탑,3x3,-3300 W,4000,FK-60 대공 미사일 발사대,120,10 (폭발),30%,,1발,0,2,5.0,1/1/1,140,,,업그레이드 가능 / 파괴 시 폭발 반경 9.9 / 장전/연료: 부품 54 / 포탑 사격 정확도 0.2,,"AI 협동 유도, 고급 방어 프로토콜",CMC_SAML
+밀리라 소형 이온 포탑,Milira Race,포탑,1x1,,150,소형 이온포,44.9,12 (플라즈마 광선),22%,,1발,0.6,1.8,5.0,0.6/0.5/0.3,95,,,포탑 사격 정확도 1.00,,이온 무기,MiliraTurret_Plasma
+소형 기관포,코어,포탑,1x1,-80 W,100,소형 포탑,28.9,12 (총상),18%,,2발 / 8틱 간격,0,4.8,4.9,0.7/0.45/0.24,70,,,파괴 시 폭발 반경 3.9 / 장전/연료: 강철 60 / 포탑 사격 정확도 0.96,,자동 포탑,Turret_MiniTurret
+2연장 저격 무기 스테이션,CeleTech Arsenal MKIII,포탑,1x1,-550 W,600,자동 스마트 저격소총,3.9~54.9,24 (총상),71%,,1발,1,4,4.8,0.85/0.85/0.85,66,,,업그레이드 가능 / 파괴 시 폭발 반경 5 / 장전/연료: 강철 40 / 포탑 사격 정확도 0.85,,기본 방어 프로토콜,CMC_CSGTurret_B
+"""태풍"" 감마 레이저포",Milira Faction: Milira Imperium,포탑,2x2,,560,감마 레이저포,2.9~69.9,10 (맞음),160%,,1발,0.1,2.2,4.3,1/1/1,500,,,포탑 사격 정확도 1.0,,함포 소형화,MiliraImperiumTurret_Typhoon
+"""스피닝 바스타드"" 하이브 대공 미사일 포탑",Milira:Wings of Democracy,포탑,2x2,,650,대공 미사일 발사기,4.9~35.9,40 (대공 미사일),64%,4.9,4발 / 45틱 간격,2.4,36,3.9,-/-/0.66,25,,,장전/연료: 태양 연료 200 / 포탑 사격 정확도 1.00,,"항공우주 요새 방어 시설, 집속 탄두",PLAMilira_AntiAirMissile_Base
+중형 전자기 캐논 포탑,Milira Race,포탑,2x2,,650,중형 전자기 캐논,4.9~47.9,30 (총상),120%,,2발 / 0틱 간격,3.8,12.8,3.6,-/-/0.78,175,,,파괴 시 폭발 반경 5.9 / 포탑 사격 정확도 1.00,,레일건,MiliraTurret_HeavyRailGun
+태양 에너지 수집/방어 포탑,Milira Faction: Milira Imperium,포탑,3x3,+30 W,4800,태양광 수집 포탑,2.9~499.9,9 (플라즈마 폭발),120%,4.2,5발 / 10틱 간격,3.8,8,3.6,-/-/0.28,150,,,포탑 사격 정확도 1.00,,태양 방어탑,Milira_SunLightDefenceTower
+중력 블래스터 포탑,GravTech,포탑,2x2,-300 W,600,중형 중력 블래스터,10~51.9,7 (중력 폭발 충격파),90%,7.5,1발,1.5,0.8,3.0,0.7/0.85/0.9,100,,,파괴 시 폭발 반경 6.9 / 장전/연료: 중력감응판 200 / 포탑 사격 정확도 0.96,,"중력 무기, 대형 포탑",Turret_GravBlaster
+"""성가 오르간"" 전자기 저격포",Milira:Wings of Democracy,포탑,2x2,,650,성가 오르간,4.9~47.9,25 (총상),75%,,2발 / 0틱 간격,3.8,12.8,3.0,-/-/0.78,175,,,포탑 사격 정확도 1.00,,항공우주 요새 방어 시설,PLAMilira_Organ_Base
+중형 플라즈마 포탑,Milira Race,포탑,2x2,,650,중형 플라즈마 캐논,4.9~45.9,34 (플라즈마 폭발),75%,4.2,1발,3.8,10.8,2.3,-/-/0.28,75,,,파괴 시 폭발 반경 5.9 / 포탑 사격 정확도 1.00,,중형 이온 무기,MiliraTurret_HeavyPlasma
+테슬라 탑,Milira:Wings of Democracy,포탑,1x1,,350,고출력 전기장 발생기,21.9,20 (전기 화상),0%,,1발,3.8,12.8,1.2,-/-/0.78,1,,,포탑 사격 정확도 1.00,,"항공우주 요새 방어 시설, 고급 열병기",PLAMilira_Tesla_Base
+박격포,코어,포탑,2x2,,180,박격포,29.9~500,,,,1발,4,28,,-/-/-,,,,사람이 조작해야 사격 / 파괴 시 폭발 반경 4.9 / 장전/연료: 강화 포신 20,,박격포,Turret_Mortar
+거품 포탑,코어,포탑,1x1,-80 W,100,거품 발사기,19.9,9999 (화재 진압),80%,,41발 / 2틱 간격,0,0.1,,1/1/1,27,,,파괴 시 폭발 반경 0 / 장전/연료: 화학연료 10 / 포탑 사격 정확도 1,,거품 포탑,Turret_FoamTurret
+프리즘 탑,CeleTech Arsenal MKIII,포탑,1x1,-5500 W,1000,프리즘 탑,40,0 (총상),0%,,1발,0.9,2.5,,1/1/1,999,,,업그레이드 가능 / 포탑 사격 정확도 1,,"기본 방어 프로토콜, 열전 순환 장치",CMC_LaserSniperTower
+승강식 화염방사 벙커,CeleTech Arsenal MKIII,포탑,3x3,-720 W,10000,화염방사기,21,,,,40발 / 1틱 간격,0.33,0.1,,0.62/0.46/0.35,,,,업그레이드 가능 / 장전/연료: 강철 500 / 포탑 사격 정확도 0.87,,전자기 승강기,CMC_ReinforcedBunker_Fire
+HPJ-L01 M급 입자 랜스,CeleTech Arsenal MKIII,포탑,2x2,-2000 W,400,HPJ-L01 메가와트급 입자 랜스 발사기,28.9,,,,360발 / 2틱 간격,0.03,1.86,,1/1/1,,,,업그레이드 가능 / 포탑 사격 정확도 0.81,,"기본 방어 프로토콜, 열전 순환 장치",CMC_Lasercannon
+HPJ-L12 G급 입자 랜스,CeleTech Arsenal MKIII,포탑,5x5,-20000 W,2400,HPJ-L12 기가와트급 입자 랜스,210,,,,360발 / 2틱 간격,0,0,,1/1/1,,,,업그레이드 가능 / 포탑 사격 정확도 1,,"구축함급 무장, 열전 순환 장치",CMC_Lasercannon_B
+자기 보호막 발생기,RT Solar Flare Shield,보호막·방어장,2x2,-50 W,200,,,,,,,,,,,,,"RTSolarFlareShield [shieldingPowerDrain=25000, heatingPerTick=0.5, rotatorSpeedIdle=0.5, rotatorSpeedActive=20.0]",,,흑점 폭발 차폐,Building_RTMagneticShield
+테슬라 비콘,Mechanoids: Total Warfare,보호막·방어장,6x6,-2000 W,1000,,,,,,,,,,,,,"LightningStrike [requiredPower=12000, empRadius=25, cooldownTicks=60, consumeFromBatteriesOnly=true] / AutoLightningStrike [empRadius=5, autoStrikeInterval=300, autoStrikePowerCost=150, damageAmount=50, damageType=Bomb, maxTargets=3, maxConcurrentStrikes=3, enableOverdrive=true, overdrivePowerMultiplier=2.0, overdriveTargetMultiplier=2]",,,테슬라 비콘,NCL_Building_Lightingstrike
+레이저 포인트 방어 포탑,Mechanoids: Total Warfare,보호막·방어장,2x2,-150 W,500,,,,,,,,,,,,,LaserDefence,,,레이저 포인트 방어 포탑,NCL_LaserDefenceTurret
+대스텔스 레이더,Mechanoids: Total Warfare,보호막·방어장,5x5,-2000 W,1000,,,,,,,,,,,,,"AntiInvisibilityField [effectiveRadius=64, requiresPower=true, applyHediff=DisruptorFlash, checkIntervalTicks=60, affectsThroughWalls=true, drawRadius=true, drawLines=true, radiusColor=(255, 255, 255)]",,,비질런트 돔 대스텔스 시스템,NCL_Overwatch_Nexus
+고급 보호막 생성기,GravTech,보호막·방어장,3x3,-1100 W,400,,,,,,,,,,,,,"ProjectileInterceptor [radius=44.9, interceptGroundProjectiles=true, interceptAirProjectiles=true, interceptOutgoingProjectiles=false, interceptNonHostileProjectiles=true, color=(0.2, 0.5, 0.5), hitPoints=2000, hitPointsRestoreInstantlyAfterCharge=true, startWithMaxHitPoints=false, chargeDurationTicks=7500]",,"[GravTech] 반경 80, 내구 10000, 최대 20개","중력 무기, 중력구동기 기술",AdvShip_ShieldGenerator
+보호막 파일런,GravTech,보호막·방어장,1x1,,300,,,,,,,,,,,,,"ProjectileInterceptor [radius=5.5, interceptGroundProjectiles=true, interceptAirProjectiles=true, interceptOutgoingProjectiles=false, color=(0.1, 0.2, 0.2), hitPoints=200, hitPointsRestoreInstantlyAfterCharge=true, startWithMaxHitPoints=true, chargeDurationTicks=90, minAlpha=0.05]",,"[GravTech] 반경 20, 내구 2000","보호막, 고급 중력기술",ShieldPylon_GT
+편향 보호막 생성기,CeleTech Arsenal MKIII,보호막·방어장,3x3,-4090 W,6000,,,,,,,,,,,,,"FullProjectileInterceptor [interceptGroundProjectiles=true, interceptAirProjectiles=true, hitPoints=5000, hitPointsRestoreInstantlyAfterCharge=false, chargeDurationTicks=1800, minIdleAlpha=0.4, drawWithNoSelection=False]",파괴 시 폭발 반경 9.9,,고급 보호막 생성기,CMCShieldGenerator
+쉴드 프로젝터,Eccentric Tech - Defense Grid,보호막·방어장,2x2,,300,,,,,,,,,,,,,"DefenseProjector [radius=20.9, radiusRange=8~20, adjustableRadius=true, interceptsDirectProjectiles=true, interceptsOverheadProjectiles=true, interceptsExplosiveProjectiles=true, interceptsNonExplosiveProjectiles=true, fieldDrawSizeFactor=1.015873, defaultColor=(159,248,255,38), interceptEffectDrawOffset=(0,0,0.3)]",,,네트워크 기반 쉴드,Eccentric_ShieldProjector
+쉴드 프로젝터 (광역),Eccentric Tech - Defense Grid,보호막·방어장,2x2,,400,,,,,,,,,,,,,"DefenseProjector [radius=40.9, radiusRange=20~40, adjustableRadius=true, interceptsDirectProjectiles=true, interceptsOverheadProjectiles=true, interceptsExplosiveProjectiles=true, interceptsNonExplosiveProjectiles=true, fieldDrawSizeFactor=1.015873, defaultColor=(159,248,255,38), interceptEffectDrawOffset=(0,0,0.3)]",,,네트워크 기반 쉴드,Eccentric_ShieldProjectorWide
+쉴드 프로젝터 (3x3 광역),Eccentric Tech - Defense Grid,보호막·방어장,3x3,,400,,,,,,,,,,,,,"DefenseProjector [radius=40.9, radiusRange=20~40, adjustableRadius=true, interceptsDirectProjectiles=true, interceptsOverheadProjectiles=true, interceptsExplosiveProjectiles=true, interceptsNonExplosiveProjectiles=true, fieldDrawSizeFactor=1.015873, defaultColor=(159,248,255,38), interceptEffectDrawOffset=(0,0,0.3)]",,,네트워크 기반 쉴드,Eccentric_ShieldProjector3x3Wide
+복제된 역장 발생기,Milira:Wings of Democracy,보호막·방어장,3x3,,1250,,,,,,,,,,,,,"ProjectileInterceptor [radius=25, interceptGroundProjectiles=true, interceptAirProjectiles=true, color=(0.92, 0.91, 0.76), drawWithNoSelection=false, hitPoints=1250, chargeDurationTicks=5000, rechargeHitPointsIntervalTicks=120, hitPointsRestoreInstantlyAfterCharge=true, startWithMaxHitPoints=true]",,,"항공우주 요새 방어 시설, 역장 발생기",PLAMilira_Field_Tower_Player
+소형 보호막 발생기,Reflection Shield Generator,보호막·방어장,1x1,-1000 W,300,,,,,,,,,,,,,"ReflectionShield / IffOverride / ShieldConfiguration / ProjectileInterceptor [radius=5, interceptGroundProjectiles=true, interceptAirProjectiles=true, interceptNonHostileProjectiles=false, interceptOutgoingProjectiles=false, color=(0.20, 0.55, 1.00), hitPoints=1200, hitPointsRestoreInstantlyAfterCharge=false, chargeDurationTicks=180, rechargeHitPointsIntervalTicks=6]",,,방어 보호막 기술,ASG_SmallWallShieldGenerator
+가시 함정,코어,함정,1x1,,40,,,,,,,,,,,,,,함정 피해 100,,,TrapSpike
+고폭탄 지뢰,코어,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 3.9,,지뢰,TrapIED_HighExplosive
+소이탄 지뢰,코어,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 3.9,,지뢰,TrapIED_Incendiary
+펄스탄 지뢰,코어,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 10.9,,지뢰,TrapIED_EMP
+연막탄 지뢰,코어,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 8.6,,지뢰,TrapIED_Smoke
+소방거품탄 지뢰,코어,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 9.9,,지뢰,TrapIED_Firefoam
+반물질탄 지뢰,코어,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 14.9,,지뢰,TrapIED_AntigrainWarhead
+독소탄 지뢰,Biotech DLC,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 8.9,,지뢰,TrapIED_ToxGas
+모조생명탄 지뢰,Anomaly DLC,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 8.9,,지뢰,TrapIED_Deadlife
+헌터 함정,Odyssey DLC,함정,1x1,,50,,,,,,,,,,,,,,,,헌터 드론,HunterDroneTrap
+소화 드론,Extinguisher Drone,함정,1x1,,50,,,,,,,,,,,,,,,,"소방거품, 헌터 드론",ExtinguisherHunterDrone
+중력 코어 지뢰,GravTech,함정,1x1,,40,,,,,,,,,,,,,,폭발 반경 12.8,,"지뢰, 표준 중력기술",TrapIED_Gravcore
+밀리라 척력 함정,Milira Race,함정,1x1,,40,,,,,,,,,,,,,,,,"지뢰, 공간 함정",Milira_TrapRepulsive
+밀리라 인력 함정,Milira Race,함정,1x1,,40,,,,,,,,,,,,,,,,"지뢰, 공간 함정",Milira_TrapAttractive
+모래주머니,코어,방어 구조물,1x1,,300,,,,,,,,,,,,,,,,,Sandbags
+엄폐물,코어,방어 구조물,1x1,,300,,,,,,,,,,,,,,,,,Barricade
+이글 포격 건물,Mechanoids: Total Warfare,방어 구조물,7x7,-2000 W,5000,,,,,,,,,,,,,,,,기술 해석: 종말 계산,NCL_Eagle_Artillery_Building
+"""아이언 레인"" 수직 발사 요격 시스템",Mechanoids: Total Warfare,방어 구조물,6x6,-2000 W,5000,,,,,,,,,,,,,,,,수직 발사 요격 시스템,NCL_Building_MissileSilo
+LRSD-30 아음속 교란기,CeleTech Subsonic Disruptor,방어 구조물,2x2,-3350 W,200,,,,,,,,,,,,,,,,복합 분석기,Building_FBS
+근접 센서 타워,Eccentric Tech - Defense Grid,방어 구조물,1x1,-250 W,150,,,,,,,,,,,,,,,,네트워크 기반 포격,Eccentric_ArtillerySensorTower
+수직 미사일 런처,Eccentric Tech - Defense Grid,방어 구조물,2x2,-250 W,400,,,,,,,,,,,,,,,,네트워크 기반 포격,Eccentric_ArtilleryVerticalMissileLauncher
+쉴드 제너레이터,Eccentric Tech - Defense Grid,방어 구조물,3x3,-800 W,300,,,,,,,,,,,,,,,,네트워크 기반 쉴드,Eccentric_ShieldGenerator
+쉴드 커패시터,Eccentric Tech - Defense Grid,방어 구조물,2x2,-400 W,200,,,,,,,,,,,,,,,,네트워크 기반 쉴드,Eccentric_ShieldCapacitor
+쉴드 방열판,Eccentric Tech - Defense Grid,방어 구조물,2x2,,200,,,,,,,,,,,,,,,,네트워크 기반 쉴드,Eccentric_ShieldHeatsink
+방어망 도관,Eccentric Tech - Defense Grid,방어 구조물,1x1,,100,,,,,,,,,,,,,,,,네트워크 기반 방어,Eccentric_DefenseConduit
+숨겨진 방어망 도관,Eccentric Tech - Defense Grid,방어 구조물,1x1,,150,,,,,,,,,,,,,,,,네트워크 기반 방어,Eccentric_DefenseConduitUnderground
+방어망 콘솔,Eccentric Tech - Defense Grid,방어 구조물,1x1,,100,,,,,,,,,,,,,,사람이 조작해야 사격,,네트워크 기반 방어,Eccentric_DefenseGridConsole
+원격 포탑 컨트롤러,Eccentric Tech - Defense Grid,방어 구조물,1x1,,100,,,,,,,,,,,,,,,,네트워크 기반 방어,Eccentric_DefenseTurretController
+"""오로라"" 요격기",Milira:Wings of Democracy,방어 구조물,2x2,,400,,,,,,,,,,,,,,장전/연료: 태양 연료 1200,,레이저 요격,Aurora_Interceptora
