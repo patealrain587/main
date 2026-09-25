@@ -139,9 +139,10 @@ R("메카 제작실", "메카 제작", "mech", 24, 93, 21, 12); D((45, 98), (34,
 
 # outside decks
 DK("추진기 갑판", "추진기 갑판", -12, 30, 12, 80, "지붕 없음"); D((0, 47), (0, 90))
-DK("북동 격납 갑판", "북동 격납 갑판", 148, 10, 26, 25, "지붕 없음 · 착륙장·셔틀·전투기"); D((147, 27))
+HANGAR_W = 26
+DK("북동 격납 갑판", "북동 격납 갑판", 148, 10, HANGAR_W, 25, "지붕 없음 · 착륙장·셔틀·전투기"); D((147, 27))
 DK("방어 진입 갑판", "방어 진입 갑판", 168, 36, 34, 47, "지붕 없음 · 습격 유도 진입로")
-DK("남동 격납 갑판", "남동 격납 갑판", 148, 84, 26, 25, "지붕 없음 · 전투기·발사대"); D((147, 90), (147, 106))
+DK("남동 격납 갑판", "남동 격납 갑판", 148, 84, HANGAR_W, 25, "지붕 없음 · 전투기·발사대"); D((147, 90), (147, 106))
 # east defence module on the centre line: guard posts above and below a serpentine kill corridor
 # raiders enter at the middle of the east side (167,59) and leave into the east end of corridor H1 (147,47)
 R("북측 경비실", "경비실", "defense", 148, 36, 19, 7, "근거리 방어"); D((157, 35), (167, 40))
@@ -178,7 +179,7 @@ DK("남동 포대 갑판", "남동 포대", 106, 119, 41, 12, "지붕 없음 · 
 DEF_PORTALS = [(x, -7) for x in range(39, 50)] + [(x, -7) for x in range(98, 109)] + \
               [(0, y) for y in range(-1, 30)] + [(-1, 29), (-2, 29)] + [(0, 108)] + \
               [(42, y) for y in range(118, 126)] + [(x, 125) for x in range(43, 53)] + [(x, 125) for x in range(95, 106)] + \
-              [(147, y) for y in range(119, 108, -1)] + [(x, 109) for x in range(148, 175)] + [(174, y) for y in range(108, 82, -1)]
+              [(147, y) for y in range(119, 108, -1)] + [(x, 109) for x in range(148, 149 + HANGAR_W)] + [(148 + HANGAR_W, y) for y in range(108, 82, -1)]
 DEF_DECKS = {"북서 포대 갑판", "북측 포대 갑판", "북동 포대 갑판", "남서 포대 갑판", "남측 포대 갑판", "남동 포대 갑판",
              "추진기 갑판", "방어 진입 갑판"}
 
@@ -370,9 +371,9 @@ def try_place(sp, o, cx, cy, rot, tag="", check_reach=True):
     cells, inter, excl = footprint(sp, cx, cy, rot)
     for c in cells:
         if not free(c, o) or c in reserved: return None
+    if inter in cells: inter = None   # data puts the interaction spot on the body (griffin fighter): check side access instead
     if inter:
         if not free(inter, o) or inter in reserved and not any(inter == b["inter"] for b in blds): return None
-        if inter in cells: return None
     if sp["noroof"] and o[0] != "d": return None
     for c in excl:
         if K(*c) not in (EMPTY, None): return None
@@ -666,7 +667,7 @@ def place_spread(o, keys, rect=None, far_w=0.35, optional_keys=()):
         sp = spec(key); R_ = expl_r(sp["defName"])
         cand = sorted(cells, key=lambda c: math.hypot(c[0] - sx, c[1] - sy) + far_w * (maxd - dist[c]))
         ok = False
-        for (cx, cy) in cand[:600]:
+        for (cx, cy) in cand:
             for rot in (0, 1, 2, 3):
                 fc, _, _ = footprint(sp, cx, cy, rot)
                 if rect and not all(rx <= c[0] < rx + rw and ry <= c[1] < ry + rh for c in fc): continue
