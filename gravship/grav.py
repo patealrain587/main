@@ -132,11 +132,17 @@ R("화학 제작실", "화학 제작", "work", 129, 77, 15, 11); D((136, 88))
 R("연료실", "연료실", "power", 103, 93, 13, 12); D((102, 98), (109, 92))
 R("예비 발전실", "예비 발전", "power", 117, 93, 13, 12, "영점 반응로 2기 자리 · 보호막 SE"); D((123, 92))
 R("진입로 정비실", "정비실", "defense", 131, 93, 13, 12, "진입로 포탑 정비"); D((137, 92))
+R("남동 공실", "공실", "spare", 103, 106, 41, 8, "게임에서 지은 외곽 공실 · 확장 자리")
 
 # S: production + central thruster deck
 R("금속·부품 작업실", "금속·부품", "work", 50, 93, 24, 12, "같은 재료 작업대 모음 · 보호막 S"); D((49, 98), (61, 92))
-R("밀리라 작업실", "밀리라", "work", 75, 93, 23, 12); D((98, 98), (86, 92), (86, 105))
-DK("추진기 갑판", "추진기 갑판", 50, 106, 48, 4, "지붕 없음 · 추진기 12기 · 배기 남쪽")
+R("밀리라 작업실", "밀리라", "work", 75, 93, 23, 12); D((98, 98), (86, 92))
+# row added in game under the production rooms (thrusters pushed south): two airlock rooms at the corridor ends
+# and a long room between them that takes the metal room's overflow
+R("남측 에어록 1", "에어록", "airlock", 46, 106, 9, 6, "세로 통로 1 끝 · 추진기 갑판 출입"); D((47, 105), (55, 108), (50, 112))
+R("단조·제련실", "단조·제련", "work", 56, 106, 36, 6, "금속·부품 작업실에서 나눈 작업대"); D((73, 112))
+R("남측 에어록 2", "에어록", "airlock", 93, 106, 9, 6, "세로 통로 2 끝 · 추진기 갑판 출입"); D((100, 105), (92, 109), (97, 112), (102, 109))
+DK("추진기 갑판", "추진기 갑판", 46, 113, 56, 5, "지붕 없음 · 추진기 12기 · 배기 남쪽")
 
 # east strip: defence only, thin and long (equipment room, side path, guard posts, vertical kill corridor, entry lane)
 R("방어 설비실", "방어 설비", "defense", 145, 1, 13, 24, "보호막 NE·확장기·방어 주 스위치"); D((150, 25))
@@ -451,7 +457,7 @@ def fp_touch(ca, cb):
     return any((x + dx, y + dy) in sb for (x, y) in ca for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))
 def links_ok(e, tcells, fcells):
     return fp_touch(tcells, fcells) if e["adj"] else fp_gap(tcells, fcells) <= e["dist"]
-LINK_ROOMS = ("금속·부품 작업실", "밀리라 작업실", "초월공학 작업실", "의류 제작실", "시체·부산물 가공실", "약품 가공실",
+LINK_ROOMS = ("금속·부품 작업실", "단조·제련실", "밀리라 작업실", "초월공학 작업실", "의류 제작실", "시체·부산물 가공실", "약품 가공실",
               "화학 제작실", "주방", "연구실", "실체 연구실", "생체강 가공실", "치료실", "조각·예술실", "중력구동기실")
 LINK_NEVER = {"HobbesLink_LaserEngraver"}   # no stat effect
 LINK_BENCH = {}
@@ -561,8 +567,9 @@ autofill(RO("무기고"), [("MechaWeaponChanger", 1), ("Shelf_RepairRack", 2), (
 # --- S production
 autofill_room("금속·부품 작업실", [("CMC_FacBench", 1), ("VFE_TableMachiningLarge", 1), ("FabricationBench", 1),
                                ("CMC_TableMachining", 1), ("EccentricNanofabricator", 1), ("EccentricNanoassembler", 1),
-                               ("ElectricSmelter", 1), ("ElectricSmithy", 1), ("VFE_ComponentFabricationBench", 1),
-                               ("CMC_WeaponModificationBench", 1), ("VFE_MachiningCabinet", 1), ("VFE_FabricationCabinet", 1), ("jdgg_MassCargoHold", 2)])
+                               ("CMC_WeaponModificationBench", 1), ("jdgg_MassCargoHold", 1)])
+# smelting / smithing / component benches moved to the new row below (more room for their linked facilities)
+autofill_room("단조·제련실", [("ElectricSmelter", 1), ("ElectricSmithy", 1), ("VFE_ComponentFabricationBench", 1), ("jdgg_MassCargoHold", 1)])
 autofill_room("밀리라 작업실", [("Milira_GravityLoom", 1), ("Milira_SunBlastFurnace", 1), ("MEXY_ParticleConstructor", 1),
                              ("MiliraExpandedXY_MatterDecomposer", 1), ("MiliraExpandedXY_MatterRecomposer", 1),
                              ("Milira_UniversalBench", 1), ("Milira_TailoringBench", 1), ("Milira_DroneBench", 1),
@@ -647,7 +654,7 @@ autofill(so, [("LongRangeMineralScanner", 1), ("GroundPenetratingScanner", 1), (
               ("AT_RecallStation", 1), ("GHFomulaConsole", 1), ("GHTuningConsole", 1)])
 thr = 0
 for cx in range(57, 91, 3):
-    if try_place(spec("AdvShip_GravThruster"), DO("추진기 갑판"), cx, 108, 0, check_reach=False): thr += 1
+    if try_place(spec("AdvShip_GravThruster"), DO("추진기 갑판"), cx, 116, 0, check_reach=False): thr += 1
 if thr < 12: errors.append(f"only {thr}/12 thrusters placed")
 COMBAT = {r["defName"]: r for r in csv.DictReader(open(os.path.join(HERE, "data", "combat.csv"), encoding="utf-8-sig"))}
 def expl_r(dn):
@@ -757,7 +764,7 @@ for dn, groups in BAT.items():
     place_spread(DO(dn), interleave(groups), far_w=0.15)
 SMALL_SH = ("ASG_SmallWallShieldGenerator", "ShieldPylon_GT")
 # GravTech pylons (radius 20) just inside the thruster row
-for (x0, y0) in ((53, 108), (94, 108)):
+for (x0, y0) in ((53, 116), (94, 116)):
     if not try_place(spec("ShieldPylon_GT"), DO("추진기 갑판"), x0, y0, 0): errors.append(f"no pylon spot near thrusters x{x0}")
 # reflection small shield (radius 5) beside every deck turret; exempt from blast spacing
 small_n = 0
@@ -951,7 +958,7 @@ link_added, link_score = {}, {}
 for rn in LINK_ROOMS:
     o = RO(rn); items = LINK_BENCH.get(rn, [])
     snap = snapshot(); best = None
-    for trial in range(LINK_TRIALS if items else 1):
+    for trial in range((LINK_TRIALS * 3 if sum(n for _, n in items) >= 4 else LINK_TRIALS) if items else 1):
         rng = random.Random(1000 + trial)
         if place_benches(o, items, rng, trial):
             link_room(o)
