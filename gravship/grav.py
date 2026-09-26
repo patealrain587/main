@@ -84,8 +84,7 @@ R("서쪽 외곽 5", "외곽", "spare", -6, 83, 6, 9, "게임에서 지은 외�
 farm = R("수경 농장", "수경 농장", "farm", 1, 23, 19, 15); D((20, 30), (10, 38))
 R("약품 가공실", "약품 가공", "work", 1, 39, 19, 6); D((10, 45), (20, 42))
 aqua = R("수족관", "수족관", "farm", 25, 23, 20, 8); D((24, 27), (45, 27))
-R("폐기물 처리실", "폐기물", "mech", 25, 32, 10, 13); D((24, 38), (30, 45))
-R("보호막실 W", "보호막", "defense", 36, 32, 9, 13); D((45, 38))
+R("폐기물·보호막실", "폐기물·보호막", "mech", 25, 32, 20, 13, "폐기물 분해 · 보호막 W"); D((24, 38), (30, 45), (45, 38))
 R("충전 격납고 A", "충전 A", "mech", 1, 50, 19, 12); D((10, 49), (20, 55))
 R("충전 격납고 B", "충전 B", "mech", 1, 63, 19, 9); D((20, 68))
 R("채굴실", "채굴", "farm", 1, 73, 19, 15, "자동 공허 채굴기"); D((10, 88), (20, 81))
@@ -95,20 +94,17 @@ R("메카 제작실", "메카 제작", "mech", 25, 76, 20, 12); D((24, 81), (45,
 DK("남서 격납 갑판", "남서 격납", 1, 93, 44, 21, "지붕 없음 · 왕복선·착륙장·교역·방공"); D((11, 92), (45, 100))
 
 # N: quarters (4 rows)
-R("조각·예술실", "예술", "lab", 76, 37, 10, 8); D((75, 40))
 pn = 1
 # the former shared bedrooms are built in game as two private rooms each (wall x60)
 for (x, y, w, dx) in ((50, 10, 10, 49), (61, 10, 10, 71), (50, 19, 10, 49), (61, 19, 10, 71), (76, 10, 10, 75), (87, 10, 11, 98), (76, 19, 10, 75), (87, 19, 11, 98), (50, 28, 10, 49), (61, 28, 10, 71), (76, 28, 10, 75),
-                      (87, 28, 11, 98), (50, 37, 10, 49), (61, 37, 10, 71)):
-    R(f"개인 침실 {pn}", "개인", "bed", x, y, w, 8); D((dx, y + 3)); pn += 1
-R("보호막실 N", "보호막", "defense", 87, 37, 11, 8); D((98, 40))
+                      (87, 28, 11, 98), (50, 37, 10, 49), (61, 37, 10, 71), (76, 37, 10, 75), (87, 37, 11, 98)):
+    R(f"개인 침실 {pn}", "개인", "bed", x, y, w, 8); D((dx, y + 3)); pn += 1   # last two: former art room / shield N (beds in game)
 
 # NE: research + entity
 R("의식실", "의식실", "entity", 103, 1, 11, 24); D((108, 25))
 contain = R("실체보관실", "실체보관실", "entity", 115, 1, 24, 24, "중력 구속대 30기")
 R("실체 격리 전실", "전실", "entity", 140, 1, 4, 24); D((139, 12), (141, 25))
-R("연구실", "연구", "lab", 103, 30, 12, 15); D((108, 29), (108, 45), (102, 37))
-R("실체 연구실", "실체 연구", "entity", 116, 30, 14, 15); D((122, 29), (122, 45))
+R("연구실", "연구", "lab", 103, 30, 27, 15, "일반·실체 연구 통합 (연구 연결 설비 공유)"); D((108, 29), (108, 45), (102, 37), (122, 29), (122, 45))
 R("생체강 가공실", "생체강", "entity", 131, 30, 13, 15); D((136, 29))
 
 # Core
@@ -123,21 +119,22 @@ R("기계실", "기계실", "power", 79, 76, 7, 12, "자기 보호막 발생기�
 R("반응로실 2", "반응로", "power", 87, 76, 11, 12, "특이점 반응로 1기"); D((92, 88), (98, 81))
 
 # E: prison hub
-R("주방", "주방", "living", 103, 50, 11, 11); D((102, 55), (108, 49), (108, 61))
+# columns share the walls x114 and x132: kitchen (with cold storage) over processing / corridor+medical over the
+# prison hall over clothing / growth over genetics over chemistry
+R("주방", "주방·냉동", "living", 103, 50, 11, 18, "냉장 적재함 겸용"); D((102, 55), (108, 49), (114, 64), (108, 68))
 R("교도 통로", "", "prison", 115, 50, 3, 11); D((116, 49), (116, 61))
-R("치료실", "치료실", "med", 119, 50, 11, 11); D((124, 49), (124, 61))
-R("성장 배양실", "성장 배양", "bio", 131, 50, 13, 11); D((137, 49), (137, 61))
-R("냉동고", "냉동고", "living", 103, 62, 11, 14); D((102, 68), (114, 68), (108, 76))
+R("치료실", "치료실", "med", 119, 50, 13, 11); D((124, 49), (124, 61))
+R("성장 배양실", "성장 배양", "bio", 133, 50, 11, 7); D((137, 49), (137, 57))
 hall = R("수감 홀", "수감 홀", "prison", 115, 62, 17, 14, "통짜 공용 감방")
-R("유전자 연구소", "유전자", "bio", 133, 62, 11, 14); D((132, 68))
-R("시체·부산물 가공실", "가공실", "work", 103, 77, 14, 11, "단순작업 겸용"); D((109, 88), (117, 82))
-R("의류 제작실", "의류 제작", "work", 118, 77, 10, 11); D((123, 88))
-R("화학 제작실", "화학 제작", "work", 129, 77, 15, 11); D((136, 88))
+R("유전자 연구소", "유전자", "bio", 133, 58, 11, 14); D((132, 68))
+R("시체·부산물 가공실", "가공실", "work", 103, 69, 11, 19, "단순작업 겸용"); D((109, 88), (102, 78), (114, 72), (114, 82))
+R("의류 제작실", "의류 제작", "work", 115, 77, 17, 11); D((123, 88), (132, 80))
+R("화학 제작실", "화학 제작", "work", 133, 73, 11, 15); D((136, 88))
 
 # SE: fuel / reserve power / lane maintenance
 R("연료실", "연료실", "power", 103, 93, 13, 12); D((102, 98), (109, 92))
 R("예비 발전실", "예비 발전", "power", 117, 93, 13, 12, "영점 반응로 2기 자리 · 보호막 SE"); D((123, 92))
-R("진입로 정비실", "정비실", "defense", 131, 93, 13, 12, "진입로 포탑 정비"); D((137, 92))
+R("남동 공실 2", "공실", "spare", 131, 93, 13, 12, "옛 진입로 정비실 · 확장 자리"); D((137, 92))
 R("남동 공실", "공실", "spare", 103, 106, 41, 8, "게임에서 지은 외곽 공실 · 확장 자리"); D((102, 109))
 
 # S: production + central thruster deck
@@ -149,7 +146,8 @@ R("남측 에어록 2", "에어록", "airlock", 93, 113, 9, 5, "세로 통로 2 
 DK("추진기 갑판", "추진기 갑판", 56, 113, 36, 5, "지붕 없음 · 추진기 12기 · 배기 남쪽")
 
 # east strip: defence only, thin and long (equipment room, side path, guard posts, vertical kill corridor, entry lane)
-R("방어 설비실", "방어 설비", "defense", 145, 1, 13, 24, "보호막 NE·확장기·방어 주 스위치"); D((150, 25))
+R("방어 설비실", "방어 설비", "defense", 145, 1, 13, 12, "보호막 NE·확장기·방어 주 스위치"); D((150, 13))
+R("동쪽 공실", "공실", "spare", 145, 14, 13, 11, "방어 설비실에서 나눔 · 확장 자리"); D((150, 25))
 R("경비 통로", "옆길", "sidepath", 145, 26, 13, 3, "정착민용 옆길"); D((144, 27), (148, 29), (155, 29))
 R("북측 경비실", "경비실", "defense", 145, 30, 7, 15, "근거리 방어")
 R("동측 경비실", "경비실", "defense", 153, 30, 5, 59, "근거리 방어 · 킬존 옆"); D((155, 89))
@@ -466,7 +464,7 @@ def fp_touch(ca, cb):
 def links_ok(e, tcells, fcells):
     return fp_touch(tcells, fcells) if e["adj"] else fp_gap(tcells, fcells) <= e["dist"]
 LINK_ROOMS = ("금속·부품 작업실", "밀리라 작업실", "초월공학 작업실", "의류 제작실", "시체·부산물 가공실", "약품 가공실",
-              "화학 제작실", "주방", "연구실", "실체 연구실", "생체강 가공실", "치료실", "조각·예술실", "중력구동기실")
+              "화학 제작실", "주방", "연구실", "생체강 가공실", "치료실", "오락·도서실", "중력구동기실")
 LINK_NEVER = {"HobbesLink_LaserEngraver",   # no stat effect
               "HobbesLink_RobotAssistant"}  # links do not work in game (bug)
 # walkways kept free in link rooms: a spine along the room (plus a cross spine in deep rooms, 2 wide in big
@@ -551,8 +549,8 @@ for r in rooms:
         autofill(("r", r["id"]), [("Bed_Kingsize", 1), (DR, 2), ("EndTable", 2)])
     if r["name"].startswith("공용 침실"):
         autofill(("r", r["id"]), [("Bed", 6), ("EndTable", 3), (DR, 2)])
-autofill_room("조각·예술실", [("TableSculpting", 2)])
-autofill_room("연구실", [("HiTechResearchBench", 1), ("AdvancedMultiAnalyzer", 2), ("MultiAnalyzer", 1), ("CMC_CommConsole", 1), ("EccentricAuroraCore", 1)])
+autofill_room("오락·도서실", [("TableSculpting", 2)])   # art moved into the rec room
+autofill_room("연구실", [("HiTechResearchBench", 2), ("SerumCentrifuge", 1), ("AdvancedMultiAnalyzer", 2), ("MultiAnalyzer", 1), ("CMC_CommConsole", 1), ("EccentricAuroraCore", 1)])
 
 # --- entity
 co = RO("실체보관실")
@@ -567,12 +565,11 @@ for row_y in (3, 7, 11, 15, 19):  # platform rows, two-row aisles between
 contain["note"] = f"중력 구속대 {plat}기"
 for (x, y) in ((117, 2), (129, 2), (137, 2), (117, 22), (129, 22), (137, 22)):
     try_place(spec("GravShardInhibitor"), co, x, y, 0, check_reach=False)
-autofill_room("실체 연구실", [("SerumCentrifuge", 1), ("HiTechResearchBench", 1)])
 autofill_room("생체강 가공실", [("BioferriteShaper", 1), ("BioferriteGenerator", 1)])
 autofill(RO("의식실"), [("AL_RitualSpot", 1), ("PsychicRitualSpot", 1), ("GravShardBeacon", 2)])
 
 # --- advanced shields: two small shield rooms, the rest inside large rooms
-for n in ("보호막실 N", "보호막실 W", "금속·부품 작업실", "예비 발전실", "방어 설비실"):
+for n in ("오락·도서실", "폐기물·보호막실", "금속·부품 작업실", "예비 발전실", "방어 설비실"):
     autofill(RO(n), [("AdvShip_ShieldGenerator", 1)])
 place("GravFieldExtender", RO("충전 격납고 A"), 2, 51, 0, "extender")
 place("GravFieldExtender", RO("방어 설비실"), 150, 10, 0, "extender")
@@ -580,7 +577,7 @@ place("GravFieldExtender", RO("방어 설비실"), 150, 10, 0, "extender")
 # --- prison hub
 autofill_room("주방", [("VFE_TableStoveLarge", 1), ("ElectricStove", 1), ("MAG_ArchotechCookingStove", 1), ("VCE_CondimentPrepTable", 1),
                      ("VCE_CanningMachine", 1), ("VCE_Grill", 1), ("VCE_DeepFrier", 1)])
-autofill(RO("냉동고"), [("jdgg_RefCargoHold", 4), ("CoolerPylon_GT", 2)])
+autofill(RO("주방"), [("jdgg_RefCargoHold", 4)])   # refrigerated holds: the old freezer lives in the kitchen
 autofill_room("치료실", [("MedPodStandard", 4), ("Bed_OperatingTable", 2), ("Facility_VitalsCentre", 1), ("OPC_MedTrainingTable", 1)])
 autofill(RO("오락·도서실"), [("TrainingConsole", 1)])
 autofill(RO("성장 배양실"), [("MEXY_EssenceCultivationPod", 1), ("MEXY_BioCultivationModule", 1), ("GrowthVat", 6)])
@@ -599,8 +596,7 @@ autofill_room("화학 제작실", [("BiofuelRefinery", 2), ("Spaceports_FuelProc
 # --- SE
 autofill(RO("예비 발전실"), [("CMC_ZPReactor_Large", 2)])
 autofill(RO("연료실"), [("AdvShip_GravChemfuelTank", 2), ("LargeChemfuelTank", 4), ("GravChemreactor_GT", 1)])
-autofill(RO("진입로 정비실"), [("Shelf_RepairRack", 2), ("Shelf_WeaponRack", 2)])
-autofill(RO("무기고"), [("MechaWeaponChanger", 1), ("Isekai_Forge", 1), ("Isekai_RunicStation", 1), ("Shelf_RepairRack", 2), ("Shelf_WeaponRack", 6)])
+autofill(RO("무기고"), [("MechaWeaponChanger", 1), ("Isekai_Forge", 1), ("Isekai_RunicStation", 1), ("Shelf_RepairRack", 4), ("Shelf_WeaponRack", 8)])
 
 # --- S production
 autofill_room("금속·부품 작업실", [("CMC_FacBench", 1), ("VFE_TableMachiningLarge", 1), ("FabricationBench", 1),
@@ -627,7 +623,7 @@ autofill(RO("메카 제작실"), [("LargeMechGestator", 3), ("Milian_Gestator", 
 autofill(RO("충전 격납고 A"), [("StandardRecharger", 4), ("VivianRecharger", 3), ("VivianRechargerB", 3), ("BandNode", 6)])
 autofill(RO("충전 격납고 B"), [("Milian_Recharger", 8), ("Milira_DroneRecharger", 4), ("StandardRecharger", 2),
                              ("BandNode", 4), ("AT_FlagStation", 1)])
-autofill(RO("폐기물 처리실"), [("WastepackAtomizer", 2)])
+autofill(RO("폐기물·보호막실"), [("WastepackAtomizer", 2)])
 autofill_room("약품 가공실", [("VFE_TableDrugLabElectric", 1), ("DrugLab", 1), ("Axolotl_GrindingTable", 1), ("Axolotl_AlchemyStove_Industrial", 1),
                             ("Axolotl_DeputyStove_Industrial", 2), ("VFE_DrugCabinet", 1), ("jdgg_MassCargoHold", 1)])
 
