@@ -1,4 +1,4 @@
-import csv, re, json, math, sys, os
+import csv, re, json, math, sys, os, random
 HERE = os.path.dirname(os.path.abspath(__file__))
 from collections import deque, defaultdict
 
@@ -30,7 +30,8 @@ def spec(key):
     m = re.search(r"전력 (\d+) W", act)
     if m and power <= 0: power = -float(m.group(1))
     return dict(defName=r["defName"], name=r["이름"], mod=r["출처 모드"], w=w, h=h, inter=inter, excl=excl,
-                power=power, noroof="NotUnderRoof" in r["특징"], invalid="InvalidOverSubstructure" in r["특징"])
+                power=power, noroof="NotUnderRoof" in r["특징"], invalid="InvalidOverSubstructure" in r["특징"],
+                stand=r["통행"] == "가능")
 
 # ---------------------------------------------------------------- layout
 rooms, doors, pillars, decks, blds = [], [], [], [], []
@@ -88,11 +89,10 @@ R("메카 제작실", "메카 제작", "mech", 25, 76, 20, 12); D((24, 81), (45,
 DK("남서 격납 갑판", "남서 격납", 1, 93, 44, 21, "지붕 없음 · 왕복선·착륙장·교역·방공"); D((11, 92), (45, 100))
 
 # N: quarters (4 rows)
-R("공용 침실 A", "공용 침실", "bed", 50, 10, 21, 8); D((49, 13), (71, 13))
-R("공용 침실 B", "공용 침실", "bed", 50, 19, 21, 8); D((49, 22), (71, 22))
 R("조각·예술실", "예술", "lab", 76, 37, 10, 8); D((75, 40))
 pn = 1
-for (x, y, w, dx) in ((76, 10, 10, 75), (87, 10, 11, 98), (76, 19, 10, 75), (87, 19, 11, 98), (50, 28, 10, 49), (61, 28, 10, 71), (76, 28, 10, 75),
+# the former shared bedrooms are built in game as two private rooms each (wall x60)
+for (x, y, w, dx) in ((50, 10, 10, 49), (61, 10, 10, 71), (50, 19, 10, 49), (61, 19, 10, 71), (76, 10, 10, 75), (87, 10, 11, 98), (76, 19, 10, 75), (87, 19, 11, 98), (50, 28, 10, 49), (61, 28, 10, 71), (76, 28, 10, 75),
                       (87, 28, 11, 98), (50, 37, 10, 49), (61, 37, 10, 71)):
     R(f"개인 침실 {pn}", "개인", "bed", x, y, w, 8); D((dx, y + 3)); pn += 1
 R("보호막실 N", "보호막", "defense", 87, 37, 11, 8); D((98, 40))
@@ -327,7 +327,7 @@ def reach_ok(o, extra_cells, extra_inter, extra_access):
     def walk(c):
         if c in blocked: return False
         gx, gy = G(*c)
-        return O(*c) == o and K(*c) in (INT, DECK) and occ[gy][gx] is None
+        return O(*c) == o and K(*c) in (INT, DECK) and (occ[gy][gx] is None or blds[occ[gy][gx]]["sp"]["stand"])
     starts = [c for dp, s in door_side.items() for (oo, c) in s if oo == o]
     if not starts: return True
     seen = set(s for s in starts if walk(s)); dq = deque(seen)
@@ -401,6 +401,73 @@ def autofill(o, items, tag="", optional=False):
 RO = lambda name: ("r", next(r["id"] for r in rooms if r["name"] == name))
 DO = lambda name: ("d", next(d["id"] for d in decks if d["name"] == name))
 
+# ---------------------------------------------------------------- linked facilities (연결 설비)
+# data/연결_설비_정리.md: per target building, which facility links, range (edge to edge), max per target,
+# adjacency rule. No link through walls -> same room. One facility can serve several targets.
+def load_links():
+    path = os.path.join(HERE, "data", "연결_설비_정리.md")
+    by_name = {}
+    for r_ in ROWS: by_name.setdefault((r_["이름"], r_["크기"]), []).append(r_)
+    def dn(name, size, mod):
+        c = by_name.get((name, size), [])
+        if len(c) > 1:
+            m = mod.rstrip("…").strip()
+            c = [r_ for r_ in c if r_["출처 모드"].startswith(m)] or c
+        return c[0]["defName"] if c else None
+    out, cur = {}, None
+    for ln in open(path, encoding="utf-8"):
+        ln = ln.rstrip("\n")
+        if ln.startswith("## 2."): break
+        m = re.match(r"### (.+) \((\d+x\d+)\) — (.+)$", ln)
+        if m:
+            cur = dn(m[1], m[2], m[3]); out.setdefault(cur, []) if cur else None; continue
+        if not cur or not ln.startswith("| ") or ln.startswith("| 연결 설비") or ln.startswith("|---"): continue
+        c = [x.strip() for x in ln.strip("|").split("|")]
+        f = dn(c[0], c[1], c[7])
+        if not f or not re.match(r"[\d.]+", c[2]): continue
+        eff = {m2[1]: float(m2[2]) for m2 in (re.match(r"\s*(.+?) \+([\d.]+)", p) for p in c[6].split(",")) if m2}
+        out[cur].append(dict(f=f, dist=float(c[2].split()[0]), max=int(c[3].split()[0]), adj="인접" in c[5],
+                             head="머리맡" in c[5], eff=eff))
+    return out
+LINKS = load_links()
+# nano assembler is linked in game (screenshot) but missing from the table: same set as the fabrication bench
+LINKS["EccentricNanoassembler"] = [e for e in LINKS["FabricationBench"] if e["f"] not in ("HobbesLink_Lathe", "HobbesLink_Centrifuge")]
+MED_STATS = ("간호 품질 영향", "항체 생성 속도 계수", "수술 성공률 계수")
+def link_stats(t_def):
+    if "ResearchBench" in t_def: return ("연구 속도 계수",)
+    if t_def in ("Bed_OperatingTable", "HospitalBed", "MiliraExpandedXY_SmartHospitalBed"): return MED_STATS
+    return ("작업 속도 계수",)
+def link_entries(t_def):
+    """facility entries worth placing for this target: value = sum of the stats the target actually uses"""
+    st = link_stats(t_def); res = {}
+    for e in LINKS.get(t_def, []):
+        if e["head"]: continue
+        v = sum(e["eff"].get(s, 0) for s in st)
+        if v > 0: res[e["f"]] = (e, v)
+    return res
+def fp_gap(ca, cb): return min(math.dist(a, b) for a in ca for b in cb)
+def fp_touch(ca, cb):
+    sb = set(cb)
+    return any((x + dx, y + dy) in sb for (x, y) in ca for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))
+def links_ok(e, tcells, fcells):
+    return fp_touch(tcells, fcells) if e["adj"] else fp_gap(tcells, fcells) <= e["dist"]
+LINK_ROOMS = ("금속·부품 작업실", "밀리라 작업실", "초월공학 작업실", "의류 제작실", "시체·부산물 가공실", "약품 가공실",
+              "화학 제작실", "주방", "연구실", "실체 연구실", "생체강 가공실", "치료실", "조각·예술실", "중력구동기실")
+LINK_NEVER = {"HobbesLink_LaserEngraver"}   # no stat effect
+LINK_BENCH = {}
+def autofill_room(name, items):
+    """link rooms: benches and their facilities are placed later by the link stage, the rest now"""
+    tdefs = {spec(k)["defName"] for k, n in items if link_entries(spec(k)["defName"])}
+    fac = {f for t in tdefs for f in link_entries(t)}
+    now, later = [], []
+    for k, n in items:
+        d = spec(k)["defName"]
+        if d in tdefs: later.append((k, n))
+        elif d not in fac: now.append((k, n))
+    autofill(RO(name), now)
+    LINK_BENCH[name] = later
+
+
 # pillars for big rooms (farm/containment manual, rest automatic)
 add_pillars(farm, [(10, 30)])
 add_pillars(contain, [(123, 10), (131, 10), (123, 18), (131, 18)])
@@ -443,8 +510,8 @@ for r in rooms:
         autofill(("r", r["id"]), [("Bed_Kingsize", 1), (DR, 2), ("EndTable", 2)])
     if r["name"].startswith("공용 침실"):
         autofill(("r", r["id"]), [("Bed", 6), ("EndTable", 3), (DR, 2)])
-autofill(RO("조각·예술실"), [("TableSculpting", 2)])
-autofill(RO("연구실"), [("HiTechResearchBench", 1), ("AdvancedMultiAnalyzer", 2), ("MultiAnalyzer", 1), ("CMC_CommConsole", 1), ("EccentricAuroraCore", 1)])
+autofill_room("조각·예술실", [("TableSculpting", 2)])
+autofill_room("연구실", [("HiTechResearchBench", 1), ("AdvancedMultiAnalyzer", 2), ("MultiAnalyzer", 1), ("CMC_CommConsole", 1), ("EccentricAuroraCore", 1)])
 
 # --- entity
 co = RO("실체보관실")
@@ -459,8 +526,8 @@ for row_y in (3, 7, 11, 15, 19):  # platform rows, two-row aisles between
 contain["note"] = f"중력 구속대 {plat}기"
 for (x, y) in ((117, 2), (129, 2), (137, 2), (117, 22), (129, 22), (137, 22)):
     try_place(spec("GravShardInhibitor"), co, x, y, 0, check_reach=False)
-autofill(RO("실체 연구실"), [("SerumCentrifuge", 1), ("HiTechResearchBench", 1)])
-autofill(RO("생체강 가공실"), [("BioferriteShaper", 1), ("BioferriteGenerator", 1)])
+autofill_room("실체 연구실", [("SerumCentrifuge", 1), ("HiTechResearchBench", 1)])
+autofill_room("생체강 가공실", [("BioferriteShaper", 1), ("BioferriteGenerator", 1)])
 autofill(RO("의식실"), [("AL_RitualSpot", 1), ("PsychicRitualSpot", 1), ("GravShardBeacon", 2)])
 
 # --- advanced shields: two small shield rooms, the rest inside large rooms
@@ -470,20 +537,20 @@ place("GravFieldExtender", RO("충전 격납고 A"), 2, 51, 0, "extender")
 place("GravFieldExtender", RO("방어 설비실"), 150, 10, 0, "extender")
 
 # --- prison hub
-autofill(RO("주방"), [("VFE_TableStoveLarge", 1), ("ElectricStove", 1), ("VCE_CondimentPrepTable", 1), ("VCE_CanningMachine", 1)])
+autofill_room("주방", [("VFE_TableStoveLarge", 1), ("ElectricStove", 1), ("VCE_CondimentPrepTable", 1), ("VCE_CanningMachine", 1)])
 autofill(RO("냉동고"), [("jdgg_RefCargoHold", 4), ("CoolerPylon_GT", 2)])
-autofill(RO("치료실"), [("MedPodStandard", 4), ("Bed_OperatingTable", 2), ("Facility_VitalsCentre", 1)])
+autofill_room("치료실", [("MedPodStandard", 4), ("Bed_OperatingTable", 2), ("Facility_VitalsCentre", 1)])
 autofill(RO("성장 배양실"), [("MEXY_EssenceCultivationPod", 1), ("MEXY_BioCultivationModule", 1), ("GrowthVat", 6)])
 autofill(RO("유전자 연구소"), [("UniversalGeneCompiler", 1), ("GeneAssembler", 1), ("GeneExtractor", 1), ("MAG_ArchoGeneExtractor", 1),
                              ("MEXY_GeneCultivator", 1), ("MEXY_GeneComprehensiveAnalyzer", 1), ("GeneProcessor", 2),
                              ("GeneBank", 4), ("UGC_GeneStorageExtender", 2)])
 autofill(RO("수감 홀"), [("Bed", 8)])
-autofill(RO("시체·부산물 가공실"), [("VFE_TableButcherElectric", 1), ("TableAutopsy", 1), ("ElectricCrematorium", 1),
+autofill_room("시체·부산물 가공실", [("VFE_TableButcherElectric", 1), ("TableAutopsy", 1), ("ElectricCrematorium", 1),
                                  ("MiliraExpandedXY_LifeEssenceExtractor", 1),
                                  ("VFE_TableStonecutterElectric", 1), ("VRecyclingE_ElectricRecyclingWorkbench", 2), ("jdgg_MassCargoHold", 1)])
-autofill(RO("의류 제작실"), [("VFE_TableTailorLarge", 1), ("ElectricTailoringBench", 1), ("Axolotl_HandBench", 1),
+autofill_room("의류 제작실", [("VFE_TableTailorLarge", 1), ("ElectricTailoringBench", 1), ("Axolotl_HandBench", 1),
                             ("Axolotl_ElectricHandBench", 1), ("VFE_TailorCabinet", 1), ("jdgg_MassCargoHold", 1)])
-autofill(RO("화학 제작실"), [("BiofuelRefinery", 2), ("Spaceports_FuelProcessor", 1), ("jdgg_MassCargoHold", 1)])
+autofill_room("화학 제작실", [("BiofuelRefinery", 2), ("Spaceports_FuelProcessor", 1), ("jdgg_MassCargoHold", 1)])
 
 # --- SE
 autofill(RO("예비 발전실"), [("CMC_ZPReactor_Large", 2)])
@@ -492,15 +559,15 @@ autofill(RO("진입로 정비실"), [("Shelf_RepairRack", 2), ("Shelf_WeaponRack
 autofill(RO("무기고"), [("MechaWeaponChanger", 1), ("Shelf_RepairRack", 2), ("Shelf_WeaponRack", 6)])
 
 # --- S production
-autofill(RO("금속·부품 작업실"), [("CMC_FacBench", 1), ("VFE_TableMachiningLarge", 1), ("FabricationBench", 1),
+autofill_room("금속·부품 작업실", [("CMC_FacBench", 1), ("VFE_TableMachiningLarge", 1), ("FabricationBench", 1),
                                ("CMC_TableMachining", 1), ("EccentricNanofabricator", 1), ("EccentricNanoassembler", 1),
                                ("ElectricSmelter", 1), ("ElectricSmithy", 1), ("VFE_ComponentFabricationBench", 1),
                                ("CMC_WeaponModificationBench", 1), ("VFE_MachiningCabinet", 1), ("VFE_FabricationCabinet", 1), ("jdgg_MassCargoHold", 2)])
-autofill(RO("밀리라 작업실"), [("Milira_GravityLoom", 1), ("Milira_SunBlastFurnace", 1), ("MEXY_ParticleConstructor", 1),
+autofill_room("밀리라 작업실", [("Milira_GravityLoom", 1), ("Milira_SunBlastFurnace", 1), ("MEXY_ParticleConstructor", 1),
                              ("MiliraExpandedXY_MatterDecomposer", 1), ("MiliraExpandedXY_MatterRecomposer", 1),
                              ("Milira_UniversalBench", 1), ("Milira_TailoringBench", 1), ("Milira_DroneBench", 1),
                              ("Milira_SunBlasterBoosterJar", 2), ("jdgg_MassCargoHold", 2)])
-autofill(RO("초월공학 작업실"), [("MAG_ArchoReproductorLarge", 1), ("BasicArchotechWorkbench", 1), ("ArchBench", 1), ("jdgg_MassCargoHold", 1)])
+autofill_room("초월공학 작업실", [("MAG_ArchoReproductorLarge", 1), ("BasicArchotechWorkbench", 1), ("ArchBench", 1), ("jdgg_MassCargoHold", 1)])
 
 # --- W mech / mining
 autofill(RO("채굴실"), [("VoidMiner", 1), ("AutoVoidMiner", 8), ("jdgg_MassCargoHold", 1)])
@@ -510,7 +577,7 @@ autofill(RO("충전 격납고 A"), [("StandardRecharger", 4), ("VivianRecharger"
 autofill(RO("충전 격납고 B"), [("Milian_Recharger", 8), ("Milira_DroneRecharger", 4), ("StandardRecharger", 2),
                              ("BandNode", 4), ("AT_FlagStation", 1)])
 autofill(RO("폐기물 처리실"), [("WastepackAtomizer", 2)])
-autofill(RO("약품 가공실"), [("VFE_TableDrugLabElectric", 1), ("VFE_DrugCabinet", 1), ("jdgg_MassCargoHold", 1)])
+autofill_room("약품 가공실", [("VFE_TableDrugLabElectric", 1), ("VFE_DrugCabinet", 1), ("jdgg_MassCargoHold", 1)])
 
 # --- east defence module (non-explosive close-range turrets only) + maid/milian standby
 def place_near(o, key, tx, ty, xr):
@@ -549,7 +616,7 @@ for rn, n in FIRE.items():
 # --- dispersed interior strongpoints where colonists spend time (drop pods land near a random colonist)
 GUARD = {"대식당": [("MiliraImperiumTurret_PointDefense", 1), ("MiliraImperiumTurret_MiniGun", 1), ("Milian_Recharger", 2)],
          "오락·도서실": [("MiliraImperiumTurret_PointDefense", 1), ("Milian_Recharger", 2)],
-         "공용 침실 A": [("MiliraImperiumTurret_MiniGun", 1)], "공용 침실 B": [("MiliraImperiumTurret_MiniGun", 1)],
+         "개인 침실 1": [("MiliraImperiumTurret_MiniGun", 1)], "개인 침실 4": [("MiliraImperiumTurret_MiniGun", 1)],
          "금속·부품 작업실": [("MiliraImperiumTurret_MiniGun", 1), ("Milian_Recharger", 2)],
          "밀리라 작업실": [("MiliraImperiumTurret_MiniGun", 1), ("Milian_Recharger", 2)],
          "연구실": [("MiliraImperiumTurret_MiniGun", 1)], "주방": [("MiliraImperiumTurret_MiniGun", 1)],
@@ -557,14 +624,16 @@ GUARD = {"대식당": [("MiliraImperiumTurret_PointDefense", 1), ("MiliraImperiu
 for rn, items in GUARD.items():
     autofill(RO(rn), items, tag="guard")
 
-# --- farm pattern: 1x4 basins
+# --- farm: large auto hydroponics (3x3, standable, work cell 2 south of centre). Rows face each other over
+# shared aisles y26 / y34, aisle y30 and column x10 (pillar) stay open
 fo = RO("수경 농장")
 basins = 0
-for x in (2, 3, 5, 6, 8, 9, 11, 12, 14, 15, 17, 18):
-    for y0 in (25, 29, 33):
-        b = try_place(spec("HydroponicsBasin"), fo, x, y0 + 1, 0, check_reach=False)
+for cx in (2, 5, 8, 12, 15, 18):
+    for cy, rot in ((24, 0), (28, 2), (32, 0), (36, 2)):
+        b = try_place(spec("AutoHydroponic"), fo, cx, cy, rot, check_reach=False)
         if b: basins += 1
-farm["note"] = f"수경재배기 {basins}기 (경작 {basins * 4}칸)"
+        else: errors.append(f"auto hydroponic @{cx},{cy}")
+farm["note"] = f"대형 자동 수경재배기 {basins}기 (경작 {basins * 9}칸)"
 ao = RO("수족관")
 aqn = 0
 for cy in (25, 29):
@@ -741,7 +810,7 @@ def place_wall_unit(r, want, key, room_check=True):
     idx = {(w, d): (w, rc, oc, d) for (w, rc, oc, d) in sc}
     sp = spec(key)
     for (w, rc, oc, d) in sc:
-        if outer_type(oc) != want or not wall_ok(w): continue
+        if (want != "any" and outer_type(oc) != want) or not wall_ok(w): continue
         if room_check and not room_side_free(rc, o): continue
         cells = [(w, rc, oc)]
         if sp["w"] * sp["h"] == 2:
@@ -749,7 +818,7 @@ def place_wall_unit(r, want, key, room_check=True):
             t = idx.get((nxt, d))
             if not t: continue
             w2, rc2, oc2, _ = t
-            if outer_type(oc2) != want or not wall_ok(w2): continue
+            if (want != "any" and outer_type(oc2) != want) or not wall_ok(w2): continue
             if room_check and not room_side_free(rc2, o): continue
             cells.append((w2, rc2, oc2))
         for (a, b, c) in cells:
@@ -759,32 +828,21 @@ def place_wall_unit(r, want, key, room_check=True):
         return True
     return False
 
-climate_rooms = ["개인 침실", "공용 침실", "조각·예술실", "연구실 A", "연구실 B", "실체 연구실", "의식실", "생체강 가공실", "실체보관실",
-                 "오락·도서실", "대식당", "간부실", "조종실", "중력구동기실", "반응로실", "주방", "치료실", "성장 배양실",
-                 "시체·부산물 가공실", "의류 제작실", "화학 제작실", "금속·부품 작업실", "밀리라 작업실",
-                 "초월공학 작업실", "메카 제작실", "단순작업실", "충전 격납고", "수경 농장", "약품 가공실", "수족관", "킬존 회랑", "반응로실 2", "무기고", "진입로 정비실", "방어 설비실"]
+# I.T.C.V.S. (CeleTech wall temperature controller): mounted on any wall of the room, no exhaust side
+def outer_any(c): return "any"
 no_unit = []
 relaxed = []
 for r in rooms:
-    if not any(r["name"].startswith(t) for t in climate_rooms): continue
-    need = 2 if r["area"] > 250 else 1
+    if r["cat"] in ("airlock",): continue
+    need = 1 + r["area"] // 150
     for _ in range(need):
-        if not (place_wall_unit(r, "ext", "MUR_TCU_Wide") or place_wall_unit(r, "corr", "MUR_TCU_Wide")
-                or place_wall_unit(r, "ext", "MUR_TCU") or place_wall_unit(r, "corr", "MUR_TCU")):
+        if not place_wall_unit(r, "any", "CMC_WallTempController"):
             RELAX = True
-            ok = place_wall_unit(r, "ext", "MUR_TCU_Wide") or place_wall_unit(r, "corr", "MUR_TCU_Wide")
+            ok = place_wall_unit(r, "any", "CMC_WallTempController")
             RELAX = False
             if ok: relaxed.append(r["name"])
             else: no_unit.append(r["name"])
 for n in no_unit: errors.append(f"no wall for temperature unit: {n}")
-# corridors dump heat outside at hull ends
-for r in rooms:
-    if r["cat"] != "corridor": continue
-    k = 0
-    while k < 4 and (place_wall_unit(r, "ext", "MUR_TCU_Wide", room_check=False) or place_wall_unit(r, "ext", "MUR_TCU", room_check=False)):
-        k += 1
-for rn_ in ("수감 홀", "유전자 연구소", "북측 경비실", "동측 경비실"):   # no exterior/corridor wall: unpowered GravTech pylons
-    autofill(RO(rn_), [("HeaterPylon_GT", 1), ("CoolerPylon_GT", 1)])
 for (x, y) in [(X(a_), b_) for (a_, b_) in ((46, 30), (47, 97), (101, 30), (101, 97), (29, 46), (120, 46), (29, 91), (120, 91))]:
     o = O(x, y)
     if not try_place(spec("HeaterPylon_GT"), o, x, y, 0, check_reach=False): errors.append(f"pylon fail {x},{y}")
@@ -804,6 +862,111 @@ for r in pump_rooms:
             if try_place(spec("OxygenPump"), o, c[0], c[1], 0): placed += 1
     if placed < n:
         autofill(o, [("OxygenPump", n - placed)])
+
+def link_room(o):
+    tg = [b for b in blds if b["o"] == o and link_entries(b["sp"]["defName"])]
+    need = {}
+    for t in tg:
+        for f, (e, v) in link_entries(t["sp"]["defName"]).items(): need[(t["i"], f)] = [e["max"], e, v]
+    # count what is already in the room
+    for b in blds:
+        if b["o"] != o: continue
+        for t in tg:
+            k = (t["i"], b["sp"]["defName"])
+            if k in need and need[k][0] > 0 and links_ok(need[k][1], t["cells"], b["cells"]): need[k][0] -= 1
+    fdefs = sorted({f for (_, f) in need if f not in LINK_NEVER}, key=lambda f: -max(v for (ti, ff), (_, _, v) in need.items() if ff == f))
+    cells = room_cells(o); placed = []
+    for f in fdefs:
+        sp = spec(f)
+        rots = (0,) if sp["w"] == sp["h"] else (0, 1)
+        while True:
+            live = [(t, need[(t["i"], f)]) for t in tg if (t["i"], f) in need and need[(t["i"], f)][0] > 0]
+            if not live: break
+            cand = []
+            for (cx, cy) in cells:
+                for rot in rots:
+                    fc, inter, _ = footprint(sp, cx, cy, rot)
+                    if any(not free(c, o) or c in reserved for c in fc): continue
+                    val = sum(n[2] for t, n in live if links_ok(n[1], t["cells"], fc))
+                    if val < 0.05: continue
+                    # keep floor in one piece: prefer spots hugging walls/buildings
+                    hug = sum(1 for c in adj_of(fc) if not free(c, o))
+                    cand.append((-val, -hug, cy, cx, rot, fc))
+            cand.sort(key=lambda c: c[:5])
+            b = None
+            for (_, _, cy, cx, rot, fc) in cand[:80]:
+                b = try_place(sp, o, cx, cy, rot, tag="link")
+                if b: break
+            if not b: break
+            placed.append(b)
+            for t, n in live:
+                if links_ok(n[1], t["cells"], b["cells"]): n[0] -= 1
+    return placed
+def resolve_links(t):
+    """links the game makes for target t: nearest first, up to max per facility type"""
+    got, gain = [], {}
+    for f, (e, v) in link_entries(t["sp"]["defName"]).items():
+        fs = sorted((b for b in blds if b["o"] == t["o"] and b["sp"]["defName"] == f and links_ok(e, t["cells"], b["cells"])),
+                    key=lambda b: fp_gap(t["cells"], b["cells"]))[:e["max"]]
+        for b in fs:
+            got.append(b["i"])
+            for s_ in link_stats(t["sp"]["defName"]): gain[s_] = round(gain.get(s_, 0) + e["eff"].get(s_, 0), 3)
+    return got, gain
+def snapshot(): return (len(blds), set(reserved))
+def rollback(snap):
+    n0, res = snap
+    for b in blds[n0:]:
+        for c in b["cells"]:
+            gx, gy = G(*c); occ[gy][gx] = None
+    del blds[n0:]
+    reserved.clear(); reserved.update(res)
+def place_benches(o, items, rng, mode):
+    """mode 0: wall first (plain autofill order); else gather around a hub cell, optionally 1 cell apart"""
+    cells = room_cells(o); src = rooms[o[1]]
+    wd = lambda c: min(c[0] - src["x"], src["x"] + src["w"] - 1 - c[0], c[1] - src["y"], src["y"] + src["h"] - 1 - c[1])
+    keys = [k for k, n in items for _ in range(n)]
+    if mode == 0:
+        order = sorted(cells, key=lambda c: (wd(c), c[1], c[0])); gap = False
+    else:
+        hx, hy = src["x"] + src["w"] * rng.uniform(0.3, 0.7), src["y"] + src["h"] * rng.uniform(0.3, 0.7)
+        jit = rng.uniform(0, 3); gap = rng.random() < 0.6
+        order = sorted(cells, key=lambda c: math.hypot(c[0] - hx, c[1] - hy) + jit * rng.random() + 0.5 * wd(c) * rng.random())
+        keys.sort(key=lambda k: -spec(k)["w"] * spec(k)["h"]) if rng.random() < 0.5 else rng.shuffle(keys)
+    mine = set()
+    for k in keys:
+        sp = spec(k); ok = False
+        for g_ in ((True, False) if gap else (False,)):
+            for (cx, cy) in order:
+                for rot in (0, 2, 1, 3):
+                    fc, _, _ = footprint(sp, cx, cy, rot)
+                    if g_ and any((x + dx, y + dy) in mine for (x, y) in fc for dx in (-1, 0, 1) for dy in (-1, 0, 1)): continue
+                    b = try_place(sp, o, cx, cy, rot)
+                    if b: ok = True; mine.update(b["cells"]); break
+                if ok: break
+            if ok: break
+        if not ok: return False
+    return True
+LINK_TRIALS = 14
+link_added, link_score = {}, {}
+for rn in LINK_ROOMS:
+    o = RO(rn); items = LINK_BENCH.get(rn, [])
+    snap = snapshot(); best = None
+    for trial in range(LINK_TRIALS if items else 1):
+        rng = random.Random(1000 + trial)
+        if place_benches(o, items, rng, trial):
+            link_room(o)
+            sc = sum(sum(resolve_links(t)[1].values()) for t in blds if t["o"] == o and link_entries(t["sp"]["defName"]))
+            if best is None or sc > best[0] + 1e-9: best = (sc, trial)
+        rollback(snap)
+    if best is None:
+        errors.append(f"link stage: benches do not fit in {rn}"); continue
+    rng = random.Random(1000 + best[1])
+    place_benches(o, items, rng, best[1]); link_added[rn] = len(link_room(o)); link_score[rn] = (round(best[0], 2), best[1])
+# resolve the links the game would make (nearest first, up to max per facility type) and the resulting bonus
+link_of = {}
+for t in blds:
+    if link_entries(t["sp"]["defName"]):
+        got, gain = resolve_links(t); link_of[t["i"]] = dict(l=got, g=gain)
 
 # ---------------------------------------------------------------- airtightness: bulkheads, door types, wall types
 bulkheads = []
@@ -1277,13 +1440,14 @@ out_b = []
 for b in blds:
     sp = b["sp"]
     out_b.append(dict(n=sp["name"], d=sp["defName"], m=sp["mod"], c=b["cells"], i=b["inter"], e=b["excl"],
-                      p=sp["power"], o=oname(b["o"]), w=sp["w"], h=sp["h"]))
+                      p=sp["power"], o=oname(b["o"]), w=sp["w"], h=sp["h"], **({"lk": link_of[b["i"]]} if b["i"] in link_of else {})))
 counts = {}
 for b in blds: counts[b["sp"]["name"]] = counts.get(b["sp"]["name"], 0) + 1
 summary = dict(def_load=def_load, def_leak=def_leak, aa_info=aa_info, master=MASTER, n_def_b=len(def_b), wire_cnt=wire_cnt, redund=redund, stored_wd=stored_wd, fuse_need=fuse_need, n_switch=len(switches), kz_len=kz_len, layer=layer, small_sh=small_n, blast_pairs=blast_pairs, expl=expl_checks, lane_ok=lane_ok, ring=len(DECK_RING), turrets=turrets, wcount=wcount, bulk=len(bulkheads), doors_ext=sum(1 for t in door_types if t[0]!='door'), relaxed=relaxed, tcu=len(wallunits), tcu_ext=sum(1 for u in wallunits if u['exhaust']=='ext'), total=total, cnt=cnt, corridor=corr, gen=gen, reserve=reserve, use=use, thrusters=thr, platforms=plat,
                basins=basins, aquariums=aqn, dist=dist_checks, shield_cov=round(sh_cov * 100, 1),
                shield_cov_deck=round(sh_cov_deck * 100, 1), engine=E, field=field,
                support=5000 * (1 + sum(1 for b in blds if b["sp"]["name"] in ("중력장 확장기", "특이점 반응로"))),
+               links=dict(n=sum(1 for b in blds if b['tag'] == 'link'), t=len(link_of), avg=round(100 * sum(sum(v['g'].values()) for v in link_of.values()) / max(1, len(link_of)))),
                beds=sum(v for k, v in counts.items() if "침대" in k and k != "수술대"), counts=counts)
 json.dump(dict(wires=[[c[0], c[1], t, GRID[c]] for c, t in net.items()], switches=[[w["c"][0], w["c"][1], w["label"]] for w in switches], bulkheads=bulkheads, door_types=door_types, wallunits=wallunits, rooms=rooms, decks=decks, doors=doors, pillars=pillars, walls=walls, blds=out_b, summary=summary),
           open(sys.argv[1], "w"), ensure_ascii=False, separators=(",", ":"))
