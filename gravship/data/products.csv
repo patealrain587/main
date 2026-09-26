@@ -1,0 +1,1393 @@
+﻿제작품,만드는 작업대 수,가장 빠른 작업대,1개당 작업량(최고 속도),전체 작업대(1개당 작업량),key
+"""심연""",2,전기 단조 작업대,6087,"전기 단조 작업대(6087), 단조 작업대(6087)",T:RM_BlackWound
+130mm 고폭탄,1,CMC 주조 가공대,16,CMC 주조 가공대(16),T:CMC_300mmEMLShell
+"<color=#5BC4E2><i>QBB-302T ""Zheng"" 특수 기관총</i></color>",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:W85X_Thunderer
+"<color=#5BC4E2><i>QBUS-85F ""Lihuo"" 스마트 전술 지정사수소총</i></color>",1,CMC 나노 CNC 작업대,7087,CMC 나노 CNC 작업대(7087),T:QBUS85F
+"<color=#CEEAED>AR-105R ""Jiuying"" 돌격소총</color>",1,CMC 나노 CNC 작업대,3937,CMC 나노 CNC 작업대(3937),T:QBZ_threeooED
+"<color=#CEEAED>AR-231F ""Qilin"" 돌격소총</color>",1,CMC 나노 CNC 작업대,5512,CMC 나노 CNC 작업대(5512),T:QBZ_fivenineFlame
+"<color=#CEEAED>QFT-1 ""Xihe"" 펄스 화염방사기</color>",1,CMC 나노 CNC 작업대,5512,CMC 나노 CNC 작업대(5512),T:PrototypeXiHe
+"<color=#CEEAED>SG-131F ""Bifang"" 산탄총</color>",1,CMC 나노 CNC 작업대,3622,CMC 나노 CNC 작업대(3622),T:CMC_QBAfournineFlame
+"<color=#FFAA00><i>QBL-X ""Taotie"" 입자 랜스 Δ</i></color>",1,CMC 나노 CNC 작업대,8189,CMC 나노 CNC 작업대(8189),T:CMC_TaoTie_Persona
+"<color=#FFAA00><i>QBP-X ""Qiyao"" 펄스 소총 δ</i></color>",1,CMC 나노 CNC 작업대,7244,CMC 나노 CNC 작업대(7244),T:CMC_QiyaoLaserLMG
+"<color=#FFAA00><i>QBU-X ""Xuanming"" 지정사수소총 Δ</i></color>",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:QBZoneooneXuanMing_Elite
+"<color=#FFAA00><i>QLU-X ""Zhurong"" 펄스 이온포 Δ</i></color>",1,CMC 나노 CNC 작업대,14961,CMC 나노 CNC 작업대(14961),T:QLUX_Pulse_Projector_Persona
+<color=#FFAA00><i>반엔트로피검</i></color>,1,조립 작업대,6087,조립 작업대(6087),T:CMC_EMPsword_sevenstars
+AR-23 가우스 자동소총,2,밀리라 중력 직조기,4762,"밀리라 중력 직조기(4762), 태양 용광로(14286)",T:Milira_CiGaussAutorifle
+AR-61 가우스 자동소총,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_GaussAutorifle
+AR/GL-21 12,1,태양 용광로,53214,태양 용광로(53214),T:PLAMilira_OneTwo
+BB-01Z 펄스 제트팩,1,CMC 주조 가공대,1417,CMC 주조 가공대(1417),T:CMC_rocketpack
+BD-01X 범용 동력 헬멧,1,CMC 주조 가공대,4606,CMC 주조 가공대(4606),T:CMChelmet
+BD-01Y 기본형 동력 갑옷,1,CMC 주조 가공대,13858,CMC 주조 가공대(13858),T:CMC_HPA_Base
+BD-02X 중장형 동력 헬멧,1,CMC 주조 가공대,4921,CMC 주조 가공대(4921),T:CMChelmetM
+BD-02Y 중장형 동력 갑옷,1,CMC 주조 가공대,13858,CMC 주조 가공대(13858),T:CMC_HPA_Heavy
+BD-03C 기계 제어 AR 고글,1,CMC 주조 가공대,2244,CMC 주조 가공대(2244),T:CMC_ARGoggles_Cat
+BD-03S 나노 전투복,1,CMC 주조 가공대,4567,CMC 주조 가공대(4567),T:CMC_Uniform
+BD-03X AR 전술 고글,1,CMC 주조 가공대,2244,CMC 주조 가공대(2244),T:CMC_ARGoggles
+BD-03Y 광학 위장 코트,1,CMC 주조 가공대,4882,CMC 주조 가공대(4882),T:CMC_Uniform_MKII
+BRF-X 퍼널 배치 시스템,1,CMC 주조 가공대,12598,CMC 주조 가공대(12598),T:CMC_FunnelHauler
+BX-01 이온 보호막 벨트,1,CMC 주조 가공대,11654,CMC 주조 가공대(11654),T:CMC_ZGRangedShieldBelt_MKI
+BX-02 보호막 벨트,1,CMC 주조 가공대,11654,CMC 주조 가공대(11654),T:CMC_ZGRangedShieldBelt
+Basic Wear (child) (Dragonian Primus),2,전기 재봉 작업대,435,"전기 재봉 작업대(435), 재봉 작업대(476)",T:DR_BasicWearChild_DP2Unofficial
+CA-T4 피하 장갑,1,CMC 주조 가공대,17165,CMC 주조 가공대(17165),T:CMC_SubdermalArmour
+CB-A1 생체공학 팔,1,CMC 주조 가공대,17165,CMC 주조 가공대(17165),T:CMC_BionicArm_Hediff
+CB-L1 생체공학 다리,1,CMC 주조 가공대,17165,CMC 주조 가공대(17165),T:CMC_BionicLeg_Hediff
+CEF 개인 데이터 단말기,1,CMC 주조 가공대,630,CMC 주조 가공대(630),T:CMC_personalterminal
+CLSMG,1,기계 작업대,12174,기계 작업대(12174),T:NCL_CLSMG
+"CN-01 ""Dubhe"" 칩",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:CMC_TianShu_Thing
+"CN-02 ""Merak"" 칩",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:CMC_TianXuan_Thing
+"CN-03 ""Phecda"" 칩",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:CMC_TianJi_Thing
+"CN-04 ""Megrez"" 칩",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:CMC_TianQuan_Thing
+"CN-05 ""Alioth"" 칩",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:CMC_YuHeng_Thing
+"CN-06 ""Mizar"" 칩",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:CMC_KaiYang_Thing
+"CN-07 ""Alkaid"" 칩",1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:CMC_YaoGuang_Thing
+DBS-2 산탄총,2,밀리라 중력 직조기,4762,"밀리라 중력 직조기(4762), 태양 용광로(14286)",T:Milira_DBSIIShotgun
+DX-04 플라즈마 직도,1,CMC 나노 CNC 작업대,10236,CMC 나노 CNC 작업대(10236),T:CMC_TangDao_Plasma
+Doxa-0,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:TW_Mech_Doxa
+FAF-14 스피어,1,태양 용광로,64286,태양 용광로(64286),T:PLAMilira_Spear
+HJ301 대전차 미사일 발사기,1,CMC 나노 CNC 작업대,5512,CMC 나노 CNC 작업대(5512),T:CMC_HJX_ATGM
+M36 PGM (고폭탄),2,조립 작업대,348,"조립 작업대(348), 나노 조립기(2000)",T:EccentricDefenseGrid_Ordnance_M36PGM
+M38 PGM (소이탄),2,조립 작업대,348,"조립 작업대(348), 나노 조립기(2000)",T:EccentricDefenseGrid_Ordnance_M38PGM
+M39 PGM (EMP탄),2,조립 작업대,348,"조립 작업대(348), 나노 조립기(2000)",T:EccentricDefenseGrid_Ordnance_M39PGM
+M48 PGM (대전차 고폭탄),2,조립 작업대,348,"조립 작업대(348), 나노 조립기(2000)",T:EccentricDefenseGrid_Ordnance_M48PGM
+M56 PGM (번아웃 쉴드탄),2,조립 작업대,348,"조립 작업대(348), 나노 조립기(2000)",T:EccentricDefenseGrid_Ordnance_M56PGM
+M61 PGM (반물질탄),2,조립 작업대,348,"조립 작업대(348), 나노 조립기(2000)",T:EccentricDefenseGrid_Ordnance_M61PGM
+MP-302N 기관단총 Δ,1,CMC 나노 CNC 작업대,15573,CMC 나노 CNC 작업대(15573),T:QSZ85_M
+NCL5,1,기계 작업대,3478,기계 작업대(3478),T:NCL_Rifle
+PF201 무반동포,1,CMC 나노 CNC 작업대,5512,CMC 나노 CNC 작업대(5512),T:CMC_RocketLauncher
+QBA-101 산탄총,1,CMC 나노 CNC 작업대,3937,CMC 나노 CNC 작업대(3937),T:CMC_QBXfiveseven_CSG
+QBA-102S 산탄총,1,CMC 나노 CNC 작업대,5512,CMC 나노 CNC 작업대(5512),T:CMC_QBXninenine_CSG
+QBA-131R 산탄총,1,CMC 나노 CNC 작업대,3622,CMC 나노 CNC 작업대(3622),T:CMC_QBAfournine
+QBB-105R 경기관총,1,CMC 나노 CNC 작업대,3937,CMC 나노 CNC 작업대(3937),T:QBB_threeoo
+QBB-231R 경기관총,1,CMC 나노 CNC 작업대,5827,CMC 나노 CNC 작업대(5827),T:QBB_fivenine
+QBB-302S 범용 기관총,1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:W85XWJ
+QBB-331P 펄스 다목적 기관총,1,CMC 나노 CNC 작업대,7244,CMC 나노 CNC 작업대(7244),T:CMC_PLaserLMG
+QBL-40 유탄 발사기,1,CMC 나노 CNC 작업대,5512,CMC 나노 CNC 작업대(5512),T:CMC_GrenadeLauncher
+QBU-131 저격소총,1,CMC 나노 CNC 작업대,3150,CMC 나노 CNC 작업대(3150),T:QBU_TOOE
+QBU-231R 지정사수소총,1,CMC 나노 CNC 작업대,5827,CMC 나노 CNC 작업대(5827),T:QBU_fivenine
+QBU-252L 광선 저격소총,1,CMC 나노 CNC 작업대,7244,CMC 나노 CNC 작업대(7244),T:CMC_Shaped_Laser_Sniper
+QBU-303S 지정사수소총,1,CMC 나노 CNC 작업대,7087,CMC 나노 CNC 작업대(7087),T:QBUS85XWJ
+QBU-371R 대물 저격소총,1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:CMC_QBU71S
+QBZ-105R 돌격소총,1,CMC 나노 CNC 작업대,3937,CMC 나노 CNC 작업대(3937),T:QBZ_threeooE
+QBZ-231R 돌격소총,1,CMC 나노 CNC 작업대,5512,CMC 나노 CNC 작업대(5512),T:QBZ_fivenine
+QBZ-251L 광선 소총,1,CMC 나노 CNC 작업대,1575,CMC 나노 CNC 작업대(1575),T:CMC_ShapedLaserRifle
+QBZ-301S 돌격소총,1,CMC 나노 CNC 작업대,6929,CMC 나노 CNC 작업대(6929),T:QBZ_eightfiveAR
+QF-M 퍼널 기반 모듈,1,CMC 주조 가공대,5984,CMC 주조 가공대(5984),T:CMC_FunnelCore_Basic
+QJZ-209R 중기관총,1,CMC 나노 CNC 작업대,3937,CMC 나노 CNC 작업대(3937),T:CMC_QJZFivenine
+QSC-131P 펄스 권총,1,CMC 나노 CNC 작업대,3465,CMC 나노 CNC 작업대(3465),T:CMM_PLaserpistol
+QSZ-108R 권총,1,CMC 나노 CNC 작업대,787,CMC 나노 CNC 작업대(787),T:CMC_QSZfiveeight
+QSZ-108S 권총,1,CMC 나노 CNC 작업대,787,CMC 나노 CNC 작업대(787),T:CMC_QSZfiveeightSmart
+QSZ-231P 펄스 기관단총,1,CMC 나노 CNC 작업대,4094,CMC 나노 CNC 작업대(4094),T:CMC_PLaserSMG
+QSZ-302S 기관단총,1,CMC 나노 CNC 작업대,6299,CMC 나노 CNC 작업대(6299),T:QBZS85XWJ
+QSZ-57 PDW,1,CMC 나노 CNC 작업대,787,CMC 나노 CNC 작업대(787),T:CMC_QSZfiveseven
+QSZ-57 스마트 카빈,1,CMC 나노 CNC 작업대,1165,CMC 나노 CNC 작업대(1165),T:CMC_QSZfiveseven_NL
+QSZ-57 전자기 카빈,1,CMC 나노 CNC 작업대,1165,CMC 나노 CNC 작업대(1165),T:CMC_QSZfiveseven_MODIII
+QTS-214 OICW,1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:QBZ71_QS
+QTS-301 OICW,1,CMC 나노 CNC 작업대,9449,CMC 나노 CNC 작업대(9449),T:QTS9_OICW
+R-63 가우스 지정사수소총,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_MarksmanGaussrifle
+W.A.S.P. 발사기,1,태양 용광로,67857,태양 용광로(67857),T:PLAMilira_WASP
+dragonian butter (Dragonian Primus),1,조미료 작업대,7,조미료 작업대(7),T:VCE_Butter_DP2Unofficial
+dragonian mayo (Dragonian Primus),1,조미료 작업대,7,조미료 작업대(7),T:VCE_Mayo_DP2Unofficial
+dragonian white chocolate syrup (Dragonian Primus),1,조미료 작업대,13,조미료 작업대(13),T:VCE_ChocolateSyrup_DP2Unofficial
+가드,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_PawnIII
+가면,2,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381)",T:Apparel_VisageMask
+가속 플라즈마건,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_TaranPlasmaGun
+가시관,2,전기 단조 작업대,209,"전기 단조 작업대(209), 단조 작업대(209)",T:Apparel_TortureCrown
+가짜 꼬리,2,전기 재봉 작업대,783,"전기 재봉 작업대(783), 재봉 작업대(857)",T:DR_FakeTail
+가짜 꼬리 (드라고니안 프리무스),2,전기 재봉 작업대,783,"전기 재봉 작업대(783), 재봉 작업대(857)",T:DR_FakeTail_DP2Unofficial
+간단한 디저트,3,전기 스토브,128,"전기 스토브(128), 스토브(128), 태양 조리대(222)",T:VCE_SimpleDessert
+간단한 바베큐,1,그릴,100,그릴(100),T:VCE_SimpleGrill
+간단한 빵,3,전기 스토브,96,"전기 스토브(96), 스토브(96), 태양 조리대(167)",T:VCE_SimpleBake
+간단한 식사,4,전기 스토브,128,"전기 스토브(128), 스토브(128), 태양 조리대(222), 모닥불(261)",T:MealSimple
+감정 송출기,1,초월공학 작업대,9727,초월공학 작업대(9727),T:PsychicHarmonizer
+감정 판독기,1,초월공학 작업대,9727,초월공학 작업대(9727),T:PsychicReader
+감정마비 혈청,1,혈청 연구대,372,혈청 연구대(372),T:MindNumbSerum
+갑옷 피부,1,조립 작업대,4522,조립 작업대(4522),T:ArmorskinGland
+강습 드론: 게부라,1,밀리라 드론 인쇄기,6522,밀리라 드론 인쇄기(6522),T:Milira_CombatDrone_FunnelBitC
+강습 드론: 말쿠트,1,밀리라 드론 인쇄기,6522,밀리라 드론 인쇄기(6522),T:Milira_CombatDrone_FunnelBitB
+강습 드론: 케테르,1,밀리라 드론 인쇄기,6522,밀리라 드론 인쇄기(6522),T:Milira_CombatDrone_FunnelBitD
+강습 드론: 티페레트,1,밀리라 드론 인쇄기,6522,밀리라 드론 인쇄기(6522),T:Milira_CombatDrone_FunnelBitE
+강철,4,전기로,2,"전기로(2), 밀리라 중력 직조기(3), 용광로(5), 태양 용광로(8)",T:Steel
+강화 방탄모,1,기계 작업대,1391,기계 작업대(1391),T:Apparel_AdvancedHelmet
+강화 손톱,1,기계 작업대,2609,기계 작업대(2609),T:PowerClaw
+건설 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleConstruction
+검,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:MeleeWeapon_Gladius
+격투 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleMelee
+경기관총,1,기계 작업대,5913,기계 작업대(5913),T:Gun_LMG
+계혈 묵두,2,전기 단조 작업대,1913,"전기 단조 작업대(1913), 단조 작업대(1913)",T:RM_ChickenBloodInkFountain
+고 에너지 쉴드 코어,1,나노 조립기,10000,나노 조립기(10000),T:Eccentric_HighEnergyShieldCore
+고급 란제리,2,전기 재봉 작업대,383,"전기 재봉 작업대(383), 재봉 작업대(419)",T:CAT_Apparel_LuxuryLingerie
+고급 리프터,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_LifterPlus
+고급 부품,5,기본 초월공학 제작대,270,"기본 초월공학 제작대(270), 중력 단조대(1054), 조립 벤치(1739), 조립 작업대(1739), 밀리라 범용 작업대(2174)",T:ComponentSpacer
+고급 아그리핸드,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_AgrihandPlus
+고급 약초,2,약물 연구대,952,"약물 연구대(952), 간이 제작 장소(1818)",T:VV_AdvancedHerbalMedicine
+고급 초월공학 다리,1,기본 초월공학 제작대,3604,기본 초월공학 제작대(3604),T:AdvancedArchotechLeg
+고급 초월공학 팔,1,기본 초월공학 제작대,3604,기본 초월공학 제작대(3604),T:AdvancedArchotechArm
+고급 컨스트럭토이드,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_ConstructoidPlus
+고급 클린스위퍼,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_CleansweeperPlus
+고급 터널러,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_TunnelerPlus
+고급 통제 서브링크,1,기계 작업대,557,기계 작업대(557),T:ControlSublinkHigh
+고급 파라메딕,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_ParamedicPlus
+고급 파브리코어,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_FabricorPlus
+고급 팬티,2,전기 재봉 작업대,383,"전기 재봉 작업대(383), 재봉 작업대(419)",T:CAT_Apparel_LuxuryPanty
+고급 프리즘 모듈,1,CMC 주조 가공대,551,CMC 주조 가공대(551),T:CMC_Accessory_Prism
+고기 통조림,1,통조림 기계,3,통조림 기계(3),T:VCE_CannedMeat
+고기 튀김,1,튀김기,25,튀김기(25),T:VCE_DeepFriedBigMeat
+고밀도 육각 셀,1,나노 제작기,1500,나노 제작기(1500),T:Eccentric_HexCell
+고에너지 물질 단위,2,밀리라 범용 작업대,652,"밀리라 범용 작업대(652), 입자 구축기(2000)",T:MEXY_HighEnergyMatterUnit
+고주스,1,약물 연구대,286,약물 연구대(286),T:GoJuice
+고폭탄,1,기계 작업대,139,기계 작업대(139),T:Shell_HighExplosive
+곡궁,3,전기 단조 작업대,870,"전기 단조 작업대(870), 단조 작업대(870), 간이 제작 장소(4545)",T:Bow_Recurve
+곤봉,3,전기 단조 작업대,209,"전기 단조 작업대(209), 단조 작업대(209), 간이 제작 장소(1091)",T:MeleeWeapon_Club
+곤충 젤리 잼,1,조미료 작업대,7,조미료 작업대(7),T:VCE_InsectJellyPreserves
+공간 접이기 - 시제품,1,밀리라 범용 작업대,1304,밀리라 범용 작업대(1304),T:MEXY_Space_Folder_Prototype
+공간 접이기 Mk.I,1,태양 용광로,8571,태양 용광로(8571),T:MEXY_Space_Folder_I
+공간 접이기 Mk.II,1,태양 용광로,14286,태양 용광로(14286),T:MEXY_Space_Folder_II
+공간 접이기 Mk.III,1,태양 용광로,17857,태양 용광로(17857),T:MEXY_Space_Folder_III
+공명 칩,1,입자 구축기,4500,입자 구축기(4500),T:MEXY_ResonanceImplant
+공중폭발 집중 이온 방출기,1,태양 용광로,64286,태양 용광로(64286),T:PLAMilira_AirburstRocketLauncher
+공포파동 발생장치,1,초월공학 작업대,27778,초월공학 작업대(27778),T:MAG_PsychicSpookPulser
+공허 모노 싸이블레이드,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_MonoPsyblade_II
+공허 조각상,1,조소 작업대,6667,조소 작업대(6667),T:VoidSculpture
+공허의 시야 혈청,1,혈청 연구대,203,혈청 연구대(203),T:VoidsightSerum
+과부하 결정,2,밀리라 범용 작업대,1304,"밀리라 범용 작업대(1304), 입자 구축기(4500)",T:MEXY_OverloadCrystal
+과일 통조림,1,통조림 기계,3,통조림 기계(3),T:VCE_CannedFruit
+관통의 룬 I,1,룬 작업대,1200,룬 작업대(1200),T:Isekai_Rune_Sharpness
+관통의 룬 II,1,룬 작업대,1560,룬 작업대(1560),T:Isekai_Rune_Sharpness_II
+관통의 룬 III,1,룬 작업대,1920,룬 작업대(1920),T:Isekai_Rune_Sharpness_III
+관통의 룬 IV,1,룬 작업대,2400,룬 작업대(2400),T:Isekai_Rune_Sharpness_IV
+관통의 룬 V,1,룬 작업대,3000,룬 작업대(3000),T:Isekai_Rune_Sharpness_V
+광이차,4,전기 스토브,170,"전기 스토브(170), 스토브(170), 태양 조리대(296), 모닥불(348)",T:PsychiteTea
+광휘강,2,밀리라 중력 직조기,6,"밀리라 중력 직조기(6), 밀리라 범용 작업대(8)",T:Milira_SplendidSteel
+교란용 조명탄 배낭,1,생체강 성형 작업대,742,생체강 성형 작업대(742),T:Apparel_DisruptorFlarePack
+구울 미늘,2,생체강 성형 작업대,619,"생체강 성형 작업대(619), 간이 제작 장소(5455)",T:GhoulBarbs
+구울 부활 혈청,1,혈청 연구대,237,혈청 연구대(237),T:GhoulResurrectionSerum
+구울 부활 혈청 (드라고니안 프리무스),1,혈청 연구대,237,혈청 연구대(237),T:GhoulResurrectionSerum_DP2Unofficial
+구울 철판,2,생체강 성형 작업대,928,"생체강 성형 작업대(928), 간이 제작 장소(8182)",T:GhoulPlating
+구원의 카트리지,1,기계 작업대,209,기계 작업대(209),T:salvationkit
+궁니르,1,태양 용광로,60000,태양 용광로(60000),T:PLAMilira_Gungnir
+귀부인 모자,2,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143)",T:Apparel_HatLadies
+균열 날,1,입자 구축기,45000,입자 구축기(45000),T:MEXY_RiftEdge
+그레이스,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Grace
+근위대 갑옷,2,중력 단조대,10135,"중력 단조대(10135), 조립 작업대(13043)",T:Apparel_ArmorCataphract
+근위대 장교 갑옷,2,중력 단조대,20270,"중력 단조대(20270), 조립 작업대(26087)",T:Apparel_ArmorCataphractPrestige
+근위대 장교 헬멧,2,중력 단조대,7095,"중력 단조대(7095), 조립 작업대(9130)",T:Apparel_ArmorHelmetCataphractPrestige
+근위대 헬멧,2,중력 단조대,3547,"중력 단조대(3547), 조립 작업대(4565)",T:Apparel_ArmorHelmetCataphract
+금,1,전기로,10,전기로(10),T:Gold
+금색 부적,3,전기 재봉 작업대,696,"전기 재봉 작업대(696), 재봉 작업대(762), 모에로틀 방직기(3636)",T:RM_GoldIncantation
+금속 혈액 심장,1,생체강 성형 작업대,1361,생체강 성형 작업대(1361),T:MetalbloodHeart
+금속혈액 혈청,1,혈청 연구대,304,혈청 연구대(304),T:MetalbloodSerum
+기계군주 갑옷,1,조립 작업대,10435,조립 작업대(10435),T:Apparel_MechlordSuit
+기계군주 헬멧,1,조립 작업대,2739,조립 작업대(2739),T:Apparel_ArmorHelmetMechlordHelmet
+기계사령관 헬멧,1,기계 작업대,2739,기계 작업대(2739),T:Apparel_ArmorHelmetMechCommander
+기관권총,1,기계 작업대,1913,기계 작업대(1913),T:Gun_MachinePistol
+기관단총,1,기계 작업대,4174,기계 작업대(4174),T:Gun_HeavySMG
+기괴한 조각상,1,조소 작업대,8333,조소 작업대(8333),T:SculptureTerror
+기본 드레스 (드라고니안 프리무스),2,전기 재봉 작업대,487,"전기 재봉 작업대(487), 재봉 작업대(533)",T:DR_BasicDress_DP2Unofficial
+기본 서브코어,1,서브코어 부호기,3000,서브코어 부호기(3000),T:SubcoreBasic
+기본 옷 (드라고니안 프리무스),2,전기 재봉 작업대,435,"전기 재봉 작업대(435), 재봉 작업대(476)",T:DR_BasicWear_DP2Unofficial
+기본 통제 서브링크,1,기계 작업대,557,기계 작업대(557),T:ControlSublink
+기적 결정,2,밀리라 범용 작업대,1304,"밀리라 범용 작업대(1304), 입자 구축기(6000)",T:MEXY_MiracleCrystal
+깃털 원단,3,전기 재봉 작업대,12,"전기 재봉 작업대(12), 재봉 작업대(13), 밀리라 재단 작업대(14)",T:Milira_FeatherThread
+꼬리모자,2,전기 재봉 작업대,243,"전기 재봉 작업대(243), 재봉 작업대(267)",T:Apparel_Tailcap
+꽃 리본 (드라고니안 프리무스),2,전기 재봉 작업대,487,"전기 재봉 작업대(487), 재봉 작업대(533)",T:DR_FlowerRibon_DP2Unofficial
+꽃 장식 (드라고니안 프리무스),2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:DR_Hat_DP2Unofficial
+끓이지 않은 간단한 수프,3,전기 스토브,511,"전기 스토브(511), 스토브(511), 태양 조리대(889)",T:VCE_UncookedSoupSimple
+끓이지 않은 미식적인 수프,3,전기 스토브,2553,"전기 스토브(2553), 스토브(2553), 태양 조리대(4444)",T:VCE_UncookedSoupGourmet
+끓이지 않은 좋은 수프,3,전기 스토브,766,"전기 스토브(766), 스토브(766), 태양 조리대(1333)",T:VCE_UncookedSoupFine
+끓이지 않은 초월계 수프,1,초월공학 스토브,833,초월공학 스토브(833),T:MAG_UncookedArchotechSoup
+끓이지 않은 호화로운 수프,3,전기 스토브,1362,"전기 스토브(1362), 스토브(1362), 태양 조리대(2370)",T:VCE_UncookedSoupLavish
+나노머신,1,기본 초월공학 제작대,22,기본 초월공학 제작대(22),T:Nanomachinery
+나노직물,1,나노 제작기,100,나노 제작기(100),T:Eccentric_Nanoweave
+나이트 I,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_KnightI
+나이트 II,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_KnightII
+나이트 검,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_KnightSword
+나이트 랜스,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_KnightLance
+나이트 망치,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_KnightHammer
+나이트 밀리언 모델 소생,1,밀리언 배양기,1800,밀리언 배양기(1800),R:Milira_ResurrectMilian_Knight
+나이트 할버드,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_KnightHalberd
+낫의 초능력자,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:TW_Mech_Psycasts_Militor_Ally
+노예 구속구,2,전기 재봉 작업대,1217,"전기 재봉 작업대(1217), 재봉 작업대(1333)",T:Apparel_BodyStrap
+노예 사슬,2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:Apparel_Collar
+농업용 기계손,1,기계 작업대,2609,기계 작업대(2609),T:FieldHand
+높은 모자,2,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143)",T:Apparel_HatTop
+누더기,2,전기 재봉 작업대,3,"전기 재봉 작업대(3), 재봉 작업대(3)",T:Leather_Patch
+뉴트로늄,1,밀리라 중력 직조기,24,밀리라 중력 직조기(24),T:Milira_Neutronium
+뉴트로늄 직물,1,밀리라 중력 직조기,12,밀리라 중력 직조기(12),T:Milira_NeutroniumFabric
+뉴트로아민,1,약물 연구대,25,약물 연구대(25),T:Neutroamine
+단검,3,전기 단조 작업대,313,"전기 단조 작업대(313), 단조 작업대(313), 간이 제작 장소(1636)",T:MeleeWeapon_Knife
+단궁,3,전기 단조 작업대,417,"전기 단조 작업대(417), 단조 작업대(417), 간이 제작 장소(2182)",T:Bow_Short
+단창,2,전기 단조 작업대,870,"전기 단조 작업대(870), 단조 작업대(870)",T:MeleeWeapon_Ikwa
+달걀 통조림,1,통조림 기계,3,통조림 기계(3),T:VCE_CannedAP
+대거 레이븐,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_DARaven
+대리석 석재,1,석재 절삭대,22,석재 절삭대(22),T:BlocksMarble
+대물 저격총 VBW-1,1,밀리라 범용 작업대,19565,밀리라 범용 작업대(19565),T:PLAMilira_AntiMateriel_Rifle
+대역폭 팩,1,기계 작업대,557,기계 작업대(557),T:Apparel_PackBandwidth
+대전차 미사일,1,CMC 주조 가공대,4,CMC 주조 가공대(4),T:CMC_MissileShell
+대형 마나 코어,1,제련 작업대,300,제련 작업대(300),T:Isekai_BigManaCore
+대형 메카노이드 소생,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),R:ResurrectHeavyMech
+대형 조각상,1,조소 작업대,8333,조소 작업대(8333),T:SculptureLarge
+댄디라이언,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_LionSpawn
+도금 무장 도구,1,조립 작업대,4348,조립 작업대(4348),T:RM_GoldPlatedArmsKit
+도끼,2,전기 단조 작업대,1217,"전기 단조 작업대(1217), 단조 작업대(1217)",T:MeleeWeapon_Axe
+도약 갑옷,1,조립 작업대,7826,조립 작업대(7826),T:Apparel_ArmorLocust
+도축,3,전기 도축 작업대,123,"전기 도축 작업대(123), 도축 작업대(391), 간이 도축 장소(391)",R:ButcherCorpseFlesh
+독니,1,기계 작업대,2609,기계 작업대(2609),T:VenomFangs
+독성 폐기물,1,태양 용광로,14,태양 용광로(14),T:Wastepack
+독성정화 신장,1,조립 작업대,4522,조립 작업대(4522),T:DetoxifierKidney
+독성정화 폐,1,조립 작업대,4522,조립 작업대(4522),T:DetoxifierLung
+독소 등짐,1,기계 작업대,626,기계 작업대(626),T:Apparel_PackTox
+독소 수류탄,1,기계 작업대,4174,기계 작업대(4174),T:Weapon_GrenadeTox
+독소탄,1,기계 작업대,139,기계 작업대(139),T:Shell_Toxic
+독소폭탄 발사기,1,기계 작업대,5217,기계 작업대(5217),T:Gun_ToxbombLauncher
+독약,1,약물 연구대,429,약물 연구대(429),T:PoisonPill_DP2Unofficial
+돌격 사격 통제 칩,1,CMC 주조 가공대,472,CMC 주조 가공대(472),T:CMC_Accessory_AdvancedScope
+돌격소총,1,기계 작업대,6957,기계 작업대(6957),T:Gun_AssaultRifle
+동물 사체에서 생체공학 부위 적출,1,부검 테이블,2000,부검 테이블(2000),R:AutopsyAnimal
+두건,2,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143)",T:Apparel_HatHood
+드라고니안 가죽 (드라고니안 프리무스),1,약물 연구대,5,약물 연구대(5),T:Leather_Dragonian_DP2Unofficial
+드라고니안 강선 부싯돌총,1,기계 작업대,2087,기계 작업대(2087),T:DRM_RifledFlintlock
+드라고니안 공기포 지팡이,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleStaff_Air
+드라고니안 공포 지팡이,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleStaff_Fear
+드라고니안 기본드레스,2,전기 재봉 작업대,487,"전기 재봉 작업대(487), 재봉 작업대(533)",T:DR_BasicDress
+드라고니안 기본의류,2,전기 재봉 작업대,435,"전기 재봉 작업대(435), 재봉 작업대(476)",T:DR_BasicWear
+드라고니안 기본의류(남성),2,전기 재봉 작업대,487,"전기 재봉 작업대(487), 재봉 작업대(533)",T:DR_BasicWearMale
+드라고니안 노예 눈가리개,2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:DR_SlaveBlindfold
+드라고니안 노예옷,2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_SlaveCloth
+드라고니안 대검,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_Battlesword
+드라고니안 레버액션 산탄총,1,조립 작업대,27826,조립 작업대(27826),T:LeverAction_DP2Unofficial
+드라고니안 리본의류,2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_OpenDress
+드라고니안 리볼버,1,기계 작업대,696,기계 작업대(696),T:DRM_Revolver
+드라고니안 메이스,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleMace
+드라고니안 무지개 수호보주,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:Dragonian_RainbowProtectionOrb_CD
+드라고니안 미드오프 드레스,2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_MidOff
+드라고니안 바니 슈트,2,전기 재봉 작업대,435,"전기 재봉 작업대(435), 재봉 작업대(476)",T:DR_bunny
+드라고니안 보호막 고급 증폭기,1,조립 작업대,4522,조립 작업대(4522),T:ShieldDragonianOrb_AdvancedBooster
+드라고니안 보호막 완충 모듈,1,조립 작업대,4522,조립 작업대(4522),T:ShieldDragonianOrb_BufferModule
+드라고니안 보호막 적응 모듈,1,조립 작업대,4522,조립 작업대(4522),T:ShieldDragonianOrb_AdaptiveModule
+드라고니안 보호막 증폭기,1,조립 작업대,4522,조립 작업대(4522),T:ShieldDragonianOrb_Booster
+드라고니안 불사조 보주,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_PhoenixOrb
+드라고니안 빔 산탄총,1,조립 작업대,55652,조립 작업대(55652),T:BeamShotgun_DP2Unofficial
+드라고니안 빔 지팡이,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleStaff_Beam
+드라고니안 뿔 (드라고니안 프리무스),1,약물 연구대,76,약물 연구대(76),T:Dragonian_Horn_DP2Unofficial
+드라고니안 사슬 창,2,전기 단조 작업대,1217,"전기 단조 작업대(1217), 단조 작업대(1217)",T:DR_ChainSpear
+드라고니안 산성 집속 창,2,전기 단조 작업대,1217,"전기 단조 작업대(1217), 단조 작업대(1217)",T:DR_ClusterSpear_Acid
+드라고니안 산성 투창기,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_GreatBow_Acid
+드라고니안 생체철,1,전기로,11,전기로(11),T:InfusedBioferrite_DP2Unofficial
+드라고니안 섬광 지팡이,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleStaff_Flare
+드라고니안 수호 보주,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_ProtectionOrb
+드라고니안 시스루 드레스,2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_Seethrough
+드라고니안 아동드레스,2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_AP_Child
+드라고니안 아크 지팡이,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleStaff_Arc
+드라고니안 에너지 보호막,1,조립 작업대,2435,조립 작업대(2435),T:DR_EnergyShield_DP2Unofficial
+드라고니안 엘텍스 드레스,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_PsychicDress
+드라고니안 엘텍스 드레스(남성),2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_PsychicDressMale
+드라고니안 엘텍스 스태프,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleStaff
+드라고니안 엘텍스 헬름(양성),2,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429)",T:DR_PsychicHelm
+드라고니안 여름 드레스,2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_SummerDress
+드라고니안 옆트임 드레스,2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_SideDress
+드라고니안 오프숄더 드레스,2,전기 재봉 작업대,1478,"전기 재봉 작업대(1478), 재봉 작업대(1619)",T:DR_OffshoulderDress
+드라고니안 와이드 헷,2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:DR_Widehat
+드라고니안 우주복 (드라고니안 프리무스),1,조립 작업대,17391,조립 작업대(17391),T:DR_EVA_Suit_DP2Unofficial
+드라고니안 우주복 헬멧 (드라고니안 프리무스),1,조립 작업대,12522,조립 작업대(12522),T:DR_EVA_Helmet_DP2Unofficial
+드라고니안 장검,2,전기 단조 작업대,1739,"전기 단조 작업대(1739), 단조 작업대(1739)",T:Dragonian_Longsword_CD
+드라고니안 전쟁망치,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:Dragonian_Warhammer_CD
+드라고니안 전투 드레스,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_BattleDress
+드라고니안 전투 드레스 C,2,전기 재봉 작업대,2609,"전기 재봉 작업대(2609), 재봉 작업대(2857)",T:DRM_BattleDressC
+드라고니안 전투 드레스(남성),2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_BattleDressMale
+드라고니안 전투 바니 슈트,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_pwdbunny
+드라고니안 전투 창,2,전기 단조 작업대,1217,"전기 단조 작업대(1217), 단조 작업대(1217)",T:DR_BattleSpear
+드라고니안 전투 토끼 귀,2,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429)",T:DR_pwdbunnyear
+드라고니안 전투 토끼 귀,2,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429)",T:DR_pwdbunnyearW
+드라고니안 전투 투구 C,2,전기 재봉 작업대,1522,"전기 재봉 작업대(1522), 재봉 작업대(1667)",T:DRM_BattleHelmC
+드라고니안 전투 투구 D,2,전기 재봉 작업대,1522,"전기 재봉 작업대(1522), 재봉 작업대(1667)",T:DRM_BattleHelmD
+드라고니안 전투 헬름(양성),2,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429)",T:DR_BattleHelmA
+드라고니안 전투 화이트 바니 슈트,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_pwdwhitebunny
+드라고니안 중세 산탄총,1,조립 작업대,27826,조립 작업대(27826),T:Gun_DR_ShotgunMedieval_DP2Unofficial
+드라고니안 집속 창,2,전기 단조 작업대,1217,"전기 단조 작업대(1217), 단조 작업대(1217)",T:DR_ClusterSpear
+드라고니안 타락한 보주,1,조립 작업대,1043,조립 작업대(1043),T:Dragonian_CorruptedOrb_CD
+드라고니안 토끼 귀,2,전기 재봉 작업대,435,"전기 재봉 작업대(435), 재봉 작업대(476)",T:DR_bunnyear
+드라고니안 토끼 귀,2,전기 재봉 작업대,435,"전기 재봉 작업대(435), 재봉 작업대(476)",T:DR_bunnyearW
+드라고니안 톱,1,조립 작업대,27826,조립 작업대(27826),T:Saw_DP2Unofficial
+드라고니안 투창기,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_GreatBow
+드라고니안 팬티스타킹,2,전기 재봉 작업대,78,"전기 재봉 작업대(78), 재봉 작업대(86)",T:DR_Pantyhose
+드라고니안 팬티스타킹 세트,2,전기 재봉 작업대,78,"전기 재봉 작업대(78), 재봉 작업대(86)",T:DR_PantyhoseP
+드라고니안 폭발 사슬 창,2,전기 단조 작업대,1217,"전기 단조 작업대(1217), 단조 작업대(1217)",T:DR_ChainSpear_Ex
+드라고니안 폭발 철퇴,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleMace_explosive
+드라고니안 프리무스 두꺼운 양말,1,기계 작업대,3478,기계 작업대(3478),T:DR_HeavySocks_DP2Unofficial
+드라고니안 프리무스 일반 작업복,1,기계 작업대,3478,기계 작업대(3478),T:DR_Uniform_DP2Unofficial
+드라고니안 프리무스 투사기,1,기계 작업대,3478,기계 작업대(3478),T:DR_Projector_DP2Unofficial
+드라고니안 할버드,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:Dragonian_Halberd_CD
+드라고니안 화이트 바니 슈트,2,전기 재봉 작업대,435,"전기 재봉 작업대(435), 재봉 작업대(476)",T:DR_whitebunny
+드라고니안 화이트 초콜릿,1,약물 연구대,8,약물 연구대(8),T:Chocolate_DP2Unofficial
+드라고니안 황금 엘텍스 드레스,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:Dragonian_GoldenEltexDress_CD
+드라고니안 황금 엘텍스 헬름,2,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429)",T:Dragonian_GoldenEltexHelm_CD
+드라고니안 황금 전투 드레스,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:Dragonian_GoldenBattleDress_CD
+드라고니안 황금 전투 엘텍스 드레스,2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:Dragonian_GoldenBattleEltexDressMale_CD
+드라고니안 황금 전투 헬름,2,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429)",T:Dragonian_GoldenBattleHelm_CD
+드레스 A (드라고니안 프리무스),2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_GreekDress_DP2Unofficial
+드레스 B (드라고니안 프리무스),2,전기 재봉 작업대,1130,"전기 재봉 작업대(1130), 재봉 작업대(1238)",T:DR_GreekHanZo_DP2Unofficial
+드레스 C (드라고니안 프리무스),2,전기 재봉 작업대,1478,"전기 재봉 작업대(1478), 재봉 작업대(1619)",T:DR_GreekPriest_DP2Unofficial
+드레스 D (드라고니안 프리무스),2,전기 재봉 작업대,1478,"전기 재봉 작업대(1478), 재봉 작업대(1619)",T:DR_GreekSexyDress_DP2Unofficial
+드레스 E (드라고니안 프리무스),2,전기 재봉 작업대,1304,"전기 재봉 작업대(1304), 재봉 작업대(1429)",T:DR_GreekString_DP2Unofficial
+드레스 F (드라고니안 프리무스),2,전기 재봉 작업대,1478,"전기 재봉 작업대(1478), 재봉 작업대(1619)",T:DR_JapaneseDress_DP2Unofficial
+드레스 G (드라고니안 프리무스),2,전기 재봉 작업대,1478,"전기 재봉 작업대(1478), 재봉 작업대(1619)",T:DR_Onepiece_DP2Unofficial
+드레스 H (드라고니안 프리무스),2,전기 재봉 작업대,1478,"전기 재봉 작업대(1478), 재봉 작업대(1619)",T:DR_EveningDress_DP2Unofficial
+드레스 H (드라고니안 프리무스),2,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762)",T:DR_BattleDress_DP2Unofficial
+드론 탑재 장구 I,1,밀리라 드론 인쇄기,2609,밀리라 드론 인쇄기(2609),T:MEXY_DroneCarrierApparel_TierOne
+드론 탑재 장구 II,1,입자 구축기,20000,입자 구축기(20000),T:MEXY_DroneCarrierApparel_TierTwo
+드론 탑재 장구 III,1,입자 구축기,30000,입자 구축기(30000),T:MEXY_DroneCarrierApparel_TierThree
+드릴 팔,1,기계 작업대,2609,기계 작업대(2609),T:DrillArm
+디-에스컬레이터 GL-52,1,태양 용광로,46429,태양 용광로(46429),T:PLAMilira_Escalator
+디보션,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_DevotionLMG
+디아볼루스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Diabolus
+라이오네타,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Lionetta
+락-C,1,약물 연구대,429,약물 연구대(429),T:LacC_DP2Unofficial
+랜서,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Lancer
+레버 레일건,2,밀리라 중력 직조기,4762,"밀리라 중력 직조기(4762), 태양 용광로(14286)",T:Milira_LeverRailgun
+레이 SG 트라이던트,1,태양 용광로,32143,태양 용광로(32143),T:Milira_RaySG_Trident
+레이드레이븐,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Raidraven
+레이저 부유 유닛 팩,2,밀리라 범용 작업대,2609,"밀리라 범용 작업대(2609), 밀리라 드론 인쇄기(2609)",T:PLAMilira_LaserPack
+레이저포,1,태양 용광로,64286,태양 용광로(64286),T:PLAMilira_Laser_Cannon
+로브,2,전기 재봉 작업대,870,"전기 재봉 작업대(870), 재봉 작업대(952)",T:Apparel_Robe
+로켓탄,1,CMC 주조 가공대,4,CMC 주조 가공대(4),T:CMC_RocketShell
+룩 I,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_RookI
+룩 II,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_RookII
+룩 대검,1,밀리라 범용 작업대,4565,밀리라 범용 작업대(4565),T:Milian_RookBladeII
+룩 밀리언 모델 소생,1,밀리언 배양기,1800,밀리언 배양기(1800),R:Milira_ResurrectMilian_Rook
+룩 편인도,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_RookBlade
+룩스플룸 배열,1,태양 용광로,17857,태양 용광로(17857),T:MEXY_Luxplume_Array
+룩스플룸 배열 시제품,1,밀리라 범용 작업대,2717,밀리라 범용 작업대(2717),T:MEXY_Luxplume_Array_Prototype
+리노아,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Lenoire
+리볼버,1,기계 작업대,696,기계 작업대(696),T:Gun_Revolver
+리저너리,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Legionary
+리프터,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Lifter
+린덴 차,4,전기 스토브,170,"전기 스토브(170), 스토브(170), 태양 조리대(296), 모닥불(348)",T:VV_LindenTea
+린린,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Linlin
+마나 정수,1,제련 작업대,20,제련 작업대(20),T:Isekai_ManaEssence
+마스크,2,전기 재봉 작업대,139,"전기 재봉 작업대(139), 재봉 작업대(152)",T:Apparel_ClothMask
+마요네즈,1,조미료 작업대,7,조미료 작업대(7),T:VCE_Mayo
+마유미,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Mayumi
+마젤란,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Magellan
+망령 척추골,1,생체강 성형 작업대,2474,생체강 성형 작업대(2474),T:RevenantVertebrae
+망토,2,전기 재봉 작업대,2783,"전기 재봉 작업대(2783), 재봉 작업대(3048)",T:Apparel_Cape
+맥아즙,1,양조대,174,양조대(174),T:Wort
+맨티스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:NCL_Mech_Mantis
+맹독 손톱,1,기계 작업대,2609,기계 작업대(2609),T:VenomTalon
+맹독성 폐기물,2,전기 재활용 작업대,255,"전기 재활용 작업대(255), 재활용 작업대(311)",T:VRecyclingE_VolatileToxpack
+머리싸개,2,전기 재봉 작업대,243,"전기 재봉 작업대(243), 재봉 작업대(267)",T:Apparel_Headwrap
+메카 연산 칩,1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorMech
+메카 연산 칩 (1단계),1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorMech_TierA
+메카 연산 칩 (2단계),1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorMech_TierB
+메카노이드 배양 연산기,1,기계 작업대,557,기계 작업대(557),T:MechFormfeeder
+메카노이드와 드론 분쇄,1,간이 제작 장소,409,간이 제작 장소(409),R:SmashCorpseMechanoid
+메카노이드와 드론 분해,3,대형 기계 작업대,48,"대형 기계 작업대(48), 기계 작업대(52), 밀리라 범용 작업대(65)",R:ButcherCorpseMechanoid
+면역 증진기,1,조립 작업대,4522,조립 작업대(4522),T:Immunoenhancer
+모노 싸이블레이드,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_MonoPsyblade
+모바일 앤트,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:NCL_Mech_Dinergate
+모에로틀 간,2,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130)",T:Axolotl_Mace
+모에로틀 검,2,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130)",T:Axolotl_Sword
+모에로틀 격세 가면,2,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130)",T:Axolotl_VeilOfWorldsApart
+모에로틀 견암 외갑,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_StonecladCloak
+모에로틀 경운 외투,4,전기 재봉 작업대,5217,"전기 재봉 작업대(5217), 재봉 작업대(5714), 모에로틀 기계 방직기(18750), 모에로틀 방직기(27273)",T:Axolotl_LightCloudRobe
+모에로틀 관모,4,전기 재봉 작업대,574,"전기 재봉 작업대(574), 재봉 작업대(629), 모에로틀 기계 방직기(2062), 모에로틀 방직기(3000)",T:Axolotl_BlackGauzeCap
+모에로틀 구름 셔츠,4,전기 재봉 작업대,10435,"전기 재봉 작업대(10435), 재봉 작업대(11429), 모에로틀 기계 방직기(37500), 모에로틀 방직기(54545)",T:TAWM_Axolotl_QingFeng
+모에로틀 구유 외투,4,전기 재봉 작업대,5217,"전기 재봉 작업대(5217), 재봉 작업대(5714), 모에로틀 기계 방직기(18750), 모에로틀 방직기(27273)",T:Axolotl_ScarletGarment
+모에로틀 구혼번,2,전기 단조 작업대,8348,"전기 단조 작업대(8348), 단조 작업대(8348)",T:Axolotl_SoulreaperPennon
+모에로틀 군왕관,4,전기 재봉 작업대,12522,"전기 재봉 작업대(12522), 재봉 작업대(13714), 모에로틀 기계 방직기(45000), 모에로틀 방직기(65455)",T:Axolotl_RegalPlumHeaddress
+모에로틀 군왕복,4,전기 재봉 작업대,14609,"전기 재봉 작업대(14609), 재봉 작업대(16000), 모에로틀 기계 방직기(52500), 모에로틀 방직기(76364)",T:Axolotl_RegalPlumRobe
+모에로틀 굴악 영의,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_CragLotlQiGarment
+모에로틀 귀족 바람막이,4,전기 재봉 작업대,3496,"전기 재봉 작업대(3496), 재봉 작업대(3829), 모에로틀 기계 방직기(12562), 모에로틀 방직기(18273)",T:Axolotl_SumptuousWindbreaker
+모에로틀 금수 외투,4,전기 재봉 작업대,609,"전기 재봉 작업대(609), 재봉 작업대(667), 모에로틀 기계 방직기(2188), 모에로틀 방직기(3182)",T:Axolotl_SplendidCape
+모에로틀 금수복,4,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 모에로틀 기계 방직기(7500), 모에로틀 방직기(10909)",T:Axolotl_SplendidDress
+모에로틀 기린총,2,전기 단조 작업대,5217,"전기 단조 작업대(5217), 단조 작업대(5217)",T:Axolotl_PlatinumFirearm
+모에로틀 꼬리구이,4,전기 스토브,11,"전기 스토브(11), 스토브(11), 태양 조리대(19), 모닥불(22)",T:CharredTail
+모에로틀 꼬리파이,3,전기 스토브,319,"전기 스토브(319), 스토브(319), 태양 조리대(556)",T:Axolotl_StargazyPie
+모에로틀 낙양궁,2,전기 단조 작업대,8348,"전기 단조 작업대(8348), 단조 작업대(8348)",T:Axolotl_FallingSunBow
+모에로틀 날개 깃털 옷,4,전기 재봉 작업대,6087,"전기 재봉 작업대(6087), 재봉 작업대(6667), 모에로틀 기계 방직기(21875), 모에로틀 방직기(31818)",T:Axolotl_FeatherStarRobe
+모에로틀 노예 구속구,4,전기 재봉 작업대,157,"전기 재봉 작업대(157), 재봉 작업대(171), 모에로틀 기계 방직기(562), 모에로틀 방직기(818)",T:Axolotl_SlaveAttire
+모에로틀 노예 사슬,4,전기 재봉 작업대,104,"전기 재봉 작업대(104), 재봉 작업대(114), 모에로틀 기계 방직기(375), 모에로틀 방직기(545)",T:Axolotl_Necklace
+모에로틀 농민복,4,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 모에로틀 기계 방직기(7500), 모에로틀 방직기(10909)",T:Axolotl_MoeLotlSuit
+모에로틀 도철 가면,2,전기 단조 작업대,4174,"전기 단조 작업대(4174), 단조 작업대(4174)",T:Axolotl_All-DevouringMask
+모에로틀 도철 전갑,4,전기 재봉 작업대,10435,"전기 재봉 작업대(10435), 재봉 작업대(11429), 모에로틀 기계 방직기(37500), 모에로틀 방직기(54545)",T:Axolotl_TaotieWarplate
+모에로틀 도포,4,전기 재봉 작업대,4348,"전기 재봉 작업대(4348), 재봉 작업대(4762), 모에로틀 기계 방직기(15625), 모에로틀 방직기(22727)",T:Axolotl_TaoistRobe
+모에로틀 도화 영의,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_BlossomLotlQiGarment
+모에로틀 동전검,2,전기 단조 작업대,6261,"전기 단조 작업대(6261), 단조 작업대(6261)",T:Axolotl_CopperCoinSword
+모에로틀 두꺼운 목도리,4,전기 재봉 작업대,835,"전기 재봉 작업대(835), 재봉 작업대(914), 모에로틀 기계 방직기(3000), 모에로틀 방직기(4364)",T:Axolotl_CabledScarf
+모에로틀 만월 비녀,4,전기 재봉 작업대,1252,"전기 재봉 작업대(1252), 재봉 작업대(1371), 모에로틀 기계 방직기(4500), 모에로틀 방직기(6545)",T:Axolotl_MoonHeaddress
+모에로틀 망토,4,전기 재봉 작업대,10435,"전기 재봉 작업대(10435), 재봉 작업대(11429), 모에로틀 기계 방직기(37500), 모에로틀 방직기(54545)",T:Axolotl_Cape
+모에로틀 메이드복,4,전기 재봉 작업대,835,"전기 재봉 작업대(835), 재봉 작업대(914), 모에로틀 기계 방직기(3000), 모에로틀 방직기(4364)",T:Axolotl_PandaServantAttire
+모에로틀 모피 조끼,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_FurShawl
+모에로틀 묘묘 귀걸이,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_PurrloinHairband
+모에로틀 무지개 재킷 A,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_NeonJacketA
+모에로틀 무지개 재킷 B,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_NeonJacketB
+모에로틀 박묵 가면,2,전기 단조 작업대,1252,"전기 단조 작업대(1252), 단조 작업대(1252)",T:Axolotl_InkBlackMasks
+모에로틀 박묵 영의,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_InkBlackLotlQiGarment
+모에로틀 박묵 철립,2,전기 단조 작업대,1252,"전기 단조 작업대(1252), 단조 작업대(1252)",T:Axolotl_InkBlackConicalBambooHat
+모에로틀 반암극,2,전기 단조 작업대,13913,"전기 단조 작업대(13913), 단조 작업대(13913)",T:Axolotl_Rockforge_Halberd
+모에로틀 밤 로브,4,전기 재봉 작업대,10435,"전기 재봉 작업대(10435), 재봉 작업대(11429), 모에로틀 기계 방직기(37500), 모에로틀 방직기(54545)",T:TAWM_Axolotl_MuLan
+모에로틀 방한복,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_WarmWinterRobe
+모에로틀 백룡 모자,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_WhiteDragonHat
+모에로틀 백룡 후드티,4,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429), 모에로틀 기계 방직기(11250), 모에로틀 방직기(16364)",T:Axolotl_WhiteDragonHoodie
+모에로틀 백무상 모자,4,전기 재봉 작업대,939,"전기 재봉 작업대(939), 재봉 작업대(1029), 모에로틀 기계 방직기(3375), 모에로틀 방직기(4909)",T:Axolotl_WhiteImpermanenceHat
+모에로틀 백무상 치마,4,전기 재봉 작업대,5565,"전기 재봉 작업대(5565), 재봉 작업대(6095), 모에로틀 기계 방직기(20000), 모에로틀 방직기(29091)",T:Axolotl_WhiteImpermanenceSkirt
+모에로틀 백설 외투,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_WhiteSnowRobe
+모에로틀 백화 머리장식,4,전기 재봉 작업대,939,"전기 재봉 작업대(939), 재봉 작업대(1029), 모에로틀 기계 방직기(3375), 모에로틀 방직기(4909)",T:Axolotl_HundredFlowersHeaddress
+모에로틀 백화 외투,4,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 모에로틀 기계 방직기(5625), 모에로틀 방직기(8182)",T:Axolotl_BaihuaRobe
+모에로틀 벼락 맞은 부도목검,2,전기 단조 작업대,2609,"전기 단조 작업대(2609), 단조 작업대(2609)",T:RM_LigtningStruckWoodSword
+모에로틀 벽영검,2,전기 단조 작업대,13913,"전기 단조 작업대(13913), 단조 작업대(13913)",T:Axolotl_Turquoise_shadow
+모에로틀 별 머리장식,4,전기 재봉 작업대,7826,"전기 재봉 작업대(7826), 재봉 작업대(8571), 모에로틀 기계 방직기(28125), 모에로틀 방직기(40909)",T:TAWM_Axolotl_LingXing
+모에로틀 보물 주머니,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_TreasurePouch
+모에로틀 보물 표주박,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_TreasureGourd
+모에로틀 보호복,6,전기 재봉 작업대,8348,"전기 재봉 작업대(8348), 전기 단조 작업대(8348), 단조 작업대(8348), 재봉 작업대(9143), 모에로틀 기계 방직기(30000), 모에로틀 방직기(43636)",T:Axolotl_ProtectiveUnderwear
+모에로틀 복주머니,4,전기 재봉 작업대,835,"전기 재봉 작업대(835), 재봉 작업대(914), 모에로틀 기계 방직기(3000), 모에로틀 방직기(4364)",T:Axolotl_LuckyBellyPocket
+모에로틀 복파 외투,4,전기 재봉 작업대,15652,"전기 재봉 작업대(15652), 재봉 작업대(17143), 모에로틀 기계 방직기(56250), 모에로틀 방직기(81818)",T:Axolotl_TidalWaveRobe
+모에로틀 봉황관,4,전기 재봉 작업대,9391,"전기 재봉 작업대(9391), 재봉 작업대(10286), 모에로틀 기계 방직기(33750), 모에로틀 방직기(49091)",T:Axolotl_PhoenixCrown
+모에로틀 부광복,4,전기 재봉 작업대,10435,"전기 재봉 작업대(10435), 재봉 작업대(11429), 모에로틀 기계 방직기(37500), 모에로틀 방직기(54545)",T:Axolotl_LuminousGarment
+모에로틀 부도목검,2,전기 단조 작업대,2609,"전기 단조 작업대(2609), 단조 작업대(2609)",T:RM_PeachWoodSword
+모에로틀 부적 쇠뇌,2,전기 단조 작업대,3826,"전기 단조 작업대(3826), 단조 작업대(3826)",T:RM_IncantationCrossbow
+모에로틀 부채,2,전기 단조 작업대,1565,"전기 단조 작업대(1565), 단조 작업대(1565)",T:Axolotl_FeatherFan
+모에로틀 분홍 스웨터,4,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 모에로틀 기계 방직기(5625), 모에로틀 방직기(8182)",T:Axolotl_PinkSweater
+모에로틀 붉은 두건,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_RedHood
+모에로틀 붉은 망토,4,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429), 모에로틀 기계 방직기(11250), 모에로틀 방직기(16364)",T:Axolotl_RedCape
+모에로틀 붙임 부적,4,전기 재봉 작업대,35,"전기 재봉 작업대(35), 재봉 작업대(38), 모에로틀 기계 방직기(125), 모에로틀 방직기(182)",T:Axolotl_IncantationPatch
+모에로틀 비호 가면,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:Axolotl_SwiftTigerWhiteFace
+모에로틀 뿔 머리장식,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_MoeLotlHorns
+모에로틀 사냥복,4,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 모에로틀 기계 방직기(5625), 모에로틀 방직기(8182)",T:Axolotl_HunterClothes
+모에로틀 사우 외투,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_ClearFeatherCloak
+모에로틀 삼색이 망토,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_KittyRope
+모에로틀 상모,4,전기 재봉 작업대,939,"전기 재봉 작업대(939), 재봉 작업대(1029), 모에로틀 기계 방직기(3375), 모에로틀 방직기(4909)",T:Axolotl_FuneralHat
+모에로틀 상복,4,전기 재봉 작업대,5565,"전기 재봉 작업대(5565), 재봉 작업대(6095), 모에로틀 기계 방직기(20000), 모에로틀 방직기(29091)",T:Axolotl_FuneralAttire
+모에로틀 상한 영의,4,전기 재봉 작업대,8348,"전기 재봉 작업대(8348), 재봉 작업대(9143), 모에로틀 기계 방직기(30000), 모에로틀 방직기(43636)",T:Axolotl_FrostyLotlQiGarment
+모에로틀 성직자 의복,4,전기 재봉 작업대,5217,"전기 재봉 작업대(5217), 재봉 작업대(5714), 모에로틀 기계 방직기(18750), 모에로틀 방직기(27273)",T:Axolotl_ClergyUniform
+모에로틀 속옷,4,전기 재봉 작업대,104,"전기 재봉 작업대(104), 재봉 작업대(114), 모에로틀 기계 방직기(375), 모에로틀 방직기(545)",T:Axolotl_IntimateUndergarment
+모에로틀 야막사,4,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 모에로틀 기계 방직기(7500), 모에로틀 방직기(10909)",T:Axolotl_NightGauze
+모에로틀 어두운 속옷,4,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 모에로틀 기계 방직기(5625), 모에로틀 방직기(8182)",T:Axolotl_RedHoodUnderwear
+모에로틀 어린이 소박한 옷,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_SimpleChildCloth
+모에로틀 어린이 야광룡 모자,4,전기 재봉 작업대,365,"전기 재봉 작업대(365), 재봉 작업대(400), 모에로틀 기계 방직기(1312), 모에로틀 방직기(1909)",T:Axolotl_NightLightHat
+모에로틀 어린이 야광룡 후드티,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_NightLightHoodie
+모에로틀 연노,2,전기 단조 작업대,4174,"전기 단조 작업대(4174), 단조 작업대(4174)",T:Axolotl_MoeLotlCrossBow_Basic
+모에로틀 염황 어갑,1,조립 작업대,26087,조립 작업대(26087),T:Axolotl_FlameVermilionBirdArmour
+모에로틀 염황관,1,조립 작업대,7826,조립 작업대(7826),T:Axolotl_FlameVermilionBirdCrown
+모에로틀 염황활도,1,조립 작업대,7826,조립 작업대(7826),T:Axolotl_Flame_VermilionBird_Machete
+모에로틀 영일 외투,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_SunlitRobe
+모에로틀 영학 영의,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_CraneSongLotlQiGarment
+모에로틀 왕생복,4,전기 재봉 작업대,209,"전기 재봉 작업대(209), 재봉 작업대(229), 모에로틀 기계 방직기(750), 모에로틀 방직기(1091)",T:Axolotl_GarbOfRebirth
+모에로틀 용상모,4,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343), 모에로틀 기계 방직기(1125), 모에로틀 방직기(1636)",T:Axolotl_DragonFortuneHat
+모에로틀 우령 가면,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_PlumageEyeCover
+모에로틀 운경 어갑,1,조립 작업대,26087,조립 작업대(26087),T:Axolotl_CelestialWhaleArmour
+모에로틀 운경관,1,조립 작업대,7826,조립 작업대(7826),T:Axolotl_CelestialWhaleCrown
+모에로틀 운석 영의,4,전기 재봉 작업대,8348,"전기 재봉 작업대(8348), 재봉 작업대(9143), 모에로틀 기계 방직기(30000), 모에로틀 방직기(43636)",T:Axolotl_MeteoriteQiGarment
+모에로틀 월계복,4,전기 재봉 작업대,8348,"전기 재봉 작업대(8348), 재봉 작업대(9143), 모에로틀 기계 방직기(30000), 모에로틀 방직기(43636)",T:Axolotl_LaurelUnderwear
+모에로틀 유아 알록달록 스웨터,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_RainbowSweater
+모에로틀 유아 우비,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_Raincoat
+모에로틀 유아 우비 모자,4,전기 재봉 작업대,365,"전기 재봉 작업대(365), 재봉 작업대(400), 모에로틀 기계 방직기(1312), 모에로틀 방직기(1909)",T:Axolotl_RaincoatHat
+모에로틀 윤건,4,전기 재봉 작업대,835,"전기 재봉 작업대(835), 재봉 작업대(914), 모에로틀 기계 방직기(3000), 모에로틀 방직기(4364)",T:Axolotl_SilkRibbonTurban
+모에로틀 읍혼 외투,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_WeepingSpecterRobe
+모에로틀 응준 연노,2,전기 단조 작업대,8348,"전기 단조 작업대(8348), 단조 작업대(8348)",T:Axolotl_MoeLotlCrossBow_Advanced
+모에로틀 자수 목도리,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_EmbroideredScarf
+모에로틀 잠옷,4,전기 재봉 작업대,157,"전기 재봉 작업대(157), 재봉 작업대(171), 모에로틀 기계 방직기(562), 모에로틀 방직기(818)",T:Axolotl_SilkPyjamas
+모에로틀 적괴 영의,4,전기 재봉 작업대,5217,"전기 재봉 작업대(5217), 재봉 작업대(5714), 모에로틀 기계 방직기(18750), 모에로틀 방직기(27273)",T:Axolotl_Nine-hellRobe
+모에로틀 적괴도,2,전기 단조 작업대,6261,"전기 단조 작업대(6261), 단조 작업대(6261)",T:Axolotl_CrimsonBlade
+모에로틀 적록 가면,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:Axolotl_RedAntlerNoodle
+모에로틀 전정화도,2,전기 단조 작업대,8348,"전기 단조 작업대(8348), 단조 작업대(8348)",T:Axolotl_IndigoFlower
+모에로틀 전풍검,2,전기 단조 작업대,8348,"전기 단조 작업대(8348), 단조 작업대(8348)",T:Axolotl_WindWrappingSword
+모에로틀 제운복,4,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 모에로틀 기계 방직기(7500), 모에로틀 방직기(10909)",T:Axolotl_CloudRobe
+모에로틀 종사 도포,4,전기 재봉 작업대,6087,"전기 재봉 작업대(6087), 재봉 작업대(6667), 모에로틀 기계 방직기(21875), 모에로틀 방직기(31818)",T:Axolotl_TaoistMasterRobe
+모에로틀 쥐 인형옷,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_RatCostume
+모에로틀 쥐 인형탈,4,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343), 모에로틀 기계 방직기(1125), 모에로틀 방직기(1636)",T:Axolotl_RatCostumeHat
+모에로틀 차이나드레스,4,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 모에로틀 기계 방직기(7500), 모에로틀 방직기(10909)",T:Axolotl_SilkCheongsam
+모에로틀 찹쌀 주머니,3,전기 재봉 작업대,1391,"전기 재봉 작업대(1391), 재봉 작업대(1524), 모에로틀 방직기(7273)",T:RM_StickyRiceBag
+모에로틀 철퇴,2,전기 단조 작업대,1252,"전기 단조 작업대(1252), 단조 작업대(1252)",T:Axolotl_Hammer
+모에로틀 청운 영의,4,전기 재봉 작업대,7304,"전기 재봉 작업대(7304), 재봉 작업대(8000), 모에로틀 기계 방직기(26250), 모에로틀 방직기(38182)",T:Axolotl_VerdantLotlQiGarment
+모에로틀 체크무늬 목도리,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_PlaidScarf
+모에로틀 취묵 외투,4,전기 재봉 작업대,6087,"전기 재봉 작업대(6087), 재봉 작업대(6667), 모에로틀 기계 방직기(21875), 모에로틀 방직기(31818)",T:Axolotl_InkGatheringRobe
+모에로틀 치령관,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_Pheasant-PlumeCoronet
+모에로틀 치염 영의,4,전기 재봉 작업대,8348,"전기 재봉 작업대(8348), 재봉 작업대(9143), 모에로틀 기계 방직기(30000), 모에로틀 방직기(43636)",T:Axolotl_FlameLotlQiGarment
+모에로틀 타골창,2,전기 단조 작업대,8348,"전기 단조 작업대(8348), 단조 작업대(8348)",T:Axolotl_Bone-SpitterSpear
+모에로틀 탁지 연노,2,전기 단조 작업대,6261,"전기 단조 작업대(6261), 단조 작업대(6261)",T:Axolotl_MoeLotlCrossBow_Intermediate
+모에로틀 파진 연노,2,전기 단조 작업대,8348,"전기 단조 작업대(8348), 단조 작업대(8348)",T:Axolotl_BattlebreakerCrossbow
+모에로틀 판다 머리장식,4,전기 재봉 작업대,261,"전기 재봉 작업대(261), 재봉 작업대(286), 모에로틀 기계 방직기(938), 모에로틀 방직기(1364)",T:Axolotl_PandaHeaddress
+모에로틀 판다 잠옷,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_PandaPajamas
+모에로틀 패딩,4,전기 재봉 작업대,1739,"전기 재봉 작업대(1739), 재봉 작업대(1905), 모에로틀 기계 방직기(6250), 모에로틀 방직기(9091)",T:Axolotl_Yurongfu
+모에로틀 평민복,4,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 모에로틀 기계 방직기(5625), 모에로틀 방직기(8182)",T:Axolotl_CasualWear
+모에로틀 학자복,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_ScholarGarb
+모에로틀 한해운경포,1,조립 작업대,10435,조립 작업대(10435),T:Axolotl_VastSeaCelestialWhaleCannon
+모에로틀 행낭,4,전기 재봉 작업대,626,"전기 재봉 작업대(626), 재봉 작업대(686), 모에로틀 기계 방직기(2250), 모에로틀 방직기(3273)",T:Axolotl_MoeLotlBackpack
+모에로틀 혈모 철립,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:Axolotl_Crimson-EyeVeil
+모에로틀 형향 외투,4,전기 재봉 작업대,6261,"전기 재봉 작업대(6261), 재봉 작업대(6857), 모에로틀 기계 방직기(22500), 모에로틀 방직기(32727)",T:Axolotl_FragrantSleeves
+모에로틀 호심경,4,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429), 모에로틀 기계 방직기(11250), 모에로틀 방직기(16364)",T:Axolotl_HeartwardMirrorplate
+모에로틀 혼례복,4,전기 재봉 작업대,10435,"전기 재봉 작업대(10435), 재봉 작업대(11429), 모에로틀 기계 방직기(37500), 모에로틀 방직기(54545)",T:Axolotl_AfterglowMarriageRobe
+모에로틀 홍사 머리장식,4,전기 재봉 작업대,574,"전기 재봉 작업대(574), 재봉 작업대(629), 모에로틀 기계 방직기(2062), 모에로틀 방직기(3000)",T:Axolotl_RedSilkHairband
+모에로틀 흑금총,2,전기 단조 작업대,4174,"전기 단조 작업대(4174), 단조 작업대(4174)",T:Axolotl_BlackGoldFirearm
+모에로틀 흑룡 모자,4,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 모에로틀 기계 방직기(3750), 모에로틀 방직기(5455)",T:Axolotl_BlackDragonHat
+모에로틀 흑룡 후드티,4,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429), 모에로틀 기계 방직기(11250), 모에로틀 방직기(16364)",T:Axolotl_BlackDragonHoodie
+모에로틀 흑무상 모자,4,전기 재봉 작업대,939,"전기 재봉 작업대(939), 재봉 작업대(1029), 모에로틀 기계 방직기(3375), 모에로틀 방직기(4909)",T:Axolotl_BlackImpermanenceHat
+모에로틀 흑무상 치마,4,전기 재봉 작업대,5565,"전기 재봉 작업대(5565), 재봉 작업대(6095), 모에로틀 기계 방직기(20000), 모에로틀 방직기(29091)",T:Axolotl_BlackImpermanenceSkirt
+모조생명 등짐,1,생체강 성형 작업대,670,생체강 성형 작업대(670),T:Apparel_DeadlifePack
+모조생명 포탄,1,생체강 성형 작업대,82,생체강 성형 작업대(82),T:Shell_Deadlife
+목걸이 (드라고니안 프리무스),2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:DR_Necklace_DP2Unofficial
+목재,2,무역 보고 장치,75,"무역 보고 장치(75), 무역 보고 증서(75)",T:WoodLog
+몸싸개,3,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343), 간이 제작 장소(1636)",T:Apparel_TribalA
+무기 분해,2,전기로,286,"전기로(286), 용광로(288)",R:SmeltWeapon
+무기 소각,2,전기 화장터,11,"전기 화장터(11), 모닥불(52)",R:BurnWeapon
+무기 처리,2,전기로,71,"전기로(71), 용광로(72)",R:DestroyWeapon
+무릎 송곳,1,기계 작업대,2609,기계 작업대(2609),T:KneeSpike
+무선통신 헤드셋,1,기계 작업대,365,기계 작업대(365),T:Apparel_AirwireHeadset
+묵두,2,전기 단조 작업대,1913,"전기 단조 작업대(1913), 단조 작업대(1913)",T:RM_InkFountain
+미니건,1,기계 작업대,10435,기계 작업대(10435),T:Gun_Minigun
+미사일 센티피드,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_CentipedeMissile
+미스티,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Misti
+미식적인 디저트,3,전기 스토브,638,"전기 스토브(638), 스토브(638), 태양 조리대(1111)",T:VCE_GourmetDessert
+미식적인 바베큐,1,그릴,500,그릴(500),T:VCE_GourmetGrill
+미식적인 빵,3,전기 스토브,479,"전기 스토브(479), 스토브(479), 태양 조리대(833)",T:VCE_GourmetBake
+미식적인 식사,3,전기 스토브,638,"전기 스토브(638), 스토브(638), 태양 조리대(1111)",T:VCE_MealGourmet
+밀리라 개척자 주머니,3,전기 재봉 작업대,1670,"전기 재봉 작업대(1670), 재봉 작업대(1829), 밀리라 재단 작업대(2087)",T:Milira_PathfinderPocket
+밀리라 검,1,태양 용광로,60000,태양 용광로(60000),T:Milira_SingleHandblade
+밀리라 검은색 밀착형 드레스,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_DelicateDressC
+밀리라 고스트 전술 고글,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_ShadowTacticalGoggles
+밀리라 고스트 전술 슈트,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_ShadowCombatSuit
+밀리라 글레이브,1,밀리라 범용 작업대,12174,밀리라 범용 작업대(12174),T:Milira_Glaive
+밀리라 깃털 장식,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_FeatherDeco
+밀리라 네메시스 아머,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_ElitePirateArmor
+밀리라 네메시스 장식,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_ElitePirateDeco
+밀리라 뇌명검,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_GreatSword_Pirate
+밀리라 다이달로스 갑옷,1,태양 용광로,17143,태양 용광로(17143),T:Milira_DaedalusArmor
+밀리라 다이달로스 날개,1,태양 용광로,21429,태양 용광로(21429),T:Milira_DaedalusWings
+밀리라 다이달로스 왕관,1,태양 용광로,25714,태양 용광로(25714),T:Milira_DaedalusHelmet
+밀리라 대거 전투복,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_CombatantSuit
+밀리라 대검,1,태양 용광로,60000,태양 용광로(60000),T:Milira_TwoHandSword
+밀리라 대검,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_HolySword
+밀리라 대낫,1,태양 용광로,60000,태양 용광로(60000),T:Milira_Sickle
+밀리라 대학 교복 (A형),3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_DelicateDressA
+밀리라 대학 교복 (B형),3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_DelicateDressA_II
+밀리라 랜스,1,태양 용광로,60000,태양 용광로(60000),T:Milira_Lance
+밀리라 레비아탄 갑옷,1,태양 용광로,34286,태양 용광로(34286),T:Milira_LeviathanArmor
+밀리라 레트로 기사 갑옷,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_RetroKnightArmor
+밀리라 레트로 기사 투구,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_RetroKnightHelmet
+밀리라 레트로 헌터 슈트,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_RetroHunterSuit
+밀리라 레트로 헌터 헬멧,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_RetroHunterHelmet
+밀리라 메카노이드 공명 헤드셋,3,전기 재봉 작업대,1878,"전기 재봉 작업대(1878), 재봉 작업대(2057), 밀리라 재단 작업대(2348)",T:Milira_SynesthesiaHeadset
+밀리라 바람막이,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_Dustcoat
+밀리라 발키리 갑옷,1,태양 용광로,34286,태양 용광로(34286),T:Milira_ValkyrArmor
+밀리라 발키리 투구,1,태양 용광로,25714,태양 용광로(25714),T:Milira_ValkyrHelmet
+밀리라 베레모,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:DL_Milira_DellinBeret
+밀리라 보닛,4,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381), 밀리라 재단 작업대(435), 밀리라 중력 직조기(476)",T:Milira_ImperiumOrdinaryHatI
+밀리라 복고풍 해군 제복,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_RetroNavalUniform
+밀리라 사냥꾼 모자,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_HunterCap
+밀리라 사냥꾼 옷,3,전기 재봉 작업대,4174,"전기 재봉 작업대(4174), 재봉 작업대(4571), 밀리라 재단 작업대(5217)",T:Milira_HunterCloth
+밀리라 사냥꾼 코트,3,전기 재봉 작업대,5565,"전기 재봉 작업대(5565), 재봉 작업대(6095), 밀리라 재단 작업대(6957)",T:Milira_HunterCoat
+밀리라 사제복,4,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609), 밀리라 중력 직조기(2857)",T:Milira_Priest_Uniform
+밀리라 선글라스,3,전기 재봉 작업대,522,"전기 재봉 작업대(522), 재봉 작업대(571), 밀리라 재단 작업대(652)",T:Milira_Sunglasses
+밀리라 선글라스 (머리),3,전기 재봉 작업대,522,"전기 재봉 작업대(522), 재봉 작업대(571), 밀리라 재단 작업대(652)",T:Milira_SunglassesII
+밀리라 셀레네 아머,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_NavalUniform
+밀리라 셀레네 헤드셋,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_TacticalHeadset
+밀리라 셀레스티얼 드레스,4,전기 재봉 작업대,522,"전기 재봉 작업대(522), 재봉 작업대(571), 밀리라 재단 작업대(652), 밀리라 중력 직조기(714)",T:Milira_CelestialDress
+밀리라 셀레스티얼 머리 장식,4,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381), 밀리라 재단 작업대(435), 밀리라 중력 직조기(476)",T:Milira_CelestialDressHairDeco
+밀리라 소형 축전지,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_CapacitorI
+밀리라 솜털 망토,3,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 밀리라 재단 작업대(1957)",T:Milira_PlushCape
+밀리라 솜털 베레모,3,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 밀리라 재단 작업대(1304)",T:Milira_PlushBeret
+밀리라 시그룬 파워 아머,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_MarinePowerArmor
+밀리라 시그룬 파워 헬멧,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_MarinePowerHelmet
+밀리라 식용 색소,3,전기 스토브,170,"전기 스토브(170), 스토브(170), 태양 조리대(296)",T:Dellin_EdiblePigment
+밀리라 쌍치도,1,밀리라 범용 작업대,12174,밀리라 범용 작업대(12174),T:Milira_PoleBlade
+밀리라 아르테미스 갑옷 (강습형),1,태양 용광로,17143,태양 용광로(17143),T:Milira_ArtemisArmor
+밀리라 아르테미스 갑옷 (수호형),1,태양 용광로,17143,태양 용광로(17143),T:Milira_ArtemisArmorII
+밀리라 아르테미스 눈,1,태양 용광로,25714,태양 용광로(25714),T:Milira_ArtemisHelmet
+밀리라 아스테리아 제복,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_NavigatorUniform
+밀리라 안경,3,전기 재봉 작업대,522,"전기 재봉 작업대(522), 재봉 작업대(571), 밀리라 재단 작업대(652)",T:Milira_Glasses
+밀리라 안전모,4,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381), 밀리라 재단 작업대(435), 밀리라 중력 직조기(476)",T:Milira_SafetyHelmet
+밀리라 양날검,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_Rakuyo
+밀리라 에너지 응집기,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_ChargeAccumulatorI
+밀리라 에너지 응집기 M2,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_ChargeAccumulatorII
+밀리라 에너지 응집기 M3,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_ChargeAccumulatorIII
+밀리라 여행복,3,전기 재봉 작업대,4174,"전기 재봉 작업대(4174), 재봉 작업대(4571), 밀리라 재단 작업대(5217)",T:Milira_PathfinderCloak
+밀리라 여행용 식량,3,전기 스토브,170,"전기 스토브(170), 스토브(170), 태양 조리대(296)",T:Milira_TravellerFood
+밀리라 여행자 망토,3,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429), 밀리라 재단 작업대(3913)",T:Milira_Cloak
+밀리라 여행자 후드,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_Hood
+밀리라 요리사 모자,4,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381), 밀리라 재단 작업대(435), 밀리라 중력 직조기(476)",T:Milira_ImperiumChefHat
+밀리라 용살대궁,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_DragonslayerGreatbow_II
+밀리라 용살창,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_DragonslayerSpear
+밀리라 우비,3,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429), 밀리라 재단 작업대(3913)",T:DL_Milira_DellinAttire
+밀리라 우아한 가운,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_DelicateDressB
+밀리라 원자력 축전지,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_CapacitorIII
+밀리라 월광 대검,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_MoonLightGreatSword
+밀리라 위상 통신 배열 헤드셋,3,전기 재봉 작업대,1878,"전기 재봉 작업대(1878), 재봉 작업대(2057), 밀리라 재단 작업대(2348)",T:Milira_PhaseControlMatrix
+밀리라 전통복 (A형),3,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 밀리라 재단 작업대(1957)",T:Milira_BasicDressI
+밀리라 전통복 (B형),3,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 밀리라 재단 작업대(1957)",T:Milira_BasicDressII
+밀리라 전통복 (C형),3,전기 재봉 작업대,1565,"전기 재봉 작업대(1565), 재봉 작업대(1714), 밀리라 재단 작업대(1957)",T:Milira_BasicDressIII
+밀리라 전투 드론: 섬광탄,1,밀리라 드론 인쇄기,2609,밀리라 드론 인쇄기(2609),T:Milira_CombatDrone_StunImpulseLauncher
+밀리라 전투 드론: 소이탄,1,밀리라 드론 인쇄기,2609,밀리라 드론 인쇄기(2609),T:Milira_CombatDrone_IncendiaryGrenadeLauncher
+밀리라 전투 드론: 펄스탄,1,밀리라 드론 인쇄기,2609,밀리라 드론 인쇄기(2609),T:Milira_CombatDrone_EMPLauncher
+밀리라 전투 마스크,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_CombatantMask
+밀리라 전투 코트,2,밀리라 중력 직조기,2857,"밀리라 중력 직조기(2857), 태양 용광로(8571)",T:Milira_CombatantCoat
+밀리라 전투망치,1,태양 용광로,60000,태양 용광로(60000),T:Milira_Hammer
+밀리라 제국 월계관,4,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381), 밀리라 재단 작업대(435), 밀리라 중력 직조기(476)",T:Milira_ImperiumOrdinaryHatIII
+밀리라 조종사 선글라스,4,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381), 밀리라 재단 작업대(435), 밀리라 중력 직조기(476)",T:Milira_PilotSunglasses
+밀리라 조종사 선글라스 (내려씀),4,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381), 밀리라 재단 작업대(435), 밀리라 중력 직조기(476)",T:Milira_PilotSunglassesIII
+밀리라 조종사 선글라스 (머리 위),4,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381), 밀리라 재단 작업대(435), 밀리라 중력 직조기(476)",T:Milira_PilotSunglassesII
+밀리라 차양 모자,3,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 밀리라 재단 작업대(1304)",T:Milira_SunHat
+밀리라 창,1,태양 용광로,60000,태양 용광로(60000),T:Milira_Spear
+밀리라 천둥 망치,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_Hammer_Pirate
+밀리라 초연산팩,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_SupercomputingPack
+밀리라 칼리스토 아머,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_PirateArmor
+밀리라 칼리스토 헤드셋,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_PirateHeadSet
+밀리라 캐쥬얼 의상,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_DelicateDressD
+밀리라 코르셋 드레스,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_DelicateDressF
+밀리라 코르셋 치마,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_DelicateDressE
+밀리라 쾌검,1,밀리라 범용 작업대,12174,밀리라 범용 작업대(12174),T:Milira_SwiftBlade
+밀리라 톱날검,1,밀리라 범용 작업대,12174,밀리라 범용 작업대(12174),T:Milira_SawBlade
+밀리라 포세이돈 모듈,2,밀리라 중력 직조기,5714,"밀리라 중력 직조기(5714), 태양 용광로(17143)",T:Milira_PoseidonHeadset
+밀리라 포세이돈 파워 아머,2,밀리라 중력 직조기,11429,"밀리라 중력 직조기(11429), 태양 용광로(34286)",T:Milira_HeavyPowerArmor
+밀리라 프로토타입 기어: 사이클롭스,1,태양 용광로,21429,태양 용광로(21429),T:Milira_ConceptWeaponry_Cyclops
+밀리라 프린터건,2,밀리라 중력 직조기,5952,"밀리라 중력 직조기(5952), 태양 용광로(17857)",T:Milira_PrinterGun
+밀리라 하이웨이스트 주름치마,3,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286), 밀리라 재단 작업대(2609)",T:Milira_DelicateDressG
+밀리라 함선 축전지,1,태양 용광로,2857,태양 용광로(2857),T:Milira_StarshipBattery
+밀리라 확장 축전지,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_CapacitorII
+밀리라의 레이피어,1,태양 용광로,60000,태양 용광로(60000),T:Milira_Rapier
+밀리라의 부서진 대검,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_ShatteredGreatSword
+밀리라의 천둥창,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_Spear_Pirate
+밀리언 가드 갑옷,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_GuardArmor
+밀리언 가디언 갑옷,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_GuardianArmor
+밀리언 경량 방탄갑옷,1,밀리라 범용 작업대,1304,밀리라 범용 작업대(1304),T:Milian_LightArmor
+밀리언 고글,1,밀리라 범용 작업대,1043,밀리라 범용 작업대(1043),T:Milian_Goggle
+밀리언 고양이 귀 머리띠,1,밀리라 범용 작업대,326,밀리라 범용 작업대(326),T:Dellin_Milian_MaidHatII
+밀리언 깃털 방패,1,밀리라 범용 작업대,4565,밀리라 범용 작업대(4565),T:Milian_FeatherShapeShield
+밀리언 나이트 방패,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_KnightShield
+밀리언 내의,3,전기 재봉 작업대,557,"전기 재봉 작업대(557), 재봉 작업대(610), 밀리라 재단 작업대(696)",T:Milian_Lining
+밀리언 동력 핵,1,밀리라 범용 작업대,522,밀리라 범용 작업대(522),T:Milira_MilianReactor
+밀리언 레인저 갑옷,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_RangerArmor
+밀리언 레인저 갑옷 츠바이,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Dellin_Milian_RangerArmor_Maid
+밀리언 룩 갑옷,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_RookArmor
+밀리언 룩 마스크,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_RookMask
+밀리언 메이드 머리띠,1,밀리라 범용 작업대,326,밀리라 범용 작업대(326),T:Dellin_Milian_MaidHat
+밀리언 메이드복,1,밀리라 범용 작업대,435,밀리라 범용 작업대(435),T:Dellin_Milian_MaidAttire
+밀리언 방탄 망토,1,밀리라 범용 작업대,1304,밀리라 범용 작업대(1304),T:Milian_BishopCloak
+밀리언 분석 헤드셋,1,밀리라 범용 작업대,1304,밀리라 범용 작업대(1304),T:Milian_BishopHeadset
+밀리언 뿔 달린 왕관,1,밀리라 범용 작업대,2348,밀리라 범용 작업대(2348),T:Milian_KnightHeadsetIII
+밀리언 사이클롭스 게이트 방패,1,밀리라 범용 작업대,10435,밀리라 범용 작업대(10435),T:Milian_RookShield
+밀리언 사일런트 헌터 망토,1,밀리라 범용 작업대,2348,밀리라 범용 작업대(2348),T:Milian_SilentHunterCloak
+밀리언 사일런트 헌터 후드,1,밀리라 범용 작업대,1957,밀리라 범용 작업대(1957),T:Milian_SilentHunterHood
+밀리언 성채 갑옷,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milian_CitadelArmor
+밀리언 수호자 갑옷 츠바이,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Dellin_Milian_GuardianArmor_Maid
+밀리언 스토커 갑옷,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_StalkerArmor
+밀리언 스트라이커 갑옷,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_StrikerArmor
+밀리언 스트라이커 투구,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_StrikerHelmet
+밀리언 스포츠 헤드셋,1,밀리라 범용 작업대,2348,밀리라 범용 작업대(2348),T:Milian_KnightHeadsetII
+밀리언 유도 지휘봉,1,밀리라 범용 작업대,5217,밀리라 범용 작업대(5217),T:Milian_PivotScepter
+밀리언 의전 지팡이,1,밀리라 범용 작업대,2348,밀리라 범용 작업대(2348),T:Milian_BishopScepter
+밀리언 장갑 고글,1,밀리라 범용 작업대,1304,밀리라 범용 작업대(1304),T:Milian_GoggleArmored
+밀리언 장거리 입자 저격소총,1,밀리라 범용 작업대,7826,밀리라 범용 작업대(7826),T:Milian_ParticleLongRangeSniper
+밀리언 지휘 망토,1,밀리라 범용 작업대,1304,밀리라 범용 작업대(1304),T:Milian_ConductorCloakAC
+밀리언 지휘 헤드셋,1,밀리라 범용 작업대,1957,밀리라 범용 작업대(1957),T:Milian_ConductorHeadSetAC
+밀리언 지휘봉,1,밀리라 범용 작업대,6087,밀리라 범용 작업대(6087),T:Milian_ConductorRod
+밀리언 추적자 갑옷 츠바이,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Dellin_Milian_StalkerArmor_Maid
+밀리언 통신 헤드셋,1,밀리라 범용 작업대,1957,밀리라 범용 작업대(1957),T:Milian_KnightHeadset
+밀리언 팔라딘 갑옷,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_PaladinArmor
+밀리언 팔라딘 갑옷 츠바이,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Dellin_Milian_PaladinArmor_Maid
+밀리언 포트리스 갑옷,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_FortressArmor
+밀리언 피벗 망토,1,밀리라 범용 작업대,2348,밀리라 범용 작업대(2348),T:Milian_PivotCloak
+밀리언 피벗 헤드셋,1,밀리라 범용 작업대,1957,밀리라 범용 작업대(1957),T:Milian_PivotHeadSet
+밀리터,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Militor
+바냐,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Vaniya
+바람막이,2,전기 재봉 작업대,1739,"전기 재봉 작업대(1739), 재봉 작업대(1905)",T:Apparel_Duster
+바위 피부,1,조립 작업대,4522,조립 작업대(4522),T:StoneskinGland
+바지,2,전기 재봉 작업대,278,"전기 재봉 작업대(278), 재봉 작업대(305)",T:Apparel_Pants
+반발 수류탄 벨트,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_Apparel_RepulsiveGrenade
+발레리안(쥐오줌풀) 달인 물,4,전기 스토브,681,"전기 스토브(681), 스토브(681), 태양 조리대(1185), 모닥불(1391)",T:VV_ValerianDecoction
+발화 브레이커,1,밀리라 범용 작업대,14130,밀리라 범용 작업대(14130),T:PLAMilira_Solar_Breaker
+방독면,1,기계 작업대,1043,기계 작업대(1043),T:Apparel_GasMask
+방사선 권총,1,밀리라 범용 작업대,7391,밀리라 범용 작업대(7391),T:Milira_RayPistol
+방사선 소총,1,밀리라 범용 작업대,8261,밀리라 범용 작업대(8261),T:Milira_RayRifle
+방탄 유리,1,조립 작업대,70,조립 작업대(70),T:RB_BallisticGlass
+방탄모,3,기계 작업대,557,"기계 작업대(557), 전기 단조 작업대(557), 단조 작업대(557)",T:Apparel_SimpleHelmet
+방탄바지,1,기계 작업대,1565,기계 작업대(1565),T:Apparel_FlakPants
+방탄재킷,1,기계 작업대,2435,기계 작업대(2435),T:Apparel_FlakJacket
+방탄조끼,1,기계 작업대,1565,기계 작업대(1565),T:Apparel_FlakVest
+배노메트릭 발전기,1,초월공학 작업대,9259,초월공학 작업대(9259),T:VanometricPowerCell
+번화계 부검,1,부검 테이블,2500,부검 테이블(2500),R:AutopsyGlitterworld
+번화계 약품,1,밀리라 범용 작업대,87,밀리라 범용 작업대(87),T:MedicineUltratech
+벙거지 모자,2,전기 재봉 작업대,209,"전기 재봉 작업대(209), 재봉 작업대(229)",T:Apparel_Flophat
+베레모,2,전기 재봉 작업대,696,"전기 재봉 작업대(696), 재봉 작업대(762)",T:Apparel_Beret
+보조 전자기 가속 레일,1,CMC 주조 가공대,394,CMC 주조 가공대(394),T:CMC_Accessory_EMBooster
+보존 식량,3,전기 스토브,153,"전기 스토브(153), 스토브(153), 태양 조리대(267)",T:MealSurvivalPack
+보호막 벨트,1,기계 작업대,2435,기계 작업대(2435),T:Apparel_ShieldBelt
+보호막 플로트 유닛팩,2,밀리라 범용 작업대,2609,"밀리라 범용 작업대(2609), 밀리라 드론 인쇄기(2609)",T:Milira_FloatUnitPack_Shield
+볼트 SMG,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_VoltSMG
+볼트액션 소총,1,기계 작업대,2087,기계 작업대(2087),T:Gun_BoltActionRifle
+부르카,2,전기 재봉 작업대,696,"전기 재봉 작업대(696), 재봉 작업대(762)",T:Apparel_Burka
+부식성 심장,1,생체강 성형 작업대,1361,생체강 성형 작업대(1361),T:CorrosiveHeart
+부신의 심장,1,생체강 성형 작업대,1361,생체강 성형 작업대(1361),T:AdrenalHeart
+부족 쓰개,3,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143), 간이 제작 장소(5455)",T:Apparel_TribalHeaddress
+부품,4,중력 단조대,486,"중력 단조대(486), 조립 벤치(870), 조립 작업대(870), 밀리라 범용 작업대(1087)",T:ComponentIndustrial
+부활 고급/초경량 메카노이드,1,고급 메카 배양기,1800,고급 메카 배양기(1800),R:ResurrectAdvancedLightMech
+분노의 룬 I,1,룬 작업대,800,룬 작업대(800),T:Isekai_Rune_Fury
+분노의 룬 II,1,룬 작업대,1040,룬 작업대(1040),T:Isekai_Rune_Fury_II
+분노의 룬 III,1,룬 작업대,1280,룬 작업대(1280),T:Isekai_Rune_Fury_III
+분노의 룬 IV,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Fury_IV
+분노의 룬 V,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Fury_V
+분노의 칼날 (드라고니안 프리무스),2,전기 단조 작업대,3478,"전기 단조 작업대(3478), 단조 작업대(3478)",T:MeleeWeapon_DR_Rageblade_DP2Unofficial
+분쇄석,1,전기로,2,전기로(2),T:OPC_CrushedStone
+불꽃의 룬 I,1,룬 작업대,800,룬 작업대(800),T:Isekai_Rune_Flame
+불꽃의 룬 II,1,룬 작업대,1040,룬 작업대(1040),T:Isekai_Rune_Flame_II
+불꽃의 룬 III,1,룬 작업대,1280,룬 작업대(1280),T:Isekai_Rune_Flame_III
+불꽃의 룬 IV,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Flame_IV
+불꽃의 룬 V,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Flame_V
+불사조 갑옷,1,조립 작업대,13043,조립 작업대(13043),T:Apparel_ArmorCataphractPhoenix
+브림스톤 중기관총,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_GaussMachinegun
+비대한 힘 혈청,1,혈청 연구대,304,혈청 연구대(304),T:JuggernautSerum
+비렐리아의 창,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_Spear_Pirate_Enhanced
+비르구스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:TW_Mech_Birgus
+비비안 스페셜,2,조립 작업대,9391,"조립 작업대(9391), 기계 작업대(9391)",T:Gun_VivianSpecial
+비비안 어펜드,3,조립 작업대,243,"조립 작업대(243), 전기 단조 작업대(243), 단조 작업대(243)",T:VivianAppend
+비비안 커스텀,1,기계 작업대,1043,기계 작업대(1043),T:Vivian_Custom
+비비안스폰,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Vivianspawn
+비숍 I,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_BishopI
+비숍 II,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_BishopII
+비숍 밀리언 모델 소생,1,밀리언 배양기,1800,밀리언 배양기(1800),R:Milira_ResurrectMilian_Bishop
+비시노에 부유 유닛 팩,2,밀리라 범용 작업대,2609,"밀리라 범용 작업대(2609), 밀리라 드론 인쇄기(2609)",T:PLAMilira_VisjnoePack
+빈 인공자아 핵,1,중력 단조대,6892,중력 단조대(6892),T:EmptyAICore
+빔 그레이저,1,조립 작업대,8174,조립 작업대(8174),T:Gun_BeamGraser
+빔 리피터,1,조립 작업대,10435,조립 작업대(10435),T:Gun_BeamRepeater
+사격 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleShooting
+사교 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleSocial
+사료,4,전기 도축 작업대,2,"전기 도축 작업대(2), 도축 작업대(8), 간이 도축 장소(8), 조미료 작업대(?)",T:Kibble
+사암 석재,1,석재 절삭대,22,석재 절삭대(22),T:BlocksSandstone
+사이더,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Scyther
+사이오닉 조율기,1,태양 용광로,14286,태양 용광로(14286),T:MEXY_Psyonic_Tuner
+사이오닉 조율기 시제품,1,밀리라 범용 작업대,2174,밀리라 범용 작업대(2174),T:MEXY_Psyonic_Tuner_Prototype
+사이코룩스 결정,2,밀리라 범용 작업대,1304,"밀리라 범용 작업대(1304), 입자 구축기(4500)",T:MEXY_PsycholuxCrystal
+사이클롭스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Cyclops
+사이클포친,1,약물 연구대,429,약물 연구대(429),T:Cyclepochin_DP2Unofficial
+산탄총,1,기계 작업대,2087,기계 작업대(2087),T:Gun_PumpShotgun
+삿갓,2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:Apparel_Shadecone
+상급 서브코어,1,조립 작업대,1391,조립 작업대(1391),T:SubcoreHigh
+생체강,1,약물 연구대,1,약물 연구대(1),T:Bioferrite
+생체공학 귀,1,조립 작업대,4522,조립 작업대(4522),T:BionicEar
+생체공학 꼬리,1,조립 작업대,4522,조립 작업대(4522),T:DR_BionicTail
+생체공학 꼬리 (드라고니안 프리무스),1,조립 작업대,4522,조립 작업대(4522),T:DR_BionicTail_DP2Unofficial
+생체공학 눈,1,조립 작업대,4522,조립 작업대(4522),T:BionicEye
+생체공학 다리,1,조립 작업대,4522,조립 작업대(4522),T:BionicLeg
+생체공학 드라고니안 꼬리,1,조립 작업대,4522,조립 작업대(4522),T:Dragonian_BionicTail_CD
+생체공학 밀리라 날개,1,밀리라 범용 작업대,5652,밀리라 범용 작업대(5652),T:Milira_BionicWing
+생체공학 심장,1,조립 작업대,4522,조립 작업대(4522),T:BionicHeart
+생체공학 위,1,조립 작업대,4522,조립 작업대(4522),T:BionicStomach
+생체공학 척추,1,조립 작업대,4522,조립 작업대(4522),T:BionicSpine
+생체공학 턱,1,조립 작업대,4522,조립 작업대(4522),T:BionicJaw
+생체공학 팔,1,조립 작업대,4522,조립 작업대(4522),T:BionicArm
+생체공학 혀,1,조립 작업대,4522,조립 작업대(4522),T:BionicTongue
+생체리듬 반감기,1,조립 작업대,4522,조립 작업대(4522),T:CircadianHalfCycler
+생체리듬 보조기,1,조립 작업대,4522,조립 작업대(4522),T:CircadianAssistant
+생체변이 창,1,생체강 성형 작업대,2165,생체강 성형 작업대(2165),T:Apparel_BiomutationLance
+생체변이 파동기,1,생체강 성형 작업대,1979,생체강 성형 작업대(1979),T:BiomutationPulser
+서리의 룬 I,1,룬 작업대,800,룬 작업대(800),T:Isekai_Rune_Frost
+서리의 룬 II,1,룬 작업대,1040,룬 작업대(1040),T:Isekai_Rune_Frost_II
+서리의 룬 III,1,룬 작업대,1280,룬 작업대(1280),T:Isekai_Rune_Frost_III
+서리의 룬 IV,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Frost_IV
+서리의 룬 V,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Frost_V
+서티폭스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Thirtyfox
+석재 만들기,1,석재 절삭대,444,석재 절삭대(444),R:Make_StoneBlocksAny
+석회암 석재,1,석재 절삭대,22,석재 절삭대(22),T:BlocksLimestone
+섬멸 폭풍,1,입자 구축기,35000,입자 구축기(35000),T:MEXY_Annihilation_Storm
+성스러운 핵 - 아르고,1,밀리라 범용 작업대,696,밀리라 범용 작업대(696),T:PLAMilira_Star_Argo
+성스러운 핵 - 알루드라,1,밀리라 범용 작업대,696,밀리라 범용 작업대(696),T:PLAMilira_Star_Aludra
+성스러운 핵 - 텐고,1,밀리라 범용 작업대,696,밀리라 범용 작업대(696),T:PLAMilira_Star_Tengo
+성운액,1,약물 연구대,257,약물 연구대(257),T:CO_Vacsop
+세이렌,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Seiren
+센추리온,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Centurion
+센츄리온 아스널 배낭,2,조립 작업대,2435,"조립 작업대(2435), 기계 작업대(2435)",T:Centurion_Arsenal_Codex
+센티피드 거너,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_CentipedeGunner
+센티피드 버너,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_CentipedeBurner
+센티피드 블래스터,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_CentipedeBlaster
+셔츠,2,전기 재봉 작업대,470,"전기 재봉 작업대(470), 재봉 작업대(514)",T:Apparel_CollarShirt
+셰퍼디,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Shepherdi
+소각기,1,생체강 성형 작업대,4948,생체강 성형 작업대(4948),T:Gun_Incinerator
+소금,1,조미료 작업대,100,조미료 작업대(100),T:VCE_Salt
+소방거품 등짐,1,기계 작업대,626,기계 작업대(626),T:Apparel_FirefoampopPack
+소방거품탄,1,기계 작업대,139,기계 작업대(139),T:Shell_Firefoam
+소이탄,1,기계 작업대,139,기계 작업대(139),T:Shell_Incendiary
+소이탄 발사기,1,기계 작업대,3478,기계 작업대(3478),T:Gun_IncendiaryLauncher
+소형 마나 코어,1,제련 작업대,40,제련 작업대(40),T:Isekai_SmallManaCore
+소형 메카노이드 소생,1,메카노이드 배양기,1800,메카노이드 배양기(1800),R:ResurrectLightMech
+소형 조각상,1,조소 작업대,5000,조소 작업대(5000),T:SculptureSmall
+소형 플로트 유닛팩,2,밀리라 범용 작업대,2609,"밀리라 범용 작업대(2609), 밀리라 드론 인쇄기(2609)",T:Milira_FloatUnitPack
+소형 핵융합로,2,조립 작업대,1043,"조립 작업대(1043), 서브코어 부호기(6000)",T:NCL_Microfusion_Reactor
+소화강화 위,1,조립 작업대,4522,조립 작업대(4522),T:ReprocessorStomach
+솔티 버스터,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_SortieBuster
+솔티라이언,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Sortie
+쇼핑 리스트,2,무역 보고 장치,300,"무역 보고 장치(300), 무역 보고 증서(300)",T:ASShoppingList
+수리 탐침기,1,기계 작업대,557,기계 작업대(557),T:RepairProbe
+수호의 룬 I,1,룬 작업대,1500,룬 작업대(1500),T:Isekai_Rune_Bulwark
+수호의 룬 II,1,룬 작업대,1950,룬 작업대(1950),T:Isekai_Rune_Bulwark_II
+수호의 룬 III,1,룬 작업대,2400,룬 작업대(2400),T:Isekai_Rune_Bulwark_III
+수호의 룬 IV,1,룬 작업대,3000,룬 작업대(3000),T:Isekai_Rune_Bulwark_IV
+수호의 룬 V,1,룬 작업대,3750,룬 작업대(3750),T:Isekai_Rune_Bulwark_V
+쉘 포트리스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:TW_Mech_Shell_Fortification_Reforged
+슈라이크,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Shurike
+스나이퍼 앤트,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:NCL_Mech_DinergateSniper
+스마우굼,1,약물 연구대,429,약물 연구대(429),T:Smaugum_DP2Unofficial
+스위피,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Sweepy
+스코처,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Scorcher
+스큐티저,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:NCL_Mech_Scutiger
+스톰마리나,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Marina
+스톰마린 서브코어,1,서브코어 부호기,3000,서브코어 부호기(3000),T:SubcoreMarina
+스트라이커,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_RookIII
+스트릭스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Strix
+스틸비비안,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Steelvivian
+스피어 건 S-11,1,밀리라 범용 작업대,18478,밀리라 범용 작업대(18478),T:PLAMilira_Speargun
+슬라이스 캡,2,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381)",T:Apparel_Slicecap
+시스티,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Sisti
+시체 화장,1,전기 화장터,32,전기 화장터(32),R:CremateCorpse
+신경 석궁,2,생체강 성형 작업대,928,"생체강 성형 작업대(928), 간이 제작 장소(8182)",T:NerveSpiker
+신경망,1,서브코어 부호기,2000,서브코어 부호기(2000),T:NCL_Neural_Weave
+신더 채리엇,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_CChariot
+신생의 구체,3,기계 작업대,261,"기계 작업대(261), 전기 단조 작업대(261), 단조 작업대(261)",T:Isekai_RespecOrb
+신속의 룬 I,1,룬 작업대,1200,룬 작업대(1200),T:Isekai_Rune_Swiftness
+신속의 룬 II,1,룬 작업대,1560,룬 작업대(1560),T:Isekai_Rune_Swiftness_II
+신속의 룬 III,1,룬 작업대,1920,룬 작업대(1920),T:Isekai_Rune_Swiftness_III
+신속의 룬 IV,1,룬 작업대,2400,룬 작업대(2400),T:Isekai_Rune_Swiftness_IV
+신속의 룬 V,1,룬 작업대,3000,룬 작업대(3000),T:Isekai_Rune_Swiftness_V
+신체 부위 소각하기,2,전기 화장터,7,"전기 화장터(7), 모닥불(35)",R:BurnBodyParts
+실험실 외투,2,전기 재봉 작업대,870,"전기 재봉 작업대(870), 재봉 작업대(952)",T:Apparel_LabCoat
+심령 연산 칩,1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorPsychic
+심령 연산 칩 (1단계),1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorPsychic_TierA
+심령 연산 칩 (2단계),1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorPsychic_TierB
+심바이오메쉬,2,조립 작업대,2435,"조립 작업대(2435), 기계 작업대(2435)",T:Apparel_NoBody
+쌍발 로터 추진기,1,밀리라 범용 작업대,5217,밀리라 범용 작업대(5217),T:Milira_Booster
+쑥 달임약,4,전기 스토브,723,"전기 스토브(723), 스토브(723), 태양 조리대(1259), 모닥불(1478)",T:VV_WormwoodDecoction
+아그리핸드,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Agrihand
+아동용 몸싸개,3,전기 재봉 작업대,243,"전기 재봉 작업대(243), 재봉 작업대(267), 간이 제작 장소(1273)",T:Apparel_KidTribal
+아동용 바지,2,전기 재봉 작업대,223,"전기 재봉 작업대(223), 재봉 작업대(244)",T:Apparel_KidPants
+아동용 방탄모,3,기계 작업대,348,"기계 작업대(348), 전기 단조 작업대(348), 단조 작업대(348)",T:Apparel_KidHelmet
+아동용 셔츠,2,전기 재봉 작업대,223,"전기 재봉 작업대(223), 재봉 작업대(244)",T:Apparel_KidShirt
+아동용 원피스,2,전기 재봉 작업대,348,"전기 재봉 작업대(348), 재봉 작업대(381)",T:Apparel_KidRomper
+아동용 파카,2,전기 재봉 작업대,1113,"전기 재봉 작업대(1113), 재봉 작업대(1219)",T:Apparel_KidParka
+아르테미스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Artemis
+아리사,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_ALisa
+아스테시아 오토캐논,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_AstesiaAutoCannon
+아스트로리엘의 망치,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_Hammer_Pirate_Enhanced
+아우로라,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Aurora
+아웃라이더,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_KnightIII
+아이언 커튼 전술 망토,2,조립 작업대,2435,"조립 작업대(2435), 기계 작업대(2435)",T:IC_MK3_Tacticloak
+아주르트레일,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Azurtrail
+아크 부유 유닛 팩,2,밀리라 범용 작업대,2609,"밀리라 범용 작업대(2609), 밀리라 드론 인쇄기(2609)",T:PLAMilira_ElcPack
+아크 투척기,1,태양 용광로,42857,태양 용광로(42857),T:PLAMilira_Arc_Thrower
+아토머신,1,기본 초월공학 제작대,22,기본 초월공학 제작대(22),T:Attomachinery
+안대,2,전기 재봉 작업대,209,"전기 재봉 작업대(209), 재봉 작업대(229)",T:Apparel_Blindfold
+안정의 룬 I,1,룬 작업대,1000,룬 작업대(1000),T:Isekai_Rune_Warding
+안정의 룬 II,1,룬 작업대,1300,룬 작업대(1300),T:Isekai_Rune_Warding_II
+안정의 룬 III,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Warding_III
+안정의 룬 IV,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Warding_IV
+안정의 룬 V,1,룬 작업대,2500,룬 작업대(2500),T:Isekai_Rune_Warding_V
+암흑 물질 보호막 벨트,2,밀리라 범용 작업대,3261,"밀리라 범용 작업대(3261), 밀리라 중력 직조기(3571)",T:Milira_DarkMattershieldbelt
+압축 물고기 사료,1,도축 작업대,22,도축 작업대(22),T:CompressedFishFood
+애정 증진기,1,조립 작업대,4522,조립 작업대(4522),T:LoveEnhancer
+야요,1,약물 연구대,167,약물 연구대(167),T:Yayo
+야채 통조림,1,통조림 기계,3,통조림 기계(3),T:VCE_CannedProduce
+야채 튀김,1,튀김기,25,튀김기(25),T:VCE_DeepFriedVegetables
+약물 소각,2,전기 화장터,11,"전기 화장터(11), 모닥불(52)",R:BurnDrugs
+약품,1,약물 연구대,333,약물 연구대(333),T:MedicineIndustrial
+양금원단,4,전기 재봉 작업대,17,"전기 재봉 작업대(17), 재봉 작업대(19), 모에로틀 기계 방직기(62), 모에로틀 방직기(91)",T:Axolotl_Silk
+어나이힐레이터 와일드파이어,1,조립 작업대,3478,조립 작업대(3478),T:Annihilator_Wildfire
+어린이 진공 방호복,1,기계 작업대,3478,기계 작업대(3478),T:Apparel_VacsuitChildren
+에너지 효율이 향상된 배터리,1,조립 작업대,,조립 작업대(?),T:NCL_AdvancedPowerCell
+에키네시아 달인 물,4,전기 스토브,596,"전기 스토브(596), 스토브(596), 태양 조리대(1037), 모닥불(1217)",T:VV_EchinaceaDecoction
+에테림 심판자,1,입자 구축기,50000,입자 구축기(50000),T:MEXY_Aetherim_Judicator
+에포크 플라즈마포,1,태양 용광로,60714,태양 용광로(60714),T:Milira_PlasmaCannon_Epoch
+엘텍스 가면,2,전기 재봉 작업대,1391,"전기 재봉 작업대(1391), 재봉 작업대(1524)",T:VPE_Apparel_EltexMask
+엘텍스 검,2,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130)",T:VPE_MeleeWeapon_EltexSword
+엘텍스 곤봉,2,전기 단조 작업대,1739,"전기 단조 작업대(1739), 단조 작업대(1739)",T:VPE_MeleeWeapon_EltexMace
+엘텍스 단검,2,전기 단조 작업대,522,"전기 단조 작업대(522), 단조 작업대(522)",T:VPE_MeleeWeapon_EltexDagger
+엘텍스 로브,2,전기 재봉 작업대,3478,"전기 재봉 작업대(3478), 재봉 작업대(3810)",T:Apparel_PsyfocusRobe
+엘텍스 망토,2,전기 재봉 작업대,2783,"전기 재봉 작업대(2783), 재봉 작업대(3048)",T:VPE_Apparel_EltexCape
+엘텍스 셔츠,2,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143)",T:Apparel_PsyfocusShirt
+엘텍스 재킷,2,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286)",T:Apparel_PsyfocusVest
+엘텍스 지팡이,2,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130)",T:MeleeWeapon_PsyfocusStaff
+엘텍스 해골모,2,전기 단조 작업대,348,"전기 단조 작업대(348), 단조 작업대(348)",T:Apparel_EltexSkullcap
+엘텍스 헬멧,2,전기 단조 작업대,1391,"전기 단조 작업대(1391), 단조 작업대(1391)",T:Apparel_PsyfocusHelmet
+연구 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleIntellectual
+연막 가방,1,기계 작업대,626,기계 작업대(626),T:Apparel_SmokepopBelt
+연막 발사기,1,기계 작업대,5217,기계 작업대(5217),T:Gun_SmokeLauncher
+연막탄,1,기계 작업대,139,기계 작업대(139),T:Shell_Smoke
+연산 보조기,1,조립 작업대,4522,조립 작업대(4522),T:Neurocalculator
+연초,2,약물 연구대,214,"약물 연구대(214), 간이 제작 장소(409)",T:SmokeleafJoint
+연초 버터,1,조미료 작업대,13,조미료 작업대(13),T:VCE_SmokeleafButter
+열 차단 역장,2,밀리라 범용 작업대,6522,"밀리라 범용 작업대(6522), 밀리라 중력 직조기(7143)",T:Milira_ThermalBarrierField
+엽화떡,3,전기 스토브,160,"전기 스토브(160), 스토브(160), 태양 조리대(278)",T:Axolotl_LeafFlowerJelly
+영혼 승천 동기화기,1,입자 구축기,25000,입자 구축기(25000),T:MEXY_SoulAscensionSynchronizer
+예복 셔츠,2,전기 재봉 작업대,1043,"전기 재봉 작업대(1043), 재봉 작업대(1143)",T:Apparel_ShirtRuffle
+예복 조끼,2,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286)",T:Apparel_VestRoyal
+예술 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleArtistic
+오토캐논,1,태양 용광로,55714,태양 용광로(55714),T:PLAMilira_Autocannon
+옥경분,1,모에로틀 제약대,47,모에로틀 제약대(47),T:Axolotl_JadeEssencePowder
+옴니 드롭,1,약물 연구대,423,약물 연구대(423),T:OmniDrop_DP2Unofficial
+왕관,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:Apparel_Crown
+왕복선 통신기,1,기계 작업대,1739,기계 작업대(1739),T:Apparel_ShuttleComm
+외형 교정기,1,조립 작업대,4522,조립 작업대(4522),T:AestheticShaper
+용기의 룬 I,1,룬 작업대,800,룬 작업대(800),T:Isekai_Rune_Fortitude
+용기의 룬 II,1,룬 작업대,1040,룬 작업대(1040),T:Isekai_Rune_Fortitude_II
+용기의 룬 III,1,룬 작업대,1280,룬 작업대(1280),T:Isekai_Rune_Fortitude_III
+용기의 룬 IV,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Fortitude_IV
+용기의 룬 V,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Fortitude_V
+용발톱 (드라고니안 프리무스),2,전기 단조 작업대,3478,"전기 단조 작업대(3478), 단조 작업대(3478)",T:MeleeWeapon_Drakesclaw_DP2Unofficial
+용설란 시럽,1,조미료 작업대,7,조미료 작업대(7),T:VCE_AgaveNectar
+용해 처리,1,전기로,71,전기로(71),R:SmeltOrDestroyThing
+우라늄,3,전기로,8,"전기로(8), 전기 재활용 작업대(655), 재활용 작업대(800)",T:Uranium
+운기단 반죽,1,모에로틀 제약대,1000,모에로틀 제약대(1000),T:Axolotl_ingredient
+운도미엘의 대검,2,밀리라 중력 직조기,20000,"밀리라 중력 직조기(20000), 태양 용광로(60000)",T:Milira_GreatSword_Pirate_Enhanced
+울트라테크 리프터,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_LifterUltra
+울트라테크 아그리핸드,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_AgrihandUltra
+울트라테크 컨스트럭토이드,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_ConstructoidUltra
+울트라테크 클린스위퍼,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_CleansweeperUltra
+울트라테크 파라메딕,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_ParamedicUltra
+울트라테크 파브리코어,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_FabricorUltra
+워 스콜피온,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:NCL_Mech_Scorpion
+워 퀸,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Warqueen
+원격 보호막 생성기,1,기계 작업대,557,기계 작업대(557),T:RemoteShielder
+원격 수리기,1,기계 작업대,557,기계 작업대(557),T:RemoteRepairer
+원격 포격 지시기,2,조립 작업대,,"조립 작업대(?), 나노 조립기(?)",T:Eccentric_ArtilleryDesignator
+원예 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleGrowing
+월리엄 레싱,1,조소 작업대,8333,조소 작업대(8333),T:NCL_Liberty_Leading_the_Militors
+웨이크업,1,약물 연구대,429,약물 연구대(429),T:WakeUp
+위대한 마법의 삐삐,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:PLAMilira_Apparel_IndexConsole
+위신 판금 갑옷,2,전기 단조 작업대,7304,"전기 단조 작업대(7304), 단조 작업대(7304)",T:VPE_Apparel_PlateArmorPrestige
+윙맨,2,밀리라 중력 직조기,9524,"밀리라 중력 직조기(9524), 태양 용광로(28571)",T:Milira_GaussRevolver
+유리,1,전기로,24,전기로(24),T:RB_Glass
+은,2,전기로,1,"전기로(1), 기본 초월공학 제작대(5)",T:Silver
+은행나무 차,4,전기 스토브,170,"전기 스토브(170), 스토브(170), 태양 조리대(296), 모닥불(348)",T:VV_GinkgoTea
+의류 분해,1,전기로,286,전기로(286),R:SmeltApparel
+의류 소각,2,전기 화장터,11,"전기 화장터(11), 모닥불(52)",R:BurnApparel
+의류 처리,1,전기로,71,전기로(71),R:DestroyApparel
+의수,1,기계 작업대,2609,기계 작업대(2609),T:SimpleProstheticArm
+의식 가면,2,생체강 성형 작업대,309,"생체강 성형 작업대(309), 간이 제작 장소(2727)",T:Apparel_CultistMask
+의식 두건,2,생체강 성형 작업대,206,"생체강 성형 작업대(206), 간이 제작 장소(1818)",T:Apparel_CeremonialCultistMask
+의족,1,기계 작업대,2609,기계 작업대(2609),T:SimpleProstheticLeg
+의학 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleMedicine
+의학 훈련,1,해부 훈련대,1500,해부 훈련대(1500),R:OPC_TrainMedicine
+의학적 장기 적출,1,부검 테이블,1800,부검 테이블(1800),R:AutopsyAdvanced
+이럽터,1,태양 용광로,64286,태양 용광로(64286),T:PLAMilira_Plasma_Eruptor
+이스코르카,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Iskorka
+"이온 경기관총 ""스털워트""",1,태양 용광로,55714,태양 용광로(55714),T:PLAMilira_Stalwart
+이온 레일건 RS-422,1,태양 용광로,64286,태양 용광로(64286),T:PLAMilira_RailGun
+이유식,4,전기 스토브,19,"전기 스토브(19), 스토브(19), 태양 조리대(33), 모닥불(39)",T:BabyFood
+이중 자유 DBS-2,1,밀리라 범용 작업대,13043,밀리라 범용 작업대(13043),T:PLAMilira_DBS
+이터널 포트리스,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_RookIV
+인공 밀리라 날개,2,기계 작업대,1461,"기계 작업대(1461), 밀리라 범용 작업대(1826)",T:Milira_ArtificialWing
+인공심장,1,기계 작업대,2609,기계 작업대(2609),T:SimpleProstheticHeart
+인공와우,1,기계 작업대,2609,기계 작업대(2609),T:CochlearImplant
+인공자아 핵,1,중력 단조대,486,중력 단조대(486),T:AIPersonaCore
+인삼 달인 물,4,전기 스토브,638,"전기 스토브(638), 스토브(638), 태양 조리대(1111), 모닥불(1304)",T:VV_GinsengDecoction
+인상 교정기,1,조립 작업대,4522,조립 작업대(4522),T:AestheticNose
+인지 범람 조절기,1,태양 용광로,57143,태양 용광로(57143),T:MEXY_CognitiveDelugeRegulator
+일반 마나 코어,1,제련 작업대,400,제련 작업대(400),T:Isekai_ManaCore
+일본풍 머리 장식 (드라고니안 프리무스),2,전기 재봉 작업대,487,"전기 재봉 작업대(487), 재봉 작업대(533)",T:DR_JapanHairAcc_DP2Unofficial
+일식 연지,1,모에로틀 제약대,3125,모에로틀 제약대(3125),T:RM_SunBlockingRouge
+입자 경기관총,1,밀리라 범용 작업대,6957,밀리라 범용 작업대(6957),T:Milian_ParticleLMG
+입자 광선총,1,밀리라 범용 작업대,1304,밀리라 범용 작업대(1304),T:Milian_ParticleBeamGun
+입자 기관단총,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_ParticleSMG
+입자 확산 블래스터,1,밀리라 범용 작업대,3913,밀리라 범용 작업대(3913),T:Milian_ParticleDiffusionBlaster
+자괴목 괴뢰,2,전기 단조 작업대,1565,"전기 단조 작업대(1565), 단조 작업대(1565)",T:RM_OvercastWoodGolem
+자동권총,1,기계 작업대,870,기계 작업대(870),T:Gun_Autopistol
+자색 부적,3,전기 재봉 작업대,696,"전기 재봉 작업대(696), 재봉 작업대(762), 모에로틀 방직기(3636)",T:RM_PurpleIncantation
+장검,2,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130)",T:MeleeWeapon_LongSword
+장궁,3,전기 단조 작업대,1565,"전기 단조 작업대(1565), 단조 작업대(1565), 간이 제작 장소(8182)",T:Bow_Great
+장기 적출 부검,1,부검 테이블,1000,부검 테이블(1000),R:AutopsyBasic
+장막 재,1,밀리라 중력 직조기,476,밀리라 중력 직조기(476),T:MI_Thing_ShroudAsh
+장막 차,4,전기 스토브,9,"전기 스토브(9), 스토브(9), 태양 조리대(15), 모닥불(17)",T:MI_Thing_ShroudTea
+장식관,2,전기 단조 작업대,1391,"전기 단조 작업대(1391), 단조 작업대(1391)",T:Apparel_Coronet
+재생력 증진기,1,조립 작업대,4522,조립 작업대(4522),T:HealingEnhancer
+재생의 룬 I,1,룬 작업대,1000,룬 작업대(1000),T:Isekai_Rune_Regeneration
+재생의 룬 II,1,룬 작업대,1300,룬 작업대(1300),T:Isekai_Rune_Regeneration_II
+재생의 룬 III,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Regeneration_III
+재생의 룬 IV,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Regeneration_IV
+재생의 룬 V,1,룬 작업대,2500,룬 작업대(2500),T:Isekai_Rune_Regeneration_V
+재킷,2,전기 재봉 작업대,1217,"전기 재봉 작업대(1217), 재봉 작업대(1333)",T:Apparel_Jacket
+저격소총,1,기계 작업대,7826,기계 작업대(7826),T:Gun_SniperRifle
+저그 군락유도 페르몬 방출기,1,약물 연구대,2381,약물 연구대(2381),T:MUSC_PheromoneGrenade
+저장 유닛 조립,1,밀리라 드론 인쇄기,3913,밀리라 드론 인쇄기(3913),R:Milira_MakeDrone_Storage
+저항의 룬 I,1,룬 작업대,800,룬 작업대(800),T:Isekai_Rune_Resistance
+저항의 룬 II,1,룬 작업대,1040,룬 작업대(1040),T:Isekai_Rune_Resistance_II
+저항의 룬 III,1,룬 작업대,1280,룬 작업대(1280),T:Isekai_Rune_Resistance_III
+저항의 룬 IV,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Resistance_IV
+저항의 룬 V,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Resistance_V
+적혈단,1,모에로틀 제약대,84,모에로틀 제약대(84),T:Axolotl_CrimsonBloodPill
+전자기 레일 소총,1,태양 용광로,64286,태양 용광로(64286),T:Milira_MagneticRailRifle
+전장의 왕,1,조립 작업대,,조립 작업대(?),T:NCL_King_of_the_field
+전쟁가면,3,전기 재봉 작업대,522,"전기 재봉 작업대(522), 재봉 작업대(571), 간이 제작 장소(2727)",T:Apparel_WarMask
+전쟁베일,3,전기 재봉 작업대,243,"전기 재봉 작업대(243), 재봉 작업대(267), 간이 제작 장소(1273)",T:Apparel_WarVeil
+전투 드론: 4연장 로켓 발사기,1,밀리라 드론 인쇄기,6522,밀리라 드론 인쇄기(6522),T:Milira_CombatDrone_QuadrupleRocketLauncher
+전투 드론: 미니건,1,밀리라 드론 인쇄기,6522,밀리라 드론 인쇄기(6522),T:Milira_CombatDrone_MiniGun
+전투 드론: 산탄 입자,1,밀리라 드론 인쇄기,2609,밀리라 드론 인쇄기(2609),T:Milira_CombatDrone_ScatterParticleBlaster
+전투 드론: 장거리 입자,1,밀리라 드론 인쇄기,2609,밀리라 드론 인쇄기(2609),T:Milira_CombatDrone_LongRangeParticleBlaster
+전투 드론: 충격 입자,1,밀리라 드론 인쇄기,2609,밀리라 드론 인쇄기(2609),T:Milira_CombatDrone_ParticleImpactBlaster
+전투 망치,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleHammer
+전투 망치 (드라고니안 프리무스),2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:DR_BattleHammer_DP2Unofficial
+전투 산탄총,1,기계 작업대,5391,기계 작업대(5391),T:Gun_ChainShotgun
+전투 연산 칩,1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorCombat
+전투 연산 칩 (1단계),1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorCombat_TierA
+전투 연산 칩 (2단계),1,조립 작업대,696,조립 작업대(696),T:OP_CoprocessorCombat_TierB
+전투 투구 (드라고니안 프리무스),2,전기 재봉 작업대,3130,"전기 재봉 작업대(3130), 재봉 작업대(3429)",T:DR_BattleHelm_DP2Unofficial
+전투 플랫폼: 메카 제어 유닛,1,밀리라 드론 인쇄기,6522,밀리라 드론 인쇄기(6522),T:Milira_CombatDrone_MechControlUnit
+전투 플랫폼: 에너지 거품 보호막,1,밀리라 드론 인쇄기,2609,밀리라 드론 인쇄기(2609),T:Milira_CombatDrone_EnergyBubble
+전투 플랫폼: 에탕다르,2,밀리라 범용 작업대,2609,"밀리라 범용 작업대(2609), 밀리라 중력 직조기(2857)",T:Milira_CombatDrone_LightOfCradol_II
+전투망치,2,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130)",T:MeleeWeapon_Warhammer
+점판암 석재,1,석재 절삭대,22,석재 절삭대(22),T:BlocksSlate
+점프 구급대원,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:BF_Mech_JumpParamedic
+점프 리프터,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_JumpLifter
+점프팩,1,기계 작업대,2435,기계 작업대(2435),T:Apparel_PackJump
+접힌 공간 가속기,1,입자 구축기,50000,입자 구축기(50000),T:MEXY_FoldedSpaceAccelerator
+정밀의 룬 I,1,룬 작업대,800,룬 작업대(800),T:Isekai_Rune_Precision
+정밀의 룬 II,1,룬 작업대,1040,룬 작업대(1040),T:Isekai_Rune_Precision_II
+정밀의 룬 III,1,룬 작업대,1280,룬 작업대(1280),T:Isekai_Rune_Precision_III
+정밀의 룬 IV,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Precision_IV
+정밀의 룬 V,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Precision_V
+정신 안정기,1,초월공학 작업대,9259,초월공학 작업대(9259),T:PsychicSoothePulser
+정신 압박기,1,기계 작업대,2609,기계 작업대(2609),T:Mindscrew
+정신 파동 발생장치,1,초월공학 작업대,1852,초월공학 작업대(1852),T:PsychicEmanator
+정신 파동기,1,초월공학 작업대,7407,초월공학 작업대(7407),T:PsychicAnimalPulser
+정신력 증폭기,1,초월공학 작업대,18519,초월공학 작업대(18519),T:PsychicAmplifier
+정신력 킬 스위치,1,초월공학 작업대,9259,초월공학 작업대(9259),T:DeathArtifact
+정신력 포섭기,1,초월공학 작업대,11111,초월공학 작업대(11111),T:RecruitArtifact
+정신분열 창,1,초월공학 작업대,9259,초월공학 작업대(9259),T:Apparel_PsychicInsanityLance
+정신안정 창,1,초월공학 작업대,9259,초월공학 작업대(9259),T:MentalResetArtifact
+정신압박기,1,초월공학 작업대,27778,초월공학 작업대(27778),T:PsychicSpookPulser
+정신영감 창,1,초월공학 작업대,7407,초월공학 작업대(7407),T:InspireArtifact
+정신정지 창,1,초월공학 작업대,9259,초월공학 작업대(9259),T:StasisArtifact
+정신충격 창,1,초월공학 작업대,9259,초월공학 작업대(9259),T:Apparel_PsychicShockLance
+정신충전 창,1,초월공학 작업대,926,초월공학 작업대(926),T:PsyrestoreArtifact
+정신치료 창,1,초월공학 작업대,9259,초월공학 작업대(9259),T:HealAndStuffArtifact
+정신파 동물 훈련기,1,초월공학 작업대,9259,초월공학 작업대(9259),T:TrainingArtifact
+정찰대 갑옷,1,조립 작업대,7826,조립 작업대(7826),T:Apparel_ArmorRecon
+정찰대 장교 갑옷,1,조립 작업대,15652,조립 작업대(15652),T:Apparel_ArmorReconPrestige
+정찰대 장교 헬멧,1,조립 작업대,5478,조립 작업대(5478),T:Apparel_ArmorHelmetReconPrestige
+정찰대 헬멧,1,조립 작업대,2739,조립 작업대(2739),T:Apparel_ArmorHelmetRecon
+제국 마법사 후드,1,조립 작업대,4870,조립 작업대(4870),T:CAT_MagusHood
+제국 마법사 후드,1,조립 작업대,4870,조립 작업대(4870),T:CAT_MagusHoodOpen
+제국 무희 상의,2,전기 재봉 작업대,383,"전기 재봉 작업대(383), 재봉 작업대(419)",T:CAT_Apparel_ImperialDancerTop
+제국 무희 하의,2,전기 재봉 작업대,383,"전기 재봉 작업대(383), 재봉 작업대(419)",T:CAT_Apparel_ImperialDancerBottom
+제국 휴대용 콘솔,2,밀리라 범용 작업대,870,"밀리라 범용 작업대(870), 밀리라 중력 직조기(952)",T:MiliraImperium_PortableConsole
+제어 팩,1,기계 작업대,557,기계 작업대(557),T:Apparel_PackControl
+제작 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleCrafting
+조각상,1,조소 작업대,5833,조소 작업대(5833),T:Statue
+조련 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleAnimals
+조리 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleCooking
+조연제,1,기계 작업대,35,기계 작업대(35),T:Axolotl_ArmorJumpFuel
+조종 보조기,1,조립 작업대,4522,조립 작업대(4522),T:PilotAssistant
+조준 보조기,1,조립 작업대,2739,조립 작업대(2739),T:Apparel_Gunlink
+좋은 디저트,3,전기 스토브,191,"전기 스토브(191), 스토브(191), 태양 조리대(333)",T:VCE_FineDessert
+좋은 바베큐,1,그릴,150,그릴(150),T:VCE_FineGrill
+좋은 빵,3,전기 스토브,144,"전기 스토브(144), 스토브(144), 태양 조리대(250)",T:VCE_FineBake
+좋은 식사,3,전기 스토브,191,"전기 스토브(191), 스토브(191), 태양 조리대(333)",T:MealFine
+좋은 육식주의 식사,3,전기 스토브,191,"전기 스토브(191), 스토브(191), 태양 조리대(333)",T:MealFine_Meat
+좋은 채식주의 식사,3,전기 스토브,191,"전기 스토브(191), 스토브(191), 태양 조리대(333)",T:MealFine_Veg
+중력 감응판 소재,1,석재 절삭대,1000,석재 절삭대(1000),T:RoughGravlitePanel
+중력 갑옷 피부,1,중력 단조대,4054,중력 단조대(4054),T:GravArmor
+중력 광선 캐논,1,중력 단조대,9730,중력 단조대(9730),T:GravBeamCannon
+중력 등짐,1,중력 단조대,5676,중력 단조대(5676),T:Apparel_GravPack
+중력 망치,1,중력 단조대,9730,중력 단조대(9730),T:GravHammer
+중력 보호막 벨트,1,중력 단조대,4054,중력 단조대(4054),T:Apparel_GravBelt
+중력 블래스터,1,중력 단조대,8919,중력 단조대(8919),T:GravBlaster
+중력 소총,1,중력 단조대,10541,중력 단조대(10541),T:GravRifle
+중력 손,1,중력 단조대,5676,중력 단조대(5676),T:GravHands
+중력 수류탄 벨트,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:Milira_Apparel_AttractiveGrenade
+중력 척추,1,중력 단조대,4054,중력 단조대(4054),T:GravSpine
+중력 코어,1,중력 단조대,6486,중력 단조대(6486),T:Gravcore
+중력 코어 위장,1,중력 단조대,4054,중력 단조대(4054),T:GravStomach
+중력감응판,3,중력 단조대,81,"중력 단조대(81), 조립 작업대(313), 전기 화장터(482)",T:GravlitePanel
+중력격자 비단,2,밀리라 범용 작업대,22,"밀리라 범용 작업대(22), 입자 구축기(100)",T:MEXY_GravilatticeSilk
+중력격자 합금,2,밀리라 범용 작업대,22,"밀리라 범용 작업대(22), 입자 구축기(100)",T:MEXY_GravilatticeAlloy
+중력조직,1,중력 단조대,41,중력 단조대(41),T:Graweave
+중력합금,1,중력 단조대,46,중력 단조대(46),T:Gravitonium
+중산모,2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:Apparel_BowlerHat
+중형 메카노이드 소생,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),R:ResurrectMediumMech
+지각 보호막 – 공명,1,태양 용광로,,태양 용광로(?),T:MEXY_ShieldCore_Melee
+지각 보호막 – 시제품,1,밀리라 범용 작업대,,밀리라 범용 작업대(?),T:MEXY_ShieldCore_Prototype
+지각 보호막 – 조율,1,태양 용광로,,태양 용광로(?),T:MEXY_ShieldCore_Ranged
+지향성 EMS 방출기,1,CMC 나노 CNC 작업대,14961,CMC 나노 CNC 작업대(14961),T:EMS_DirectedEmitter
+지휘모,2,전기 재봉 작업대,261,"전기 재봉 작업대(261), 재봉 작업대(286)",T:Apparel_AuthorityCap
+진공 방호복,1,기계 작업대,8348,기계 작업대(8348),T:Apparel_Vacsuit
+진공 방호복 헬멧,1,기계 작업대,2609,기계 작업대(2609),T:Apparel_VacsuitHelmet
+진공 저항 피부,1,조립 작업대,4522,조립 작업대(4522),T:VacskinGland
+진공보호 혈청,1,혈청 연구대,423,혈청 연구대(423),T:VacProtectSerum
+진공암 석재,1,석재 절삭대,22,석재 절삭대(22),T:BlocksVacstone
+진정 약초 연고,2,약물 연구대,476,"약물 연구대(476), 간이 제작 장소(909)",T:VV_SoothingHerbalOintment
+집속형 저격소총,1,밀리라 범용 작업대,9130,밀리라 범용 작업대(9130),T:Milira_ConvergentRaySniper
+집정관,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_BishopIII
+집중제,1,약물 연구대,43,약물 연구대(43),T:Concentration_DP2Unofficial
+차지 라이플,2,중력 단조대,6081,"중력 단조대(6081), 조립 작업대(7826)",T:Gun_ChargeRifle
+차지 라이플,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_ChargeRifle
+차지 랜스,2,중력 단조대,8108,"중력 단조대(8108), 조립 작업대(10435)",T:Gun_ChargeLance
+창,2,전기 단조 작업대,2087,"전기 단조 작업대(2087), 단조 작업대(2087)",T:MeleeWeapon_Spear
+채굴 기술 훈련,1,훈련용 콘솔,2500,훈련용 콘솔(2500),R:TrainingConsoleMining
+척탄 갑옷,1,조립 작업대,10435,조립 작업대(10435),T:Apparel_ArmorMarineGrenadier
+천둥의 룬 I,1,룬 작업대,1000,룬 작업대(1000),T:Isekai_Rune_Thunder
+천둥의 룬 II,1,룬 작업대,1300,룬 작업대(1300),T:Isekai_Rune_Thunder_II
+천둥의 룬 III,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Thunder_III
+천둥의 룬 IV,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Thunder_IV
+천둥의 룬 V,1,룬 작업대,2500,룬 작업대(2500),T:Isekai_Rune_Thunder_V
+"천살성검 ""아라야""",1,태양 용광로,60000,태양 용광로(60000),T:PLAMilira_Alaya
+철퇴,2,전기 단조 작업대,1043,"전기 단조 작업대(1043), 단조 작업대(1043)",T:MeleeWeapon_Mace
+청소기 유닛 조립,1,밀리라 드론 인쇄기,2783,밀리라 드론 인쇄기(2783),R:Milira_MakeDrone_Cleansweeper
+초경조직 천,1,조립 작업대,11,조립 작업대(11),T:Hyperweave
+초능력 공명기,1,CMC 주조 가공대,551,CMC 주조 가공대(551),T:CMC_Accessory_EMBooster_Psy
+초능력 메크링크,1,밀리라 중력 직조기,22857,밀리라 중력 직조기(22857),T:Milira_PsionicMechlink
+초능력 보호막 벨트,2,밀리라 범용 작업대,6522,"밀리라 범용 작업대(6522), 밀리라 중력 직조기(7143)",T:Milira_Psionicshieldbelt
+초능력 보호막 파동기,1,초월공학 작업대,27778,초월공학 작업대(27778),T:MAG_GuardianPulser
+초능력 증진기,1,초월공학 작업대,5556,초월공학 작업대(5556),T:PsychicSensitizer
+초능력 증폭 펜던트,2,밀리라 범용 작업대,6522,"밀리라 범용 작업대(6522), 밀리라 중력 직조기(7143)",T:Milira_PsionicAmplifyPendant
+초대형 마나 코어,1,제련 작업대,1200,제련 작업대(1200),T:Isekai_HugeManaCore
+초대형 메카노이드 소생,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),R:ResurrectUltraheavyMech
+초대형 조각상,1,조소 작업대,29167,조소 작업대(29167),T:SculptureGrand
+초월 방어핵,1,조립 작업대,1043,조립 작업대(1043),T:OP_ArmorCore
+초월 보호막 벨트,1,조립 작업대,1043,조립 작업대(1043),T:OP_ShieldBelt
+초월 소총,1,조립 작업대,1391,조립 작업대(1391),T:OP_TranscendentRifle
+초월 합금,1,조립 작업대,35,조립 작업대(35),T:OP_TranscendentAlloy
+초월계 고기,2,초월공학 스토브,139,"초월공학 스토브(139), 초월공학 작업대(463)",T:SuperDuperArchoMeat
+초월계 덩어리,1,초월공학 작업대,926,초월공학 작업대(926),T:archotechmatteraddingsomecraptoavoidproblems
+초월계 빵,1,초월공학 스토브,1111,초월공학 스토브(1111),T:MAG_ArchotechBake
+초월계 식물성 물질,2,초월공학 스토브,139,"초월공학 스토브(139), 초월공학 작업대(463)",T:SuperDuperArchoPlant
+초월계 약품,1,초월공학 작업대,6481,초월공학 작업대(6481),T:ArchotechishMedicine
+초월계 직화구이,1,초월공학 스토브,1111,초월공학 스토브(1111),T:MAG_archotechgrill
+초월계 축산물,2,초월공학 스토브,139,"초월공학 스토브(139), 초월공학 작업대(463)",T:ArchotechMilkEggThing
+초월계 파편,1,초월공학 작업대,167,초월공학 작업대(167),T:ArchotechScrap
+초월계 향신료,1,초월공학 스토브,694,초월공학 스토브(694),T:ArchoNutVial
+초월계 후식,1,초월공학 스토브,1250,초월공학 스토브(1250),T:MAG_ArchotechDessert
+초월공학 간,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentLiver
+초월공학 간,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechLiver
+초월공학 간 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Liver
+초월공학 간 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Liver
+초월공학 골반,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentPelvis
+초월공학 골반,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechPelvis
+초월공학 골반 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Pelvis
+초월공학 골반 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Pelvis
+초월공학 귀,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechEar
+초월공학 뇌 도우미,1,기본 초월공학 제작대,3604,기본 초월공학 제작대(3604),T:ArchotechBrainMelder
+초월공학 뇌 임플란트,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentBrain
+초월공학 뇌 임플란트 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Brain
+초월공학 뇌 임플란트 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Brain
+초월공학 눈,2,기본 초월공학 제작대,180,"기본 초월공학 제작대(180), 초월공학 작업대(9259)",T:ArchotechEye
+초월공학 다리,2,기본 초월공학 제작대,901,"기본 초월공학 제작대(901), 초월공학 작업대(9259)",T:ArchotechLeg
+초월공학 멸절기,1,기본 초월공학 제작대,3604,기본 초월공학 제작대(3604),T:ArchotechDeathClaw
+초월공학 방어막 막,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentMembrane
+초월공학 방어막 막 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Membrane
+초월공학 방어막 막 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Membrane
+초월공학 부활기,1,초월공학 작업대,11111,초월공학 작업대(11111),T:MechSerumResurrectorButBetter
+초월공학 사료,1,초월공학 스토브,9,초월공학 스토브(9),T:MAG_Archotech_Kibble
+초월공학 식사,3,전기 스토브,681,"전기 스토브(681), 스토브(681), 태양 조리대(1185)",T:MealArchoAdvanced
+초월공학 신장,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentKidney
+초월공학 신장,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechKidney
+초월공학 신장 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Kidney
+초월공학 신장 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Kidney
+초월공학 심장,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentHeart
+초월공학 심장,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechHeart
+초월공학 심장 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Heart
+초월공학 심장 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Heart
+초월공학 왕복선 제작기,1,초월공학 작업대,7407,초월공학 작업대(7407),T:Apparel_ArchoShuttle
+초월공학 위,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentStomach
+초월공학 위,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechStomach
+초월공학 위 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Stomach
+초월공학 위 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Stomach
+초월공학 육식주의 식사,3,전기 스토브,681,"전기 스토브(681), 스토브(681), 태양 조리대(1185)",T:MealArchoAdvanced_Carni
+초월공학 의수,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentArm
+초월공학 의수 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Arm
+초월공학 의수 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Arm
+초월공학 의안,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentEye
+초월공학 의안 (1단계),1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Eye
+초월공학 의안 (2단계),1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Eye
+초월공학 의이,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentEar
+초월공학 의이 (1단계),1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Ear
+초월공학 의이 (2단계),1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Ear
+초월공학 의족,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentLeg
+초월공학 의족 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Leg
+초월공학 의족 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Leg
+초월공학 장벽,1,기본 초월공학 제작대,3604,기본 초월공학 제작대(3604),T:ArchotechMembrane
+초월공학 재생기,1,기본 초월공학 제작대,3604,기본 초월공학 제작대(3604),T:ArchotechRegenerationMatrix
+초월공학 제압기,1,기본 초월공학 제작대,3604,기본 초월공학 제작대(3604),T:ArchotechObliterator
+초월공학 채식주의 식사,3,전기 스토브,681,"전기 스토브(681), 스토브(681), 태양 조리대(1185)",T:MealArchoAdvanced_Veg
+초월공학 척추,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentSpine
+초월공학 척추,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechSpine
+초월공학 척추 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Spine
+초월공학 척추 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Spine
+초월공학 턱,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentJaw
+초월공학 턱,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechDenture
+초월공학 턱 (1단계),1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Jaw
+초월공학 턱 (2단계),1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Jaw
+초월공학 팔,2,기본 초월공학 제작대,901,"기본 초월공학 제작대(901), 초월공학 작업대(9259)",T:ArchotechArm
+초월공학 폐,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentLung
+초월공학 폐,1,기본 초월공학 제작대,2703,기본 초월공학 제작대(2703),T:ArchotechLung
+초월공학 폐 (1단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T1_Lung
+초월공학 폐 (2단계) 이식물,1,조립 작업대,696,조립 작업대(696),T:OP_TranscendentImplants_T2_Lung
+초월기술 터널러,1,고급 메카 배양기,1800,고급 메카 배양기(1800),T:Mech_TunnelerUltra
+초월입자 캡슐,1,초월공학 작업대,22222,초월공학 작업대(22222),T:ArchiteCapsule
+초콜릿 시럽,1,조미료 작업대,13,조미료 작업대(13),T:VCE_ChocolateSyrup
+초혼 방울,2,전기 단조 작업대,2609,"전기 단조 작업대(2609), 단조 작업대(2609)",T:RM_SoulChanterBell
+충격 입자 블래스터,1,밀리라 범용 작업대,2348,밀리라 범용 작업대(2348),T:Milian_ParticleBeamBlaster
+카디널,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_BishopIV
+카우보이 모자,2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:Apparel_CowboyHat
+칼날 손톱,1,기계 작업대,2609,기계 작업대(2609),T:HandTalon
+캐모마일 차,4,전기 스토브,170,"전기 스토브(170), 스토브(170), 태양 조리대(296), 모닥불(348)",T:VV_ChamomileTea
+캡틴,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_PawnIV
+컨스트럭토이드,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Constructoid
+케첩,1,조미료 작업대,7,조미료 작업대(7),T:VCE_Ketchup
+코르셋,2,전기 재봉 작업대,2087,"전기 재봉 작업대(2087), 재봉 작업대(2286)",T:Apparel_Corset
+콘스티,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Consti
+쾌락회로,1,기계 작업대,2609,기계 작업대(2609),T:Joywire
+크레이버 대물 레일건,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_AntiMaterielRailgun
+크로스 비키니 상의,2,전기 재봉 작업대,383,"전기 재봉 작업대(383), 재봉 작업대(419)",T:CAT_Apparel_CrossBikiniTop
+크로스 비키니 하의,2,전기 재봉 작업대,383,"전기 재봉 작업대(383), 재봉 작업대(419)",T:CAT_Apparel_CrossBikiniBottom
+클린스위퍼,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Cleansweeper
+타임 차,4,전기 스토브,170,"전기 스토브(170), 스토브(170), 태양 조리대(296), 모닥불(348)",T:VV_ThymeTea
+탄도 연산 칩,1,CMC 주조 가공대,630,CMC 주조 가공대(630),T:CMC_Accessory_AdvancedScopeB
+탄약대,2,전기 재봉 작업대,609,"전기 재봉 작업대(609), 재봉 작업대(667)",T:Apparel_Bandolier
+태양 보호막 벨트,2,밀리라 범용 작업대,1304,"밀리라 범용 작업대(1304), 밀리라 중력 직조기(1429)",T:Milira_Solarshieldbelt
+태양 연료,2,입자 구축기,67,"입자 구축기(67), 연료 정제기(91)",T:Milira_SunLightFuel
+태양광 격자 피질,2,밀리라 범용 작업대,15652,"밀리라 범용 작업대(15652), 태양 용광로(51429)",T:Milira_FianchettoChip
+태양단강,3,태양 용광로,14,"태양 용광로(14), 입자 구축기(20), 밀리라 중력 직조기(29)",T:Milira_SunPlateSteel
+터널러,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Tunneler
+털모자,2,전기 재봉 작업대,209,"전기 재봉 작업대(209), 재봉 작업대(229)",T:Apparel_Tuque
+테서론,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Tesseron
+테슬라 센티피드,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:TW_Mech_MechTeslaCentipede
+테크레기나,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_TechRegina
+통각 차단장치,1,기계 작업대,2609,기계 작업대(2609),T:Painstopper
+통신 배열 헤드셋,1,기계 작업대,365,기계 작업대(365),T:Apparel_ArrayHeadset
+통합 전술 장비,1,태양 용광로,5714,태양 용광로(5714),T:MEXY_IntegratedTacticalGear_Apparel
+통합자 헤드셋,1,조립 작업대,2739,조립 작업대(2739),T:Apparel_IntegratorHeadset
+투창 다발,2,전기 단조 작업대,1217,"전기 단조 작업대(1217), 단조 작업대(1217)",T:Pila
+트라이세라,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_TriSera
+트랜스,1,약물 연구대,429,약물 연구대(429),T:Trance_DP2Unofficial
+특수 공수부대 사일런트 맨티스,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:TW_Mech_Paratrooper
+튼튼한 피부,1,조립 작업대,4522,조립 작업대(4522),T:ToughskinGland
+티셔츠,2,전기 재봉 작업대,278,"전기 재봉 작업대(278), 재봉 작업대(305)",T:Apparel_BasicShirt
+티키,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Tiki
+파괴용 도끼,2,전기 단조 작업대,870,"전기 단조 작업대(870), 단조 작업대(870)",T:MeleeWeapon_BreachAxe
+파괴의 룬 I,1,룬 작업대,1200,룬 작업대(1200),T:Isekai_Rune_Devastation
+파괴의 룬 II,1,룬 작업대,1560,룬 작업대(1560),T:Isekai_Rune_Devastation_II
+파괴의 룬 III,1,룬 작업대,1920,룬 작업대(1920),T:Isekai_Rune_Devastation_III
+파괴의 룬 IV,1,룬 작업대,2400,룬 작업대(2400),T:Isekai_Rune_Devastation_IV
+파괴의 룬 V,1,룬 작업대,3000,룬 작업대(3000),T:Isekai_Rune_Devastation_V
+파라메딕,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Paramedic
+파르바티,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Parvati
+파브리코어,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Fabricor
+파쇄 해머 CQC-20,1,밀리라 범용 작업대,12174,밀리라 범용 작업대(12174),T:PLAMilira_BreachingHammer
+파이어미션 카트리지,1,기계 작업대,10435,기계 작업대(10435),T:Firekit
+파이크맨,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Pikeman
+파카,2,전기 재봉 작업대,1391,"전기 재봉 작업대(1391), 재봉 작업대(1524)",T:Apparel_Parka
+파편 동물 파동기,1,생체강 성형 작업대,1979,생체강 성형 작업대(1979),T:ShardAnimalPulser
+파편 수류탄,1,기계 작업대,2087,기계 작업대(2087),T:Weapon_GrenadeFrag
+파편 정신분열 창,1,생체강 성형 작업대,2165,생체강 성형 작업대(2165),T:Apparel_ShardPsychicInsanityLance
+파편 정신충격 창,1,생체강 성형 작업대,1856,생체강 성형 작업대(1856),T:Apparel_ShardPsychicShockLance
+판금갑옷,2,전기 단조 작업대,6609,"전기 단조 작업대(6609), 단조 작업대(6609)",T:Apparel_PlateArmor
+팔괘경,2,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130)",T:RM_BaguaMirror
+팔꿈치 칼날,1,기계 작업대,2609,기계 작업대(2609),T:ElbowBlade
+팔라딘,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_KnightIV
+팬텀세일,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Phantomsail
+펄스 광선총,1,밀리라 범용 작업대,1304,밀리라 범용 작업대(1304),T:Milian_PulsedBeamGun
+펄스 레이저 기관총,1,태양 용광로,64286,태양 용광로(64286),T:Milira_LaserMG
+펄스 발사기,1,기계 작업대,5217,기계 작업대(5217),T:Gun_EmpLauncher
+펄스 수류탄,1,기계 작업대,4174,기계 작업대(4174),T:Weapon_GrenadeEMP
+펄스탄,1,기계 작업대,139,기계 작업대(139),T:Shell_EMP
+페녹시실린,1,약물 연구대,286,약물 연구대(286),T:Penoxycyline
+페닉시아,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Phoenixia
+페르소나 전투 망치,2,전기 단조 작업대,5217,"전기 단조 작업대(5217), 단조 작업대(5217)",T:DR_BattleHammerBladelink
+페르소나 폭발 전투 망치,2,전기 단조 작업대,5217,"전기 단조 작업대(5217), 단조 작업대(5217)",T:DR_BattleHammerBladelink_Ex
+페미컨,4,전기 스토브,19,"전기 스토브(19), 스토브(19), 태양 조리대(32), 모닥불(38)",T:Pemmican
+포탑 배낭,1,기계 작업대,1739,기계 작업대(1739),T:Apparel_PackTurret
+포터라인,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Porterline
+포터라인 카트리지,1,기계 작업대,522,기계 작업대(522),T:Gracekit
+포톤 필버그,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:NCL_Mech_PillBug
+폰 I,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_PawnI
+폰 II,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_PawnII
+폰 밀리언 모델 소생,1,밀리언 배양기,1800,밀리언 배양기(1800),R:Milira_ResurrectMilian_Pawn
+표준 서브코어,1,조립 작업대,696,조립 작업대(696),T:SubcoreRegular
+표준 탄약 보급품,2,CMC 주조 가공대,3,"CMC 주조 가공대(3), CMC 나노 CNC 작업대(6)",T:CMC_Ammo_Standard
+표준 폭발물 보급품,2,CMC 주조 가공대,12,"CMC 주조 가공대(12), CMC 나노 CNC 작업대(24)",T:CMC_Ammo_Explosive
+풀미나,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Fulmina
+풍우 영기,3,전기 재봉 작업대,2609,"전기 재봉 작업대(2609), 재봉 작업대(2857), 모에로틀 방직기(13636)",T:RM_FlagWindRain
+프라이토르,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:TW_Mech_Praetor
+프리메라,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Primera
+플라스마 기관단총,1,태양 용광로,51429,태양 용광로(51429),T:Milira_PlasmaSMG
+플라스틸,3,전기로,7,"전기로(7), 밀리라 중력 직조기(29), 중력 단조대(35)",T:Plasteel
+플라즈마 권총,1,태양 용광로,42857,태양 용광로(42857),T:Milira_PlasmaPistol
+플라즈마 럼블러포,1,태양 용광로,64286,태양 용광로(64286),T:Milira_Rumbler_Splitting
+플라즈마 소총,1,태양 용광로,51429,태양 용광로(51429),T:Milira_PlasmaRifle
+플라즈마 점사 기관총,1,태양 용광로,64286,태양 용광로(64286),T:Milira_PlasmaMG
+플라즈마 충격 수류탄 벨트,1,태양 용광로,8571,태양 용광로(8571),T:Milira_Apparel_PlasmaShockGrenade
+플라즈마 캐논,1,태양 용광로,64286,태양 용광로(64286),T:Milira_PlasmaCannon
+플라즈마 펄스 저격소총,1,태양 용광로,64286,태양 용광로(64286),T:Milira_PlasmaPulseSniperRifle
+플랫폼: 축전,1,밀리라 중력 직조기,2857,밀리라 중력 직조기(2857),T:Milira_Drone_Capacitor
+플레이크,1,약물 연구대,119,약물 연구대(119),T:Flake
+피스키퍼,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_Peacekeeper
+피아노,2,전기 단조 작업대,8696,"전기 단조 작업대(8696), 단조 작업대(8696)",T:Piano
+피앙케토,1,밀리언 배양기,1800,밀리언 배양기(1800),T:Milian_Mechanoid_BishopIII_ArsenalCarrier
+피코머신,1,기본 초월공학 제작대,16,기본 초월공학 제작대(16),T:Picomachinery
+하베스터,1,대형 메카노이드 배양기,1800,대형 메카노이드 배양기(1800),T:Mech_Harvester
+하복 라이플,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_HAVOCRifle
+하이포,1,약물 연구대,107,약물 연구대(107),T:Hypo_DP2Unofficial
+하프,3,전기 단조 작업대,3130,"전기 단조 작업대(3130), 단조 작업대(3130), 간이 제작 장소(16364)",T:Harp
+하프시코드,2,전기 단조 작업대,5565,"전기 단조 작업대(5565), 단조 작업대(5565)",T:Harpsichord
+학습 보조기,1,조립 작업대,4522,조립 작업대(4522),T:LearningAssistant
+합금 폐기물,2,전기 재활용 작업대,1164,"전기 재활용 작업대(1164), 재활용 작업대(1422)",T:VRecyclingE_StabilizedAlloypack
+합성 키틴강,1,조립 작업대,114,조립 작업대(114),T:MUSC_SynthChitinsteel
+합성원단,1,조립 작업대,12,조립 작업대(12),T:Synthread
+핫소스,1,조미료 작업대,7,조미료 작업대(7),T:VCE_HotSauce
+항독성 역장 발생기,2,밀리라 범용 작업대,6522,"밀리라 범용 작업대(6522), 밀리라 중력 직조기(7143)",T:Milira_AntitoxinFieldGenerator
+항성기사 장교 갑옷,1,조립 작업대,43478,조립 작업대(43478),T:CAT_PrestigeStellicKnightArmor
+항성기사 장교 헬멧,1,조립 작업대,9130,조립 작업대(9130),T:CAT_PrestigeStellicKnightHelmet
+항성기사 장교 헬멧,1,조립 작업대,4565,조립 작업대(4565),T:CAT_PrestigeStellicKnightHelmetOpen
+항출혈기,1,조립 작업대,4522,조립 작업대(4522),T:Coagulator
+해독강화 위,1,조립 작업대,4522,조립 작업대(4522),T:DetoxifierStomach
+해병 승무원,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Marinecrew
+해병대 갑옷,2,중력 단조대,8108,"중력 단조대(8108), 조립 작업대(10435)",T:Apparel_PowerArmor
+해병대 장교 갑옷,1,조립 작업대,20870,조립 작업대(20870),T:Apparel_ArmorMarinePrestige
+해병대 장교 헬멧,1,조립 작업대,7304,조립 작업대(7304),T:Apparel_ArmorMarineHelmetPrestige
+해병대 헬멧,2,중력 단조대,2838,"중력 단조대(2838), 조립 작업대(3652)",T:Apparel_PowerArmorHelmet
+핵분열 위,1,조립 작업대,4522,조립 작업대(4522),T:NuclearStomach
+햇빛 모자 (드라고니안 프리무스),2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:DR_SunHat_DP2Unofficial
+허니윙,1,메카노이드 배양기,1800,메카노이드 배양기(1800),T:Mech_Honeywing
+헌터 등짐,1,기계 작업대,1739,기계 작업대(1739),T:Apparel_PackHunter
+헬캣 소총,1,생체강 성형 작업대,4124,생체강 성형 작업대(4124),T:Gun_HellcatRifle
+헬파이어 산탄총,2,밀리라 중력 직조기,21429,"밀리라 중력 직조기(21429), 태양 용광로(64286)",T:Milira_RailShotgun
+현장,2,전기 재봉 작업대,174,"전기 재봉 작업대(174), 재봉 작업대(190)",T:Apparel_Sash
+혈액 온열기,1,생체강 성형 작업대,1361,생체강 성형 작업대(1361),T:BloodWarmer
+혈액팩,1,약물 연구대,25,약물 연구대(25),T:HemogenPack
+호화로운 디저트,3,전기 스토브,340,"전기 스토브(340), 스토브(340), 태양 조리대(593)",T:VCE_LavishDessert
+호화로운 바베큐,1,그릴,267,그릴(267),T:VCE_LavishGrill
+호화로운 빵,3,전기 스토브,255,"전기 스토브(255), 스토브(255), 태양 조리대(444)",T:VCE_LavishBake
+호화로운 식사,3,전기 스토브,340,"전기 스토브(340), 스토브(340), 태양 조리대(593)",T:MealLavish
+호화로운 육식주의 식사,3,전기 스토브,340,"전기 스토브(340), 스토브(340), 태양 조리대(593)",T:MealLavish_Meat
+호화로운 채식주의 식사,3,전기 스토브,340,"전기 스토브(340), 스토브(340), 태양 조리대(593)",T:MealLavish_Veg
+혼돈의 룬 I,1,룬 작업대,1500,룬 작업대(1500),T:Isekai_Rune_Havoc
+혼돈의 룬 II,1,룬 작업대,1950,룬 작업대(1950),T:Isekai_Rune_Havoc_II
+혼돈의 룬 III,1,룬 작업대,2400,룬 작업대(2400),T:Isekai_Rune_Havoc_III
+혼돈의 룬 IV,1,룬 작업대,3000,룬 작업대(3000),T:Isekai_Rune_Havoc_IV
+혼돈의 룬 V,1,룬 작업대,3750,룬 작업대(3750),T:Isekai_Rune_Havoc_V
+화강암 석재,1,석재 절삭대,22,석재 절삭대(22),T:BlocksGranite
+화려한 로브,2,전기 재봉 작업대,3478,"전기 재봉 작업대(3478), 재봉 작업대(3810)",T:Apparel_RobeRoyal
+화물운송 유닛 조립,1,밀리라 드론 인쇄기,2783,밀리라 드론 인쇄기(2783),R:Milira_MakeDrone_Freight
+화염병,1,기계 작업대,1043,기계 작업대(1043),T:Weapon_GrenadeMolotov
+화학 폐기물,3,전기 재활용 작업대,218,"전기 재활용 작업대(218), 재활용 작업대(267), 간이 제작 장소(545)",T:VRecyclingE_ReactiveChempack
+화학연료,3,연료 정제기,11,"연료 정제기(11), 전기 재활용 작업대(116), 재활용 작업대(142)",T:Chemfuel
+활력의 룬 I,1,룬 작업대,800,룬 작업대(800),T:Isekai_Rune_Vitality
+활력의 룬 II,1,룬 작업대,1040,룬 작업대(1040),T:Isekai_Rune_Vitality_II
+활력의 룬 III,1,룬 작업대,1280,룬 작업대(1280),T:Isekai_Rune_Vitality_III
+활력의 룬 IV,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Vitality_IV
+활력의 룬 V,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Vitality_V
+황색 부적,3,전기 재봉 작업대,696,"전기 재봉 작업대(696), 재봉 작업대(762), 모에로틀 방직기(3636)",T:RM_YellowIncantation
+회맥단 반죽,1,모에로틀 제약대,1000,모에로틀 제약대(1000),T:Axolotl_herbsIngredient
+회복 약초 연고,2,약물 연구대,286,"약물 연구대(286), 간이 제작 장소(545)",T:VV_RestorativeHerbalOintment
+회피의 룬 I,1,룬 작업대,800,룬 작업대(800),T:Isekai_Rune_Evasion
+회피의 룬 II,1,룬 작업대,1040,룬 작업대(1040),T:Isekai_Rune_Evasion_II
+회피의 룬 III,1,룬 작업대,1280,룬 작업대(1280),T:Isekai_Rune_Evasion_III
+회피의 룬 IV,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Evasion_IV
+회피의 룬 V,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Evasion_V
+후각 증폭기,1,조립 작업대,4522,조립 작업대(4522),T:GastroAnalyzer
+휴대용 레일건,1,태양 용광로,64286,태양 용광로(64286),T:Milira_HandRailGun
+휴대용 저각 보호막,1,기계 작업대,2435,기계 작업대(2435),T:Apparel_PackBroadshield
+휴대용 크레이돌 통신기,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:PLAMilira_Apparel_PortableConsole
+휴대용 하늘깃털 교회 통신기,1,밀리라 범용 작업대,2609,밀리라 범용 작업대(2609),T:PLAMilira_Apparel_Church_PortableConsole
+흑체 복사 챔버,1,밀리라 범용 작업대,522,밀리라 범용 작업대(522),T:PLAMilira_SolarCrystalReactor
+흡혈의 룬 I,1,룬 작업대,1000,룬 작업대(1000),T:Isekai_Rune_Vampirism
+흡혈의 룬 II,1,룬 작업대,1300,룬 작업대(1300),T:Isekai_Rune_Vampirism_II
+흡혈의 룬 III,1,룬 작업대,1600,룬 작업대(1600),T:Isekai_Rune_Vampirism_III
+흡혈의 룬 IV,1,룬 작업대,2000,룬 작업대(2000),T:Isekai_Rune_Vampirism_IV
+흡혈의 룬 V,1,룬 작업대,2500,룬 작업대(2500),T:Isekai_Rune_Vampirism_V
+히잡,2,전기 재봉 작업대,313,"전기 재봉 작업대(313), 재봉 작업대(343)",T:Apparel_Broadwrap

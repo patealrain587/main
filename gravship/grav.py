@@ -529,7 +529,7 @@ place("중력 단조대", eo, 76, 69, 3)
 bo = RO("조종실")
 place("PilotConsole", bo, 91, 72, 2)
 autofill(bo, [("AdvShip_ComputerCore", 1), ("CommsConsole", 1), ("CMC_CommandBench", 1),
-              ("CM_ManagerDatabase", 1), ("SignalJammer", 1), ("alt4s_UniversalTradeConsole", 1)])
+              ("CM_ManagerDatabase", 1), ("SignalJammer", 1), ("alt4s_UniversalTradeConsole", 1), ("ASReportsLog", 1)])
 place("AdvShip_GravReactor", RO("반응로실"), 66, 81, 0)
 place("AdvShip_GravReactor", RO("반응로실"), 74, 81, 0)
 place("AdvShip_GravReactor", RO("반응로실 2"), 92, 81, 0)
@@ -578,9 +578,11 @@ place("GravFieldExtender", RO("충전 격납고 A"), 2, 51, 0, "extender")
 place("GravFieldExtender", RO("방어 설비실"), 150, 10, 0, "extender")
 
 # --- prison hub
-autofill_room("주방", [("VFE_TableStoveLarge", 1), ("ElectricStove", 1), ("MI_Building_Stove", 1), ("VCE_CondimentPrepTable", 1), ("VCE_CanningMachine", 1)])
+autofill_room("주방", [("VFE_TableStoveLarge", 1), ("ElectricStove", 1), ("MAG_ArchotechCookingStove", 1), ("VCE_CondimentPrepTable", 1),
+                     ("VCE_CanningMachine", 1), ("VCE_Grill", 1), ("VCE_DeepFrier", 1)])
 autofill(RO("냉동고"), [("jdgg_RefCargoHold", 4), ("CoolerPylon_GT", 2)])
-autofill_room("치료실", [("MedPodStandard", 4), ("Bed_OperatingTable", 2), ("Facility_VitalsCentre", 1)])
+autofill_room("치료실", [("MedPodStandard", 4), ("Bed_OperatingTable", 2), ("Facility_VitalsCentre", 1), ("OPC_MedTrainingTable", 1)])
+autofill(RO("오락·도서실"), [("TrainingConsole", 1)])
 autofill(RO("성장 배양실"), [("MEXY_EssenceCultivationPod", 1), ("MEXY_BioCultivationModule", 1), ("GrowthVat", 6)])
 autofill(RO("유전자 연구소"), [("UniversalGeneCompiler", 1), ("GeneAssembler", 1), ("GeneExtractor", 1), ("MAG_ArchoGeneExtractor", 1),
                              ("MEXY_GeneCultivator", 1), ("MEXY_GeneComprehensiveAnalyzer", 1), ("GeneProcessor", 2),
@@ -588,41 +590,45 @@ autofill(RO("유전자 연구소"), [("UniversalGeneCompiler", 1), ("GeneAssembl
 autofill(RO("수감 홀"), [("Bed", 8)])
 autofill_room("시체·부산물 가공실", [("VFE_TableButcherElectric", 1), ("TableAutopsy", 1), ("ElectricCrematorium", 1),
                                  ("MiliraExpandedXY_LifeEssenceExtractor", 1),
-                                 ("VFE_TableStonecutterElectric", 1), ("VRecyclingE_ElectricRecyclingWorkbench", 2), ("jdgg_MassCargoHold", 1)])
-autofill_room("의류 제작실", [("VFE_TableTailorLarge", 1), ("ElectricTailoringBench", 1), ("Axolotl_HandBench", 1),
-                            ("Axolotl_ElectricHandBench", 1), ("VFE_TailorCabinet", 1), ("jdgg_MassCargoHold", 1)])
-autofill_room("화학 제작실", [("BiofuelRefinery", 2), ("Spaceports_FuelProcessor", 1), ("jdgg_MassCargoHold", 1)])
+                                 ("VFE_TableStonecutterElectric", 1), ("TableStonecutter", 1), ("TableButcher", 1),
+                                 ("VRecyclingE_ElectricRecyclingWorkbench", 2), ("jdgg_MassCargoHold", 1)])
+# MoeLotl looms and the Milira tailoring bench make nothing the electric tailoring bench cannot (생산_설비_정리.md)
+autofill_room("의류 제작실", [("VFE_TableTailorLarge", 1), ("ElectricTailoringBench", 1), ("VFE_TailorCabinet", 1), ("jdgg_MassCargoHold", 1)])
+autofill_room("화학 제작실", [("BiofuelRefinery", 2), ("Spaceports_FuelProcessor", 1), ("Brewery", 1), ("jdgg_MassCargoHold", 1)])
 
 # --- SE
 autofill(RO("예비 발전실"), [("CMC_ZPReactor_Large", 2)])
-autofill(RO("연료실"), [("AdvShip_GravChemfuelTank", 2), ("LargeChemfuelTank", 4)])
+autofill(RO("연료실"), [("AdvShip_GravChemfuelTank", 2), ("LargeChemfuelTank", 4), ("GravChemreactor_GT", 1)])
 autofill(RO("진입로 정비실"), [("Shelf_RepairRack", 2), ("Shelf_WeaponRack", 2)])
 autofill(RO("무기고"), [("MechaWeaponChanger", 1), ("Isekai_Forge", 1), ("Isekai_RunicStation", 1), ("Shelf_RepairRack", 2), ("Shelf_WeaponRack", 6)])
 
 # --- S production
 autofill_room("금속·부품 작업실", [("CMC_FacBench", 1), ("VFE_TableMachiningLarge", 1), ("FabricationBench", 1),
                                ("CMC_TableMachining", 1), ("EccentricNanofabricator", 1), ("EccentricNanoassembler", 1),
-                               ("ElectricSmelter", 1), ("ElectricSmithy", 1), ("VFE_ComponentFabricationBench", 1),
+                               ("ElectricSmelter", 1), ("ElectricSmithy", 1), ("TableMachining", 1),
                                ("CMC_WeaponModificationBench", 1), ("jdgg_MassCargoHold", 2)])
 autofill_room("밀리라 작업실", [("Milira_GravityLoom", 1), ("Milira_SunBlastFurnace", 1), ("MEXY_ParticleConstructor", 1),
                              ("MiliraExpandedXY_MatterDecomposer", 1), ("MiliraExpandedXY_MatterRecomposer", 1),
-                             ("Milira_UniversalBench", 1), ("Milira_TailoringBench", 1), ("Milira_DroneBench", 1),
+                             ("Milira_UniversalBench", 1), ("Milira_DroneBench", 1),
                              ("Milira_SunBlasterBoosterJar", 2), ("jdgg_MassCargoHold", 2),
                              # Milira resources: solar / psychic crystal, dark matter, sunflower fruit, soil beds
                              ("Milira_SolarCrystalGrowBox", 2), ("MI_Building_PsyChicCrystal", 1), ("MI_Building_DarkMatterConstrainer", 1),
                              ("Milira_SunLightFruitGrowBox", 2), ("Milira_Soilponics", 2)])
-autofill_room("초월공학 작업실", [("MAG_ArchoReproductorLarge", 1), ("BasicArchotechWorkbench", 1), ("ArchBench", 1), ("jdgg_MassCargoHold", 1)])
+autofill_room("초월공학 작업실", [("MAG_ArchoReproductorLarge", 1), ("BasicArchotechWorkbench", 1), ("ArchBench", 1), ("jdgg_MassCargoHold", 1),
+                               # free generators (no power): scrap, steel, archotech eyes, genepacks
+                               ("MAG_ArchoReproductorMedium", 1), ("MAG_ArchoReproductorMini", 1), ("ArchoReproductor", 1),
+                               ("SexyResourceDispenser", 1), ("ArchoPartAssembler", 1), ("MAG_ArchiteGenepackAssembler", 1)])
 
 # --- W mech / mining
 autofill(RO("채굴실"), [("VoidMiner", 1), ("AutoVoidMiner", 8), ("MiliraExpandedXY_AutoMatterExtractor", 1),
                       ("MiliraExpandedXY_DeepVeinExtractor", 1), ("MiliraExpandedXY_AutoDeepVeinBreaker", 1), ("jdgg_MassCargoHold", 1)])
 autofill(RO("메카 제작실"), [("LargeMechGestator", 3), ("Milian_Gestator", 2), ("MechGestator", 1), ("AdvancedMechGestator", 1),
-                           ("SubcoreEncoder", 1), ("SubcoreSoftscanner", 1), ("SubcoreRipscanner", 1), ("jdgg_MassCargoHold", 1)])
+                           ("SubcoreEncoder", 1), ("SubcoreSoftscanner", 1), ("SubcoreRipscanner", 1), ("CraftingSpot", 1), ("jdgg_MassCargoHold", 1)])
 autofill(RO("충전 격납고 A"), [("StandardRecharger", 4), ("VivianRecharger", 3), ("VivianRechargerB", 3), ("BandNode", 6)])
 autofill(RO("충전 격납고 B"), [("Milian_Recharger", 8), ("Milira_DroneRecharger", 4), ("StandardRecharger", 2),
                              ("BandNode", 4), ("AT_FlagStation", 1)])
 autofill(RO("폐기물 처리실"), [("WastepackAtomizer", 2)])
-autofill_room("약품 가공실", [("VFE_TableDrugLabElectric", 1), ("Axolotl_GrindingTable", 1), ("Axolotl_AlchemyStove_Industrial", 1),
+autofill_room("약품 가공실", [("VFE_TableDrugLabElectric", 1), ("DrugLab", 1), ("Axolotl_GrindingTable", 1), ("Axolotl_AlchemyStove_Industrial", 1),
                             ("Axolotl_DeputyStove_Industrial", 2), ("VFE_DrugCabinet", 1), ("jdgg_MassCargoHold", 1)])
 
 # --- east defence module (non-explosive close-range turrets only) + maid/milian standby
@@ -686,6 +692,7 @@ for cy in (25, 29):
     for cx in (27, 31, 35, 39, 43):
         if aqn < 7 and try_place(spec("FMAquariumL"), ao, cx, cy, 0, check_reach=False): aqn += 1
 aqua["note"] = f"대형 바닥 수족관 {aqn}기"
+autofill(ao, [("Milira_Euphratespoplar", 1)])   # Milira tree: wood every 4 days
 
 # --- decks
 so = DO("북서 격납 갑판")
@@ -808,6 +815,14 @@ BAT = {
 }
 for dn, groups in BAT.items():
     place_spread(DO(dn), interleave(groups), far_w=0.15)
+# unstable reactor (sun plate steel) explodes while it works: open deck, as far as possible from everything else
+uo = DO("북측 포대 갑판")
+def far_spot(o):
+    others = [c for b in blds if b["o"] == o for c in b["cells"]]
+    return sorted(room_cells(o), key=lambda c: -min((math.dist(c, q) for q in others), default=99))
+for c in far_spot(uo):
+    if try_place(spec("Milira_UnstableReactor"), uo, c[0], c[1], 0): break
+else: errors.append("no spot for the unstable reactor")
 SMALL_SH = ("ASG_SmallWallShieldGenerator", "ShieldPylon_GT")
 # GravTech pylons (radius 20) just inside the thruster row
 for (x0, y0) in ((52, 116), (96, 116)):

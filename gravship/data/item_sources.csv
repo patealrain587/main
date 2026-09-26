@@ -1,0 +1,1352 @@
+﻿아이템,모드,제작,제작 작업대,구할 수 없는 재료,기타 획득 경로,추정 경로(다른 정의가 언급),공허 추출기 허용,분류,defName
+Basic Wear (child) (Dragonian Primus),,제작 가능,"전기 재봉 작업대, 재봉 작업대",,궤도 상인 구매,,,Apparel,DR_BasicWearChild_DP2Unofficial
+Spine,,,,,"궤도 상인 구매, 상인 구매","BodyDef: Axolotl, BodyDef: Bird, BodyDef: Bulbfreak, BodyDef: Devourer, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Dreadmeld, BodyDef: Fingerspike, BodyDef: Gorehulk, BodyDef: Human, BodyDef: MUSC_Body_Hydralisk, BodyDef: MUSC_Body_Ulari, BodyDef: MUSC_Body_WalkingScourge, B",,BodyPartsNatural,Spine
+dragonian butter (Dragonian Primus),,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_Butter_DP2Unofficial
+dragonian cheese (Dragonian Primus),,,,,,PipeSystem.ProcessDef: VCE_DragonianMilkIntoCheese_DP2Unofficial,,"FoodMeals, VCE_Cheese",VCE_Cheese_DP2Unofficial
+dragonian mayo (Dragonian Primus),,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_Mayo_DP2Unofficial
+dragonian white chocolate syrup (Dragonian Primus),,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_ChocolateSyrup_DP2Unofficial
+jaw,,,,,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Axolotl, AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milira_Race, BodyDef: Axolotl, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Fingerspike, BodyDef: Gor",,BodyPartsNatural,Jaw
+귀,,,,,"궤도 상인 구매, 상인 구매","BodyDef: Axolotl, BodyDef: Devourer, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Human, BodyDef: MUSC_Body_Hydralisk, BodyDef: MUSC_Body_Ulari, BodyDef: MUSC_Body_Zergling, BodyDef: MUSC_Body_ZerglingWinged, BodyDef: Milira_Body, BodyDef: Monkey, BodyDef: Noctol, BodyDef: Qua",,BodyPartsNatural,Ear
+뇌,,,,,"궤도 상인 구매, 상인 구매","BionicIconsIconDef: BrainMicrochip, BionicIconsIconDef: BrainPsychic, BionicIconsIconDef: BrainSoft, BionicIconsIconDef: Joywire, BionicIconsIconDef: Painstopper, BionicIconsIconDef: VFEISynapticCerebellum, BodyDef: Axolotl, BodyDef: Axolotl_LeafSheep, BodyDef: BeetleLike, BodyDef: BeetleLikeWithCla",,BodyPartsNatural,Brain
+눈,,,,,"궤도 상인 구매, 상인 구매","BodyDef: Axolotl, BodyDef: Axolotl_LeafSheep, BodyDef: BeetleLike, BodyDef: BeetleLikeWithClaw, BodyDef: Bird, BodyDef: Bulbfreak, BodyDef: Crab, BodyDef: Devourer, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Dreadmeld, BodyDef: Fingerspike, BodyDef: Gorehulk, BodyDef: Human,",,BodyPartsNatural,Eye
+다리,,,,,"궤도 상인 구매, 상인 구매","AriandelLibrary.ShroudOutcomeDef: AL_Outcome_test, BionicIconsIconDef: AnimalLeg, BionicIconsIconDef: BoneSaber, BodyDef: Axolotl, BodyDef: Bird, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: DroneWithThreeLegs, BodyDef: Gorehulk, BodyDef: Human, BodyDef: MUSC_Body_Hydralisk, B",,BodyPartsNatural,Leg
+발,,,,,"궤도 상인 구매, 상인 구매","BodyDef: Axolotl, BodyDef: Bird, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Gorehulk, BodyDef: Human, BodyDef: Milira_Body, BodyDef: Monkey, 능력·유전자: Axolotl_Blood_Skill, 능력·유전자: Axolotl_Blood_SuperSkill, 능력·유전자: Axolotl_SwordAura_Blood",,BodyPartsNatural,Foot
+손,,,,,"궤도 상인 구매, 상인 구매","BionicIconsIconDef: PowerClaw, BodyDef: Axolotl, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Human, BodyDef: Milira_Body, BodyDef: Monkey, 능력·유전자: Axolotl_Blood_Skill, 능력·유전자: Axolotl_Blood_SuperSkill, 능력·유전자: Axolotl_SwordAura_Blood",,BodyPartsNatural,Hand
+위,,,,,"궤도 상인 구매, 상인 구매","BodyDef: Axolotl, BodyDef: Axolotl_LeafSheep, BodyDef: BeetleLike, BodyDef: BeetleLikeWithClaw, BodyDef: Bird, BodyDef: Bulbfreak, BodyDef: Crab, BodyDef: Devourer, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Dreadmeld, BodyDef: Fingerspike, BodyDef: Gorehulk, BodyDef: Human,",,BodyPartsNatural,Stomach
+코,,,,,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Axolotl, AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milira_Race, BodyDef: Axolotl, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Human, BodyDef: Milira_Bo",,BodyPartsNatural,Nose
+팔,,,,,"궤도 상인 구매, 상인 구매","BionicIconsIconDef: ArmDrill, BodyDef: Axolotl, BodyDef: Crab, BodyDef: Dragonian_Body, BodyDef: Dragonian_DP2Unofficial, BodyDef: Human, BodyDef: MUSC_Body_Hydralisk, BodyDef: MUSC_Body_Ulari, BodyDef: MUSC_Body_WalkingScourge, BodyDef: MUSC_Body_Zergling, BodyDef: MUSC_Body_ZerglingWinged, BodyDef",,BodyPartsNatural,Arm
+진공보호 혈청,Anomaly for Gravship,제작 가능,혈청 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,VacProtectSerum
+고급 초월공학 다리,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsArchotech,AdvancedArchotechLeg
+고급 초월공학 팔,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsArchotech,AdvancedArchotechArm
+나노머신,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,"ResourcesRaw, Textiles",Nanomachinery
+아토머신,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,"ResourcesRaw, Textiles",Attomachinery
+초월공학 간,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechLiver
+초월공학 골반,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechPelvis
+초월공학 귀,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechEar
+초월공학 뇌 도우미,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsArchotech,ArchotechBrainMelder
+초월공학 멸절기,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsArchotech,ArchotechDeathClaw
+초월공학 신장,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechKidney
+초월공학 심장,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechHeart
+초월공학 위,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechStomach
+초월공학 장벽,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsArchotech,ArchotechMembrane
+초월공학 재생기,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsArchotech,ArchotechRegenerationMatrix
+초월공학 제압기,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsArchotech,ArchotechObliterator
+초월공학 척추,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechSpine
+초월공학 턱,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechDenture
+초월공학 폐,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,ArchotechLung
+피코머신,Archotech Expanded,제작 가능,기본 초월공학 제작대,,"궤도 상인 구매, 상인 구매",,,"ResourcesRaw, Textiles",Picomachinery
+쇼핑 리스트,Auto Seller,제작 가능,"무역 보고 장치, 무역 보고 증서",,,,,Manufactured,ASShoppingList
+130mm 고폭탄,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,궤도 상인 구매,,,Manufactured,CMC_300mmEMLShell
+"<color=#5BC4E2><i>QBB-302T ""Zheng"" 특수 기관총</i></color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,W85X_Thunderer
+"<color=#5BC4E2><i>QBUS-85F ""Lihuo"" 스마트 전술 지정사수소총</i></color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBUS85F
+"<color=#5BC4E2>MR-303X ""Jiuwei"" 특수 저격소총</color>",CeleTech Arsenal MKIII,,,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBU71_QS
+"<color=#CEEAED>AR-105R ""Jiuying"" 돌격소총</color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBZ_threeooED
+"<color=#CEEAED>AR-231F ""Qilin"" 돌격소총</color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBZ_fivenineFlame
+"<color=#CEEAED>QFT-1 ""Xihe"" 펄스 화염방사기</color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,PrototypeXiHe
+"<color=#CEEAED>SG-131F ""Bifang"" 산탄총</color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QBAfournineFlame
+"<color=#FFAA00><i>QBL-X ""Taotie"" 입자 랜스 Δ</i></color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_TaoTie_Persona
+"<color=#FFAA00><i>QBP-X ""Qiyao"" 펄스 소총 δ</i></color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QiyaoLaserLMG
+"<color=#FFAA00><i>QBU-X ""Xuanming"" 지정사수소총 Δ</i></color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBZoneooneXuanMing_Elite
+"<color=#FFAA00><i>QLU-X ""Zhurong"" 펄스 이온포 Δ</i></color>",CeleTech Arsenal MKIII,,,,,"아이템 사용·개봉: <color=#FFAA00><i>QLU-X ""Zhurong"" 펄스 이온포 Δ</i></color>",,ApparelArmor,QLUX_Pulse_Projector_Persona_Apparel
+"<color=#FFAA00><i>QLU-X ""Zhurong"" 펄스 이온포 Δ</i></color>",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매","아이템 사용·개봉: <color=#FFAA00><i>QLU-X ""Zhurong"" 펄스 이온포 Δ</i></color>",,TOT_Weapons_Cat,QLUX_Pulse_Projector_Persona
+<color=#FFAA00><i>반엔트로피검</i></color>,CeleTech Arsenal MKIII,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"TOT_Weapons_Cat, WeaponsMelee",CMC_EMPsword_sevenstars
+B-HJ301 대전차 미사일 탄약 배낭,CeleTech Arsenal MKIII,,,,궤도 상인 구매,,,ApparelUtility,CMC_ATGMAmmoPack
+B-PF201 무반동포 탄약 배낭,CeleTech Arsenal MKIII,,,,궤도 상인 구매,,,ApparelUtility,CMC_RCAmmoPack
+BB-01Z 펄스 제트팩,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,ApparelUtility,CMC_rocketpack
+BD-01X 범용 동력 헬멧,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,적 장비 노획,,,ArmorHeadgear,CMChelmet
+BD-01Y 기본형 동력 갑옷,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,적 장비 노획,,,ApparelArmor,CMC_HPA_Base
+BD-02X 중장형 동력 헬멧,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,적 장비 노획,,,ArmorHeadgear,CMChelmetM
+BD-02Y 중장형 동력 갑옷,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,적 장비 노획,,,ApparelArmor,CMC_HPA_Heavy
+BD-03C 기계 제어 AR 고글,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,,,,ArmorHeadgear,CMC_ARGoggles_Cat
+BD-03S 나노 전투복,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,ApparelArmor,CMC_Uniform
+BD-03X AR 전술 고글,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,,,,ArmorHeadgear,CMC_ARGoggles
+BD-03Y 광학 위장 코트,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,ApparelArmor,CMC_Uniform_MKII
+BRF-X 퍼널 배치 시스템,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,,"AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,ApparelUtility,CMC_FunnelHauler
+BX-01 이온 보호막 벨트,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,적 장비 노획,"AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,ApparelUtility,CMC_ZGRangedShieldBelt_MKI
+BX-02 보호막 벨트,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,적 장비 노획,"AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,ApparelUtility,CMC_ZGRangedShieldBelt
+CA-T4 피하 장갑,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsBionic,CMC_SubdermalArmour
+CB-A1 생체공학 팔,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsBionic,CMC_BionicArm_Hediff
+CB-L1 생체공학 다리,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsBionic,CMC_BionicLeg_Hediff
+CEF 개인 데이터 단말기,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,,"AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,ApparelUtility,CMC_personalterminal
+CELEGRAV™ 위상 반중력 코어,CeleTech Arsenal MKIII,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,CMC_Gravcore
+"CN-01 ""Dubhe"" 칩",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsProsthetic,CMC_TianShu_Thing
+"CN-02 ""Merak"" 칩",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsProsthetic,CMC_TianXuan_Thing
+"CN-03 ""Phecda"" 칩",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsProsthetic,CMC_TianJi_Thing
+"CN-04 ""Megrez"" 칩",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsProsthetic,CMC_TianQuan_Thing
+"CN-05 ""Alioth"" 칩",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsProsthetic,CMC_YuHeng_Thing
+"CN-06 ""Mizar"" 칩",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsProsthetic,CMC_KaiYang_Thing
+"CN-07 ""Alkaid"" 칩",CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsProsthetic,CMC_YaoGuang_Thing
+DX-04 플라즈마 직도,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"TOT_Weapons_Cat, WeaponsMelee",CMC_TangDao_Plasma
+HJ301 대전차 미사일 발사기,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",아이템 사용·개봉: B-HJ301 대전차 미사일 탄약 배낭,,TOT_Weapons_Cat,CMC_HJX_ATGM
+MP-302N 기관단총 Δ,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QSZ85_M
+PF201 무반동포,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",아이템 사용·개봉: B-PF201 무반동포 탄약 배낭,,TOT_Weapons_Cat,CMC_RocketLauncher
+QBA-101 산탄총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QBXfiveseven_CSG
+QBA-102S 산탄총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QBXninenine_CSG
+QBA-131R 산탄총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QBAfournine
+QBB-105R 경기관총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBB_threeoo
+QBB-231R 경기관총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBB_fivenine
+QBB-302S 범용 기관총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,W85XWJ
+QBB-331P 펄스 다목적 기관총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_PLaserLMG
+QBL-40 유탄 발사기,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_GrenadeLauncher
+QBU-131 저격소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBU_TOOE
+QBU-231R 지정사수소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBU_fivenine
+QBU-252L 광선 저격소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,궤도 상인 구매,,,TOT_Weapons_Cat,CMC_Shaped_Laser_Sniper
+QBU-303S 지정사수소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBUS85XWJ
+QBU-371R 대물 저격소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QBU71S
+QBZ-105R 돌격소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBZ_threeooE
+QBZ-231R 돌격소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBZ_fivenine
+QBZ-251L 광선 소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_ShapedLaserRifle
+QBZ-301S 돌격소총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBZ_eightfiveAR
+QF-M 퍼널 기반 모듈,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,궤도 상인 구매,아이템 사용·개봉: BRF-X 퍼널 배치 시스템,,ItemsMisc,CMC_FunnelCore_Basic
+QJZ-209R 중기관총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QJZFivenine
+QSC-131P 펄스 권총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMM_PLaserpistol
+QSZ-108R 권총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QSZfiveeight
+QSZ-108S 권총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QSZfiveeightSmart
+QSZ-231P 펄스 기관단총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_PLaserSMG
+QSZ-302S 기관단총,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBZS85XWJ
+QSZ-57 PDW,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QSZfiveseven
+QSZ-57 스마트 카빈,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QSZfiveseven_NL
+QSZ-57 전자기 카빈,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,CMC_QSZfiveseven_MODIII
+QTS-214 OICW,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QBZ71_QS
+QTS-301 OICW,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,TOT_Weapons_Cat,QTS9_OICW
+고급 프리즘 모듈,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,궤도 상인 구매,"아이템 사용·개봉: QBB-331P 펄스 다목적 기관총, 아이템 사용·개봉: QSC-131P 펄스 권총",,CMC_WeaponAccessories,CMC_Accessory_Prism
+대전차 미사일,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,"궤도 상인 구매, 상인 구매",,,Manufactured,CMC_MissileShell
+돌격 사격 통제 칩,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,궤도 상인 구매,"아이템 사용·개봉: <color=#CEEAED>AR-231F ""Qilin"" 돌격소총</color>, 아이템 사용·개봉: QBB-231R 경기관총, 아이템 사용·개봉: QBB-302S 범용 기관총, 아이템 사용·개봉: QBB-331P 펄스 다목적 기관총, 아이템 사용·개봉: QBU-231R 지정사수소총, 아이템 사용·개봉: QBU-371R 대물 저격소총, 아이템 사용·개봉: QBZ-231R 돌격소총, 아이템 사용·개봉: QBZ-301S 돌격소총, 아이템 사용·개봉: QJZ-209R 중기관총, 아이템 사용·개봉: QSC-131P 펄스 ",,CMC_WeaponAccessories,CMC_Accessory_AdvancedScope
+로켓탄,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,"궤도 상인 구매, 상인 구매",,,Manufactured,CMC_RocketShell
+보조 전자기 가속 레일,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,궤도 상인 구매,"아이템 사용·개봉: <color=#CEEAED>AR-231F ""Qilin"" 돌격소총</color>, 아이템 사용·개봉: QBA-101 산탄총, 아이템 사용·개봉: QBA-102S 산탄총, 아이템 사용·개봉: QBA-131R 산탄총, 아이템 사용·개봉: QBB-231R 경기관총, 아이템 사용·개봉: QBB-302S 범용 기관총, 아이템 사용·개봉: QBU-231R 지정사수소총, 아이템 사용·개봉: QBU-371R 대물 저격소총, 아이템 사용·개봉: QBZ-231R 돌격소총, 아이템 사용·개봉: QBZ-301S 돌격소총, 아이템 사용·",,CMC_WeaponAccessories,CMC_Accessory_EMBooster
+암호화 설계도 K-11,CeleTech Arsenal MKIII,,,,,,,,CAG_BluePrint
+지향성 EMS 방출기,CeleTech Arsenal MKIII,제작 가능,CMC 나노 CNC 작업대,,"궤도 상인 구매, 상인 구매",아이템 사용·개봉: 지향성 EMS 방출기,,TOT_Weapons_Cat,EMS_DirectedEmitter
+지향성 EMS 방출기,CeleTech Arsenal MKIII,,,,,아이템 사용·개봉: 지향성 EMS 방출기,,ApparelArmor,EMS_DirectedEmitter_Apparel
+초능력 공명기,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,궤도 상인 구매,"아이템 사용·개봉: QBB-231R 경기관총, 아이템 사용·개봉: QBB-302S 범용 기관총, 아이템 사용·개봉: QBU-231R 지정사수소총, 아이템 사용·개봉: QBU-252L 광선 저격소총, 아이템 사용·개봉: QBU-371R 대물 저격소총, 아이템 사용·개봉: QBZ-231R 돌격소총, 아이템 사용·개봉: QBZ-251L 광선 소총, 아이템 사용·개봉: QBZ-301S 돌격소총, 아이템 사용·개봉: QJZ-209R 중기관총, 아이템 사용·개봉: QSZ-108R 권총, 아이템 사용·개봉: QSZ-108S 권총, 아이템 사용·",,CMC_WeaponAccessories,CMC_Accessory_EMBooster_Psy
+탄도 연산 칩,CeleTech Arsenal MKIII,제작 가능,CMC 주조 가공대,,궤도 상인 구매,"아이템 사용·개봉: QBB-231R 경기관총, 아이템 사용·개봉: QBB-302S 범용 기관총, 아이템 사용·개봉: QBU-231R 지정사수소총, 아이템 사용·개봉: QBU-371R 대물 저격소총, 아이템 사용·개봉: QBZ-301S 돌격소총, 아이템 사용·개봉: QJZ-209R 중기관총, 아이템 사용·개봉: QSZ-57 PDW, 아이템 사용·개봉: QSZ-57 전자기 카빈, 아이템 사용·개봉: QTS-214 OICW, 아이템 사용·개봉: QTS-301 OICW",,CMC_WeaponAccessories,CMC_Accessory_AdvancedScopeB
+표준 탄약 보급품,CeleTech Arsenal MKIII,제작 가능,"CMC 주조 가공대, CMC 나노 CNC 작업대",,궤도 상인 구매,,,Manufactured,CMC_Ammo_Standard
+표준 폭발물 보급품,CeleTech Arsenal MKIII,제작 가능,"CMC 주조 가공대, CMC 나노 CNC 작업대",,궤도 상인 구매,"아이템 사용·개봉: B-HJ301 대전차 미사일 탄약 배낭, 아이템 사용·개봉: B-PF201 무반동포 탄약 배낭",,Manufactured,CMC_Ammo_Explosive
+검은 비늘의 소문,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 상인 구매",,,Books,CD_Book_BlackScaleRumor
+다시 나타난 드라고니안 사냥꾼,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 상인 구매",,,Books,CD_Book_HuntersReturn
+드라고니안 결의의 전쟁망치,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,Dragonian_ResoluteWarhammer_CD
+드라고니안 공명의 엘텍스 스태프,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,Dragonian_ResonantStaff_CD
+드라고니안 도살자,Chromatic Dragonian / 크로마틱 드라고니안,,,,적 장비 노획,,,DRWeapons,Dragonian_BetrayerSlayer_CD
+드라고니안 무지개 수호보주,Chromatic Dragonian / 크로마틱 드라고니안,재료 확보 불가,"전기 재봉 작업대, 재봉 작업대",무지갯빛 드라고니안 털,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,Dragonian_RainbowProtectionOrb_CD
+드라고니안 세월의 보주,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Dragonian_AgeOrb_CD
+드라고니안 야인 이야기,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 상인 구매",,,Books,CD_Book_WildDragonianStory
+드라고니안 작열의 할버드,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,Dragonian_Embercleaver_CD
+드라고니안 장검,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매",,,DRWeapons,Dragonian_Longsword_CD
+드라고니안 전쟁망치,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,"전기 단조 작업대, 단조 작업대",,궤도 상인 구매,,,DRWeapons,Dragonian_Warhammer_CD
+드라고니안 정조준 투창기,Chromatic Dragonian / 크로마틱 드라고니안,,,,궤도 상인 구매,,,DRWeapons,Dragonian_SteadyJavelinThrower_CD
+드라고니안 타락한 보주,Chromatic Dragonian / 크로마틱 드라고니안,재료 확보 불가,조립 작업대,드라고니안 타락한 수호보주,,,,ItemsMisc,Dragonian_CorruptedOrb_CD
+드라고니안 타락한 수호보주,Chromatic Dragonian / 크로마틱 드라고니안,,,,,,,DRApparel,Dragonian_CorruptedGuardianOrb_CD
+드라고니안 할버드,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,"전기 단조 작업대, 단조 작업대",,궤도 상인 구매,,,DRWeapons,Dragonian_Halberd_CD
+드라고니안 황금 엘텍스 드레스,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,Dragonian_GoldenEltexDress_CD
+드라고니안 황금 엘텍스 헬름,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRHeadgear,Dragonian_GoldenEltexHelm_CD
+드라고니안 황금 장검,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,Dragonian_GoldenSword_CD
+드라고니안 황금 전투 드레스,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,Dragonian_GoldenBattleDress_CD
+드라고니안 황금 전투 엘텍스 드레스,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,"전기 재봉 작업대, 재봉 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,Dragonian_GoldenBattleEltexDressMale_CD
+드라고니안 황금 전투 헬름,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,"전기 재봉 작업대, 재봉 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRHeadgear,Dragonian_GoldenBattleHelm_CD
+드라고니안의 여러 빛깔,Chromatic Dragonian / 크로마틱 드라고니안,,,,"궤도 상인 구매, 상인 구매",,,Books,CD_Book_ManyColors
+무지갯빛 드라고니안 털,Chromatic Dragonian / 크로마틱 드라고니안,,,,,,,Wools,WoolDragonianRainbow_CD
+생체공학 드라고니안 꼬리,Chromatic Dragonian / 크로마틱 드라고니안,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,BodyPartsBionic,Dragonian_BionicTail_CD
+성운액,Complementary Odyssey,제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,CO_Vacsop
+성운정,Complementary Odyssey,,,,"궤도 상인 구매, 재배·채집",식물: 성운초,,Manufactured,CO_Vacdew
+밀리라 베레모,Dellin's Milira Attire Expaned,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,"AlienRace.ThingDef_AlienRace: Milira_Race, 능력·유전자: DL_Hediff_ForceWearAfterDelay_Dellin",,Milira_Apparel_Overhead,DL_Milira_DellinBeret
+밀리라 식용 색소,Dellin's Milira Attire Expaned,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,Dellin_EdiblePigment
+밀리라 식용 안료,Dellin's Milira Attire Expaned,,,,"궤도 상인 구매, 상인 구매",,,FoodMeals,Dellin_Milira_EdiblePigment
+밀리라 우비,Dellin's Milira Attire Expaned,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,"AlienRace.ThingDef_AlienRace: Milira_Race, 능력·유전자: DL_Hediff_ForceWearAfterDelay_Dellin",,Milira_Apparel_OnSkin,DL_Milira_DellinAttire
+밀리언 고양이 귀 머리띠,Dellin's Milira Attire Expaned,제작 가능,밀리라 범용 작업대,,,,,Milian_Apparel_Overhead,Dellin_Milian_MaidHatII
+밀리언 레인저 갑옷 츠바이,Dellin's Milira Attire Expaned,제작 가능,밀리라 범용 작업대,,,,,Milian_Apparel_Middle,Dellin_Milian_RangerArmor_Maid
+밀리언 메이드 머리띠,Dellin's Milira Attire Expaned,제작 가능,밀리라 범용 작업대,,,,,Milian_Apparel_Overhead,Dellin_Milian_MaidHat
+밀리언 메이드복,Dellin's Milira Attire Expaned,제작 가능,밀리라 범용 작업대,,,,,Milian_Apparel_Middle,Dellin_Milian_MaidAttire
+밀리언 수호자 갑옷 츠바이,Dellin's Milira Attire Expaned,제작 가능,밀리라 범용 작업대,,,,,Milian_Apparel_Middle,Dellin_Milian_GuardianArmor_Maid
+밀리언 잠옷,Dellin's Milira Attire Expaned,,,,,,,Milian_Apparel_Middle,Dellin_Milian_Nailong
+밀리언 잠옷 모자,Dellin's Milira Attire Expaned,,,,,,,Milian_Apparel_Overhead,Dellin_Milian_NailongHat
+밀리언 추적자 갑옷 츠바이,Dellin's Milira Attire Expaned,제작 가능,밀리라 범용 작업대,,,,,Milian_Apparel_Middle,Dellin_Milian_StalkerArmor_Maid
+밀리언 팔라딘 갑옷 츠바이,Dellin's Milira Attire Expaned,제작 가능,밀리라 범용 작업대,,,,,Milian_Apparel_Middle,Dellin_Milian_PaladinArmor_Maid
+가짜 꼬리,Dragonian Mix,제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,DR_FakeTail
+경화 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"BodyPartsNatural, DROrbs",HardenDragonianOrb
+냉동 베기 꼬리,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매",,,BodyPartsNatural,DRM_CryoSlashTail
+독성 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매",,,"BodyPartsNatural, DROrbs",ToxicDragonianOrb
+드라고니안 강선 부싯돌총,Dragonian Mix,제작 가능,기계 작업대,,"궤도 상인 구매, 적 장비 노획",,,WeaponsRanged,DRM_RifledFlintlock
+드라고니안 공기포 지팡이,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매",,,"WeaponsMelee, WeaponsRanged",DR_BattleStaff_Air
+드라고니안 공포 지팡이,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매",,,"WeaponsMelee, WeaponsRanged",DR_BattleStaff_Fear
+드라고니안 리볼버,Dragonian Mix,제작 가능,기계 작업대,,"궤도 상인 구매, 적 장비 노획",,,WeaponsRanged,DRM_Revolver
+드라고니안 보호막 고급 증폭기,Dragonian Mix,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,BodyPartsBionic,ShieldDragonianOrb_AdvancedBooster
+드라고니안 보호막 완충 모듈,Dragonian Mix,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,BodyPartsBionic,ShieldDragonianOrb_BufferModule
+드라고니안 보호막 적응 모듈,Dragonian Mix,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,BodyPartsBionic,ShieldDragonianOrb_AdaptiveModule
+드라고니안 보호막 증폭기,Dragonian Mix,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,BodyPartsBionic,ShieldDragonianOrb_Booster
+드라고니안 빔 지팡이,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"WeaponsMelee, WeaponsRanged",DR_BattleStaff_Beam
+드라고니안 사슬 창,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,DR_ChainSpear
+드라고니안 산성 집속 창,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,DR_ClusterSpear_Acid
+드라고니안 산성 투창기,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"WeaponsMelee, WeaponsRanged",DR_GreatBow_Acid
+드라고니안 섬광 지팡이,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"WeaponsMelee, WeaponsRanged",DR_BattleStaff_Flare
+드라고니안 아크 지팡이,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"WeaponsMelee, WeaponsRanged",DR_BattleStaff_Arc
+드라고니안 전투 드레스 C,Dragonian Mix,제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Dragonian_Race,,ApparelArmor,DRM_BattleDressC
+드라고니안 전투 창,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,DR_BattleSpear
+드라고니안 전투 투구 C,Dragonian Mix,제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Dragonian_Race,,ArmorHeadgear,DRM_BattleHelmC
+드라고니안 전투 투구 D,Dragonian Mix,제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Dragonian_Race,,ArmorHeadgear,DRM_BattleHelmD
+드라고니안 집속 창,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,DR_ClusterSpear
+드라고니안 폭발 사슬 창,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,DR_ChainSpear_Ex
+드라고니안 폭발 철퇴,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,DR_BattleMace_explosive
+베기 꼬리,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매",,,BodyPartsNatural,DRM_SlashTail
+보호막 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"BodyPartsNatural, DROrbs",ShieldDragonianOrb
+빙결 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매","QuestEditor_Library.CustomMapDataDef: DRM_DragonianUn_Fortress_BaseDef, QuestEditor_Library.CustomMapDataDef: DRM_Dragonian_Fortress_BaseDef",,"BodyPartsNatural, DROrbs",FrozenDragonianOrb
+사령 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,"BodyPartsNatural, DROrbs",NecroDragonianOrb
+산성 베기 꼬리,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매",,,BodyPartsNatural,DRM_AcidSlashTail
+산성화 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매","QuestEditor_Library.CustomMapDataDef: DRM_DragonianUn_Fortress_BaseDef, QuestEditor_Library.CustomMapDataDef: DRM_Dragonian_Fortress_BaseDef",,"BodyPartsNatural, DROrbs",AcidifierDragonianOrb
+생체공학 꼬리,Dragonian Mix,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,BodyPartsBionic,DR_BionicTail
+섬광 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매","QuestEditor_Library.CustomMapDataDef: DRM_DragonianUn_Fortress_BaseDef, QuestEditor_Library.CustomMapDataDef: DRM_Dragonian_Fortress_BaseDef",,"BodyPartsNatural, DROrbs",FlareDragonianOrb
+엔더 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매",,,"BodyPartsNatural, DROrbs",EnderDragonianOrb
+전투 망치,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획","아이템 사용·개봉: 페르소나 전투 망치, 아이템 사용·개봉: 페르소나 폭발 전투 망치",,WeaponsMelee,DR_BattleHammer
+천둥 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매","QuestEditor_Library.CustomMapDataDef: DRM_DragonianUn_Fortress_BaseDef, QuestEditor_Library.CustomMapDataDef: DRM_Dragonian_Fortress_BaseDef",,"BodyPartsNatural, DROrbs",ThunderDragonianOrb
+초회복 드라고니안 오브,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매",,,"BodyPartsNatural, DROrbs",HyperhealDragonianOrb
+페르소나 전투 망치,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,DR_BattleHammerBladelink
+페르소나 폭발 전투 망치,Dragonian Mix,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,DR_BattleHammerBladelink_Ex
+폭발 베기 꼬리,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매",,,BodyPartsNatural,DRM_ExplosiveSlashTail
+화염 베기 꼬리,Dragonian Mix,,,,"궤도 상인 구매, 상인 구매",,,BodyPartsNatural,DRM_FlameSlashTail
+드라고니안 바니 슈트,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_bunny
+드라고니안 전투 바니 슈트,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,"ApparelArmor, DRApparel",DR_pwdbunny
+드라고니안 전투 토끼 귀,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,"ApparelArmor, DRHeadgear",DR_pwdbunnyearW
+드라고니안 전투 토끼 귀,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,"ApparelArmor, DRHeadgear",DR_pwdbunnyear
+드라고니안 전투 화이트 바니 슈트,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,"ApparelArmor, DRApparel",DR_pwdwhitebunny
+드라고니안 토끼 귀,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,"ApparelArmor, DRHeadgear",DR_bunnyear
+드라고니안 토끼 귀,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,"ApparelArmor, DRHeadgear",DR_bunnyearW
+드라고니안 팬티스타킹,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,"ApparelArmor, DRApparel",DR_Pantyhose
+드라고니안 팬티스타킹 세트,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,"ApparelArmor, DRApparel",DR_PantyhoseP
+드라고니안 화이트 바니 슈트,Dragonian Pantyhose Apparles,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_whitebunny
+가짜 꼬리 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,DR_FakeTail_DP2Unofficial
+구울 부활 혈청 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,혈청 연구대,,,,,Drugs,GhoulResurrectionSerum_DP2Unofficial
+기본 드레스 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_BasicDress_DP2Unofficial
+기본 옷 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_BasicWear_DP2Unofficial
+꽃 리본 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Headgear,DR_FlowerRibon_DP2Unofficial
+꽃 장식 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Headgear,DR_Hat_DP2Unofficial
+독약,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,PoisonPill_DP2Unofficial
+드라고니안 가죽 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Leathers,Leather_Dragonian_DP2Unofficial
+드라고니안 레버액션 산탄총,Dragonian Prime Race2.0 (Unofficial),제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,LeverAction_DP2Unofficial
+드라고니안 빔 산탄총,Dragonian Prime Race2.0 (Unofficial),제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,BeamShotgun_DP2Unofficial
+드라고니안 뿔 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,BodyPartsNatural,Dragonian_Horn_DP2Unofficial
+드라고니안 생체철,Dragonian Prime Race2.0 (Unofficial),제작 가능,전기로,,"궤도 상인 구매, 상인 구매",,,ResourcesRaw,InfusedBioferrite_DP2Unofficial
+드라고니안 양모 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),,,,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, 아이템 사용·개봉: 드라고니안 우주복 (드라고니안 프리무스)",,Wools,WoolDragonian_DP2Unofficial
+드라고니안 에너지 보호막,Dragonian Prime Race2.0 (Unofficial),제작 가능,조립 작업대,,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race",,ApparelUtility,DR_EnergyShield_DP2Unofficial
+드라고니안 우유 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),,,,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,AnimalProductRaw,DragonianMilk_DP2Unofficial
+드라고니안 우주복 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,조립 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,ApparelArmor,DR_EVA_Suit_DP2Unofficial
+드라고니안 우주복 헬멧 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,조립 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,"ApparelArmor, Headgear",DR_EVA_Helmet_DP2Unofficial
+드라고니안 중세 산탄총,Dragonian Prime Race2.0 (Unofficial),제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,Gun_DR_ShotgunMedieval_DP2Unofficial
+드라고니안 톱,Dragonian Prime Race2.0 (Unofficial),제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,WeaponsRanged,Saw_DP2Unofficial
+드라고니안 프리무스 두꺼운 양말,Dragonian Prime Race2.0 (Unofficial),제작 가능,기계 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,ApparelArmor,DR_HeavySocks_DP2Unofficial
+드라고니안 프리무스 일반 작업복,Dragonian Prime Race2.0 (Unofficial),제작 가능,기계 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,ApparelArmor,DR_Uniform_DP2Unofficial
+드라고니안 프리무스 투사기,Dragonian Prime Race2.0 (Unofficial),제작 가능,기계 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,"ApparelArmor, Headgear",DR_Projector_DP2Unofficial
+드라고니안 화이트 초콜릿,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,궤도 상인 구매,,,Foods,Chocolate_DP2Unofficial
+드레스 A (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_GreekDress_DP2Unofficial
+드레스 B (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_GreekHanZo_DP2Unofficial
+드레스 C (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_GreekPriest_DP2Unofficial
+드레스 D (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_GreekSexyDress_DP2Unofficial
+드레스 E (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_GreekString_DP2Unofficial
+드레스 F (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_JapaneseDress_DP2Unofficial
+드레스 G (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_Onepiece_DP2Unofficial
+드레스 H (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,ApparelArmor,DR_BattleDress_DP2Unofficial
+드레스 H (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Apparel,DR_EveningDress_DP2Unofficial
+락-C,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,LacC_DP2Unofficial
+목걸이 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Headgear,DR_Necklace_DP2Unofficial
+분노의 칼날 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,MeleeWeapon_DR_Rageblade_DP2Unofficial
+사이클포친,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,Cyclepochin_DP2Unofficial
+생체공학 꼬리 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,BodyPartsBionic,DR_BionicTail_DP2Unofficial
+스마우굼,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,Smaugum_DP2Unofficial
+옴니 드롭,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,OmniDrop_DP2Unofficial
+용발톱 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,MeleeWeapon_Drakesclaw_DP2Unofficial
+일본풍 머리 장식 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Headgear,DR_JapanHairAcc_DP2Unofficial
+전투 망치 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,DR_BattleHammer_DP2Unofficial
+전투 투구 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,"ApparelArmor, Headgear",DR_BattleHelm_DP2Unofficial
+집중제,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,Concentration_DP2Unofficial
+트랜스,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,Trance_DP2Unofficial
+하이포,Dragonian Prime Race2.0 (Unofficial),제작 가능,약물 연구대,,"궤도 상인 구매, 상인 구매",,,Drugs,Hypo_DP2Unofficial
+햇빛 모자 (드라고니안 프리무스),Dragonian Prime Race2.0 (Unofficial),제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial,,Headgear,DR_SunHat_DP2Unofficial
+고밀도 육각 셀,Eccentric Tech - Core,제작 가능,나노 제작기,,,,,Manufactured,Eccentric_HexCell
+나노직물,Eccentric Tech - Core,제작 가능,나노 제작기,,,,,Textiles,Eccentric_Nanoweave
+M36 PGM (고폭탄),Eccentric Tech - Defense Grid,제작 가능,"조립 작업대, 나노 조립기",,,,,Manufactured,EccentricDefenseGrid_Ordnance_M36PGM
+M38 PGM (소이탄),Eccentric Tech - Defense Grid,제작 가능,"조립 작업대, 나노 조립기",,,,,Manufactured,EccentricDefenseGrid_Ordnance_M38PGM
+M39 PGM (EMP탄),Eccentric Tech - Defense Grid,제작 가능,"조립 작업대, 나노 조립기",,,,,Manufactured,EccentricDefenseGrid_Ordnance_M39PGM
+M48 PGM (대전차 고폭탄),Eccentric Tech - Defense Grid,제작 가능,"조립 작업대, 나노 조립기",,,,,Manufactured,EccentricDefenseGrid_Ordnance_M48PGM
+M56 PGM (번아웃 쉴드탄),Eccentric Tech - Defense Grid,제작 가능,"조립 작업대, 나노 조립기",,,,,Manufactured,EccentricDefenseGrid_Ordnance_M56PGM
+M61 PGM (반물질탄),Eccentric Tech - Defense Grid,재료 확보 불가,"조립 작업대, 나노 조립기",반물질탄,,,,Manufactured,EccentricDefenseGrid_Ordnance_M61PGM
+고 에너지 쉴드 코어,Eccentric Tech - Defense Grid,제작 가능,나노 조립기,,"궤도 상인 구매, 상인 구매",,,Manufactured,Eccentric_HighEnergyShieldCore
+원격 포격 지시기,Eccentric Tech - Defense Grid,제작 가능,"조립 작업대, 나노 조립기",,,,,EccentricApparelUtility,Eccentric_ArtilleryDesignator
+압축 물고기 사료,Floor-Mounted Aquarium,제작 가능,도축 작업대,,궤도 상인 구매,,,Foods,CompressedFishFood
+드라고니안 기본드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,"AlienRace.ThingDef_AlienRace: Dragonian_Race, RoyalTitlePermitDef: DRM_DressDrop",,DRApparel,DR_BasicDress
+드라고니안 기본의류,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_BasicWear
+드라고니안 기본의류(남성),Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_BasicWearMale
+드라고니안 노예 눈가리개,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRHeadgear,DR_SlaveBlindfold
+드라고니안 노예옷,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,적 장비 노획,"AlienRace.ThingDef_AlienRace: Dragonian_Race, CreepJoinerFormKindDef: DR_SmartDragonian",,DRApparel,DR_SlaveCloth
+드라고니안 대검,Gloomy Dragonian race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,DRWeapons,DR_Battlesword
+드라고니안 뜨거운 대검,Gloomy Dragonian race,,,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,DR_Soulsword
+드라고니안 리본의류,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_OpenDress
+드라고니안 메이스,Gloomy Dragonian race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",아이템 사용·개봉: 드라고니안 폭발 철퇴,,DRWeapons,DR_BattleMace
+드라고니안 미드오프 드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_MidOff
+드라고니안 보주,Gloomy Dragonian race,,,,,BodyDef: Dragonian_Body,,ItemsMisc,DragonianOrb
+드라고니안 수호 보주,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_ProtectionOrb
+드라고니안 시스루 드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_Seethrough
+드라고니안 아동드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_AP_Child
+드라고니안 엘텍스 드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_PsychicDress
+드라고니안 엘텍스 드레스(남성),Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_PsychicDressMale
+드라고니안 엘텍스 스태프,Gloomy Dragonian race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매",,,DRWeapons,DR_BattleStaff
+드라고니안 엘텍스 헬름(양성),Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRHeadgear,DR_PsychicHelm
+드라고니안 여름 드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_SummerDress
+드라고니안 옆트임 드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_SideDress
+드라고니안 오프숄더 드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_OffshoulderDress
+드라고니안 와이드 헷,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRHeadgear,DR_Widehat
+드라고니안 우유,Gloomy Dragonian race,,,,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Dragonian_Race,,AnimalProductRaw,DragonianMilk
+드라고니안 전투 드레스,Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_BattleDress
+드라고니안 전투 드레스(남성),Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_BattleDressMale
+드라고니안 전투 헬름(양성),Gloomy Dragonian race,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRHeadgear,DR_BattleHelmA
+드라고니안 차가운 메이스,Gloomy Dragonian race,,,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,DR_SoulMace
+드라고니안 털,Gloomy Dragonian race,,,,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Dragonian_Race, QuestEditor_Library.CustomMapDataDef: DRM_DragonianUn_Fortress_BaseDef, QuestEditor_Library.CustomMapDataDef: DRM_Dragonian_Fortress_BaseDef, RoyalTitlePermitDef: DRM_DressDrop, RoyalTitlePermitDef: DRM_WoolDrop",,Wools,WoolDragonian
+드라고니안 투창기,Gloomy Dragonian race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매",,,DRWeapons,DR_GreatBow
+결속 중력 망치,GravTech,,,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMeleeBladelink,GravHammerBladelink
+빈 인공자아 핵,GravTech,제작 가능,중력 단조대,,,,,ItemsMisc,EmptyAICore
+중력 감응판 소재,GravTech,제작 가능,석재 절삭대,,,,,ResourcesRaw,RoughGravlitePanel
+중력 갑옷 피부,GravTech,제작 가능,중력 단조대,,,,,BodyPartsProsthetic,GravArmor
+중력 광선 캐논,GravTech,제작 가능,중력 단조대,,적 장비 노획,,,WeaponsRanged,GravBeamCannon
+중력 등짐,GravTech,제작 가능,중력 단조대,,,,,ApparelUtility,Apparel_GravPack
+중력 망치,GravTech,제작 가능,중력 단조대,,적 장비 노획,,,WeaponsMelee,GravHammer
+중력 보호막 벨트,GravTech,제작 가능,중력 단조대,,,,,ApparelUtility,Apparel_GravBelt
+중력 블래스터,GravTech,제작 가능,중력 단조대,,적 장비 노획,,,WeaponsRanged,GravBlaster
+중력 소총,GravTech,제작 가능,중력 단조대,,적 장비 노획,,,WeaponsRanged,GravRifle
+중력 손,GravTech,제작 가능,중력 단조대,,,,,BodyPartsProsthetic,GravHands
+중력 척추,GravTech,제작 가능,중력 단조대,,,,,BodyPartsProsthetic,GravSpine
+중력 캡슐,GravTech,,,,,설비 기능: 중력 캡슐,,,ActiveGravCapsule
+중력 코어 위장,GravTech,제작 가능,중력 단조대,,,,,BodyPartsProsthetic,GravStomach
+중력조직,GravTech,제작 가능,중력 단조대,,"궤도 상인 구매, 상인 구매",,,Textiles,Graweave
+중력합금,GravTech,제작 가능,중력 단조대,,"궤도 상인 구매, 상인 구매, 심부 시추, 파괴 시 잔해","설비 기능: 특이점 반응로, 아이템 사용·개봉: 중력 소총",예,ResourcesRaw,Gravitonium
+플라스틸 고철 덩어리,GravTech,,,,파괴 시 잔해,"설비 기능: 고급 보호막 생성기, 설비 기능: 고급 중력부양선 추진기, 설비 기능: 고중력 파일런, 설비 기능: 냉각 파일런, 설비 기능: 대형 진공 장벽, 설비 기능: 빔 리피터 포탑, 설비 기능: 시간 가속 포드, 설비 기능: 저중력 파일런, 설비 기능: 전열 파일런, 설비 기능: 중력 단조대, 설비 기능: 중력 블래스터 포탑, 설비 기능: 중력 코어 배터리, 설비 기능: 중력 화학반응로, 설비 기능: 중력 화학연료 탱크, 설비 기능: 중력구동기, 설비 기능: 중력장 파일런, 설비 기능: 특이점 반응로",,Chunks,ChunkSlagPlasteel_GT
+[A급] 뼈 분쇄자,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsMelee,IsekaiWeapon_Bonebreaker
+[SSS급] 발키리의 심판,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsMelee,IsekaiWeapon_ValkyriesVerdict
+[SSS급] 재앙의 발톱,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsMelee,IsekaiWeapon_CalamitysTalon
+[SSS급] 최고룡의 불씨,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,IsekaiWeapon_EldestsEmber
+[SS급] 어머니의 포효,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,IsekaiWeapon_MothersRoar
+[S급] 미궁의 복수,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsMelee,IsekaiWeapon_LabyrinthsRevenge
+[국가급] 대천사의 분노,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsMelee,IsekaiWeapon_ArchangelsWrath
+[국가급] 안개 부름자,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,IsekaiWeapon_Mistcaller
+[국가급] 폭풍의 의지,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,WeaponsMelee,IsekaiWeapon_TempestWill
+고블린 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Goblin
+미노타우로스 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Minotaur
+봉인 큐브,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiSealingCube
+슬라임 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Slime
+악마 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Demon
+오크 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Orc
+와이번 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Wyvern
+임프 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Imp
+지옥 오우거 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_HellOgre
+코볼트 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Kobold
+트롤 알,ISEKAI CREATURES ADD-ON - Isekai RPG Leveling,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,IsekaiEgg_Troll
+강화 코어,ISEKAI RPG LEVELING,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_ReinforcementCore
+관통의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Sharpness
+관통의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Sharpness_II
+관통의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Sharpness_III
+관통의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Sharpness_IV
+관통의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Sharpness_V
+대형 마나 코어,ISEKAI RPG LEVELING,제작 가능,제련 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_BigManaCore
+마나 정수,ISEKAI RPG LEVELING,제작 가능,제련 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_ManaEssence
+별의 파편,ISEKAI RPG LEVELING,,,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_StarFragment
+분노의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fury
+분노의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fury_II
+분노의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fury_III
+분노의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fury_IV
+분노의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fury_V
+불꽃의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Flame
+불꽃의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Flame_II
+불꽃의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Flame_III
+불꽃의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Flame_IV
+불꽃의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Flame_V
+서리의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Frost
+서리의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Frost_II
+서리의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Frost_III
+서리의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Frost_IV
+서리의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Frost_V
+소형 마나 코어,ISEKAI RPG LEVELING,제작 가능,제련 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_SmallManaCore
+소환 서클 스크롤,ISEKAI RPG LEVELING,,,,"궤도 상인 구매, 상인 구매",,,Artifacts,Isekai_SummoningCircleScroll
+수호의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Bulwark
+수호의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Bulwark_II
+수호의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Bulwark_III
+수호의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Bulwark_IV
+수호의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Bulwark_V
+신생의 구체,ISEKAI RPG LEVELING,제작 가능,"기계 작업대, 전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_RespecOrb
+신속의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Swiftness
+신속의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Swiftness_II
+신속의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Swiftness_III
+신속의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Swiftness_IV
+신속의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Swiftness_V
+악당의 가면,ISEKAI RPG LEVELING,,,,,,,Artifacts,Isekai_VillainsMask
+안정의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Warding
+안정의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Warding_II
+안정의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Warding_III
+안정의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Warding_IV
+안정의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Warding_V
+영웅의 각성 스크롤,ISEKAI RPG LEVELING,,,,,,,Artifacts,Isekai_HerosAwakeningScroll
+용기의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fortitude
+용기의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fortitude_II
+용기의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fortitude_III
+용기의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fortitude_IV
+용기의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Fortitude_V
+일반 마나 코어,ISEKAI RPG LEVELING,제작 가능,제련 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_ManaCore
+재생의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Regeneration
+재생의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Regeneration_II
+재생의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Regeneration_III
+재생의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Regeneration_IV
+재생의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Regeneration_V
+저항의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Resistance
+저항의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Resistance_II
+저항의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Resistance_III
+저항의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Resistance_IV
+저항의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Resistance_V
+정밀의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Precision
+정밀의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Precision_II
+정밀의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Precision_III
+정밀의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Precision_IV
+정밀의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Precision_V
+천둥의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Thunder
+천둥의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Thunder_II
+천둥의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Thunder_III
+천둥의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Thunder_IV
+천둥의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Thunder_V
+초대형 마나 코어,ISEKAI RPG LEVELING,제작 가능,제련 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_HugeManaCore
+파괴의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Devastation
+파괴의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Devastation_II
+파괴의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Devastation_III
+파괴의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Devastation_IV
+파괴의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Devastation_V
+혼돈의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Havoc
+혼돈의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Havoc_II
+혼돈의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Havoc_III
+혼돈의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Havoc_IV
+혼돈의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Havoc_V
+환생의 수정,ISEKAI RPG LEVELING,,,,,,,Artifacts,Isekai_ReincarnationCrystal
+활력의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vitality
+활력의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vitality_II
+활력의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vitality_III
+활력의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vitality_IV
+활력의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vitality_V
+회귀의 구체,ISEKAI RPG LEVELING,,,,,,,Artifacts,Isekai_RegressionOrb
+회피의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Evasion
+회피의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Evasion_II
+회피의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Evasion_III
+회피의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Evasion_IV
+회피의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Evasion_V
+흡혈의 룬 I,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vampirism
+흡혈의 룬 II,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vampirism_II
+흡혈의 룬 III,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vampirism_III
+흡혈의 룬 IV,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vampirism_IV
+흡혈의 룬 V,ISEKAI RPG LEVELING,제작 가능,룬 작업대,,"궤도 상인 구매, 상인 구매",,,ItemsMisc,Isekai_Rune_Vampirism_V
+고급 란제리,Imperial Attires,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,,,Apparel,CAT_Apparel_LuxuryLingerie
+고급 팬티,Imperial Attires,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,,,Apparel,CAT_Apparel_LuxuryPanty
+제국 마법사 후드,Imperial Attires,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",아이템 사용·개봉: 제국 마법사 후드,,Headgear,CAT_MagusHood
+제국 마법사 후드,Imperial Attires,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",아이템 사용·개봉: 제국 마법사 후드,,Headgear,CAT_MagusHoodOpen
+제국 무희 상의,Imperial Attires,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,,,Apparel,CAT_Apparel_ImperialDancerTop
+제국 무희 하의,Imperial Attires,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,,,Apparel,CAT_Apparel_ImperialDancerBottom
+크로스 비키니 상의,Imperial Attires,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,,,Apparel,CAT_Apparel_CrossBikiniTop
+크로스 비키니 하의,Imperial Attires,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,,,Apparel,CAT_Apparel_CrossBikiniBottom
+항성기사 장교 갑옷,Imperial Attires,제작 가능,조립 작업대,,,,,ApparelArmor,CAT_PrestigeStellicKnightArmor
+항성기사 장교 헬멧,Imperial Attires,제작 가능,조립 작업대,,,아이템 사용·개봉: 항성기사 장교 헬멧,,"ApparelArmor, ArmorHeadgear",CAT_PrestigeStellicKnightHelmetOpen
+항성기사 장교 헬멧,Imperial Attires,제작 가능,조립 작업대,,,아이템 사용·개봉: 항성기사 장교 헬멧,,ApparelArmor,CAT_PrestigeStellicKnightHelmet
+저그 군락유도 페르몬 방출기,MUSC_Zerg Mod,제작 가능,약물 연구대,,,,,Grenades,MUSC_PheromoneGrenade
+케라틴 껍질,MUSC_Zerg Mod,,,,"궤도 상인 구매, 도축·분해, 상인 구매, 파괴 시 잔해","설비 기능: 감염된 낙하기, 설비 기능: 야생 저그 해처리, 설비 기능: 저그 부화장, 종족·동물 부산물: 감염된 해병, 종족·동물 부산물: 브루들링, 종족·동물 부산물: 야생 브루들링, 종족·동물 부산물: 야생 울라리, 종족·동물 부산물: 야생 워킹 스커지, 종족·동물 부산물: 야생 저글링, 종족·동물 부산물: 야생 히드라리스크, 종족·동물 부산물: 울라리, 종족·동물 부산물: 워킹 스커지, 종족·동물 부산물: 저글링, 종족·동물 부산물: 히드라리스크",,ResourcesRaw,MUSC_KeratinShell
+합성 키틴강,MUSC_Zerg Mod,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,ResourcesRaw,MUSC_SynthChitinsteel
+CLSMG,Mechanoids: Total Warfare,제작 가능,기계 작업대,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,NCL_CLSMG
+M9 총검,Mechanoids: Total Warfare,,,,,능력·유전자: Codex_M9Knife,,,MeleeWeapon_M9Knife
+NCL5,Mechanoids: Total Warfare,제작 가능,기계 작업대,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,NCL_Rifle
+기갑 공격 전략 코어,Mechanoids: Total Warfare,,,,궤도 상인 구매,"BossgroupDef: ShellFortConstruct, 종족·동물 부산물: 쉘 포트리스",,Manufactured,TW_ArmorBlitzWarfare
+기계적 정밀 인터페이스 어레이,Mechanoids: Total Warfare,,,,"궤도 상인 구매, 파괴 시 잔해",설비 기능: 전쟁 신호탄,,Manufactured,TW_Precision_Memory_Interface_Array
+레드타이드,Mechanoids: Total Warfare,,,,적 장비 노획,,,WeaponsRanged,NCL_Redtide
+메크마스터 메인 스토리라인을 완료해야 합니다.,Mechanoids: Total Warfare,,,,궤도 상인 구매,,,Manufactured,TW_CerebrexCore_Target
+불안정한 프로메테우스 코어,Mechanoids: Total Warfare,,,,,종족·동물 부산물: 특별한 기계 웜,,BodyPartsBionic,UnstablePrometheusCore
+빨간색 루빅 큐브,Mechanoids: Total Warfare,,,,"궤도 상인 구매, 파괴 시 잔해",설비 기능: 워 스콜피온의 잔해,,Manufactured,NCL_RedCube
+센츄리온 아스널 배낭,Mechanoids: Total Warfare,제작 가능,"조립 작업대, 기계 작업대",,,,,ApparelUtility,Centurion_Arsenal_Codex
+소형 핵융합로,Mechanoids: Total Warfare,제작 가능,"조립 작업대, 서브코어 부호기",,궤도 상인 구매,,,Manufactured,NCL_Microfusion_Reactor
+쉘 스플리터 레이저 나이프,Mechanoids: Total Warfare,,,,적 장비 노획,,,,MeleeWeapon_Shellsplitter
+신경망,Mechanoids: Total Warfare,제작 가능,서브코어 부호기,,"궤도 상인 구매, 상인 구매",,,Manufactured,NCL_Neural_Weave
+심바이오메쉬,Mechanoids: Total Warfare,제작 가능,"조립 작업대, 기계 작업대",,궤도 상인 구매,,,ApparelUtility,Apparel_NoBody
+아이언 커튼 전술 망토,Mechanoids: Total Warfare,제작 가능,"조립 작업대, 기계 작업대",,궤도 상인 구매,,,ApparelUtility,IC_MK3_Tacticloak
+어나이힐레이터 와일드파이어,Mechanoids: Total Warfare,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,WeaponsRanged,Annihilator_Wildfire
+에너지 효율이 향상된 배터리,Mechanoids: Total Warfare,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,Manufactured,NCL_AdvancedPowerCell
+이그드라실 세계수 척추,Mechanoids: Total Warfare,,,,,종족·동물 부산물: 특별한 기계 웜,,BodyPartsBionic,YggdrasilWorldTreeSpine
+자발적 사직 보고서,Mechanoids: Total Warfare,,,,,"종족·동물 부산물: 공돌이, 종족·동물 부산물: 낫의 감독관",,Manufactured,Voluntary_Resignation_Letter
+전장의 왕,Mechanoids: Total Warfare,제작 가능,조립 작업대,,,,,BodyPartsBionic,NCL_King_of_the_field
+전투 연대기: 서브머신건,Mechanoids: Total Warfare,,,,,능력·유전자: Codex_SMG,,WeaponsRanged,Centurion_Arsenal_Codex_SMG
+전투 연대기: 저격 소총,Mechanoids: Total Warfare,,,,,능력·유전자: Codex_Sniper,,WeaponsRanged,Centurion_Arsenal_Codex_Sniper
+전투 연대기: 차지 라이플,Mechanoids: Total Warfare,,,,,능력·유전자: Codex_Rifle,,WeaponsRanged,Centurion_Arsenal_Codex_Rifle
+타이달 재블린,Mechanoids: Total Warfare,,,,,,,WeaponsRanged,TideSurge
+태양 사냥꾼 아르테미스의 홍채,Mechanoids: Total Warfare,,,,,종족·동물 부산물: 특별한 기계 웜,,BodyPartsBionic,SolarbaneArtemisLunarOculus
+화력 제압 전략 코어,Mechanoids: Total Warfare,,,,궤도 상인 구매,"BossgroupDef: Doxa, 종족·동물 부산물: Doxa-0",,Manufactured,TW_DoxaTacticalCore
+활성화된 드롭포드,Mechanoids: Total Warfare,,,,,능력·유전자: SuckerPunch,,,TW_ActiveDropPod
+등선형 처리 장치,MedPod,,,,"궤도 상인 구매, 상인 구매",,,Manufactured,IsolinearProcessor
+강습 드론: 게부라,Milira Addon: Fianchetto Variation,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milian_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_FunnelBitC
+강습 드론: 말쿠트,Milira Addon: Fianchetto Variation,제작 가능,밀리라 드론 인쇄기,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_FunnelBitB
+강습 드론: 케테르,Milira Addon: Fianchetto Variation,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milian_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_FunnelBitD
+강습 드론: 티페레트,Milira Addon: Fianchetto Variation,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milian_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_FunnelBitE
+밀리언 지휘 망토,Milira Addon: Fianchetto Variation,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_ConductorCloakAC
+밀리언 지휘 헤드셋,Milira Addon: Fianchetto Variation,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_ConductorHeadSetAC
+밀리언 지휘봉,Milira Addon: Fianchetto Variation,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_ConductorRod
+태양광 격자 피질,Milira Addon: Fianchetto Variation,제작 가능,"밀리라 범용 작업대, 태양 용광로",,궤도 상인 구매,,,Manufactured,Milira_FianchettoChip
+고에너지 물질 단위,Milira Expanded - Future Technology,제작 가능,"밀리라 범용 작업대, 입자 구축기",,,"MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Dawn, MiliraExpandedXY.Drone.Decision.Xml.DroneExecuteModuleDef: ForceDecay, MiliraExpandedXY.Drone.Decision.Xml.DroneExecuteModuleDef: ShootBase_Sky",,Manufactured,MEXY_HighEnergyMatterUnit
+공간 접이기 - 시제품,Milira Expanded - Future Technology,제작 가능,밀리라 범용 작업대,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_SpaceFolderPrototype",,Milira_Apparel_Utility,MEXY_Space_Folder_Prototype
+공간 접이기 Mk.I,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_SpaceFolderI",,Milira_Apparel_Utility,MEXY_Space_Folder_I
+공간 접이기 Mk.II,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_SpaceFolderII",,Milira_Apparel_Utility,MEXY_Space_Folder_II
+공간 접이기 Mk.III,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_SpaceFolderIII",,Milira_Apparel_Utility,MEXY_Space_Folder_III
+공명 칩,Milira Expanded - Future Technology,제작 가능,입자 구축기,,,"퀘스트·보상: MEXY_Guide_ParticleResonanceImplant, 퀘스트·보상: MEXY_Guide_ResonanceImplantInstalled",,Manufactured,MEXY_ResonanceImplant
+과부하 결정,Milira Expanded - Future Technology,제작 가능,"밀리라 범용 작업대, 입자 구축기",,,"퀘스트·보상: MEXY_Guide_AnnihilationStorm, 퀘스트·보상: MEXY_Guide_AutoDeepVeinBreaker, 퀘스트·보상: MEXY_Guide_CognitiveDelugeRegulator, 퀘스트·보상: MEXY_Guide_FoldedSpaceAccelerator, 퀘스트·보상: MEXY_Guide_OverloadCrystal, 퀘스트·보상: MEXY_Guide_ParticleOverloadCrystal",,Manufactured,MEXY_OverloadCrystal
+균열 날,Milira Expanded - Future Technology,제작 가능,입자 구축기,,,"아이템 사용·개봉: 룩스플룸 배열, 퀘스트·보상: MEXY_Guide_RiftEdge",,WeaponsMelee,MEXY_RiftEdge
+기적 결정,Milira Expanded - Future Technology,제작 가능,"밀리라 범용 작업대, 입자 구축기",,,"아이템 사용·개봉: 에이돌론 인장, 퀘스트·보상: MEXY_Guide_BioCultivationDays, 퀘스트·보상: MEXY_Guide_EssencePodHealing, 퀘스트·보상: MEXY_Guide_EssencePodResurrection, 퀘스트·보상: MEXY_Guide_GeneCultivation, 퀘스트·보상: MEXY_Guide_GeneExtractionAchievement, 퀘스트·보상: MEXY_Guide_MiracleCrystal, 퀘스트·보상: MEXY_Guide_ParticleMiracleCrystal, ",,Manufactured,MEXY_MiracleCrystal
+드론 탑재 장구 I,Milira Expanded - Future Technology,제작 가능,밀리라 드론 인쇄기,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_DroneCarrierI",,Milira_Apparel_Utility,MEXY_DroneCarrierApparel_TierOne
+드론 탑재 장구 II,Milira Expanded - Future Technology,제작 가능,입자 구축기,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_DroneCarrierII",,Milira_Apparel_Utility,MEXY_DroneCarrierApparel_TierTwo
+드론 탑재 장구 III,Milira Expanded - Future Technology,제작 가능,입자 구축기,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_DroneCarrierIII",,Milira_Apparel_Utility,MEXY_DroneCarrierApparel_TierThree
+룩스플룸 배열,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 룩스플룸 배열 시제품, 퀘스트·보상: MEXY_Guide_LuxplumeArray",,Milira_Apparel_Utility,MEXY_Luxplume_Array
+룩스플룸 배열 시제품,Milira Expanded - Future Technology,제작 가능,밀리라 범용 작업대,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_LuxplumeArrayPrototype",,Milira_Apparel_Utility,MEXY_Luxplume_Array_Prototype
+배양된 이종유전자,Milira Expanded - Future Technology,,,,궤도 상인 구매,,,ItemsMisc,MEXY_CultivatedXenogerm
+사이오닉 조율기,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 사이오닉 조율기 시제품, 퀘스트·보상: MEXY_Guide_PsyonicTuner",,Milira_Apparel_Utility,MEXY_Psyonic_Tuner
+사이오닉 조율기 시제품,Milira Expanded - Future Technology,제작 가능,밀리라 범용 작업대,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_PsyonicTunerPrototype",,Milira_Apparel_Utility,MEXY_Psyonic_Tuner_Prototype
+사이코룩스 결정,Milira Expanded - Future Technology,제작 가능,"밀리라 범용 작업대, 입자 구축기",,,"MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Edict, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Healing, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_MindStabilizer, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_Tac",,Manufactured,MEXY_PsycholuxCrystal
+상크티스 인장,Milira Expanded - Future Technology,,,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,MEXY_SanctisSigil
+생명 정수 단위,Milira Expanded - Future Technology,,,,설비 생산: 생명 정수 추출기,"MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Edict, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Healing, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_Tactical",,"Manufactured, Medicine",MEXY_LifeEssenceUnit
+섬멸 폭풍,Milira Expanded - Future Technology,제작 가능,입자 구축기,,"궤도 상인 구매, 상인 구매",퀘스트·보상: MEXY_Guide_AnnihilationStorm,,WeaponsRanged,MEXY_Annihilation_Storm
+에이돌론 인장,Milira Expanded - Future Technology,,,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,MEXY_EidolonSigil
+에테림 심판자,Milira Expanded - Future Technology,제작 가능,입자 구축기,,"궤도 상인 구매, 상인 구매",퀘스트·보상: MEXY_Guide_AetherimJudicator,,WeaponsRanged,MEXY_Aetherim_Judicator
+영혼 승천 동기화기,Milira Expanded - Future Technology,제작 가능,입자 구축기,,,,,Manufactured,MEXY_SoulAscensionSynchronizer
+오라클 결정,Milira Expanded - Future Technology,,,,,아이템 사용·개봉: 상크티스 인장,,Manufactured,MEXY_OracleCrystal
+인지 범람 조절기,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_CognitiveDelugeRegulator",,Milira_Apparel_Utility,MEXY_CognitiveDelugeRegulator
+접힌 공간 가속기,Milira Expanded - Future Technology,제작 가능,입자 구축기,,"궤도 상인 구매, 상인 구매",퀘스트·보상: MEXY_Guide_FoldedSpaceAccelerator,,WeaponsRanged,MEXY_FoldedSpaceAccelerator
+중력격자 비단,Milira Expanded - Future Technology,제작 가능,"밀리라 범용 작업대, 입자 구축기",,,퀘스트·보상: MEXY_Guide_GravilatticeSilk,,Manufactured,MEXY_GravilatticeSilk
+중력격자 합금,Milira Expanded - Future Technology,제작 가능,"밀리라 범용 작업대, 입자 구축기",,,"MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Edict, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Exoskeleton, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Omen, MiliraExpandedXY.Drone.Decision.Xml.DroneExecuteModuleDef: Const",,Manufactured,MEXY_GravilatticeAlloy
+지각 보호막 – 공명,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_ShieldCoreMelee, 퀘스트·보상: MEXY_Guide_ShieldCoreMeleeOverclock",,Milira_Apparel_Utility,MEXY_ShieldCore_Melee
+지각 보호막 – 시제품,Milira Expanded - Future Technology,제작 가능,밀리라 범용 작업대,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_ShieldCorePrototype",,Milira_Apparel_Utility,MEXY_ShieldCore_Prototype
+지각 보호막 – 조율,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 퀘스트·보상: MEXY_Guide_ShieldCoreRanged, 퀘스트·보상: MEXY_Guide_ShieldCoreRangedOverclock",,Milira_Apparel_Utility,MEXY_ShieldCore_Ranged
+통합 전술 장비,Milira Expanded - Future Technology,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,MEXY_IntegratedTacticalGear_Apparel
+표준 기억 저장 장치,Milira Expanded - Future Technology,,,,,,,Manufactured,MEXY_StandardMemoryStorageUnit
+표준 물질 단위,Milira Expanded - Future Technology,,,,"설비 생산: 물질 분해기, 설비 생산: 자동 물질 추출기, 설비 생산: 휴대용 물질 분해기","MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Dawn, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Edict, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalMod",,Manufactured,MEXY_StandardMatterUnit
+"""아포칼립스"" 지정사수소총",Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsSpecial, WeaponsRanged",PLAMiliraSariel_Gun
+AR-23 가우스 자동소총,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_CiGaussAutorifle
+AR-61 가우스 자동소총,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_GaussAutorifle
+DBS-2 산탄총,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_DBSIIShotgun
+R-63 가우스 지정사수소총,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_MarksmanGaussrifle
+가르강튀아 코어,Milira Faction: Milira Imperium,,,,,,,Manufactured,Milira_GargantuaCore
+가속 플라즈마건,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Plasma, WeaponsRanged",Milira_TaranPlasmaGun
+공허 모노 싸이블레이드,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_MonoPsyblade_II
+뉴트로늄,Milira Faction: Milira Imperium,제작 가능,밀리라 중력 직조기,,,,,ResourcesRaw,Milira_Neutronium
+뉴트로늄 직물,Milira Faction: Milira Imperium,제작 가능,밀리라 중력 직조기,,,,,Textiles,Milira_NeutroniumFabric
+델린의 베레모,Milira Faction: Milira Imperium,,,,,,,Milira_Apparel_Overhead,Milira_DellinBeret
+델린의 우비,Milira Faction: Milira Imperium,,,,,,,Milira_Apparel_OnSkin,Milira_DellinAttire
+디보션,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_DevotionLMG
+디보션,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_DevotionLMG_II
+레버 레일건,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_LeverRailgun
+리디아의 깃털 장식,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_DarkWarriorFeatherDeco
+리디아의 정신 방어 펜던트,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_LydiasPendant
+리디아의 해군 제복,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DarkWarriorAttire
+모노 싸이블레이드,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,적 장비 노획,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_MonoPsyblade
+밀리라 고스트 전술 고글,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_ShadowTacticalGoggles
+밀리라 고스트 전술 슈트,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ShadowCombatSuit
+밀리라 깃털 장식,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_FeatherDeco
+밀리라 네메시스 아머,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ElitePirateArmor
+밀리라 네메시스 장식,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_ElitePirateDeco
+밀리라 뇌명검,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_GreatSword_Pirate
+밀리라 대거 전투복,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_CombatantSuit
+밀리라 대검,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,적 장비 노획,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_HolySword
+밀리라 레트로 기사 갑옷,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_RetroKnightArmor
+밀리라 레트로 기사 투구,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_RetroKnightHelmet
+밀리라 레트로 헌터 슈트,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_RetroHunterSuit
+밀리라 레트로 헌터 헬멧,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_RetroHunterHelmet
+밀리라 방한 점프수트,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ThermalJumpsuit
+밀리라 보닛,Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 밀리라 셀레스티얼 머리 장식",,Milira_Apparel_Overhead,Milira_ImperiumOrdinaryHatI
+밀리라 복고풍 해군 제복,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_RetroNavalUniform
+밀리라 사제복,Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_Priest_Uniform
+밀리라 셀레네 아머,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,"AlienRace.ThingDef_AlienRace: Milira_Race, 능력·유전자: Hediff_ForceWearAfterDelay_Remiel",,Milira_Apparel_OnSkin,Milira_NavalUniform
+밀리라 셀레네 헤드셋,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_TacticalHeadset
+밀리라 셀레스티얼 드레스,Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_CelestialDress
+밀리라 셀레스티얼 머리 장식,Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_CelestialDressHairDeco
+밀리라 시그룬 파워 아머,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_MarinePowerArmor
+밀리라 시그룬 파워 헬멧,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_MarinePowerHelmet
+밀리라 아스테리아 제복,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_NavigatorUniform
+밀리라 안전모,Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_SafetyHelmet
+밀리라 양날검,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,적 장비 노획,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_Rakuyo
+밀리라 연금술사 의복,Milira Faction: Milira Imperium,,,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ImperiumOrdinaryIV
+밀리라 요리사 모자,Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_ImperiumChefHat
+밀리라 용살대궁,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,,,,"MI_ThingCategory_WeaponsSpecial, WeaponsRanged",Milira_DragonslayerGreatbow_II
+밀리라 용살창,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,적 장비 노획,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_DragonslayerSpear
+밀리라 월광 대검,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_MoonLightGreatSword
+밀리라 이식표,Milira Faction: Milira Imperium,,,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 능력·유전자: Hediff_ForceWearAfterDelay_Remiel",,Milira_Apparel_Overhead,Milira_eartag
+밀리라 전투 마스크,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_CombatantMask
+밀리라 전투 코트,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Shell,Milira_CombatantCoat
+밀리라 제국 기록 보관소,Milira Faction: Milira Imperium,,,,"궤도 상인 구매, 상인 구매",,,Books,Milira_ImperiumArchive
+밀리라 제국 예복,Milira Faction: Milira Imperium,,,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ImperiumOrdinaryIII
+밀리라 제국 월계관,Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_ImperiumOrdinaryHatIII
+밀리라 제국 의복,Milira Faction: Milira Imperium,,,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ImperiumOrdinaryI
+밀리라 조종사 선글라스,Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_PilotSunglasses
+밀리라 조종사 선글라스 (내려씀),Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_PilotSunglassesIII
+밀리라 조종사 선글라스 (머리 위),Milira Faction: Milira Imperium,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_PilotSunglassesII
+밀리라 천둥 망치,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_Hammer_Pirate
+밀리라 칼리스토 아머,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_PirateArmor
+밀리라 칼리스토 헤드셋,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_PirateHeadSet
+밀리라 포세이돈 모듈,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 아스테시아 오토캐논, 아이템 사용·개봉: 후이 빙의 아스테시아 오토캐논",,Milira_Apparel_Overhead,Milira_PoseidonHeadset
+밀리라 포세이돈 파워 아머,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 아스테시아 오토캐논, 아이템 사용·개봉: 후이 빙의 아스테시아 오토캐논",,Milira_Apparel_OnSkin,Milira_HeavyPowerArmor
+밀리라 프린터건,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,WeaponsRanged,Milira_PrinterGun
+밀리라 학원 제복,Milira Faction: Milira Imperium,,,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ImperiumOrdinaryV
+밀리라의 부서진 대검,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_ShatteredGreatSword
+밀리라의 천둥창,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_Spear_Pirate
+보호막 역장,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_Lydiashield
+볼트 SMG,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_VoltSMG_II
+볼트 SMG,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_VoltSMG
+브림스톤 중기관총,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_GaussMachinegun
+비렐리아의 창,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_Spear_Pirate_Enhanced
+사리엘,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsSpecial, WeaponsMelee",Milira_Sickle_Sariel
+사리엘의 드레스,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_SarielArmor
+사리엘의 머리 장식,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_SarielDeco
+스쿨드의 수녀복,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_SisterDress_Skuld
+스쿨드의 용살대궁,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsSpecial, WeaponsRanged",Milira_DragonslayerGreatbow
+아르테리아,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsSpecial, WeaponsMelee",Milira_Arteria
+아스테시아 오토캐논,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_AstesiaAutoCannon
+아스트로리엘의 망치,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_Hammer_Pirate_Enhanced
+암흑 물질,Milira Faction: Milira Imperium,,,,"설비 생산: 암흑 물질 구속기, 파괴 시 잔해","RoyalTitlePermitDef: Milira_ImperiumPermit_DropDarkMatter, 설비 기능: 밀리라 그리핀 전투기, 설비 기능: 암흑 물질 구속기",,Manufactured,Milira_DarkMatter
+암흑 물질 보호막 벨트,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_DarkMattershieldbelt_II
+암흑 물질 보호막 벨트,Milira Faction: Milira Imperium,제작 가능,"밀리라 범용 작업대, 밀리라 중력 직조기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_DarkMattershieldbelt
+열 차단 역장,Milira Faction: Milira Imperium,제작 가능,"밀리라 범용 작업대, 밀리라 중력 직조기",,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Milira_Race, 능력·유전자: Hediff_ForceWearAfterDelay_Luoyan, 능력·유전자: Hediff_ForceWearAfterDelay_YueJian",,ApparelUtility,Milira_ThermalBarrierField
+운도미엘의 대검,Milira Faction: Milira Imperium,재료 확보 불가,"태양 용광로, 밀리라 중력 직조기",초능력 코어,,,,"MI_ThingCategory_WeaponsMelee, WeaponsMelee",Milira_GreatSword_Pirate_Enhanced
+워스파이트 플라즈마 라이플,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsSpecial, WeaponsRanged",Milira_Rifle_Katia_II
+윙맨,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_GaussRevolver
+장막 수정,Milira Faction: Milira Imperium,,,,설비 생산: 장막 수정 재배기,설비 기능: 장막 수정 재배기,,Manufactured,Milira_ShroudCrystal
+장막 재,Milira Faction: Milira Imperium,제작 가능,밀리라 중력 직조기,,궤도 상인 구매,"AriandelLibrary.ShroudOutcomeDef: AL_Outcome_RandomShroudPower, RoyalTitlePermitDef: Milira_ImperiumPermit_DropSunLightFuel_II",,Manufactured,MI_Thing_ShroudAsh
+장막 차,Milira Faction: Milira Imperium,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",RoyalTitlePermitDef: Milira_ImperiumPermit_DropMeal,,Drugs,MI_Thing_ShroudTea
+전투 플랫폼: 에탕다르,Milira Faction: Milira Imperium,재료 확보 불가,"밀리라 범용 작업대, 밀리라 중력 직조기",초능력 코어,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_LightOfCradol_II
+전투 플랫폼: 크레이돌의 빛,Milira Faction: Milira Imperium,,,,적 장비 노획,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 전투 플랫폼: 에탕다르",,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_LightOfCradol
+제국 기록: 제국 함대,Milira Faction: Milira Imperium,,,,"궤도 상인 구매, 상인 구매",,,Milira_ImperiumLetter,Milira_ImperiumLetterI_Imperium
+제국 기록: 크레이돌,Milira Faction: Milira Imperium,,,,"궤도 상인 구매, 상인 구매",,,Milira_ImperiumLetter,Milira_ImperiumLetterI_Cradol
+제국 휴대용 콘솔,Milira Faction: Milira Imperium,제작 가능,"밀리라 범용 작업대, 밀리라 중력 직조기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,,MiliraImperium_PortableConsole
+차지 라이플,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_ChargeRifle
+차지 라이플,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_ChargeRifle_II
+초능력 메크링크,Milira Faction: Milira Imperium,재료 확보 불가,밀리라 중력 직조기,초능력 코어,,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_PsionicMechlink
+초능력 보호막 벨트,Milira Faction: Milira Imperium,재료 확보 불가,"밀리라 범용 작업대, 밀리라 중력 직조기",초능력 코어,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_Psionicshieldbelt
+초능력 증폭 펜던트,Milira Faction: Milira Imperium,재료 확보 불가,"밀리라 범용 작업대, 밀리라 중력 직조기",초능력 코어,,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_PsionicAmplifyPendant
+초능력 코어,Milira Faction: Milira Imperium,,,,,,,Manufactured,Milira_PsionicCore
+"카티아의 개량형 아르테미스 아머 ""라야얘캐리""",Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_Artemis_Katia
+크레이버 대물 레일건,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_AntiMaterielRailgun
+태양 보호막 벨트,Milira Faction: Milira Imperium,제작 가능,"밀리라 범용 작업대, 밀리라 중력 직조기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,,Milira_Solarshieldbelt
+태양 보호막 벨트,Milira Faction: Milira Imperium,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,,Milira_Solarshieldbelt_II
+플랫폼: 축전,Milira Faction: Milira Imperium,제작 가능,밀리라 중력 직조기,,적 장비 노획,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 가속 플라즈마건",,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_Drone_Capacitor
+피스키퍼,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_Peacekeeper
+하복 라이플,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_HAVOCRifle
+하복 라이플,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Energy, WeaponsRanged",Milira_HAVOCRifle_II
+항독성 역장 발생기,Milira Faction: Milira Imperium,제작 가능,"밀리라 범용 작업대, 밀리라 중력 직조기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_AntitoxinFieldGenerator
+헬파이어 산탄총,Milira Faction: Milira Imperium,제작 가능,"태양 용광로, 밀리라 중력 직조기",,적 장비 노획,,,"MI_ThingCategory_WeaponsRanged_Kinetic, WeaponsRanged",Milira_RailShotgun
+황금 밀리라 깃털,Milira Faction: Milira Imperium,,,,,"RoyalTitlePermitDef: Milira_ImperiumPermit_DropGargantuaCore, RoyalTitlePermitDef: Milira_ImperiumPermit_DropPsionicCore",,Manufactured,Milira_Feather_gold
+후이 빙의 아스테시아 오토캐논,Milira Faction: Milira Imperium,,,,적 장비 노획,,,"MI_ThingCategory_WeaponsSpecial, WeaponsRanged",Milira_AstesiaAutoCannon_II
+공명기 핵,Milira Race,,,,"궤도 상인 구매, 상인 구매",MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default,,Manufactured,Milira_ResonatorCore
+광휘강,Milira Race,제작 가능,"밀리라 범용 작업대, 태양 용광로, 밀리라 중력 직조기",,"궤도 상인 구매, 도축·분해, 상인 구매, 제련, 파괴 시 잔해","AlienRace.ThingDef_AlienRace: Milian_Race, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Dawn, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Detector, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Edict, MiliraExpandedXY.Drone.C",,ResourcesRaw,Milira_SplendidSteel
+교회 문헌: 가드,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_PawnIII
+교회 문헌: 나이트 I,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_KnightI
+교회 문헌: 나이트 II,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_KnightII
+교회 문헌: 등급 권한,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_ClassPermission
+교회 문헌: 룩 I,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_RookI
+교회 문헌: 룩 II,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_RookII
+교회 문헌: 밀리라,Milira Race,,,,궤도 상인 구매,,,Milira_InformationLetter,Milira_InformationLetterI_Milira
+교회 문헌: 밀리언,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_Milian
+교회 문헌: 밀리언 나이트 클래스,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_Knight
+교회 문헌: 밀리언 룩 클래스,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_Rook
+교회 문헌: 밀리언 폰 클래스,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_Pawn
+교회 문헌: 비숍 I,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_BishopI
+교회 문헌: 비숍 II,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_BishopII
+교회 문헌: 비숍 클래스,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_Bishop
+교회 문헌: 스트라이커,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_RookIII
+교회 문헌: 아웃라이더,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_KnightIII
+교회 문헌: 이터널 포트리스,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_RookIV
+교회 문헌: 집정관,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_BishopIII
+교회 문헌: 카디널,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_BishopIV
+교회 문헌: 캡틴,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_PawnIV
+교회 문헌: 태양 수정,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_SolarCrystal
+교회 문헌: 태양 연료,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_SunLightFuel
+교회 문헌: 태양 용광로,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_SunBlastFurnace
+교회 문헌: 태양꽃,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_SunLightFlower
+교회 문헌: 태양단강,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_SunPlateSteel
+교회 문헌: 팔라딘,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_KnightIV
+교회 문헌: 폰 I,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_PawnI
+교회 문헌: 폰 II,Milira Race,,,,"궤도 상인 구매, 상인 구매",,,Milira_InformationLetter,Milira_InformationLetterI_MilianClass_PawnII
+교회 문헌: 하늘깃털 교회,Milira Race,,,,궤도 상인 구매,,,Milira_InformationLetter,Milira_InformationLetterI_ChurchIntrodction
+깃털 원단,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Milian_Race, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Bishop, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Knight, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Pawn, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Rook, PrefabDef: MI",,Textiles,Milira_FeatherThread
+나이트 검,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milian_KnightSword
+나이트 랜스,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milian_KnightLance
+나이트 망치,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milian_KnightHammer
+나이트 할버드,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milian_KnightHalberd
+등급 권한 칩: 나이트,Milira Race,,,,"궤도 상인 구매, 상인 구매","MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Knight",,Manufactured,Milian_NamePlate_Knight
+등급 권한 칩: 룩,Milira Race,,,,"궤도 상인 구매, 상인 구매","MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Rook",,Manufactured,Milian_NamePlate_Rook
+등급 권한 칩: 비숍,Milira Race,,,,"궤도 상인 구매, 상인 구매","MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Bishop",,Manufactured,Milian_NamePlate_Bishop
+등급 권한 칩: 퀸,Milira Race,,,,궤도 상인 구매,MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default,,Manufactured,Milian_NamePlate_Queen
+등급 권한 칩: 킹,Milira Race,,,,궤도 상인 구매,MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default,,Manufactured,Milian_NamePlate_King
+등급 권한 칩: 폰,Milira Race,,,,"궤도 상인 구매, 상인 구매","MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Pawn",,Manufactured,Milian_NamePlate_Pawn
+룩 대검,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milian_RookBladeII
+룩 편인도,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milian_RookBlade
+밀리라 가정용 단말 헤드셋,Milira Race,,,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_MilianHomeTerminal
+밀리라 개척자 주머니,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_PathfinderPocket
+밀리라 검,Milira Race,제작 가능,태양 용광로,,적 장비 노획,아이템 사용·개봉: 룩스플룸 배열,,WeaponsMelee,Milira_SingleHandblade
+밀리라 검은색 밀착형 드레스,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DelicateDressC
+밀리라 글레이브,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milira_Glaive
+밀리라 깃털,Milira Race,,,,,"AlienRace.ThingDef_AlienRace: Milira_Race, PrefabDef: MI_Prefab_ChurchSpaceBase, PrefabDef: Naglfar_IV, 능력·유전자: DL_Hediff_ForceWearAfterDelay_Dellin, 능력·유전자: Hediff_ForceWearAfterDelay_Luoyan, 능력·유전자: Hediff_ForceWearAfterDelay_YueJian",,Textiles,Milira_Feather
+밀리라 다이달로스 갑옷,Milira Race,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DaedalusArmor
+밀리라 다이달로스 날개,Milira Race,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_DaedalusWings
+밀리라 다이달로스 왕관,Milira Race,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_DaedalusHelmet
+밀리라 대검,Milira Race,제작 가능,태양 용광로,,적 장비 노획,아이템 사용·개봉: 룩스플룸 배열,,WeaponsMelee,Milira_TwoHandSword
+밀리라 대낫,Milira Race,제작 가능,태양 용광로,,적 장비 노획,아이템 사용·개봉: 룩스플룸 배열,,WeaponsMelee,Milira_Sickle
+밀리라 대학 교복 (A형),Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DelicateDressA
+밀리라 대학 교복 (B형),Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DelicateDressA_II
+밀리라 랜스,Milira Race,제작 가능,태양 용광로,,적 장비 노획,아이템 사용·개봉: 룩스플룸 배열,,WeaponsMelee,Milira_Lance
+밀리라 메카노이드 공명 헤드셋,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_SynesthesiaHeadset
+밀리라 바람막이,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Shell,Milira_Dustcoat
+밀리라 발키리 갑옷,Milira Race,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ValkyrArmor
+밀리라 발키리 투구,Milira Race,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_ValkyrHelmet
+밀리라 사냥꾼 모자,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_HunterCap
+밀리라 사냥꾼 옷,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_HunterCloth
+밀리라 사냥꾼 코트,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Shell,Milira_HunterCoat
+밀리라 선글라스,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 밀리라 선글라스 (머리), 아이템 사용·개봉: 밀리라 안경",,Milira_Apparel_Overhead,Milira_Sunglasses
+밀리라 선글라스 (머리),Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_SunglassesII
+밀리라 소형 축전지,Milira Race,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_CapacitorI
+밀리라 솜털 망토,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Shell,Milira_PlushCape
+밀리라 솜털 베레모,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_PlushBeret
+밀리라 쌍치도,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milira_PoleBlade
+밀리라 아르테미스 갑옷 (강습형),Milira Race,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 밀리라 아르테미스 갑옷 (수호형)",,Milira_Apparel_OnSkin,Milira_ArtemisArmor
+밀리라 아르테미스 갑옷 (수호형),Milira Race,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_ArtemisArmorII
+밀리라 아르테미스 눈,Milira Race,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_ArtemisHelmet
+밀리라 안경,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,"AlienRace.ThingDef_AlienRace: Milira_Race, 능력·유전자: DL_Hediff_ForceWearAfterDelay_Dellin",,Milira_Apparel_Overhead,Milira_Glasses
+밀리라 에너지 응집기,Milira Race,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_ChargeAccumulatorI
+밀리라 에너지 응집기 M2,Milira Race,제작 가능,밀리라 범용 작업대,,"궤도 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_ChargeAccumulatorII
+밀리라 에너지 응집기 M3,Milira Race,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_ChargeAccumulatorIII
+밀리라 여행복,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_PathfinderCloak
+밀리라 여행용 식량,Milira Race,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매","RoyalTitlePermitDef: Milira_ImperiumPermit_LimitedDropMeal, 아이템 사용·개봉: 밀리라 개척자 주머니",,FoodMeals,Milira_TravellerFood
+밀리라 여행자 망토,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_Cloak
+밀리라 여행자 후드,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_Hood
+밀리라 우아한 가운,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DelicateDressB
+밀리라 원자력 축전지,Milira Race,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_CapacitorIII
+밀리라 위상 통신 배열 헤드셋,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_PhaseControlMatrix
+밀리라 전통복 (A형),Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_BasicDressI
+밀리라 전통복 (B형),Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_BasicDressII
+밀리라 전통복 (C형),Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_BasicDressIII
+밀리라 전투 드론: 섬광탄,Milira Race,제작 가능,밀리라 드론 인쇄기,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_StunImpulseLauncher
+밀리라 전투 드론: 소이탄,Milira Race,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_IncendiaryGrenadeLauncher
+밀리라 전투 드론: 펄스탄,Milira Race,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_EMPLauncher
+밀리라 전투망치,Milira Race,제작 가능,태양 용광로,,적 장비 노획,아이템 사용·개봉: 룩스플룸 배열,,WeaponsMelee,Milira_Hammer
+밀리라 차양 모자,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Overhead,Milira_SunHat
+밀리라 창,Milira Race,제작 가능,태양 용광로,,적 장비 노획,아이템 사용·개봉: 룩스플룸 배열,,WeaponsMelee,Milira_Spear
+밀리라 초연산팩,Milira Race,제작 가능,밀리라 범용 작업대,,,AlienRace.ThingDef_AlienRace: Milira_Race,,ApparelUtility,Milira_SupercomputingPack
+밀리라 캐쥬얼 의상,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DelicateDressD
+밀리라 코르셋 드레스,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DelicateDressF
+밀리라 코르셋 치마,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DelicateDressE
+밀리라 쾌검,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milira_SwiftBlade
+밀리라 톱날검,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsMelee,Milira_SawBlade
+밀리라 프로토타입 기어: 사이클롭스,Milira Race,제작 가능,태양 용광로,,,"AlienRace.ThingDef_AlienRace: Milira_Race, 능력·유전자: Milira_LaunchRocketSwarmInArea",,"Milira_Apparel_ConceptWeaponry, Milira_Apparel_Utility",Milira_ConceptWeaponry_Cyclops
+밀리라 하이웨이스트 주름치마,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_DelicateDressG
+밀리라 함선 축전지,Milira Race,제작 가능,태양 용광로,,,"MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, 설비 기능: ""성가 오르간"" 전자기 저격포, 설비 기능: ""스피닝 바스타드"" 하이브 대공 미사일 포탑, 설비 기능: ""엘레우시스 밀교"" 중화력 보병 지원 플랫폼, 설비 기능: 다연장 로켓 발사기, 설비 기능: 밀리라 공간 파쇄 장치, 설비 기능: 밀리라 다이달로스 신성 봉인, 설비 기능: 밀리라 중형 입자 캐논 포탑, 설비 기능: 밀리라 통합 복합 생산기, 설비 기능: 밀리라 해리어 유도 ",,Manufactured,Milira_StarshipBattery
+밀리라 항정신 목걸이,Milira Race,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,"ApparelUtility, Milira_Apparel_Utility",Milira_PsychicDefensePendant
+밀리라 확장 축전지,Milira Race,제작 가능,밀리라 범용 작업대,,"궤도 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_CapacitorII
+밀리라 휴대용 영광의 신호기,Milira Race,,,,"궤도 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_DropBeaconPack
+밀리언 가드 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_GuardArmor
+밀리언 가디언 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_GuardianArmor
+밀리언 경량 방탄갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_LightArmor
+밀리언 고글,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_Goggle
+밀리언 깃털 방패,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Utility,Milian_FeatherShapeShield
+밀리언 나이트 방패,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Utility,Milian_KnightShield
+밀리언 내의,Milira Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 밀리라 재단 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_OnSkin,Milian_Lining
+밀리언 동력 핵,Milira Race,제작 가능,밀리라 범용 작업대,,,"MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Bishop, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Knight, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Pawn, PLAMilira.SupplyArrowComboDef: PLAM",,Manufactured,Milira_MilianReactor
+밀리언 레인저 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_RangerArmor
+밀리언 룩 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,"AlienRace.ThingDef_AlienRace: Milian_Race, 아이템 사용·개봉: 밀리언 성채 갑옷, 아이템 사용·개봉: 밀리언 스트라이커 갑옷",,Milian_Apparel_Middle,Milian_RookArmor
+밀리언 룩 마스크,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,"AlienRace.ThingDef_AlienRace: Milian_Race, 아이템 사용·개봉: 밀리언 스트라이커 투구",,Milian_Apparel_Overhead,Milian_RookMask
+밀리언 방탄 망토,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_BishopCloak
+밀리언 분석 헤드셋,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_BishopHeadset
+밀리언 뿔 달린 왕관,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_KnightHeadsetIII
+밀리언 사이클롭스 게이트 방패,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Utility,Milian_RookShield
+밀리언 사일런트 헌터 망토,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_SilentHunterCloak
+밀리언 사일런트 헌터 후드,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_SilentHunterHood
+밀리언 성채 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_CitadelArmor
+밀리언 스토커 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_StalkerArmor
+밀리언 스트라이커 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_StrikerArmor
+밀리언 스트라이커 투구,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_StrikerHelmet
+밀리언 스포츠 헤드셋,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_KnightHeadsetII
+밀리언 유도 지휘봉,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_PivotScepter
+밀리언 의전 지팡이,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_BishopScepter
+밀리언 장갑 고글,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_GoggleArmored
+밀리언 장거리 입자 저격소총,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_ParticleLongRangeSniper
+밀리언 통신 헤드셋,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_KnightHeadset
+밀리언 팔라딘 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_PaladinArmor
+밀리언 포트리스 갑옷,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_FortressArmor
+밀리언 피벗 망토,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Middle,Milian_PivotCloak
+밀리언 피벗 헤드셋,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milian_Race,,Milian_Apparel_Overhead,Milian_PivotHeadSet
+반발 수류탄 벨트,Milira Race,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_Apparel_RepulsiveGrenade
+방사선 권총,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milira_RayPistol
+방사선 소총,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milira_RayRifle
+보호막 플로트 유닛팩,Milira Race,제작 가능,"밀리라 범용 작업대, 밀리라 드론 인쇄기",,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_FloatUnitPack_Shield
+생체공학 밀리라 날개,Milira Race,제작 가능,밀리라 범용 작업대,,"궤도 상인 구매, 상인 구매",,,BodyPartsBionic,Milira_BionicWing
+소형 플로트 유닛팩,Milira Race,제작 가능,"밀리라 범용 작업대, 밀리라 드론 인쇄기",,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Milira_Race, 아이템 사용·개봉: 레이저 부유 유닛 팩, 아이템 사용·개봉: 보호막 플로트 유닛팩, 아이템 사용·개봉: 비시노에 부유 유닛 팩, 아이템 사용·개봉: 아크 부유 유닛 팩",,Milira_Apparel_Utility,Milira_FloatUnitPack
+수송 포드,Milira Race,,,,,,,,Milira_ActiveDropPod
+쌍발 로터 추진기,Milira Race,제작 가능,밀리라 범용 작업대,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milian_Apparel_Utility,Milira_Booster
+얼룩진 밀리라 깃털,Milira Race,,,,,"AlienRace.ThingDef_AlienRace: Milira_Race, PrefabDef: MI_Prefab_PirateBase",,Textiles,Milira_BloodStainedFeather
+인공 밀리라 날개,Milira Race,제작 가능,"기계 작업대, 밀리라 범용 작업대",,"궤도 상인 구매, 상인 구매",,,BodyPartsProsthetic,Milira_ArtificialWing
+입자 경기관총,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_ParticleLMG
+입자 광선총,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_ParticleBeamGun
+입자 기관단총,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_ParticleSMG
+입자 확산 블래스터,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_ParticleDiffusionBlaster
+전자기 레일 소총,Milira Race,제작 가능,태양 용광로,,적 장비 노획,,,WeaponsRanged,Milira_MagneticRailRifle
+전투 드론: 4연장 로켓 발사기,Milira Race,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_QuadrupleRocketLauncher
+전투 드론: 미니건,Milira Race,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_MiniGun
+전투 드론: 산탄 입자,Milira Race,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_ScatterParticleBlaster
+전투 드론: 장거리 입자,Milira Race,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_LongRangeParticleBlaster
+전투 드론: 충격 입자,Milira Race,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_ParticleImpactBlaster
+전투 플랫폼: 메카 제어 유닛,Milira Race,제작 가능,밀리라 드론 인쇄기,,,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_MechControlUnit
+전투 플랫폼: 에너지 거품 보호막,Milira Race,제작 가능,밀리라 드론 인쇄기,,적 장비 노획,AlienRace.ThingDef_AlienRace: Milira_Race,,"Milira_Apparel_CombatDrone, Milira_Apparel_Utility",Milira_CombatDrone_EnergyBubble
+중력 수류탄 벨트,Milira Race,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_Apparel_AttractiveGrenade
+집속형 저격소총,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milira_ConvergentRaySniper
+충격 입자 블래스터,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_ParticleBeamBlaster
+태양 수정,Milira Race,,,,"궤도 상인 구매, 상인 구매, 설비 생산: 태양 수정 재배기, 적 장비 노획","MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Dawn, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Detector, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_RefractiveField, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_Ta",,Manufactured,Milira_SolarCrystal
+태양 연료,Milira Race,제작 가능,"연료 정제기, 입자 구축기",,"궤도 상인 구매, 상인 구매, 설비 생산: 태양 에너지 변환 포집탑, 설비 생산: 태양 에너지 수집/레이저 포탑, 설비 생산: 태양 에너지 수집/방어 포탑","MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Dawn, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Skyfire, PLAMilira.SupplyArrowComboDef: PLAMilira_Supply_Combo_Fuel, PLAM",,Manufactured,Milira_SunLightFuel
+태양 용광로 핵 모형,Milira Race,,,,"궤도 상인 구매, 상인 구매","MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, PrefabDef: PLAMilira_SuperCluster",,Manufactured,Milira_FurnaceCoreModel
+태양꽃,Milira Race,,,,"궤도 상인 구매, 상인 구매, 설비 생산: 태양꽃 열매 재배기, 재배·채집","설비 기능: 태양꽃 열매 재배기, 식물: 태양꽃, 퀘스트·보상: MEXY_Guide_ParticleSunLightFuel",,PlantMatter,Milira_SunLightFruit
+태양단강,Milira Race,제작 가능,"태양 용광로, 입자 구축기, 밀리라 중력 직조기",,"광맥 채굴, 궤도 상인 구매, 도축·분해, 상인 구매, 설비 생산: 불안정한 반응로, 제련, 파괴 시 잔해","MiliraExpandedXY.Buildings.MatterGlobalListsDef: MEXY_MatterGlobalLists_Default, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Dawn, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_TacticalModule_Detector, MiliraExpandedXY.Drone.Carrier.TacticalModuleDef: MEXY_Tactical",,ResourcesRaw,Milira_SunPlateSteel
+태양단강 파편 덩어리,Milira Race,,,,파괴 시 잔해,"PrefabDef: MI_Prefab_ChurchSpaceBase, PrefabDef: MI_Prefab_CradolHabitat, 기타: 대 해리어 미사일, 설비 기능: ""별빛"" 미사일 발사기, 설비 기능: ""별자리"" 위상 교란기, 설비 기능: ""성가 오르간"" 전자기 저격포, 설비 기능: ""스피닝 바스타드"" 하이브 대공 미사일 포탑, 설비 기능: ""엘레우시스 밀교"" 중화력 보병 지원 플랫폼, 설비 기능: ""태풍"" 감마 레이저포, 설비 기능: ""템페스트"" 아크 방출기, 설비 기능: ""토네이도"" 이온 회전포, 설비 기능: ""혜성"" 플",,Chunks,Milira_ChunkSlag_SunPlateSteel
+펄스 광선총,Milira Race,제작 가능,밀리라 범용 작업대,,적 장비 노획,,,WeaponsRanged,Milian_PulsedBeamGun
+펄스 레이저 기관총,Milira Race,제작 가능,태양 용광로,,적 장비 노획,,,WeaponsRanged,Milira_LaserMG
+플라스마 기관단총,Milira Race,제작 가능,태양 용광로,,,,,WeaponsRanged,Milira_PlasmaSMG
+플라즈마 권총,Milira Race,제작 가능,태양 용광로,,적 장비 노획,,,WeaponsRanged,Milira_PlasmaPistol
+플라즈마 소총,Milira Race,제작 가능,태양 용광로,,적 장비 노획,,,WeaponsRanged,Milira_PlasmaRifle
+플라즈마 점사 기관총,Milira Race,제작 가능,태양 용광로,,적 장비 노획,,,WeaponsRanged,Milira_PlasmaMG
+플라즈마 충격 수류탄 벨트,Milira Race,제작 가능,태양 용광로,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_Utility,Milira_Apparel_PlasmaShockGrenade
+플라즈마 캐논,Milira Race,제작 가능,태양 용광로,,적 장비 노획,,,WeaponsRanged,Milira_PlasmaCannon
+플라즈마 펄스 저격소총,Milira Race,제작 가능,태양 용광로,,적 장비 노획,,,WeaponsRanged,Milira_PlasmaPulseSniperRifle
+휴대용 레일건,Milira Race,제작 가능,태양 용광로,,적 장비 노획,,,WeaponsRanged,Milira_HandRailGun
+AR/GL-21 12,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_OneTwo
+FAF-14 스피어,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_Spear
+W.A.S.P. 발사기,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_WASP
+공중폭발 집중 이온 방출기,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_AirburstRocketLauncher
+궁니르,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsMelee,PLAMilira_Gungnir
+낡은 편지,Milira:Wings of Democracy,,,,궤도 상인 구매,,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student
+대물 저격총 VBW-1,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,,,WeaponsRanged,PLAMilira_AntiMateriel_Rifle
+디-에스컬레이터 GL-52,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_Escalator
+레이 SG 트라이던트,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,Milira_RaySG_Trident
+레이저 부유 유닛 팩,Milira:Wings of Democracy,제작 가능,"밀리라 범용 작업대, 밀리라 드론 인쇄기",,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,Milira_Apparel_Utility,PLAMilira_LaserPack
+레이저포,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_Laser_Cannon
+밀리라 레비아탄 갑옷,Milira:Wings of Democracy,제작 가능,태양 용광로,,,AlienRace.ThingDef_AlienRace: Milira_Race,,Milira_Apparel_OnSkin,Milira_LeviathanArmor
+밀리라의 레이피어,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsMelee,Milira_Rapier
+발화 브레이커,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,,,WeaponsRanged,PLAMilira_Solar_Breaker
+비시노에 부유 유닛 팩,Milira:Wings of Democracy,제작 가능,"밀리라 범용 작업대, 밀리라 드론 인쇄기",,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,Milira_Apparel_Utility,PLAMilira_VisjnoePack
+성스러운 핵 - 아르고,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,,,BodyPartsMechtech,PLAMilira_Star_Argo
+성스러운 핵 - 알루드라,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,,,BodyPartsMechtech,PLAMilira_Star_Aludra
+성스러운 핵 - 텐고,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,,,BodyPartsMechtech,PLAMilira_Star_Tengo
+스피어 건 S-11,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,,,WeaponsRanged,PLAMilira_Speargun
+아크 부유 유닛 팩,Milira:Wings of Democracy,제작 가능,"밀리라 범용 작업대, 밀리라 드론 인쇄기",,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,Milira_Apparel_Utility,PLAMilira_ElcPack
+아크 투척기,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_Arc_Thrower
+암호화 단말기,Milira:Wings of Democracy,,,,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,Milira_Apparel_Utility,PLAMilira_Apparel_SecretConsole
+에포크 플라즈마포,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,Milira_PlasmaCannon_Epoch
+오토캐논,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_Autocannon
+위대한 마법의 삐삐,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,"AlienRace.AlienBackstoryDef: Milira_Index, AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,Milira_Apparel_Utility,PLAMilira_Apparel_IndexConsole
+유도 신호기,Milira:Wings of Democracy,,,,궤도 상인 구매,,,Manufactured,PLAMilira_HarrierBallModel
+이럽터,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_Plasma_Eruptor
+"이온 경기관총 ""스털워트""",Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_Stalwart
+이온 레일건 RS-422,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,PLAMilira_RailGun
+이중 자유 DBS-2,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,,,WeaponsRanged,PLAMilira_DBS
+일기장 조각 1,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_A
+일기장 조각 10,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_J
+일기장 조각 2,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_B
+일기장 조각 3,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_C
+일기장 조각 4,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_D
+일기장 조각 5,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_E
+일기장 조각 6,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_F
+일기장 조각 7,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_G
+일기장 조각 8,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_H
+일기장 조각 9,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: PLAMilira_Student_Site,,Milira_InformationLetter,PLAMilira_QuestLetter_Skuld_Student_I
+"천살성검 ""아라야""",Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsMelee,PLAMilira_Alaya
+파쇄 해머 CQC-20,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,,,WeaponsMelee,PLAMilira_BreachingHammer
+파일: 균열 5486,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_VI_II,,Milira_InformationLetter,PLAMilira_InformationLetterIX_Naglfar
+파일: 균열 5490,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_VI_III,,Milira_InformationLetter,PLAMilira_InformationLetterX_Naglfar
+파일: 밀리라 5326,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_II,,Milira_InformationLetter,PLAMilira_InformationLetterI_Naglfar
+파일: 밀리라 5394,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_II,,Milira_InformationLetter,PLAMilira_InformationLetterII_Naglfar
+파일: 밀리라 5405,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_III,,Milira_InformationLetter,PLAMilira_InformationLetterIII_Naglfar
+파일: 밀리라 5414,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_III,,Milira_InformationLetter,PLAMilira_InformationLetterIV_Naglfar
+파일: 밀리라 5424,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_IV,,Milira_InformationLetter,PLAMilira_InformationLetterV_Naglfar
+파일: 밀리라 5449,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_IV,,Milira_InformationLetter,PLAMilira_InformationLetterVI_Naglfar
+파일: 밀리라 5464,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_V,,Milira_InformationLetter,PLAMilira_InformationLetterVII_Naglfar
+플라즈마 럼블러포,Milira:Wings of Democracy,제작 가능,태양 용광로,,,,,WeaponsRanged,Milira_Rumbler_Splitting
+피 묻은 파일: 배신 5486,Milira:Wings of Democracy,,,,궤도 상인 구매,PrefabDef: Naglfar_VI_I,,Milira_InformationLetter,PLAMilira_InformationLetterVIII_Naglfar
+휴대용 영사기,Milira:Wings of Democracy,,,,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,Milira_Apparel_Utility,Milira_DropProjectionNodePack
+휴대용 크레이돌 통신기,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,Milira_Apparel_Utility,PLAMilira_Apparel_PortableConsole
+휴대용 하늘깃털 교회 통신기,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,궤도 상인 구매,"AlienRace.ThingDef_AlienRace: Dragonian_Prime_DP2Unofficial, AlienRace.ThingDef_AlienRace: Dragonian_Race, AlienRace.ThingDef_AlienRace: Milian_Race, AlienRace.ThingDef_AlienRace: Milira_Race",,Milira_Apparel_Utility,PLAMilira_Apparel_Church_PortableConsole
+흑체 복사 챔버,Milira:Wings of Democracy,제작 가능,밀리라 범용 작업대,,,퀘스트·보상: PLAMilira_Order,,Manufactured,PLAMilira_SolarCrystalReactor
+고송결,MoeLotl Faction Expand,,,,궤도 상인 구매,,,Axolotl_Book_Cult_Rock,Axolotl_Book_WitheringAndBlooming
+모에로틀 격세 가면,MoeLotl Faction Expand,제작 가능,"전기 단조 작업대, 단조 작업대",,적 장비 노획,"AlienRace.ThingDef_AlienRace: Axolotl, 아이템 사용·개봉: 모에로틀 구유 외투, 아이템 사용·개봉: 모에로틀 적괴 영의",,Axolotl_ArmorHeadgear,Axolotl_VeilOfWorldsApart
+모에로틀 구유 외투,MoeLotl Faction Expand,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,"AlienRace.ThingDef_AlienRace: Axolotl, 능력·유전자: Hediff_ForceWearAfterDelay_Luoyan, 아이템 사용·개봉: 모에로틀 격세 가면, 아이템 사용·개봉: 모에로틀 적괴 영의",,Axolotl_LotlQiApparel,Axolotl_ScarletGarment
+모에로틀 구혼번,MoeLotl Faction Expand,제작 가능,"전기 단조 작업대, 단조 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_BluntWeapon,Axolotl_SoulreaperPennon
+모에로틀 도철 가면,MoeLotl Faction Expand,제작 가능,"전기 단조 작업대, 단조 작업대",,적 장비 노획,아이템 사용·개봉: 모에로틀 도철 전갑,,Axolotl_ArmorHeadgear,Axolotl_All-DevouringMask
+모에로틀 도철 전갑,MoeLotl Faction Expand,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,아이템 사용·개봉: 모에로틀 도철 가면,,Axolotl_LotlQiApparel,Axolotl_TaotieWarplate
+모에로틀 동전검,MoeLotl Faction Expand,제작 가능,"전기 단조 작업대, 단조 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_BluntWeapon,Axolotl_CopperCoinSword
+모에로틀 왕생복,MoeLotl Faction Expand,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_GarbOfRebirth
+모에로틀 읍혼 외투,MoeLotl Faction Expand,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,"AlienRace.ThingDef_AlienRace: Axolotl, 아이템 사용·개봉: 모에로틀 혈모 철립",,Axolotl_LotlQiApparel,Axolotl_WeepingSpecterRobe
+모에로틀 적괴 영의,MoeLotl Faction Expand,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,"AlienRace.ThingDef_AlienRace: Axolotl, 능력·유전자: Hediff_ForceWearAfterDelay_Luoyan, 아이템 사용·개봉: 모에로틀 격세 가면, 아이템 사용·개봉: 모에로틀 구유 외투",,Axolotl_LotlQiApparel,Axolotl_Nine-hellRobe
+모에로틀 적괴도,MoeLotl Faction Expand,제작 가능,"전기 단조 작업대, 단조 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_SharpWeapon,Axolotl_CrimsonBlade
+모에로틀 타골창,MoeLotl Faction Expand,제작 가능,"전기 단조 작업대, 단조 작업대",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_SharpWeapon,Axolotl_Bone-SpitterSpear
+모에로틀 혈모 철립,MoeLotl Faction Expand,제작 가능,"전기 단조 작업대, 단조 작업대",,적 장비 노획,"AlienRace.ThingDef_AlienRace: Axolotl, 아이템 사용·개봉: 모에로틀 읍혼 외투",,Axolotl_ArmorHeadgear,Axolotl_Crimson-EyeVeil
+악장결,MoeLotl Faction Expand,,,,궤도 상인 구매,,,Axolotl_Book_Cult_Rock,Axolotl_Book_DecayFadesToMistVanishing
+오염된 고기,MoeLotl Faction Expand,,,,적 장비 노획,아이템 사용·개봉: 적혈단,,Axolotl_Speical,Axolotl_BloodIngredient
+적혈단,MoeLotl Faction Expand,제작 가능,모에로틀 제약대,,적 장비 노획,"설비 기능: 통천의, 설비 기능: 통천정",,Axolotl_Speical,Axolotl_CrimsonBloodPill
+고공기,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_TomeOfArtisanExcellence
+공현술,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Outg,Axolotl_Book_BowstringDominionArt
+농경학,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_TreatiseOnAgrarianArts
+뇌정지서 (1권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Thunder,Axolotl_BookThunder_1Level
+뇌정지서 (2권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Thunder,Axolotl_BookThunder_2Level
+뇌정지서 (3권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Thunder,Axolotl_BookThunder_3Level
+뇌정지서 (4권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Thunder,Axolotl_BookThunder_4Level
+뇌정지서 (5권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Thunder,Axolotl_BookThunder_5Level
+모에로틀 간,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_BluntWeapon,Axolotl_Mace
+모에로틀 검,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_SharpWeapon,Axolotl_Sword
+모에로틀 견암 외갑,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_StonecladCloak
+모에로틀 경운 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_LightCloudRobe
+모에로틀 관모,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_BlackGauzeCap
+모에로틀 굉천뢰,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_SpeicalWeapon,Axolotl_ElectromagneticLauncher
+모에로틀 군왕관,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantHeadgear,Axolotl_RegalPlumHeaddress
+모에로틀 군왕복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_RegalPlumRobe
+모에로틀 굴악 영의,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_CragLotlQiGarment
+모에로틀 귀족 바람막이,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_SumptuousWindbreaker
+모에로틀 금수 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_SplendidCape
+모에로틀 금수복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_SplendidDress
+모에로틀 기린총,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotiQiRangedWeapon,Axolotl_PlatinumFirearm
+모에로틀 꼬리,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",QuestEditor_Library.CustomMapDataDef: RM_Map_BigCave,,AnimalProductRaw,Axolotl_DropTail
+모에로틀 꼬리구이,MoeLotl Race,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,FoodMeals,CharredTail
+모에로틀 꼬리파이,MoeLotl Race,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,Axolotl_StargazyPie
+모에로틀 낙양궁,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotiQiRangedWeapon,Axolotl_FallingSunBow
+모에로틀 노예 구속구,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_SlaveAttire
+모에로틀 노예 사슬,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_Necklace
+모에로틀 농민복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_MoeLotlSuit
+모에로틀 도화 영의,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_BlossomLotlQiGarment
+모에로틀 두꺼운 목도리,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_CabledScarf
+모에로틀 만월 비녀,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantHeadgear,Axolotl_MoonHeaddress
+모에로틀 메이드복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_PandaServantAttire
+모에로틀 모피 조끼,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_FurShawl
+모에로틀 묘묘 귀걸이,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_PurrloinHairband
+모에로틀 박묵 가면,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ArmorHeadgear,Axolotl_InkBlackMasks
+모에로틀 박묵 영의,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_InkBlackLotlQiGarment
+모에로틀 박묵 철립,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ArmorHeadgear,Axolotl_InkBlackConicalBambooHat
+모에로틀 반암극,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_SharpWeapon,Axolotl_Rockforge_Halberd
+모에로틀 방한복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ChildApparel,Axolotl_WarmWinterRobe
+모에로틀 백설 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_WhiteSnowRobe
+모에로틀 백화 머리장식,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Axolotl, 능력·유전자: Hediff_ForceWearAfterDelay_YueJian",,Axolotl_Apparel,Axolotl_HundredFlowersHeaddress
+모에로틀 백화 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_BaihuaRobe
+모에로틀 벽영검,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_SharpWeapon,Axolotl_Turquoise_shadow
+모에로틀 보물 주머니,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_CarryingEquipment,Axolotl_TreasurePouch
+모에로틀 보물 표주박,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획","AlienRace.ThingDef_AlienRace: Axolotl, 능력·유전자: Hediff_ForceWearAfterDelay_YueJian",,Axolotl_CarryingEquipment,Axolotl_TreasureGourd
+모에로틀 보호복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 전기 단조 작업대, 단조 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Armor,Axolotl_ProtectiveUnderwear
+모에로틀 복주머니,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_LuckyBellyPocket
+모에로틀 복파 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Armor,Axolotl_TidalWaveRobe
+모에로틀 봉황관,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantHeadgear,Axolotl_PhoenixCrown
+모에로틀 부광복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Armor,Axolotl_LuminousGarment
+모에로틀 부채,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_BluntWeapon,Axolotl_FeatherFan
+모에로틀 비호 가면,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ArmorHeadgear,Axolotl_SwiftTigerWhiteFace
+모에로틀 뿔 머리장식,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Axolotl, 능력·유전자: Hediff_ForceWearAfterDelay_Luoyan",,Axolotl_Apparel,Axolotl_MoeLotlHorns
+모에로틀 사냥복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_HunterClothes
+모에로틀 사우 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_ClearFeatherCloak
+모에로틀 상한 영의,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_FrostyLotlQiGarment
+모에로틀 속옷,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_IntimateUndergarment
+모에로틀 알,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,AnimalProductRaw,Axolotl_Egg
+모에로틀 연노,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotiQiRangedWeapon,Axolotl_MoeLotlCrossBow_Basic
+모에로틀 염황 어갑,MoeLotl Race,제작 가능,조립 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_PowerArmor,Axolotl_FlameVermilionBirdArmour
+모에로틀 염황관,MoeLotl Race,제작 가능,조립 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_PowerArmor,Axolotl_FlameVermilionBirdCrown
+모에로틀 염황활도,MoeLotl Race,제작 가능,조립 작업대,,,"AlienRace.ThingDef_AlienRace: Axolotl, 능력·유전자: Axolotl_InstantChop",,Axolotl_SharpWeapon,Axolotl_Flame_VermilionBird_Machete
+모에로틀 영일 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_SunlitRobe
+모에로틀 영학 영의,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_CraneSongLotlQiGarment
+모에로틀 용상모,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ChildApparel,Axolotl_DragonFortuneHat
+모에로틀 우령 가면,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantHeadgear,Axolotl_PlumageEyeCover
+모에로틀 운경 어갑,MoeLotl Race,제작 가능,조립 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_PowerArmor,Axolotl_CelestialWhaleArmour
+모에로틀 운경관,MoeLotl Race,제작 가능,조립 작업대,,궤도 상인 구매,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_PowerArmor,Axolotl_CelestialWhaleCrown
+모에로틀 월계복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획","AlienRace.ThingDef_AlienRace: Axolotl, 능력·유전자: Hediff_ForceWearAfterDelay_Luoyan, 능력·유전자: Hediff_ForceWearAfterDelay_YueJian",,Axolotl_Armor,Axolotl_LaurelUnderwear
+모에로틀 윤건,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantHeadgear,Axolotl_SilkRibbonTurban
+모에로틀 응준 연노,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotiQiRangedWeapon,Axolotl_MoeLotlCrossBow_Advanced
+모에로틀 자수 목도리,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantHeadgear,Axolotl_EmbroideredScarf
+모에로틀 잠옷,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_SilkPyjamas
+모에로틀 적록 가면,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ArmorHeadgear,Axolotl_RedAntlerNoodle
+모에로틀 전정화도,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_SharpWeapon,Axolotl_IndigoFlower
+모에로틀 전풍검,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_SharpWeapon,Axolotl_WindWrappingSword
+모에로틀 제운복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_CloudRobe
+모에로틀 차이나드레스,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_SilkCheongsam
+모에로틀 철퇴,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_BluntWeapon,Axolotl_Hammer
+모에로틀 청운 영의,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_VerdantLotlQiGarment
+모에로틀 체크무늬 목도리,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_PlaidScarf
+모에로틀 취묵 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_InkGatheringRobe
+모에로틀 치령관,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantHeadgear,Axolotl_Pheasant-PlumeCoronet
+모에로틀 치염 영의,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_FlameLotlQiGarment
+모에로틀 탁지 연노,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotiQiRangedWeapon,Axolotl_MoeLotlCrossBow_Intermediate
+모에로틀 파진 연노,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotiQiRangedWeapon,Axolotl_BattlebreakerCrossbow
+모에로틀 판다 머리장식,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_PandaHeaddress
+모에로틀 판다 잠옷,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_PandaPajamas
+모에로틀 평민복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_CasualWear
+모에로틀 학자복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_ScholarGarb
+모에로틀 한해운경포,MoeLotl Race,제작 가능,조립 작업대,,,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_RangedWeapon,Axolotl_VastSeaCelestialWhaleCannon
+모에로틀 행낭,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,"Axolotl_Apparel, Axolotl_CarryingEquipment",Axolotl_MoeLotlBackpack
+모에로틀 형향 외투,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_FragrantSleeves
+모에로틀 호심경,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Armor,Axolotl_HeartwardMirrorplate
+모에로틀 혼례복,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ElegantApparel,Axolotl_AfterglowMarriageRobe
+모에로틀 홍사 머리장식,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_RedSilkHairband
+모에로틀 흑금총,MoeLotl Race,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotiQiRangedWeapon,Axolotl_BlackGoldFirearm
+무량보,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Ligt,Axolotl_Book_BoundlessCloudTread
+반암지서 (1권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Rock,Axolotl_BookRock_1Level
+반암지서 (2권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Rock,Axolotl_BookRock_2Level
+반암지서 (3권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Rock,Axolotl_BookRock_3Level
+반암지서 (4권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Rock,Axolotl_BookRock_4Level
+반암지서 (5권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Rock,Axolotl_BookRock_5Level
+백화지서 (1권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Flower,Axolotl_BookFlower_1Level
+백화지서 (2권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Flower,Axolotl_BookFlower_2Level
+백화지서 (3권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Flower,Axolotl_BookFlower_3Level
+백화지서 (4권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Flower,Axolotl_BookFlower_4Level
+백화지서 (5권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Flower,Axolotl_BookFlower_5Level
+벽영결,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Outg,Axolotl_Book_JadeShadowArt
+본초강목,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_GrandHerbal
+상군서,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_ScrollOfMercantileStratagems
+석공책,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_StoneworkerStratagem
+선천강기,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Ment,Axolotl_Book_PrimalQiMethod
+시부경,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_CanonOfPoeticHarmony
+신행천리,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Ligt,Axolotl_Book_Thousand-LeagueDivineStride
+야주진전,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_AnnalsOfTheForge
+양금원단,MoeLotl Race,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,Textiles,Axolotl_Silk
+어검결,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Outg,Axolotl_Book_SwordParryArt
+어구시,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_AnglerOde
+연심법,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Ment,Axolotl_Book_BlazingHeartSutra
+엽양 고기,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",종족·동물 부산물: 엽양,,PlantFoodRaw,Axolotl_LeafSheep_LeafMeat
+엽양 젤리,MoeLotl Race,,,,"궤도 상인 구매, 동물 도축, 동물 부산물, 상인 구매",종족·동물 부산물: 엽양,,AnimalProductRaw,Axolotl_LeafSheep_Gel
+엽화떡,MoeLotl Race,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,Axolotl_LeafFlowerJelly
+오곡학,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_ClassicOfCereals
+옥경분,MoeLotl Race,제작 가능,모에로틀 제약대,,궤도 상인 구매,,,Axolotl_Speical,Axolotl_JadeEssencePowder
+운기단,MoeLotl Race,,,,,"설비 기능: 통천의, 설비 기능: 통천정",,Axolotl_Speical,Axolotl_LotlqiPellet
+운기단 반죽,MoeLotl Race,제작 가능,모에로틀 제약대,,적 장비 노획,아이템 사용·개봉: 운기단,,Axolotl_Speical,Axolotl_ingredient
+운래종,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Ligt,Axolotl_Book_PhantomCloudTrace
+원류지서 (1권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Water,Axolotl_BookWater_1Level
+원류지서 (2권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Water,Axolotl_BookWater_2Level
+원류지서 (3권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Water,Axolotl_BookWater_3Level
+원류지서 (4권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Water,Axolotl_BookWater_4Level
+원류지서 (5권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Water,Axolotl_BookWater_5Level
+이물지,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_BestiaryOfCuriousCreatures
+작염지서 (1권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Fire,Axolotl_BookFire_1Level
+작염지서 (2권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Fire,Axolotl_BookFire_2Level
+작염지서 (3권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Fire,Axolotl_BookFire_3Level
+작염지서 (4권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Fire,Axolotl_BookFire_4Level
+작염지서 (5권),MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Level_Fire,Axolotl_BookFire_5Level
+조연제,MoeLotl Race,제작 가능,기계 작업대,,"궤도 상인 구매, 상인 구매","아이템 사용·개봉: 모에로틀 염황 어갑, 아이템 사용·개봉: 모에로틀 운경 어갑",,Axolotl_Speical,Axolotl_ArmorJumpFuel
+지수법,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Ment,Axolotl_Book_StillWaterSutra
+축세결,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Outg,Axolotl_Book_PowerAccumulationArt
+취기요결,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Ment,Axolotl_Book_BreathingMethod
+취옥죽,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매, 설비 생산: 토양 수경재배 상자, 재배·채집","설비 기능: 토양 수경재배 상자, 식물: 취옥죽",,ResourcesRaw,Axolotl_Bamboo
+태학경,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_ClassicOfErudition
+통천정 핵,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Speical,Axolotl_CoreOfHeavenReachingCauldron
+황제내경,MoeLotl Race,,,,"궤도 상인 구매, 상인 구매",,,Axolotl_Book_Auxi,Axolotl_Book_InnerCanon
+회맥단,MoeLotl Race,,,,,"설비 기능: 통천의, 설비 기능: 통천정",,Axolotl_Speical,Axolotl_ReversalMeridianPill
+회맥단 반죽,MoeLotl Race,제작 가능,모에로틀 제약대,,적 장비 노획,아이템 사용·개봉: 회맥단,,Axolotl_Speical,Axolotl_herbsIngredient
+"""심연""",MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,,,,Axolotl_TaoistArtifact,RM_BlackWound
+계혈 묵두,MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,궤도 상인 구매,,,Axolotl_TaoistArtifact,RM_ChickenBloodInkFountain
+금색 부적,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기",,,,,Axolotl_TaoistArtifact,RM_GoldIncantation
+녹강시의 꼬리,MoeLotl: Rigor Mortis,,,,,,,AnimalProductRaw,AxoZombieTailC
+닭 피,MoeLotl: Rigor Mortis,,,,"궤도 상인 구매, 상인 구매",,,Items,RM_ChickenBlood
+도금 무장 도구,MoeLotl: Rigor Mortis,제작 가능,조립 작업대,,,,,ItemsMisc,RM_GoldPlatedArmsKit
+모강시의 꼬리,MoeLotl: Rigor Mortis,,,,,,,AnimalProductRaw,AxoZombieTailD
+모에로틀 도포,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매, 적 장비 노획",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_TaoistRobe
+모에로틀 명혼사,MoeLotl: Rigor Mortis,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_GhostWeddingVeil
+모에로틀 명혼포,MoeLotl: Rigor Mortis,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_GhostWeddingRobe
+모에로틀 백무상 모자,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_WhiteImpermanenceHat
+모에로틀 백무상 치마,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_WhiteImpermanenceSkirt
+모에로틀 벼락 맞은 부도목검,MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,,,,Axolotl_TaoistArtifact,RM_LigtningStruckWoodSword
+모에로틀 부도목검,MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,,,,Axolotl_TaoistArtifact,RM_PeachWoodSword
+모에로틀 부적 쇠뇌,MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,,,,Axolotl_TaoistArtifact,RM_IncantationCrossbow
+모에로틀 붙임 부적,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_IncantationPatch
+모에로틀 상모,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_FuneralHat
+모에로틀 상복,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_FuneralAttire
+모에로틀 선글라스,MoeLotl: Rigor Mortis,,,,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_Sunglasses
+모에로틀 야막사,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_NightGauze
+모에로틀 종사 도포,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매","AlienRace.ThingDef_AlienRace: Axolotl, 능력·유전자: Hediff_ForceWearAfterDelay_YueJian",,Axolotl_LotlQiApparel,Axolotl_TaoistMasterRobe
+모에로틀 찹쌀 주머니,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기",,,,,Axolotl_TaoistArtifact,RM_StickyRiceBag
+모에로틀 흑무상 모자,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_BlackImpermanenceHat
+모에로틀 흑무상 치마,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,적 장비 노획,AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_BlackImpermanenceSkirt
+묵두,MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,궤도 상인 구매,,,Axolotl_TaoistArtifact,RM_InkFountain
+백강시의 꼬리,MoeLotl: Rigor Mortis,,,,,,,AnimalProductRaw,AxoZombieTailB
+벌레 피,MoeLotl: Rigor Mortis,,,,"궤도 상인 구매, 상인 구매",,,Items,RM_InsectBlood
+벼락맞은 부도목,MoeLotl: Rigor Mortis,,,,재배·채집,식물: 벼락맞은 부도목,,ResourcesRaw,RM_LightningStruckWood
+부도목,MoeLotl: Rigor Mortis,,,,"궤도 상인 구매, 상인 구매, 재배·채집","QuestEditor_Library.CustomMapDataDef: RM_Map_TaoistBase, 식물: 부도목",,ResourcesRaw,RM_AxoPeachWood
+불화골,MoeLotl: Rigor Mortis,,,,"궤도 상인 구매, 상인 구매","QuestEditor_Library.CustomMapDataDef: RM_Map_TaoistBase, 아이템 사용·개봉: 야차진주",,Manufactured,RM_UnrottenBone
+비강시의 꼬리,MoeLotl: Rigor Mortis,,,,,,,AnimalProductRaw,AxoZombieTailE
+야차진주,MoeLotl: Rigor Mortis,,,,,설비 기능: 통천정,,Axolotl_Speical,Axolotl_YakshaPearl
+연꽃등,MoeLotl: Rigor Mortis,,,,,,,Axolotl_TaoistArtifact,RM_LotusLantern
+오행 나침반,MoeLotl: Rigor Mortis,,,,,설비 기능: 오행 나침반,,Axolotl_TaoistArtifact,RM_FiveElementCompass
+원불어,MoeLotl: Rigor Mortis,,,,,,,ItemsMisc,RM_MoelotlNotSpeak
+일식 연지,MoeLotl: Rigor Mortis,제작 가능,모에로틀 제약대,,,,,ItemsMisc,RM_SunBlockingRouge
+자강시의 꼬리,MoeLotl: Rigor Mortis,,,,"궤도 상인 구매, 상인 구매",QuestEditor_Library.CustomMapDataDef: RM_Map_BigCave,,AnimalProductRaw,AxoZombieTailA
+자괴목,MoeLotl: Rigor Mortis,,,,"궤도 상인 구매, 상인 구매, 재배·채집","QuestEditor_Library.CustomMapDataDef: RM_Map_TaoistBase, 식물: 거대 자괴목, 식물: 자괴목",,ResourcesRaw,RM_OvercastWood
+자괴목 괴뢰,MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,궤도 상인 구매,QuestEditor_Library.CustomMapDataDef: RM_Map_TaoistBase,,Axolotl_TaoistArtifact,RM_OvercastWoodGolem
+자색 부적,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기",,,,,Axolotl_TaoistArtifact,RM_PurpleIncantation
+초혼 방울,MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,궤도 상인 구매,,,Axolotl_TaoistArtifact,RM_SoulChanterBell
+팔괘경,MoeLotl: Rigor Mortis,제작 가능,"전기 단조 작업대, 단조 작업대",,궤도 상인 구매,,,Axolotl_TaoistArtifact,RM_BaguaMirror
+풍우 영기,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기",,,,,Axolotl_TaoistArtifact,RM_FlagWindRain
+피 묻은 책,MoeLotl: Rigor Mortis,,,,,,,ItemsMisc,RM_BloodPage
+황색 부적,MoeLotl: Rigor Mortis,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기",,"궤도 상인 구매, 상인 구매",,,Axolotl_TaoistArtifact,RM_YellowIncantation
+공포파동 발생장치,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,Artifacts,MAG_PsychicSpookPulser
+끓이지 않은 초월계 수프,More Archotech Garbage (Continued),제작 가능,초월공학 스토브,,,,,VCE_UncookedSoups,MAG_UncookedArchotechSoup
+정신력 킬 스위치,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,DeathArtifact
+정신력 포섭기,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,RecruitArtifact
+정신안정 창,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,MentalResetArtifact
+정신압박기,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,Artifacts,PsychicSpookPulser
+정신영감 창,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,InspireArtifact
+정신정지 창,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,StasisArtifact
+정신충전 창,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,PsyrestoreArtifact
+정신치료 창,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,HealAndStuffArtifact
+정신파 동물 훈련기,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,TrainingArtifact
+초능력 보호막 파동기,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,Artifacts,MAG_GuardianPulser
+초월계 고기,More Archotech Garbage (Continued),제작 가능,"초월공학 작업대, 초월공학 스토브",,"궤도 상인 구매, 상인 구매, 설비 생산: 초월공학 조리기",설비 기능: 초월공학 조리기,,MeatRaw,SuperDuperArchoMeat
+초월계 덩어리,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매, 설비 생산: 대형 초월공학 복제기, 설비 생산: 소형 초월공학 복제기, 설비 생산: 중형 초월공학 복제기, 설비 생산: 초월공학 복제기, 파괴 시 잔해","설비 기능: 대형 초월공학 복제기, 설비 기능: 소형 초월공학 복제기, 설비 기능: 중형 초월공학 복제기, 설비 기능: 초월공학 복제기, 설비 기능: 초월연결체 충전 기둥 I, 설비 기능: 초월연결체 충전 기둥 II, 설비 기능: 초월연결체 충전 기둥 III",,ResourcesRaw,archotechmatteraddingsomecraptoavoidproblems
+초월계 빵,More Archotech Garbage (Continued),제작 가능,초월공학 스토브,,"궤도 상인 구매, 상인 구매",,,FoodMeals,MAG_ArchotechBake
+초월계 수프,More Archotech Garbage (Continued),,,,"궤도 상인 구매, 상인 구매",PipeSystem.ProcessDef: MAG_ArchotechSoupRecipe,,FoodMeals,MAG_ArchotechSoup
+초월계 식물성 물질,More Archotech Garbage (Continued),제작 가능,"초월공학 작업대, 초월공학 스토브",,"궤도 상인 구매, 상인 구매, 설비 생산: 초월공학 조리기",설비 기능: 초월공학 조리기,,PlantFoodRaw,SuperDuperArchoPlant
+초월계 약품,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,Medicine,ArchotechishMedicine
+초월계 직화구이,More Archotech Garbage (Continued),제작 가능,초월공학 스토브,,"궤도 상인 구매, 상인 구매",,,FoodMeals,MAG_archotechgrill
+초월계 축산물,More Archotech Garbage (Continued),제작 가능,"초월공학 작업대, 초월공학 스토브",,"궤도 상인 구매, 상인 구매, 설비 생산: 초월공학 조리기",설비 기능: 초월공학 조리기,,AnimalProductRaw,ArchotechMilkEggThing
+초월계 치즈,More Archotech Garbage (Continued),,,,"궤도 상인 구매, 상인 구매",PipeSystem.ProcessDef: MAG_ArchotechCheeseRecipe,,AnimalProductRaw,MAG_ArchotechCheese
+초월계 파편,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매, 설비 생산: 대형 초월공학 복제기, 설비 생산: 소형 초월공학 복제기, 설비 생산: 중형 초월공학 복제기, 설비 생산: 초월공학 복제기, 파괴 시 잔해","설비 기능: 대형 초월공학 복제기, 설비 기능: 불안정한 발전기, 설비 기능: 소형 초월공학 복제기, 설비 기능: 정신 억제기, 설비 기능: 정신 파동 방출기, 설비 기능: 중형 초월공학 복제기, 설비 기능: 초월공학 복제기, 설비 기능: 초월연결체 충전 기둥 I, 설비 기능: 초월연결체 충전 기둥 II, 설비 기능: 초월연결체 충전 기둥 III",,ResourcesRaw,ArchotechScrap
+초월계 향신료,More Archotech Garbage (Continued),제작 가능,초월공학 스토브,,"궤도 상인 구매, 상인 구매, 설비 생산: 초월공학 조리기",설비 기능: 초월공학 조리기,,VCE_Condiments,ArchoNutVial
+초월계 후식,More Archotech Garbage (Continued),제작 가능,초월공학 스토브,,"궤도 상인 구매, 상인 구매",,,FoodMeals,MAG_ArchotechDessert
+초월공학 부활기,More Archotech Garbage (Continued),제작 가능,초월공학 작업대,,,,,Items,MechSerumResurrectorButBetter
+초월공학 사료,More Archotech Garbage (Continued),제작 가능,초월공학 스토브,,"궤도 상인 구매, 설비 생산: 초월공학 조리기",설비 기능: 초월공학 조리기,,Foods,MAG_Archotech_Kibble
+초월공학 식사,More Archotech Garbage (Continued),제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,MealArchoAdvanced
+초월공학 육식주의 식사,More Archotech Garbage (Continued),제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,MealArchoAdvanced_Carni
+초월공학 채식주의 식사,More Archotech Garbage (Continued),제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,MealArchoAdvanced_Veg
+초월연결체 열쇠 I,More Archotech Garbage (Continued),,,,파괴 시 잔해,설비 기능: 초월연결체 충전 기둥 I,,Items,MAG_ArchonexusCore_One
+초월연결체 열쇠 II,More Archotech Garbage (Continued),,,,파괴 시 잔해,설비 기능: 초월연결체 충전 기둥 II,,Items,MAG_ArchonexusCore_Two
+초월연결체 열쇠 III,More Archotech Garbage (Continued),,,,파괴 시 잔해,설비 기능: 초월연결체 충전 기둥 III,,Items,MAG_ArchonexusCore_Three
+푸푸 깜짝 상자,Mya's fufu,,,,궤도 상인 구매,,,Items,MyaFufuBox
+분쇄석,OP 편의 기능 모음 (OP Convenience),제작 가능,전기로,,궤도 상인 구매,,,Manufactured,OPC_CrushedStone
+드래곤 비늘,Optimization: Leathers - C# Edition,,,,,,,ResourcesRaw,Leather_DragonScale
+전설적인 가죽,Optimization: Leathers - C# Edition,,,,"궤도 상인 구매, 상인 구매",,,Leathers,Leather_Legend
+키틴,Optimization: Leathers - C# Edition,,,,"궤도 상인 구매, 상인 구매",,,Leathers,Leather_Chitin
+드라고니안 불사조 보주,Phoenix Orb for Gloomy Dragonian,제작 가능,"전기 재봉 작업대, 재봉 작업대",,,AlienRace.ThingDef_AlienRace: Dragonian_Race,,DRApparel,DR_PhoenixOrb
+방탄 유리,ReBuild: Doors and Corners,제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,,Manufactured,RB_BallisticGlass
+유리,ReBuild: Doors and Corners,제작 가능,전기로,,궤도 상인 구매,,,Manufactured,RB_Glass
+등선형 계산 모듈,Replimat,,,,"궤도 상인 구매, 상인 구매",,,Manufactured,IsolinearModule
+합성 고기,Replimat,,,,,,,MeatRaw,Replimat_Synthmeat
+왕복선 통신기,Rimsential - Spaceports (Continued),제작 가능,기계 작업대,,"궤도 상인 구매, 상인 구매",,,ApparelUtility,Apparel_ShuttleComm
+초월공학 왕복선 제작기,Rimsential - Spaceports (Continued),제작 가능,초월공학 작업대,,"궤도 상인 구매, 상인 구매",,,Artifacts,Apparel_ArchoShuttle
+꿀폭탄 사과,Silversol's Azurtrail,,,,"궤도 상인 구매, 상인 구매",능력·유전자: HoneywingO1,,PlantFoodRaw,HoneybombA
+아주르트레일 서브코어,Silversol's Azurtrail,,,,"궤도 상인 구매, 도축·분해, 상인 구매","종족·동물 부산물: 대거 레이븐, 종족·동물 부산물: 아주르트레일",,Manufactured,SubcoreAzur
+파이어미션 카트리지,Silversol's Azurtrail,제작 가능,기계 작업대,,궤도 상인 구매,"능력·유전자: RaidravenO1, 능력·유전자: RaidravenO2, 능력·유전자: RaidravenO3",,Manufactured,Firekit
+구원의 카트리지,Silversol's Magna Fortress,제작 가능,기계 작업대,,궤도 상인 구매,능력·유전자: Viviansalv,,Manufactured,salvationkit
+근접 항공 지원 제어기,Silversol's Magna Fortress,,,,,,,,maidCAS_Controller
+눈 생성기,Silversol's Magna Fortress,,,,,,,,SV_SnowSpawner
+모건의 신호기,Silversol's Magna Fortress,,,,,,,,MorganStageChip
+빔 레이저,Silversol's Magna Fortress,,,,"궤도 상인 구매, 적 장비 노획",,,WeaponsRanged,Gun_MagLaser
+크라운 코드,Silversol's Magna Fortress,,,,,,,,CrownCode
+라이언하트 코어,Silversol's SortieLion,,,,"궤도 상인 구매, 도축·분해, 상인 구매","종족·동물 부산물: 솔티 버스터, 종족·동물 부산물: 솔티라이언",,Manufactured,Subcorelion
+솟구치는 바위,Silversol's SortieLion,,,,,능력·유전자: ArondightWallrise,,,ArondightWallDelaySpawner
+비비안 스페셜,Silversol's Steelvivian,제작 가능,"조립 작업대, 기계 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsRanged,Gun_VivianSpecial
+비비안 어펜드,Silversol's Steelvivian,제작 가능,"조립 작업대, 전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매",,,WeaponsMelee,VivianAppend
+스틸비비안 서브코어,Silversol's Steelvivian,,,,"궤도 상인 구매, 도축·분해, 상인 구매",종족·동물 부산물: 스틸비비안,,Manufactured,Subcorevivian
+스톰마린 서브코어,Silversol's Stormmarina,제작 가능,서브코어 부호기,,"궤도 상인 구매, 상인 구매",,,Manufactured,SubcoreMarina
+스톰마린 포드,Silversol's Stormmarina,,,,,설비 기능: 스톰마린 포드,,,ActiveDropPodMarina
+포뮬러 서브코어,Silversol's Stormmarina,,,,,설비 기능: 포뮬러 콘솔,,Manufactured,SubcoreFormula
+하이튠 서브코어,Silversol's Stormmarina,,,,,설비 기능: 하이튠 콘솔,,Manufactured,SubcoreHightune
+비비안 커스텀,Silversol's maidnoid,제작 가능,기계 작업대,,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsRanged,Vivian_Custom
+포터라인 카트리지,Silversol's maidnoid,제작 가능,기계 작업대,,"궤도 상인 구매, 파괴 시 잔해","종족·동물 부산물: 스위프터, 종족·동물 부산물: 포터라인",,Manufactured,Gracekit
+모에로틀 날개 깃털 옷,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_FeatherStarRobe
+모에로틀 망토,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_Cape
+모에로틀 무지개 재킷 A,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_NeonJacketA
+모에로틀 무지개 재킷 B,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_NeonJacketB
+모에로틀 백룡 모자,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_WhiteDragonHat
+모에로틀 백룡 후드티,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_WhiteDragonHoodie
+모에로틀 분홍 스웨터,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_PinkSweater
+모에로틀 붉은 두건,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_RedHood
+모에로틀 붉은 망토,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_RedCape
+모에로틀 삼색이 망토,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_KittyRope
+모에로틀 성직자 의복,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_ClergyUniform
+모에로틀 어두운 속옷,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_RedHoodUnderwear
+모에로틀 어린이 소박한 옷,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ChildApparel,Axolotl_SimpleChildCloth
+모에로틀 어린이 야광룡 모자,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ChildApparel,Axolotl_NightLightHat
+모에로틀 어린이 야광룡 후드티,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ChildApparel,Axolotl_NightLightHoodie
+모에로틀 운석 영의,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,Axolotl_MeteoriteQiGarment
+모에로틀 유아 알록달록 스웨터,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ChildApparel,Axolotl_RainbowSweater
+모에로틀 유아 우비,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ChildApparel,Axolotl_Raincoat
+모에로틀 유아 우비 모자,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_ChildApparel,Axolotl_RaincoatHat
+모에로틀 쥐 인형옷,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_RatCostume
+모에로틀 쥐 인형탈,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_RatCostumeHat
+모에로틀 패딩,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_Yurongfu
+모에로틀 흑룡 모자,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_BlackDragonHat
+모에로틀 흑룡 후드티,SomeMoelotlApparel,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,Axolotl_BlackDragonHoodie
+모에로틀 구름 셔츠,TAWM's MoeLotl,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,TAWM_Axolotl_QingFeng
+모에로틀 밤 로브,TAWM's MoeLotl,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_LotlQiApparel,TAWM_Axolotl_MuLan
+모에로틀 별 머리장식,TAWM's MoeLotl,제작 가능,"전기 재봉 작업대, 재봉 작업대, 모에로틀 방직기, 모에로틀 기계 방직기",,"궤도 상인 구매, 상인 구매",AlienRace.ThingDef_AlienRace: Axolotl,,Axolotl_Apparel,TAWM_Axolotl_LingXing
+고급 약초,VV - New Harvest: Medicinal Plants,제작 가능,"약물 연구대, 간이 제작 장소",,"궤도 상인 구매, 상인 구매",,,Medicine,VV_AdvancedHerbalMedicine
+금잔화(카렌듈라) 꽃,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 금잔화(카렌듈라) 식물,,PlantMatter,VV_CalendulaBlossoms
+라벤더 꽃,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 라벤더 식물,,PlantMatter,VV_LavenderBlossoms
+레몬밤 잎,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 레몬밤 식물,,PlantMatter,VV_LemonBalmLeaves
+린덴 꽃,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 린덴 나무,,PlantMatter,VV_LindenBlossoms
+린덴 차,VV - New Harvest: Medicinal Plants,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,Drugs,VV_LindenTea
+마시멜로 뿌리,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 마시멜로 식물,,PlantMatter,VV_MarshmallowRoots
+발레리안(쥐오줌풀) 달인 물,VV - New Harvest: Medicinal Plants,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,Drugs,VV_ValerianDecoction
+발레리안(쥐오줌풀) 뿌리,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 발레리안(쥐오줌풀) 식물,,PlantMatter,VV_ValerianRoots
+산사나무 열매,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 산사나무,,PlantFoodRaw,VV_HawthornBerries
+서양톱풀 꽃,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 서양톱풀 식물,,PlantMatter,VV_YarrowBlossoms
+세인트 존스 워트 꽃,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 세인트 존스 워트 식물,,PlantMatter,VV_StJohnsWortBlossoms
+쐐기풀 잎,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 쐐기풀 식물,,PlantFoodRaw,VV_NettleLeaves
+쑥 달임약,VV - New Harvest: Medicinal Plants,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,Drugs,VV_WormwoodDecoction
+쑥 잎,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 쑥,,PlantMatter,VV_WormwoodLeaves
+에키네시아 꽃,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 에키네시아 식물,,PlantMatter,VV_EchinaceaBlossoms
+에키네시아 달인 물,VV - New Harvest: Medicinal Plants,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,Drugs,VV_EchinaceaDecoction
+은행나무 차,VV - New Harvest: Medicinal Plants,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,Drugs,VV_GinkgoTea
+은행잎,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 은행나무,,PlantMatter,VV_GinkgoLeaves
+인삼 달인 물,VV - New Harvest: Medicinal Plants,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,Drugs,VV_GinsengDecoction
+인삼 뿌리,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 인삼 식물,,PlantMatter,VV_GinsengRoots
+진정 약초 연고,VV - New Harvest: Medicinal Plants,제작 가능,"약물 연구대, 간이 제작 장소",,"궤도 상인 구매, 상인 구매",,,Medicine,VV_SoothingHerbalOintment
+캐모마일 꽃,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 캐모마일 식물,,PlantMatter,VV_ChamomileBlossoms
+캐모마일 차,VV - New Harvest: Medicinal Plants,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,Drugs,VV_ChamomileTea
+타임 잎,VV - New Harvest: Medicinal Plants,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 타임 식물,,PlantMatter,VV_ThymeLeaves
+타임 차,VV - New Harvest: Medicinal Plants,제작 가능,"전기 스토브, 스토브, 태양 조리대, 모닥불",,"궤도 상인 구매, 상인 구매",,,Drugs,VV_ThymeTea
+회복 약초 연고,VV - New Harvest: Medicinal Plants,제작 가능,"약물 연구대, 간이 제작 장소",,"궤도 상인 구매, 상인 구매",,,Medicine,VV_RestorativeHerbalOintment
+간단한 디저트,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",능력·유전자: VME_MakeADessert,,FoodMeals,VCE_SimpleDessert
+간단한 바베큐,Vanilla Cooking Expanded,제작 가능,그릴,,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_SimpleGrill
+간단한 빵,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_SimpleBake
+간단한 수프,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매","PipeSystem.ProcessDef: MAG_SimpleSoupRecipe, PipeSystem.ProcessDef: VCE_SimpleSoupRecipe",,FoodMeals,VCE_CookedSoupSimple
+고기 통조림,Vanilla Cooking Expanded,제작 가능,통조림 기계,,,설비 기능: 레플리매트 컴퓨터,,"FoodMeals, MeatRaw",VCE_CannedMeat
+고기 튀김,Vanilla Cooking Expanded,제작 가능,튀김기,,,,,"FoodMeals, Foods",VCE_DeepFriedBigMeat
+곤충 젤리 잼,Vanilla Cooking Expanded,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_InsectJellyPreserves
+과일 통조림,Vanilla Cooking Expanded,제작 가능,통조림 기계,,,설비 기능: 레플리매트 컴퓨터,,"FoodMeals, VCE_Fruit",VCE_CannedFruit
+끓이지 않은 간단한 수프,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,,,,VCE_UncookedSoups,VCE_UncookedSoupSimple
+끓이지 않은 미식적인 수프,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,,,,VCE_UncookedSoups,VCE_UncookedSoupGourmet
+끓이지 않은 좋은 수프,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,,,,VCE_UncookedSoups,VCE_UncookedSoupFine
+끓이지 않은 호화로운 수프,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,,,,VCE_UncookedSoups,VCE_UncookedSoupLavish
+달걀 통조림,Vanilla Cooking Expanded,제작 가능,통조림 기계,,,설비 기능: 레플리매트 컴퓨터,,"AnimalProductRaw, FoodMeals",VCE_CannedAP
+마요네즈,Vanilla Cooking Expanded,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_Mayo
+미식적인 디저트,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",능력·유전자: VME_MakeADessert,,FoodMeals,VCE_GourmetDessert
+미식적인 바베큐,Vanilla Cooking Expanded,제작 가능,그릴,,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_GourmetGrill
+미식적인 빵,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_GourmetBake
+미식적인 수프,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매","PipeSystem.ProcessDef: MAG_GourmetSoupRecipe, PipeSystem.ProcessDef: VCE_GourmetSoupRecipe",,FoodMeals,VCE_CookedSoupGourmet
+미식적인 식사,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_MealGourmet
+밀가루,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 밀,,PlantMatter,VCE_Flour
+생선 통조림,Vanilla Cooking Expanded,,,,,설비 기능: 레플리매트 컴퓨터,,"FoodMeals, MeatRaw",VCE_CannedFish
+생선 튀김,Vanilla Cooking Expanded,,,,,,,"FoodMeals, Foods",VCE_DeepFriedFish
+설탕,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 사탕수수,,VCE_Condiments,VCE_RawSugar
+소금,Vanilla Cooking Expanded,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매, 심부 시추",,,VCE_Condiments,VCE_Salt
+식용 부활입자,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매",설비 기능: 레플리매트 컴퓨터,,VCE_Condiments,VCE_DigestibleResurrectorNanites
+식은 간단한 바베큐,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매","설비 기능: 레플리매트 컴퓨터, 아이템 사용·개봉: 간단한 바베큐",,FoodMeals,VCE_RuinedSimpleGrill
+식은 미식적인 바베큐,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매","설비 기능: 레플리매트 컴퓨터, 아이템 사용·개봉: 미식적인 바베큐",,FoodMeals,VCE_RuinedGourmetGrill
+식은 좋은 바베큐,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매","설비 기능: 레플리매트 컴퓨터, 아이템 사용·개봉: 좋은 바베큐",,FoodMeals,VCE_RuinedFineGrill
+식은 호화로운 바베큐,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매","설비 기능: 레플리매트 컴퓨터, 아이템 사용·개봉: 호화로운 바베큐",,FoodMeals,VCE_RuinedLavishGrill
+야채 통조림,Vanilla Cooking Expanded,제작 가능,통조림 기계,,,설비 기능: 레플리매트 컴퓨터,,"FoodMeals, PlantFoodRaw",VCE_CannedProduce
+야채 튀김,Vanilla Cooking Expanded,제작 가능,튀김기,,,,,"FoodMeals, Foods",VCE_DeepFriedVegetables
+연초 버터,Vanilla Cooking Expanded,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_SmokeleafButter
+용설란 시럽,Vanilla Cooking Expanded,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_AgaveNectar
+좋은 디저트,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",능력·유전자: VME_MakeADessert,,FoodMeals,VCE_FineDessert
+좋은 바베큐,Vanilla Cooking Expanded,제작 가능,그릴,,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_FineGrill
+좋은 빵,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_FineBake
+좋은 수프,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매","PipeSystem.ProcessDef: MAG_FineSoupRecipe, PipeSystem.ProcessDef: VCE_FineSoupRecipe",,FoodMeals,VCE_CookedSoupFine
+초콜릿 시럽,Vanilla Cooking Expanded,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_ChocolateSyrup
+치즈,Vanilla Cooking Expanded,,,,,"PipeSystem.ProcessDef: MAG_MilkIntoCheese, PipeSystem.ProcessDef: VCE_JellyIntoCheese, PipeSystem.ProcessDef: VCE_MilkIntoCheese, RoyalTitleDef: Acolyte, RoyalTitleDef: Baron, RoyalTitleDef: Count, RoyalTitleDef: Knight, RoyalTitleDef: Praetor, VEF.Graphics.GraphicOffsets: VCE_CheeseGraphicOffsets, ",,"FoodMeals, VCE_Cheese",VCE_Cheese
+케첩,Vanilla Cooking Expanded,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_Ketchup
+핫소스,Vanilla Cooking Expanded,제작 가능,조미료 작업대,,"궤도 상인 구매, 상인 구매",,,VCE_Condiments,VCE_HotSauce
+향신료,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 올스파이스,,VCE_Condiments,VCE_RawSpices
+호화로운 디저트,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",능력·유전자: VME_MakeADessert,,FoodMeals,VCE_LavishDessert
+호화로운 바베큐,Vanilla Cooking Expanded,제작 가능,그릴,,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_LavishGrill
+호화로운 빵,Vanilla Cooking Expanded,제작 가능,"전기 스토브, 스토브, 태양 조리대",,"궤도 상인 구매, 상인 구매",,,FoodMeals,VCE_LavishBake
+호화로운 수프,Vanilla Cooking Expanded,,,,"궤도 상인 구매, 상인 구매","PipeSystem.ProcessDef: MAG_LavishSoupRecipe, PipeSystem.ProcessDef: VCE_LavishSoupRecipe",,FoodMeals,VCE_CookedSoupLavish
+포장된 꽃,Vanilla Expanded Framework,,,,,,,,VPEF_MinifiedFlower
+육체 조형된 간,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedLiver
+육체 조형된 귀,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedEar
+육체 조형된 눈,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedEye
+육체 조형된 다리,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedLeg
+육체 조형된 발,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedFoot
+육체 조형된 발가락,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedToe
+육체 조형된 손,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedHand
+육체 조형된 손가락,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedFinger
+육체 조형된 신장,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedKidney
+육체 조형된 심장,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedHeart
+육체 조형된 위,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedStomach
+육체 조형된 척추,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedSpine
+육체 조형된 코,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedNose
+육체 조형된 턱,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedJaw
+육체 조형된 팔,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedArm
+육체 조형된 폐,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedLung
+육체 조형된 혀,Vanilla Ideology Expanded - Memes and Structures,,,,,능력·유전자: VME_HarvestBodyParts,,BodyPartsNatural,VME_FleshcraftedTongue
+가지,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집","PipeSystem.ProcessDef: AutoHydroponic_VPEEggplant, PipeSystem.ProcessDef: AutoHydroponic_VPEEggplantSm, 식물: 가지",,PlantFoodRaw,VCE_RawEggplant
+고추,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집","PipeSystem.ProcessDef: AutoHydroponic_VPEPepper, PipeSystem.ProcessDef: AutoHydroponic_VPEPepperSm, 식물: 고추",,PlantFoodRaw,VCE_RawPepper
+말린 자두,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매",설비 기능: 레플리매트 컴퓨터,,VCE_Fruit,VCE_RawPrunes
+바나나,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 바나나 나무,,VCE_Fruit,VCE_RawBanana
+배,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 배 나무,,VCE_Fruit,VCE_RawPear
+백년초,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 백년초,,VCE_Fruit,VCE_RawPricklyPear
+버찌,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 버찌 나무,,VCE_Fruit,VCE_RawCherry
+복숭아,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 복숭아 나무,,VCE_Fruit,VCE_RawPeach
+사과,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 사과 나무,,VCE_Fruit,VCE_RawApple
+사탕무,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집","PipeSystem.ProcessDef: AutoHydroponic_VPEBeet, PipeSystem.ProcessDef: AutoHydroponic_VPEBeetSm, 식물: 사탕무",,PlantFoodRaw,VCE_RawBeets
+양배추,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집","PipeSystem.ProcessDef: AutoHydroponic_VPECabbage, PipeSystem.ProcessDef: AutoHydroponic_VPECabbageSm, 식물: 양배추",,PlantFoodRaw,VCE_RawCabbage
+양파,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집","PipeSystem.ProcessDef: AutoHydroponic_VPEOnion, PipeSystem.ProcessDef: AutoHydroponic_VPEOnionSm, 식물: 양파",,PlantFoodRaw,VCE_RawOnion
+오렌지,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 오렌지 나무,,VCE_Fruit,VCE_RawOrange
+완두콩,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집","PipeSystem.ProcessDef: AutoHydroponic_VPEPeas, PipeSystem.ProcessDef: AutoHydroponic_VPEPeasSm, 식물: 완두콩",,PlantFoodRaw,VCE_RawPeas
+월귤,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 월귤,,VCE_Fruit,VCE_Bearberry
+자두,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집",식물: 자두 나무,,VCE_Fruit,VCE_RawPlum
+토마토,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집","PipeSystem.ProcessDef: AutoHydroponic_VPETomato, PipeSystem.ProcessDef: AutoHydroponic_VPETomatoSm, 식물: 토마토",,PlantFoodRaw,VCE_RawTomatoes
+호박,Vanilla Plants Expanded,,,,"궤도 상인 구매, 상인 구매, 재배·채집","PipeSystem.ProcessDef: AutoHydroponic_VPEPumpkin, PipeSystem.ProcessDef: AutoHydroponic_VPEPumpkinSm, 식물: 호박",,PlantFoodRaw,VCE_RawPumpkin
+엘텍스,Vanilla Psycasts Expanded,,,,"광맥 채굴, 궤도 상인 구매, 제련","설비 기능: 엘텍스 광석, 아이템 사용·개봉: 초능력 반지",,Manufactured,VPE_Eltex
+엘텍스 가면,Vanilla Psycasts Expanded,제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,Headgear,VPE_Apparel_EltexMask
+엘텍스 검,Vanilla Psycasts Expanded,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,VPE_MeleeWeapon_EltexSword
+엘텍스 곤봉,Vanilla Psycasts Expanded,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,VPE_MeleeWeapon_EltexMace
+엘텍스 단검,Vanilla Psycasts Expanded,제작 가능,"전기 단조 작업대, 단조 작업대",,"궤도 상인 구매, 상인 구매, 적 장비 노획",,,WeaponsMelee,VPE_MeleeWeapon_EltexDagger
+엘텍스 망토,Vanilla Psycasts Expanded,제작 가능,"전기 재봉 작업대, 재봉 작업대",,"궤도 상인 구매, 상인 구매",,,ApparelMisc,VPE_Apparel_EltexCape
+열 진주,Vanilla Psycasts Expanded,,,,,,,ApparelUtility,VPE_HeatPearls
+위신 판금 갑옷,Vanilla Psycasts Expanded,제작 가능,"전기 단조 작업대, 단조 작업대",,궤도 상인 구매,,,ApparelArmor,VPE_Apparel_PlateArmorPrestige
+초능력 반지,Vanilla Psycasts Expanded,,,,,,,ApparelUtility,VPE_Psyring
+맹독성 폐기물,Vanilla Recycling Expanded,제작 가능,"재활용 작업대, 전기 재활용 작업대",,궤도 상인 구매,,,VRecyclingE_SpecializedPacks,VRecyclingE_VolatileToxpack
+방사성 폐기물,Vanilla Recycling Expanded,제작 가능,"재활용 작업대, 전기 재활용 작업대",,궤도 상인 구매,,,VRecyclingE_SpecializedPacks,VRecyclingE_RadioactiveIsotopack
+압축 쓰레기,Vanilla Recycling Expanded,,,,,"PipeSystem.ProcessDef: VRecyclingE_TrashToBricks, 설비 기능: 폐기물 압축기",,StoneBlocks,VRecyclingE_TrashBrick
+유기성 폐기물,Vanilla Recycling Expanded,제작 가능,"간이 제작 장소, 재활용 작업대, 전기 재활용 작업대",,궤도 상인 구매,,,VRecyclingE_SpecializedPacks,VRecyclingE_ReclaimedBiopack
+일반 폐기물,Vanilla Recycling Expanded,제작 가능,"재활용 작업대, 전기 재활용 작업대",,궤도 상인 구매,설비 기능: 폐기물 압축기,,VRecyclingE_SpecializedPacks,VRecyclingE_Trash
+합금 폐기물,Vanilla Recycling Expanded,제작 가능,"재활용 작업대, 전기 재활용 작업대",,궤도 상인 구매,설비 기능: 금속 분류기,,VRecyclingE_SpecializedPacks,VRecyclingE_StabilizedAlloypack
+화학 폐기물,Vanilla Recycling Expanded,제작 가능,"간이 제작 장소, 재활용 작업대, 전기 재활용 작업대",,궤도 상인 구매,,,VRecyclingE_SpecializedPacks,VRecyclingE_ReactiveChempack
+메카 연산 칩,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorMech
+메카 연산 칩 (1단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorMech_TierA
+메카 연산 칩 (2단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorMech_TierB
+심령 연산 칩,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorPsychic
+심령 연산 칩 (1단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorPsychic_TierA
+심령 연산 칩 (2단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorPsychic_TierB
+전투 연산 칩,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorCombat
+전투 연산 칩 (1단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorCombat_TierA
+전투 연산 칩 (2단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_CoprocessorCombat_TierB
+초월 방어핵,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,ApparelUtility,OP_ArmorCore
+초월 보호막 벨트,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,ApparelUtility,OP_ShieldBelt
+초월 소총,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,Weapons,OP_TranscendentRifle
+초월 소총 (1단계),초월자 유전자 (OP God Gene),,,,,,,Weapons,OP_TranscendentRifle_TierA
+초월 소총 (2단계),초월자 유전자 (OP God Gene),,,,,,,Weapons,OP_TranscendentRifle_TierB
+초월 합금,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,"궤도 상인 구매, 상인 구매",,예,ResourcesRaw,OP_TranscendentAlloy
+초월공학 간,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentLiver
+초월공학 간 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Liver
+초월공학 간 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Liver
+초월공학 골반,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentPelvis
+초월공학 골반 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Pelvis
+초월공학 골반 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Pelvis
+초월공학 뇌 임플란트,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentBrain
+초월공학 뇌 임플란트 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Brain
+초월공학 뇌 임플란트 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Brain
+초월공학 방어막 막,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentMembrane
+초월공학 방어막 막 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Membrane
+초월공학 방어막 막 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Membrane
+초월공학 신장,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentKidney
+초월공학 신장 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Kidney
+초월공학 신장 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Kidney
+초월공학 심장,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentHeart
+초월공학 심장 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Heart
+초월공학 심장 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Heart
+초월공학 위,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentStomach
+초월공학 위 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Stomach
+초월공학 위 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Stomach
+초월공학 의수,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentArm
+초월공학 의수 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Arm
+초월공학 의수 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Arm
+초월공학 의안,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentEye
+초월공학 의안 (1단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Eye
+초월공학 의안 (2단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Eye
+초월공학 의이,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentEar
+초월공학 의이 (1단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Ear
+초월공학 의이 (2단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Ear
+초월공학 의족,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentLeg
+초월공학 의족 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Leg
+초월공학 의족 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Leg
+초월공학 척추,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentSpine
+초월공학 척추 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Spine
+초월공학 척추 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Spine
+초월공학 턱,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentJaw
+초월공학 턱 (1단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Jaw
+초월공학 턱 (2단계),초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Jaw
+초월공학 폐,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentLung
+초월공학 폐 (1단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T1_Lung
+초월공학 폐 (2단계) 이식물,초월자 유전자 (OP God Gene),제작 가능,조립 작업대,,,,,BodyPartsNatural,OP_TranscendentImplants_T2_Lung
